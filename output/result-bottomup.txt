@@ -1,0 +1,5150 @@
+(ENTITY,NAME,VALUE)
+$Activity	1	wildcard	$Activity
+	EV1	search	efforts
+	EV2	efforts	search
+	EV3	Search	efforts
+	EV4	efforts	Search
+	EV5	Help	Locating
+	EV6	Locating	Help
+	EV7	job	creation
+	EV8	creation	job
+	EV9	Procedures	Training
+	EV10	Training	Procedures
+	MP1	WILDCARD $Activity WILDCARD $Activity
+$Activity	2	wildcard	$Recovery
+	EV1	efforts	rescue
+	EV2	search	rescue
+	EV3	work	rescue
+	EV4	efforts	Rescue
+	EV5	effort	rescue
+	EV6	Search	rescue
+	EV7	HELP	RESCUE
+	EV8	effort	Rescue
+	EV9	efforts	RESCUE
+	MP1	WILDCARD $Recovery WILDCARD $Activity
+	MP2	WILDCARD $Activity and WILDCARD $Recovery
+	MP3	WILDCARD $Recovery and relief WILDCARD $Activity
+$Activity	3	wildcard wildcard	$Country
+	EV1	support	China
+	EV2	help	Chile
+	EV3	search	Chinese
+	EV4	search	Turkey
+	EV5	support	Myanmar
+	EV6	leadership	Chinese
+	EV7	searches	Turkey
+	EV8	Helps	India
+	EV9	market	Japanese
+	MP1	WILDCARD $Country WILDCARD $Activity
+	MP2	WILDCARD $Activity to WILDCARD $Country
+$Activity	4	wildcard	$Country
+	EV1	assistance	Turkey
+	EV2	assistance	Chile
+	EV3	support	Japan
+	EV4	assistance	Myanmar
+	EV5	assistance	Iraqi Kurds
+	MP1	WILDCARD $Activity to WILDCARD $Country
+	MP2	WILDCARD $Country WILDCARD $Activity
+$Activity	5	wildcard	$Improvement
+	EV1	efforts	recovery
+	EV2	efforts	Recovery
+	EV3	effort	recovery
+	EV4	efforts	conservation
+	EV5	work	recovery
+	MP1	WILDCARD $Improvement WILDCARD $Activity
+$Activity	6	wildcard	$Date
+	EV1	efforts	2008-05-13
+	EV2	Games	2008-08
+	EV3	support	2011-03-31
+	EV4	Help	2010-01
+	MP1	WILDCARD $Date WILDCARD $Activity
+$Activity	7	wildcard	$Speech_act
+	EV1	help	offers
+	EV2	help	offer
+	EV3	support	offers
+	MP1	WILDCARD $Speech_act of WILDCARD $Activity
+$Activity	8	wildcard	$Unit
+	EV1	construction	teams
+	EV2	search	team
+	MP1	WILDCARD $Activity WILDCARD $Unit
+$Activity	9	wildcard	$Unfortunate
+	EV1	search	survivors
+	EV2	help	victims
+	MP1	WILDCARD $Activity for WILDCARD $Unfortunate
+$Activity	10	wildcard	$Crisis
+	EV1	services	emergency
+	MP1	WILDCARD $Crisis WILDCARD $Activity
+$Activity	11	wildcard	$Benefactor
+	EV1	searches	rescuer
+	MP1	WILDCARD $Benefactor WILDCARD $Activity
+$Activity	12	wildcard	$Defender
+	EV1	ASSISTANCE	FIREFIGHTERS
+	MP1	WILDCARD $Defender WILDCARD $Activity
+$Activity	13	wildcard	$Person
+	EV1	game	changer
+	MP1	WILDCARD $Activity WILDCARD $Person
+$Adult	1	wildcard	$Duration
+	EV1	woman	52Y
+	EV2	woman	25Y
+	EV3	girl	8Y
+	EV4	woman	34Y
+	EV5	girl	2Y
+	EV6	woman	60Y
+	EV7	woman	31Y
+	EV8	man	80Y
+	EV9	woman	61Y
+	EV10	girl	4Y
+	EV11	man	18Y
+	EV12	man	19Y
+	EV13	woman	53Y
+	MP1	WILDCARD $Duration WILDCARD $Adult
+$Affair	1	wildcard	$Date
+	EV1	ceremonies	2008-05-19
+	MP1	WILDCARD $Date WILDCARD $Affair
+$Associate	1	wildcard wildcard	$Unit
+	EV1	members	family
+	EV2	member	team
+	EV3	MEMBERS	FAMILY
+	MP1	WILDCARD $Unit WILDCARD $Associate
+	MP2	$Unit WILDCARD $Associate
+$Beginning	1	wildcard	$Date
+	EV1	START	2010-02-26
+	EV2	START	2010-02-27
+	MP1	WILDCARD $Magazine WILDCARD $Beginning : WILDCARD $Date
+	MP2	WILDCARD $Beginning : WILDCARD $Date WILDCARD
+	MP3	WILDCARD $Beginning : WILDCARD $Date
+$Beginning	2	wildcard wildcard	$Magazine
+	EV1	START	TIME
+	MP1	WILDCARD $Magazine WILDCARD $Beginning : WILDCARD $Date
+$Benefactor	1	wildcard wildcard	$Country
+	EV1	rescuers	Azerbaijani
+	EV2	rescuers	Turkish
+	EV3	Rescuers	Turkey
+	MP1	WILDCARD $Country WILDCARD $Benefactor
+$Benefactor	2	wildcard	$Date
+	EV1	Rescuers	2008-05-21
+	EV2	Rescuers	2011-10-26
+	MP1	WILDCARD $Benefactor on WILDCARD $Date
+$Benefactor	3	wildcard wildcard	$Company
+	EV1	Rescuers	AP
+	MP1	WILDCARD $Company WILDCARD $Benefactor
+$Benefactor	4	wildcard	$Activity
+	EV1	rescuer	searches
+	MP1	WILDCARD $Benefactor WILDCARD $Activity
+$Calamity	1	wildcard	$Informing
+	EV1	tsunami	warnings
+	EV2	tsunami	warning
+	EV3	Tsunami	Warning
+	EV4	Tsunami	Warnings
+	EV5	Tsunami	warnings
+	EV6	TSUNAMI	WARNING
+	EV7	TSUNAMI	WARNINGS
+	EV8	Tsunami	warning
+	MP1	WILDCARD $Calamity WILDCARD $Informing
+$Calamity	2	wildcard wildcard	$Geological_phenomenon
+	EV1	tsunami	earthquake
+	EV2	tsunami	quake
+	EV3	Tsunami	Earthquake
+	EV4	tsunami	Earthquake
+	EV5	tsunamis	earthquakes
+	MP1	WILDCARD $Geological_phenomenon and WILDCARD $Calamity
+$Case	1	wildcard	$Date
+	EV1	time	2011-03-24
+	EV2	time	2011-10-23
+	EV3	time	2010-02-27
+	EV4	time	2010-03-02
+	EV5	time	2011-03-10
+	EV6	time	2008-05-14
+	EV7	time	2008-05-15
+	EV8	time	2008-05-13
+	EV9	time	2011-10-27
+	EV10	time	2011-04-19
+	EV11	time	2011-03-25
+	EV12	Time	2011-10-25
+	EV13	Time	2011-10-24
+	EV14	Time	2011-10-23
+	EV15	time	1341-XX-XX
+	EV16	Time	2010-02-26
+	EV17	time	2010-02-26
+	EV18	time	2010-03-07
+	EV19	time	2010-02-28
+	EV20	TIME	2010-02
+	EV21	time	2010-03-01
+	MP1	WILDCARD $Date WILDCARD $Case
+	MP2	WILDCARD $Case WILDCARD $Date
+	MP3	WILDCARD $Date WILDCARD $Case WILDCARD $Date
+$Change	1	wildcard	$Number
+	EV1	deaths	19,500
+	EV2	deaths	500
+	EV3	deaths	61
+	EV4	deaths	138
+	EV5	deaths	20
+	EV6	deaths	216
+	EV7	deaths	80,000
+	EV8	deaths	51,151
+	EV9	deaths	800
+	EV10	deaths	400
+	EV11	deaths	12,012
+	EV12	deaths	5,000
+	EV13	deaths	9,000
+	EV14	deaths	160,000
+	EV15	deaths	217
+	EV16	deaths	700
+	EV17	deaths	85
+	EV18	deaths	799
+	EV19	deaths	3,000
+	EV20	deaths	103
+	EV21	deaths	200,000
+	EV22	deaths	78
+	EV23	deaths	120
+	EV24	deaths	708
+	MP1	WILDCARD $Number WILDCARD $Change
+$Change	2	wildcard	$Date
+	EV1	killing	2011-10-23
+	EV2	killing	2011-03-24
+	EV3	Death	2010-XX-XX
+	EV4	killing	2011-03-10
+	EV5	Death	2008-05-12
+	EV6	Death	2011-10-23
+	EV7	death	2011-10-24
+	EV8	death	2010-XX-XX
+	EV9	killing	2008-08
+	EV10	killing	2010-02-26
+	EV11	killing	2010-02-27
+	EV12	Death	2010-02-27
+	EV13	killing	2008-XX-XX
+	EV14	killing	1896-XX-XX
+	EV15	Damage	2011-03-11
+	MP1	WILDCARD $Date WILDCARD $Change
+	MP2	WILDCARD $Date The WILDCARD $Change toll
+$Change	3	wildcard wildcard	$Geological_phenomenon
+	EV1	death	quake
+	EV2	damage	earthquake
+	EV3	death	earthquake
+	EV4	damage	Earthquake
+	EV5	Death	Earthquake
+	EV6	Damage	Earthquake
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Change
+$Change	4	toll wildcard	$Date
+	EV1	death	2008-05-12
+	EV2	death	2011-03-24
+	EV3	death	2010-02-27
+	EV4	death	2011-03-11
+	MP1	WILDCARD $Change toll from WILDCARD $Date
+$Civil_authority	1	wildcard	$Officeholder
+	EV1	Mayor	Gavin Newsom
+	EV2	Mayor	Han Zheng
+	MP1	WILDCARD $Civil_authority WILDCARD $Officeholder
+$Civil_authority	2	wildcard wildcard	$Settlement
+	EV1	Mayor	Shanghai
+	EV2	mayor	Mandalay
+	MP1	WILDCARD $Settlement WILDCARD $Civil_authority
+$Clergyman	1	wildcard	$Officeholder
+	EV1	Minister	Recep Tayyip Erdogan
+	EV2	Minister	Manmohan Singh
+	EV3	Minister	Naoto Kan
+	EV4	Minister	Erdogan
+	EV5	minister	Banri Kaieda
+	EV6	Minister	Samak Sundaravej
+	EV7	Minister	Masahiko Komura
+	EV8	Minister	Wen Jiabao
+	EV9	Minister	Yang Jiechi
+	EV10	Minister	Thein Sein
+	EV11	minister	Recep Tayyip Erdogan
+	EV12	minister	Bulent Arinc
+	EV13	Minister	Franco Frattini
+	EV14	Minister	Egemen Bagis
+	EV15	Minister	Benjamin Netanyahu
+	EV16	Minister	Sheikh Hasina
+	EV17	Minister	Abhisit Vejjajiva
+	EV18	Minister	Guido Westerwelle
+	EV19	Minister	Sergio
+	MP1	Prime WILDCARD $Clergyman WILDCARD $Officeholder
+	MP2	WILDCARD $Clergyman WILDCARD $Officeholder
+	MP3	Foreign WILDCARD $Clergyman WILDCARD $Officeholder
+$Clergyman	2	wildcard wildcard	$Country
+	EV1	minister	Turkey
+	EV2	minister	Turkish
+	EV3	minister	China
+	EV4	Minister	EU
+	MP1	WILDCARD $Country WILDCARD $Clergyman
+$Clergyman	3	wildcard wildcard	$Region
+	EV1	Minister	Interior
+	EV2	MINISTER	INTERIOR
+	MP1	WILDCARD $Region WILDCARD $Clergyman
+$Comicscharacter	1	wildcard wildcard	$Country
+	EV1	Quake	Argentina
+	EV2	Quake	Chile
+	EV3	Quake	Japan
+	EV4	Quake	Burma
+	MP1	WILDCARD $Country WILDCARD $Comicscharacter
+$Communicator	1	wildcard	$Company
+	EV1	broadcaster	NTV
+	EV2	broadcaster	China Central Television
+	EV3	broadcaster	CCTV
+	MP1	WILDCARD $Communicator WILDCARD $Company
+	MP2	WILDCARD $Administrative_district WILDCARD $Communicator WILDCARD $Company
+	MP3	WILDCARD $Company WILDCARD $Communicator
+$Communicator	2	wildcard wildcard	$Company
+	EV1	correspondents	GlobalPost
+	EV2	writers	Associated Press
+	MP1	WILDCARD $Company WILDCARD $Communicator
+$Communicator	3	wildcard wildcard	$Administrative_district
+	EV1	broadcaster	state
+	MP1	WILDCARD $Administrative_district WILDCARD $Communicator WILDCARD $Company
+	MP2	WILDCARD $Administrative_district WILDCARD $Communicator
+$Contact	1	wildcard	$Geological_phenomenon
+	EV1	impact	earthquake
+	EV2	impact	quake
+	EV3	Impact	earthquake
+	EV4	impacts	earthquake
+	MP1	WILDCARD $Contact of the WILDCARD $Geological_phenomenon
+$Corporate_executive	1	wildcard	$Officeholder
+	EV1	President	Michelle Bachelet
+	EV2	President	Abdullah Gul
+	EV3	President	Hu Jintao
+	EV4	President	Xi Jinping
+	EV5	President	Nicolas Sarkozy
+	EV6	President	Ahmadinejad
+	EV7	President	Massoud Barzani
+	EV8	president	Michelle Bachelet
+	EV9	President	Robert Zoellick
+	EV10	president	Hu Jintao
+	EV11	President	Mahmoud Ahmadinejad
+	EV12	President	Serzh Sargsyan
+	EV13	President	Jerzy Buzek
+	EV14	President	Jose Mujica
+	EV15	President	Jimmy Carter
+	EV16	President	Raul Castro
+	EV17	President	Thein Sein
+	EV18	President	Jose Manuel Durao Barroso
+	EV19	President	Luiz Inacio Lula da Silva
+	EV20	President	Cristina Fernandez
+	EV21	President	Hugo Chavez
+	EV22	President	Alan Garcia
+	EV23	President	Rafael Correa
+	EV24	President	Michele Bachelet
+	MP1	WILDCARD $Corporate_executive WILDCARD $Officeholder
+	MP2	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+$Corporate_executive	2	wildcard	$Person
+	EV1	President	Barack Obama
+	EV2	President	Shimon Peres
+	EV3	President	Jacques Rogge
+	EV4	President	Bush
+	EV5	president	Jacques Rogge
+	EV6	President	Obama
+	EV7	PRESIDENT	OBAMA
+	MP1	WILDCARD $Corporate_executive WILDCARD $Person
+$Crisis	1	wildcard	$Unit
+	EV1	emergency	teams
+	EV2	Emergency	teams
+	EV3	emergency	team
+	MP1	WILDCARD $Crisis WILDCARD $Unit
+$Crisis	2	wildcard	$Consequence
+	EV1	emergency	response
+	EV2	Emergency	Response
+	MP1	WILDCARD $Crisis WILDCARD $Consequence
+$Crisis	3	wildcard	$Social_control
+	EV1	Emergency	Management
+	EV2	emergency	management
+	MP1	WILDCARD $Crisis WILDCARD $Social_control
+$Crisis	4	wildcard	$Person
+	EV1	Emergency	workers
+	EV2	emergency	workers
+	MP1	WILDCARD $Crisis WILDCARD $Person
+$Crisis	5	wildcard	$Activity
+	EV1	emergency	services
+	MP1	WILDCARD $Crisis WILDCARD $Activity
+$Date	1	wildcard	$Date
+	EV1	2008-05-15	2008-05-15
+	EV2	2010-02-27	2010-02-27
+	EV3	2011-03-15	2011-03-15
+	EV4	1991-XX-XX	2008-XX-XX
+	EV5	2008-XX-XX	1991-XX-XX
+	EV6	2008-05-13	2008-05-13
+	EV7	2011-03-10	2011-03-11
+	EV8	2011-03-11	2011-03-10
+	EV9	2011-03-10	2011-03-10
+	EV10	2011-03-24	2011-03-24
+	EV11	2010-02-28	2010-02-27
+	EV12	2010-02-27	2010-02-28
+	EV13	2010-02-26	2010-03
+	EV14	2010-03	2010-02-26
+	EV15	2010-03-04	2010-03-04
+	EV16	2011-03-11	2011-03-11
+	EV17	2008-05-14	2008-05-15
+	EV18	2008-05-15	2008-05-14
+	EV19	2008-06	2008-05-23
+	EV20	2008-05-23	2008-06
+	EV21	2008-01	2008-02
+	EV22	2008-02	2008-01
+	EV23	1987-XX-XX	2008-05-14
+	EV24	2008-05-14	1987-XX-XX
+	EV25	1947-XX-XX	1951-XX-XX
+	EV26	1951-XX-XX	1947-XX-XX
+	EV27	1728-XX-XX	2008-05-12
+	EV28	2008-05-12	1728-XX-XX
+	EV29	2008-05-12	2008-05-13
+	EV30	2008-05-13	2008-05-12
+	EV31	1800-XX-XX	2008-05-19
+	EV32	2008-05-19	1800-XX-XX
+	EV33	1000-XX-XX	2011-10-23
+	EV34	2011-10-23	1000-XX-XX
+	EV35	2011-07	2011-08
+	EV36	2011-08	2011-07
+	EV37	1960-XX-XX	2010-02-27
+	EV38	2010-02-27	1960-XX-XX
+	EV39	1000-XX-XX	2011-03-28
+	EV40	2011-03-28	1000-XX-XX
+	EV41	1922-XX-XX	1960-XX-XX
+	EV42	1960-XX-XX	1922-XX-XX
+	EV43	2010-03-06	2010-02-28
+	EV44	2010-02-28	2010-03-06
+	EV45	2010-03-03	2010-03-04
+	EV46	2010-03-04	2010-03-03
+	EV47	2010-02-26	2010-02-27
+	EV48	2010-02-27	2010-02-26
+	EV49	2010-02-27	2010-02
+	EV50	2010-02	2010-02-27
+	EV51	2010-02-26	2010-02-28
+	EV52	2010-02-28	2010-02-26
+	EV53	2010-02-27	2010-03-01
+	EV54	2010-03-01	2010-02-27
+	EV55	2011-03-22	2011-03-12
+	EV56	2011-03-12	2011-03-22
+	EV57	2011-03-24	2011-03-23
+	EV58	2011-03-23	2011-03-24
+	EV59	2030-XX-XX	2008-05-13
+	EV60	2008-05-13	2030-XX-XX
+	EV61	2010-02-26	2010-02-21
+	EV62	2010-02-21	2010-02-26
+	EV63	2009-08	2010-03
+	EV64	2010-03	2009-08
+	EV65	2011-03-15	2011-03-18
+	EV66	2011-03-18	2011-03-15
+	EV67	2011-03-23	2011-03-12
+	EV68	2011-03-12	2011-03-23
+	EV69	2011-03-23	2011-03-13
+	EV70	2011-03-13	2011-03-23
+	MP1	WILDCARD $Date and WILDCARD $Date
+	MP2	$Date WILDCARD $Date
+	MP3	WILDCARD $Date WILDCARD $Date
+	MP4	WILDCARD $Date on WILDCARD $Date
+$Date	2	wildcard	$Number
+	EV1	2008-05-14	14,463
+	EV2	2010-01-20	7.2
+	EV3	2010-02-27	8.8
+	EV4	2010-02-27	3
+	EV5	2010-02	27
+	EV6	2008-05-24	40
+	EV7	2008-05	15
+	EV8	2008-05-15	12.5
+	EV9	2008-05-14	26,000
+	EV10	2008-05-13	0
+	EV11	2011-10-23	7.2
+	EV12	2011-10-23	138
+	EV13	1999-XX-XX	7.6
+	EV14	2011-03-25	27
+	EV15	2011-03-25	-4
+	EV16	2011-03	25
+	EV17	1960-XX-XX	9.5
+	EV18	2010-02-28	708
+	EV19	2010-03	12
+	EV20	2008-05-15	15
+	EV21	2008-05-22	50,000
+	EV22	2008-05-22	51,151
+	EV23	2008-05-12	592
+	EV24	2008-08	3
+	EV25	2008-05-12	7.8
+	EV26	2008-05-16	159,000
+	EV27	2008-05-15	151
+	EV28	2008-05-13	11,921
+	EV29	2008-05-12	7.9
+	EV30	2008-05-12	8500
+	EV31	2008-06	15
+	EV32	2008-08	4
+	EV33	2008-05-15	50,000
+	EV34	2008-05-13	12,000
+	EV35	2008-05-22	800,000
+	EV36	2008-05-22	167
+	EV37	2011-11-06	7.2
+	EV38	2011-XX-XX	1,600
+	EV39	2011-10-24	279
+	EV40	2011-10-23	70
+	EV41	2011-10	22
+	EV42	2011-10-24	200
+	EV43	2010-03-01	723
+	EV44	2010-02	7
+	EV45	2011-03	29
+	EV46	2011-03	24
+	EV47	2011-03-24	7.0
+	EV48	2011-03-24	6.8
+	EV49	2011-03-25	9
+	EV50	2011-03-11	9.0
+	EV51	2011-01-01	4.6
+	EV52	2011-03-25	244
+	EV53	2010-02-27	47
+	EV54	2010-02-27	59.4
+	EV55	2010-02-27	2010
+	EV56	2010-03-08	5.9
+	EV57	2010-03-06	25
+	EV58	2010-03-06	20
+	EV59	2010-02-28	700
+	EV60	2010-03	7
+	EV61	2010-02-26	3
+	EV62	2010-02-22	20
+	EV63	2010-01	12
+	EV64	2011-03-11	30
+	EV65	2011-03-11	14
+	EV66	2011-XX-XX	2011
+	EV67	1923-09-01	7.9
+	MP1	WILDCARD $Date WILDCARD $Number
+	MP2	WILDCARD $Number WILDCARD $Date
+	MP3	$Number on WILDCARD $Date
+	MP4	WILDCARD $Date At WILDCARD $Number
+	MP5	WILDCARD $Date More than WILDCARD $Number
+	MP6	WILDCARD $Date a WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP7	WILDCARD $Number on WILDCARD $Date
+	MP8	WILDCARD $Date where a WILDCARD $Number WILDCARD
+	MP9	WILDCARD $Date killed more than WILDCARD $Number
+	MP10	WILDCARD $Date A WILDCARD $Number
+$Date	3	wildcard wildcard	$Country
+	EV1	2010-02-27	Chile
+	EV2	2011-03-24	Myanmar
+	EV3	2011-10-23	Turkey
+	EV4	2011-03-11	Japan
+	EV5	2008-05-12	China
+	EV6	2010-XX-XX	Gaza Strip
+	EV7	2011-03-10	Myanmar
+	EV8	2011-10-30	Turkey
+	EV9	1960-05-22	Chile
+	EV10	2010-03-01	Chile
+	EV11	2011-03-12	Japan
+	EV12	2008-05-15	China
+	EV13	2008-05-18	China
+	EV14	2008-05	China
+	EV15	2011-10-24	Turkey
+	EV16	2011-10	Turkey
+	EV17	2010-03-03	Chile
+	EV18	2011-03-24	Israel
+	EV19	2011-03-29	India
+	EV20	2011-03-25	Myanmar
+	EV21	1960-XX-XX	Chile
+	EV22	2011-03-25	India
+	EV23	2011-03-25	Indonesia
+	EV24	1995-XX-XX	Japan
+	EV25	1906-XX-XX	Ecuador
+	EV26	2010-03-06	Chile
+	EV27	2011-XX-XX	Japan
+	EV28	2008-05	Myanmar
+	EV29	1996-XX-XX	United States
+	EV30	2008-05-20	Japan
+	EV31	2008-05-13	China
+	EV32	1976-XX-XX	China
+	EV33	2008-05-17	Russia
+	EV34	2011-10-23	Iran
+	EV35	2011-10-24	Iran
+	EV36	2008-XX-XX	Chile
+	EV37	2010-03-07	Chile
+	EV38	2011-03	Cuba
+	EV39	XXXX-XX-XX	junta
+	EV40	2011-02	Myanmar
+	EV41	2011-07	Myanmar
+	EV42	2011-03-26	Singapore
+	EV43	2011-03-24	Thailand
+	EV44	2011-03-14	Myanmar
+	EV45	2011-04-01	Japan
+	EV46	2011-03-24	Laos
+	EV47	2011-03-22	India
+	EV48	2010-02-20	Chile
+	EV49	2010-03-11	Chile
+	EV50	2010-02-28	South Korea
+	EV51	2010-02-28	Chile
+	EV52	2010-02-27	United States
+	EV53	2010-02-26	Chile
+	EV54	2010-05	Chile
+	EV55	2010-02	Chile
+	EV56	1993-XX-XX	Chile
+	EV57	1556-01-23	China
+	EV58	1991-03-06	Chile
+	EV59	2010-03-05	Chile
+	EV60	1960-05	Chile
+	EV61	2010-02-23	Chile
+	EV62	2010-02-26	Japan
+	EV63	1995-07-30	Chile
+	EV64	2010-02-27	Philippines
+	EV65	2010-03-03	Haiti
+	EV66	2011-03-18	Japan
+	MP1	WILDCARD $Country on WILDCARD $Date
+	MP2	WILDCARD $Country WILDCARD $Date
+	MP3	WILDCARD $Country in WILDCARD $Date
+$Date	4	wildcard	$Geological_phenomenon
+	EV1	2008-05-12	earthquake
+	EV2	2011-10-23	earthquake
+	EV3	2011-03-11	earthquake
+	EV4	2011-10-23	quake
+	EV5	2008-05-12	quake
+	EV6	2011-03-24	quake
+	EV7	2010-02-27	quake
+	EV8	2010-01-12	earthquake
+	EV9	2008-05	earthquake
+	EV10	1976-XX-XX	earthquake
+	EV11	1999-XX-XX	earthquake
+	EV12	1041-XX-XX	quake
+	EV13	1960-XX-XX	quake
+	EV14	2008-05-12	temblor
+	EV15	2011-03-09	quake
+	EV16	2011-03-11	quake
+	EV17	2011-XX-XX	floods
+	EV18	2011-03-18	earthquake
+	EV19	2008-05	Earthquake
+	EV20	2011-10-16	quake
+	EV21	2011-03-10	earthquake
+	EV22	2010-02-28	earthquake
+	EV23	2008-05-14	quake
+	EV24	2008-05-14	earthquake
+	EV25	2008-05-19	earthquake
+	EV26	2008-05-15	earthquake
+	EV27	2008-05-13	quake
+	EV28	2009-05-12	earthquake
+	EV29	2011-10-28	earthquake
+	EV30	1999-XX-XX	quake
+	EV31	2011-10-31	quake
+	EV32	2010-02-27	temblor
+	EV33	2011-02-22	quake
+	EV34	1994-XX-XX	quake
+	EV35	2011-04-01	quake
+	EV36	2008-XX-XX	quake
+	EV37	2005-XX-XX	quake
+	EV38	2011-04-07	earthquake
+	EV39	2010-03-04	earthquake
+	EV40	2010-02	quake
+	EV41	2010-02-27	Earthquake
+	EV42	1989-XX-XX	quake
+	EV43	2010-03-13	earthquake
+	EV44	2010-03-02	earthquake
+	EV45	2010-03-04	quake
+	EV46	2010-02-26	EARTHQUAKES
+	EV47	2010-03-03	quake
+	EV48	2010-03-05	quake
+	EV49	2011-03-15	earthquake
+	EV50	2011-XX-XX	earthquake
+	EV51	2011-03	quake
+	MP1	WILDCARD $Date WILDCARD $Geological_phenomenon
+	MP2	WILDCARD $Date WILDCARD $Earthquake
+	MP3	WILDCARD $Geological_phenomenon on WILDCARD $Date
+	MP4	WILDCARD $Geological_phenomenon WILDCARD $Date
+	MP5	WILDCARD $Geological_phenomenon struck at WILDCARD $Date
+	MP6	$Geological_phenomenon , which struck at WILDCARD $Date
+	MP7	$Date WILDCARD $Geological_phenomenon
+	MP8	WILDCARD $Geological_phenomenon struck on WILDCARD $Date
+	MP9	WILDCARD $Geological_phenomenon struck WILDCARD $Date
+	MP10	WILDCARD $Date a WILDCARD $Geological_phenomenon
+	MP11	$Geological_phenomenon struck at WILDCARD $Date
+$Date	5	wildcard	$Earthquake
+	EV1	2010-02-27	earthquake
+	EV2	2011-03	earthquake
+	EV3	1995-XX-XX	Great Hanshin Earthquake
+	EV4	2008-05-12	7.8-magnitude earthquake
+	EV5	1976-XX-XX	Tangshan earthquake
+	EV6	2004-12	Indian Ocean tsunami
+	EV7	2010-01	Haiti
+	EV8	1960-XX-XX	earthquake
+	EV9	2011-03-11	Tohoku earthquake
+	EV10	2011-10-23	magnitude 7.2 earthquake
+	EV11	2010-01	earthquake
+	EV12	2010-02-27	8.8-magnitude earthquake
+	EV13	2010-XX-XX	earthquake
+	EV14	2010-01-12	Haiti
+	EV15	1985-XX-XX	earthquake
+	EV16	1986-XX-XX	earthquake
+	EV17	2010-03-13	8.8-magnitude earthquake
+	EV18	1994-XX-XX	Northridge
+	EV19	2010-02-27	Haiti
+	EV20	1922-11	earthquake
+	EV21	1960-XX-XX	Chilean earthquake
+	EV22	2010-02-27	8.8 magnitude earthquake
+	EV23	2011-01	Haiti
+	EV24	2010-03-06	magnitude 8.8 earthquake
+	EV25	2004-XX-XX	Indian Ocean tsunami
+	EV26	1995-XX-XX	Great Hanshin-Awaji Earthquake
+	EV27	1923-XX-XX	Great Kanto earthquake
+	EV28	1995-01	Great Hanshin Earthquake
+	EV29	2008-05-12	7.9 magnitude earthquake
+	EV30	2008-05-07	7.8-magnitude earthquake
+	EV31	2010-02-26	8.8 magnitude earthquake
+	EV32	2010-02-26	8.8-magnitude earthquake
+	EV33	2010-03	8.8 magnitude earthquake
+	EV34	2010-03	earthquake
+	MP1	WILDCARD $Date WILDCARD $Earthquake
+	MP2	WILDCARD $Earthquake in WILDCARD $Date
+	MP3	WILDCARD $Date WILDCARD $Geological_phenomenon
+	MP4	WILDCARD $Earthquake WILDCARD $Date
+	MP5	WILDCARD $Geological_phenomenon WILDCARD $Date
+	MP6	WILDCARD $Date A WILDCARD $Earthquake
+	MP7	WILDCARD $Geological_phenomenon struck WILDCARD $Date
+$Date	6	wildcard wildcard	$Geological_phenomenon
+	EV1	1988-XX-XX	earthquake
+	EV2	2011-10-23	temblor
+	EV3	2011-03-24	earthquake
+	EV4	2011-10-24	quake
+	EV5	2008-05-11	earthquake
+	EV6	2008-05-13	earthquake
+	EV7	1999-XX-XX	quakes
+	EV8	1976-XX-XX	quake
+	EV9	1041-XX-XX	earthquake
+	EV10	2011-10-21	temblor
+	EV11	2011-10-22	temblor
+	EV12	1985-XX-XX	quake
+	EV13	2011-03-10	quake
+	EV14	2011-02	earthquake
+	EV15	2010-02-27	EARTHQUAKE
+	EV16	1995-03-24	earthquake
+	EV17	2011-10-17	quake
+	EV18	2011-05	earthquake
+	EV19	1999-XX-XX	earthquakes
+	EV20	2011-03-25	Earthquake
+	EV21	2011-03-23	earthquake
+	EV22	2010-01	temblor
+	EV23	2010-02-26	quake
+	EV24	1963-10-16	earthquake
+	EV25	2004-XX-XX	quake
+	EV26	2004-12-26	quake
+	EV27	1562-XX-XX	temblor
+	EV28	2010-02-27	QUAKE
+	EV29	2010-XX-XX	Earthquake
+	EV30	2008-XX-XX	earthquake
+	EV31	1995-XX-XX	earthquake
+	MP1	WILDCARD $Geological_phenomenon in WILDCARD $Date
+	MP2	WILDCARD $Geological_phenomenon struck at WILDCARD $Date
+	MP3	WILDCARD $Geological_phenomenon WILDCARD $Date
+	MP4	WILDCARD $Date WILDCARD $Geological_phenomenon
+	MP5	WILDCARD $Geological_phenomenon on WILDCARD $Date
+	MP6	$Geological_phenomenon struck at WILDCARD $Date WILDCARD
+	MP7	WILDCARD $Geological_phenomenon struck on WILDCARD $Date
+	MP8	WILDCARD $Geological_phenomenon of WILDCARD $Date
+	MP9	WILDCARD $Geological_phenomenon struck WILDCARD $Date
+$Date	7	wildcard wildcard	$Settlement
+	EV1	2008-05-18	Beichuan
+	EV2	2008-05-19	Chongqing
+	EV3	2011-03	New Delhi
+	EV4	2011-03-25	New Delhi
+	EV5	2010-02-27	Santiago
+	EV6	2010-03-02	Santiago
+	EV7	2010-01-12	Port-au-Prince
+	EV8	2010-01	Port-au-Prince
+	EV9	2008-02	Chongqing
+	EV10	2008-05-14	Taipei
+	EV11	2008-05-16	Beichuan
+	EV12	2008-05-20	Shanghai
+	EV13	2008-05-16	Beichuan County
+	EV14	2008-08	Beijing
+	EV15	2008-08	Tianjin
+	EV16	2008-05-18	Beijing
+	EV17	2011-10-23	New Delhi
+	EV18	2011-10-28	Duhok
+	EV19	2010-03-01	Santiago
+	EV20	2011-03-30	New Delhi
+	EV21	2011-03-28	New Delhi
+	EV22	2011-04-12	Tachilek
+	EV23	2011-03-26	Mae Sai
+	EV24	2011-03-14	Magwe
+	EV25	2011-03-15	Mandalay
+	EV26	2011-03-29	New Delhi
+	EV27	1985-XX-XX	Mexico City
+	EV28	2010-03-09	Santiago
+	EV29	2011-03-15	Kanto region
+	EV30	2011-03-11	Tohoku region
+	MP1	WILDCARD $Settlement WILDCARD $Date
+	MP2	WILDCARD $Settlement on WILDCARD $Date
+	MP3	WILDCARD $Settlement in WILDCARD $Date
+	MP4	$Settlement WILDCARD $Date
+$Date	8	wildcard wildcard	$City
+	EV1	2011-03-25	Yangon
+	EV2	2011-03-12	Karachi
+	EV3	2008-05-25	Yangon
+	EV4	1976-07-28	Tangshan
+	EV5	2011-03-26	Naypyidaw
+	EV6	2011-03-21	Nay Pyi Taw
+	EV7	2008-05-12	Dujiangyan
+	EV8	2008-05-22	Ningbo
+	EV9	2008-08	Chengdu
+	EV10	2008-05-16	Chengdu
+	EV11	2008-05-17	Chengdu
+	EV12	2008-05-13	Mianyang
+	EV13	2008-05-14	Mumbai
+	EV14	2008-05-25	Rangoon
+	EV15	2008-05-15	Dallas
+	EV16	2011-10-24	Istanbul
+	EV17	2011-10-27	Ankara
+	EV18	2010-03-01	Montevideo
+	EV19	2011-03-21	Havana
+	EV20	2011-03-24	Luang Namtha
+	EV21	2011-03-28	Rangoon
+	EV22	2011-03-17	Rangoon
+	EV23	2011-04-04	DHAKA
+	EV24	2011-04-04	Nay Pyi Taw
+	EV25	2011-04-04	Rangoon
+	EV26	1999-08-17	Istanbul
+	EV27	1995-03-16	Kobe
+	MP1	WILDCARD $City on WILDCARD $Date
+	MP2	WILDCARD $City WILDCARD $Date
+$Date	9	wildcard	$Case
+	EV1	2011-03-24	time
+	EV2	2011-10-23	time
+	EV3	2010-02-27	time
+	EV4	2010-03-02	time
+	EV5	2011-03-10	time
+	EV6	2008-05-14	time
+	EV7	2008-05-15	time
+	EV8	2008-05-13	time
+	EV9	2011-10-27	time
+	EV10	2011-04-19	time
+	EV11	2011-03-25	time
+	EV12	2011-10-25	Time
+	EV13	2011-10-24	Time
+	EV14	2011-10-23	Time
+	EV15	1341-XX-XX	time
+	EV16	2010-02-26	Time
+	EV17	2010-02-26	time
+	EV18	2010-03-07	time
+	EV19	2010-02-28	time
+	EV20	2010-02	TIME
+	EV21	2010-03-01	time
+	MP1	WILDCARD $Date WILDCARD $Case
+	MP2	WILDCARD $Case WILDCARD $Date
+	MP3	WILDCARD $Date WILDCARD $Case WILDCARD $Date
+$Date	10	wildcard wildcard	$Region
+	EV1	2011-10-23	area
+	EV2	2008-05-13	areas
+	EV3	2008-05-17	areas
+	EV4	2008-05-14	areas
+	EV5	2008-05-24	district
+	EV6	2008-05-12	areas
+	EV7	1933-XX-XX	area
+	EV8	2009-05-12	area
+	EV9	2008-05-18	county
+	EV10	2011-10-22	area
+	EV11	2011-03-25	area
+	EV12	2011-03-23	district
+	EV13	2011-03-11	area
+	EV14	2008-08	county
+	EV15	2010-03-01	areas
+	EV16	2010-02-27	area
+	EV17	2010-03-13	area
+	MP1	WILDCARD $Region on WILDCARD $Date
+	MP2	WILDCARD $Region WILDCARD $Date
+	MP3	WILDCARD $Region in WILDCARD $Date
+$Date	11	wildcard	$Person
+	EV1	2008-05-15	rescuers
+	EV2	2009-05	HAVE
+	EV3	2008-05-12	rescuers
+	EV4	2008-05-20	rescuers
+	EV5	2008-05-12	Rescuers
+	EV6	2008-05-13	Workers
+	EV7	2008-05-11	rescuers
+	EV8	2008-05-12	workers
+	EV9	2008-05-22	Workers
+	EV10	2008-05-12	National
+	EV11	2011-03-11	killer
+	EV12	2010-02-26	Scientists
+	EV13	2010-02-27	SPONSOR
+	MP1	WILDCARD $Date WILDCARD $Person
+$Date	12	wildcard	$Change
+	EV1	2011-03-24	killing
+	EV2	2010-XX-XX	Death
+	EV3	2010-02-27	killing
+	EV4	2008-05-12	Death
+	EV5	2011-10-23	Death
+	EV6	2011-10-24	death
+	EV7	2010-XX-XX	death
+	EV8	2008-08	killing
+	EV9	2010-02-26	killing
+	EV10	2010-02-27	Death
+	EV11	2008-XX-XX	killing
+	EV12	1896-XX-XX	killing
+	EV13	2011-03-11	Damage
+	MP1	WILDCARD $Date WILDCARD $Change
+	MP2	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+	MP3	WILDCARD $Date The WILDCARD $Change toll
+$Date	13	wildcard wildcard	$Administrative_district
+	EV1	2008-05-18	province
+	EV2	2011-10-24	province
+	EV3	2008-03-31	province
+	EV4	2008-05-23	province
+	EV5	2008-05-25	province
+	EV6	2008-05-13	province
+	EV7	2008-05-13	Province
+	EV8	2011-10-23	province
+	EV9	2011-10-30	province
+	EV10	2011-10-28	province
+	EV11	2011-03-24	state
+	EV12	2011-03-10	province
+	MP1	WILDCARD $Administrative_district on WILDCARD $Date
+	MP2	WILDCARD $Administrative_district at WILDCARD $Date
+	MP3	WILDCARD $Administrative_district WILDCARD $Date
+	MP4	WILDCARD $Administrative_district , WILDCARD $Date
+	MP5	Sichuan WILDCARD $Administrative_district on WILDCARD $Date
+$Date	14	wildcard	$Duration
+	EV1	2008-05-18	139H
+	EV2	2008-05-15	80H
+	EV3	2008-05-17	5D
+	EV4	2008-05-14	2D
+	EV5	2008-08-06	2D
+	EV6	2011-10-24	1D
+	EV7	2011-10-27	4D
+	EV8	1976-XX-XX	1D
+	EV9	2010-02-27	1M
+	EV10	1995-02	1M
+	MP1	WILDCARD $Date WILDCARD $Duration
+	MP2	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+$Date	15	wildcard	$Officeholder
+	EV1	2011-10-24	Abdullah Gul
+	EV2	2011-10-23	Abdullah Gul
+	EV3	2010-03-01	Michelle Bachelet
+	EV4	2008-05-13	Kim Jong-il
+	EV5	2008-05	Washington
+	EV6	2011-10-24	Egemen Bagis
+	EV7	2011-03-31	Nicolas Sarkozy
+	EV8	2011-03-26	Manmohan Singh
+	EV9	2010-XX-XX	David Miliband
+	MP1	WILDCARD $Officeholder on WILDCARD $Date
+$Date	16	sichuan wildcard wildcard	$Administrative_district
+	EV1	2008-05-12	Province
+	EV2	2008-05-12	province
+	EV3	2008-05-24	Province
+	EV4	2008-05-19	province
+	EV5	2008-08	province
+	EV6	2008-05-17	Province
+	EV7	2008-05-22	Province
+	EV8	2008-05-22	province
+	MP1	Sichuan WILDCARD $Administrative_district on WILDCARD $Date
+	MP2	WILDCARD $Administrative_district at WILDCARD $Date
+	MP3	Sichuan WILDCARD $Administrative_district WILDCARD $Date
+	MP4	WILDCARD $Administrative_district WILDCARD $Date
+	MP5	Sichuan WILDCARD $Administrative_district , WILDCARD $Date
+$Date	17	wildcard	$Skilled_worker
+	EV1	2011-03-25	official
+	EV2	2011-03-25	officials
+	EV3	2008-05-14	official
+	EV4	2008-05-23	official
+	EV5	2011-03-26	officials
+	EV6	2011-04-01	officials
+	EV7	2011-03-27	official
+	MP1	WILDCARD $Skilled_worker said WILDCARD $Date
+$Date	18	wildcard	$Settlement
+	EV1	2011-03-25	Mae Sai
+	EV2	2008-05-11	Wenchuan county
+	EV3	2008-05-12	Wenchuan County
+	EV4	2008-05-12	Wenchuan county
+	EV5	1939-XX-XX	Erzincan
+	EV6	2011-10-25	Jerusalem
+	EV7	2010-02-26	Santiago
+	MP1	WILDCARD $Date in WILDCARD $Settlement
+	MP2	WILDCARD $Settlement on WILDCARD $Date
+	MP3	$Settlement WILDCARD $Date
+$Date	19	wildcard	$Inhabitant
+	EV1	2008-05-17	residents
+	EV2	2008-05-19	residents
+	EV3	2010-03-03	residents
+	EV4	2010-02-27	residents
+	EV5	2010-02-27	RESIDENTS
+	EV6	2010-02-27	SAME
+	EV7	2010-02-26	AMERICAN
+	MP1	WILDCARD $Date WILDCARD $Inhabitant
+$Date	20	wildcard sichuan wildcard wildcard	$Country $Administrative_district
+	EV1	2008-05-13	China|Province
+	EV2	2008-05-13	China|province
+	EV3	2008-05-19	China|province
+	EV4	2008-05-12	China|Province
+	MP1	WILDCARD $Country Sichuan WILDCARD $Administrative_district , WILDCARD $Date
+	MP2	WILDCARD $Country Sichuan WILDCARD $Administrative_district WILDCARD $Date
+$Date	21	wildcard	$Activity
+	EV1	2008-05-13	efforts
+	EV2	2008-08	Games
+	EV3	2011-03-31	support
+	EV4	2010-01	Help
+	MP1	WILDCARD $Date WILDCARD $Activity
+$Date	22	toll wildcard	$Change
+	EV1	2008-05-12	death
+	EV2	2011-03-24	death
+	EV3	2010-02-27	death
+	EV4	2011-03-11	death
+	MP1	WILDCARD $Change toll from WILDCARD $Date
+$Date	23	wildcard wildcard	$Residence
+	EV1	2008-05-13	homes
+	EV2	2010-03-14	home
+	EV3	2011-03-26	homes
+	MP1	WILDCARD $Residence WILDCARD $Date
+$Date	24	wildcard wildcard wildcard	$Country $Geological_phenomenon
+	EV1	1999-XX-XX	Taiwan|Earthquake
+	EV2	2011-03-24	Myanmar|earthquake
+	EV3	2011-03-11	Japan|earthquake
+	MP1	WILDCARD $Geological_phenomenon struck WILDCARD $Country WILDCARD $Date
+	MP2	WILDCARD $Geological_phenomenon in WILDCARD $Country in WILDCARD $Date
+$Date	25	wildcard wildcard	$Company
+	EV1	2010-02-27	Reuters
+	EV2	2011-03-24	AFP
+	EV3	2011-03-14	Hitachi, Ltd.
+	MP1	WILDCARD $Company WILDCARD $Date
+$Date	26	wildcard wildcard wildcard	$Location $Country
+	EV1	2008-05-12	region|China
+	EV2	2011-03-11	regions|Japan
+	MP1	WILDCARD $Location of WILDCARD $Country WILDCARD $Date
+$Date	27	wildcard	$Benefactor
+	EV1	2008-05-21	Rescuers
+	EV2	2011-10-26	Rescuers
+	MP1	WILDCARD $Benefactor on WILDCARD $Date
+$Date	28	wildcard	$Fatality
+	EV1	2011-10-23	killing
+	EV2	2011-03-10	killing
+	MP1	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP2	WILDCARD $Date WILDCARD $Change
+	MP3	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+$Date	29	wildcard	$Unfortunate
+	EV1	2011-10-23	victims
+	EV2	2011-04	survivors
+	MP1	$Unfortunate of WILDCARD $Date
+	MP2	WILDCARD $Unfortunate of WILDCARD $Date
+$Date	30	wildcard	$Beginning
+	EV1	2010-02-26	START
+	EV2	2010-02-27	START
+	MP1	WILDCARD $Magazine WILDCARD $Beginning : WILDCARD $Date
+	MP2	WILDCARD $Beginning : WILDCARD $Date WILDCARD
+	MP3	WILDCARD $Beginning : WILDCARD $Date
+$Date	31	wildcard wildcard	$Geographic_point
+	EV1	2008-05-12	epicenter
+	MP1	WILDCARD $Geographic_point of WILDCARD $Date
+$Date	32	wildcard	$Affair
+	EV1	2008-05-19	ceremonies
+	MP1	WILDCARD $Date WILDCARD $Affair
+$Date	33	wildcard wildcard	$Building
+	EV1	2011-03-24	houses
+	MP1	WILDCARD $Building WILDCARD $Date
+$Date	34	wildcard yunnan wildcard wildcard	$Country $Administrative_district
+	EV1	2011-03-10	China|Province
+	MP1	WILDCARD $Country Yunnan WILDCARD $Administrative_district WILDCARD $Date
+$Date	35	yunnan wildcard wildcard	$Administrative_district
+	EV1	2011-03-10	Province
+	MP1	Yunnan WILDCARD $Administrative_district WILDCARD $Date
+$Defender	1	wildcard	$Activity
+	EV1	FIREFIGHTERS	ASSISTANCE
+	MP1	WILDCARD $Defender WILDCARD $Activity
+$Duration	1	wildcard	$Geological_phenomenon
+	EV1	2D	quake
+	EV2	1D	earthquake
+	EV3	45D	earthquake
+	EV4	24H	quake
+	EV5	1D	quake
+	EV6	1H	quake
+	EV7	3H	quake
+	EV8	80H	quake
+	EV9	200H	earthquake
+	EV10	3D	earthquake
+	EV11	3D	quake
+	EV12	5D	earthquake
+	EV13	2H	earthquake
+	EV14	11D	quake
+	EV15	24H	earthquake
+	EV16	2D	earthquake
+	EV17	30H	quake
+	EV18	1H	earthquake
+	MP1	WILDCARD $Duration after the WILDCARD $Geological_phenomenon
+	MP2	WILDCARD $Duration after an WILDCARD $Geological_phenomenon
+	MP3	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+	MP4	WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+$Duration	2	wildcard	$Adult
+	EV1	52Y	woman
+	EV2	25Y	woman
+	EV3	8Y	girl
+	EV4	34Y	woman
+	EV5	2Y	girl
+	EV6	60Y	woman
+	EV7	31Y	woman
+	EV8	80Y	man
+	EV9	61Y	woman
+	EV10	4Y	girl
+	EV11	18Y	man
+	EV12	19Y	man
+	EV13	53Y	woman
+	MP1	WILDCARD $Duration WILDCARD $Adult
+$Duration	3	wildcard wildcard	$Country
+	EV1	1Y	Chile
+	EV2	1D	Chile
+	EV3	1D	Canadian
+	EV4	4Y	China
+	EV5	1D	Turkish
+	EV6	24H	Turkey
+	EV7	1D	Turkey
+	EV8	48H	Turkey
+	EV9	1000Y	UN
+	EV10	15D	Chile
+	EV11	4D	Peru
+	MP1	WILDCARD $Country WILDCARD $Duration
+$Duration	4	wildcard	$Date
+	EV1	139H	2008-05-18
+	EV2	80H	2008-05-15
+	EV3	5D	2008-05-17
+	EV4	2D	2008-05-14
+	EV5	2D	2008-08-06
+	EV6	1D	2011-10-24
+	EV7	4D	2011-10-27
+	EV8	1D	1976-XX-XX
+	EV9	1M	2010-02-27
+	EV10	1M	1995-02
+	MP1	WILDCARD $Date WILDCARD $Duration
+	MP2	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+$Duration	5	wildcard	$Person
+	EV1	4M	baby
+	EV2	13Y	boy
+	EV3	4Y	boy
+	EV4	70D	baby
+	EV5	12Y	boy
+	EV6	10Y	boy
+	MP1	WILDCARD $Duration WILDCARD $Person
+$Duration	6	wildcard	$Number
+	EV1	1M	1,200
+	EV2	1Y	13
+	EV3	1D	22,000
+	EV4	1Y	2
+	EV5	1Y	19
+	MP1	WILDCARD $Number WILDCARD $Duration
+$Duration	7	wildcard	$Duration
+	EV1	1M	1S
+	EV2	1S	1M
+	EV3	10M	1D
+	EV4	1D	10M
+	MP1	WILDCARD $Duration WILDCARD $Duration
+$Duration	8	wildcard wildcard	$Settlement
+	EV1	1D	Shanghai
+	MP1	WILDCARD $Settlement WILDCARD $Duration
+$Duration	9	wildcard struck.	$Geological_phenomenon
+	EV1	20H	quake
+	MP1	WILDCARD $Duration after the WILDCARD $Geological_phenomenon struck.
+$Duration	10	wildcard	$Male_offspring
+	EV1	4Y	SON
+	MP1	$Duration WILDCARD $Male_offspring
+$Earthquake	1	wildcard	$Date
+	EV1	earthquake	2010-02-27
+	EV2	earthquake	2008-05-12
+	EV3	Great Hanshin Earthquake	1995-XX-XX
+	EV4	7.8-magnitude earthquake	2008-05-12
+	EV5	earthquake	2011-10-23
+	EV6	earthquake	2011-03
+	EV7	Tangshan earthquake	1976-XX-XX
+	EV8	Indian Ocean tsunami	2004-12
+	EV9	Haiti	2010-01
+	EV10	Tohoku earthquake	2011-03-11
+	EV11	magnitude 7.2 earthquake	2011-10-23
+	EV12	earthquake	2010-01
+	EV13	8.8-magnitude earthquake	2010-02-27
+	EV14	earthquake	1960-XX-XX
+	EV15	Haiti	2010-01-12
+	EV16	earthquake	2010-01-12
+	EV17	earthquake	1985-XX-XX
+	EV18	earthquake	1986-XX-XX
+	EV19	8.8-magnitude earthquake	2010-03-13
+	EV20	Northridge	1994-XX-XX
+	EV21	Haiti	2010-02-27
+	EV22	earthquake	1922-11
+	EV23	Chilean earthquake	1960-XX-XX
+	EV24	8.8 magnitude earthquake	2010-02-27
+	EV25	Haiti	2011-01
+	EV26	magnitude 8.8 earthquake	2010-03-06
+	EV27	Indian Ocean tsunami	2004-XX-XX
+	EV28	Great Hanshin-Awaji Earthquake	1995-XX-XX
+	EV29	earthquake	2010-XX-XX
+	EV30	Great Kanto earthquake	1923-XX-XX
+	EV31	Great Hanshin Earthquake	1995-01
+	EV32	7.9 magnitude earthquake	2008-05-12
+	EV33	7.8-magnitude earthquake	2008-05-07
+	EV34	8.8 magnitude earthquake	2010-02-26
+	EV35	8.8-magnitude earthquake	2010-02-26
+	EV36	8.8 magnitude earthquake	2010-03
+	EV37	earthquake	2010-03
+	MP1	WILDCARD $Date WILDCARD $Earthquake
+	MP2	WILDCARD $Earthquake in WILDCARD $Date
+	MP3	WILDCARD $Earthquake WILDCARD $Date
+	MP4	WILDCARD $Date A WILDCARD $Earthquake
+$Earthquake	2	wildcard	$Country
+	EV1	earthquake	Chile
+	EV2	7.2-magnitude earthquake	Turkey
+	EV3	earthquake	China
+	EV4	earthquake	Myanmar
+	EV5	7.2 magnitude earthquake	Turkey
+	EV6	7.0-magnitude earthquake	Myanmar
+	EV7	magnitude 8.8 earthquake	Chile
+	EV8	8.8-magnitude earthquake	Chile
+	EV9	earthquake	Japan
+	EV10	Tangshan earthquake	China
+	EV11	magnitude 7.2 earthquake	Turkey
+	EV12	earthquake	Burma
+	EV13	earthquake	Peru
+	EV14	earthquake	Argentina
+	EV15	8.8 magnitude earthquake	Chile
+	EV16	Tohoku earthquake	Japan
+	MP1	WILDCARD $Earthquake in WILDCARD $Country
+	MP2	WILDCARD $Earthquake struck WILDCARD $Country
+	MP3	WILDCARD $Country WILDCARD $Earthquake
+$Earthquake	3	wildcard	$Number
+	EV1	earthquake	8.8
+	EV2	earthquake	9.5
+	EV3	earthquake	6.4
+	EV4	earthquake	7.9
+	EV5	earthquake	7.2
+	EV6	earthquake	7.1
+	EV7	earthquake	7.0
+	EV8	earthquake	8.5
+	EV9	earthquake	6.2
+	EV10	earthquake	5.2
+	MP1	WILDCARD $Number WILDCARD $Earthquake
+$Earthquake	4	wildcard wildcard	$Country
+	EV1	earthquake	Turkey
+	EV2	7.8-magnitude earthquake	China
+	EV3	Haiti	Chile
+	EV4	earthquake	Indonesian
+	MP1	WILDCARD $Country WILDCARD $Earthquake
+	MP2	WILDCARD $Earthquake in WILDCARD $Country
+$Earthquake	5	wildcard	$Unfortunate
+	EV1	earthquake	victims
+	EV2	earthquake	homeless
+	MP1	WILDCARD $Earthquake WILDCARD $Unfortunate
+$Enlisted_person	1	wildcard	$Number
+	EV1	soldiers	1,000
+	EV2	soldiers	24
+	EV3	soldiers	400
+	EV4	soldiers	8,000
+	EV5	soldiers	100,000
+	EV6	soldiers	5,000
+	EV7	soldiers	1,600
+	EV8	soldiers	200
+	EV9	soldiers	20,000
+	EV10	soldiers	5000
+	EV11	soldiers	166
+	EV12	soldiers	13
+	EV13	soldiers	10,000
+	MP1	$Number WILDCARD $Enlisted_person
+$Expedient	1	wildcard	$Structure
+	EV1	makeshift	shelters
+	EV2	makeshift	housing
+	MP1	WILDCARD $Expedient WILDCARD $Structure
+$Expedient	2	wildcard	$Military_quarters
+	EV1	MAKESHIFT	CAMPS
+	MP1	WILDCARD $Expedient WILDCARD $Military_quarters
+$Fatality	1	wildcard	$Number
+	EV1	killing	138
+	EV2	killing	85
+	EV3	killing	279
+	EV4	killing	534
+	EV5	killing	19
+	EV6	killing	22
+	EV7	killing	122
+	MP1	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP2	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+$Fatality	2	wildcard	$Date
+	EV1	killing	2011-10-23
+	EV2	killing	2011-03-10
+	EV3	killing	2010-02-27
+	MP1	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP2	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+$Feat	1	wildcard	$Country
+	EV1	hits	Myanmar
+	EV2	hits	Turkey
+	EV3	hit	Japan
+	EV4	hits	Chile
+	EV5	hits	Taiwan
+	EV6	hits	China
+	EV7	hit	Chile
+	MP1	WILDCARD $Feat WILDCARD $Country
+$Feat	2	wildcard wildcard	$Geological_phenomenon
+	EV1	hit	quake
+	EV2	hits	quake
+	EV3	hits	Earthquake
+	EV4	hits	earthquake
+	EV5	hit	earthquake
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Feat
+$Happening	1	wildcard	$Division
+	EV1	Fire	Department
+	EV2	fire	department
+	MP1	WILDCARD $Happening WILDCARD $Division
+$Head	1	wildcard	$Officeholder
+	EV1	Secretary	Yukio Edano
+	EV2	Secretary	David Miliband
+	EV3	Secretary	Hu Jintao
+	EV4	Secretary	He Guoqiang
+	EV5	Secretary	Janet Napolitano
+	EV6	secretary	Hillary Clinton
+	EV7	secretary	Robert Gibbs
+	EV8	Secretary	Robert Gibbs
+	MP1	WILDCARD $Head WILDCARD $Officeholder
+$Head	2	wildcard	$Administrative_district
+	EV1	Secretary	State
+	MP1	WILDCARD $Head of WILDCARD $Administrative_district
+$Head_of_state	1	wildcard	$Officeholder
+	EV1	Premier	Wen Jiabao
+	EV2	Premier	Hu Jintao
+	EV3	Premier	Recep Tayyip Erdogan
+	MP1	WILDCARD $Head_of_state WILDCARD $Officeholder
+	MP2	WILDCARD $Country WILDCARD $Head_of_state WILDCARD $Officeholder
+	MP3	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+$Head_of_state	2	wildcard wildcard	$Country
+	EV1	Premier	Chinese
+	EV2	premier	Turkish
+	MP1	WILDCARD $Country WILDCARD $Head_of_state
+	MP2	WILDCARD $Country WILDCARD $Head_of_state WILDCARD $Officeholder
+$Improvement	1	wildcard	$Activity
+	EV1	recovery	efforts
+	EV2	Recovery	efforts
+	EV3	recovery	effort
+	EV4	conservation	efforts
+	EV5	recovery	work
+	MP1	WILDCARD $Improvement WILDCARD $Activity
+$Informing	1	wildcard	$Calamity
+	EV1	warnings	tsunami
+	EV2	warning	tsunami
+	EV3	Warning	Tsunami
+	EV4	Warnings	Tsunami
+	EV5	warnings	Tsunami
+	EV6	WARNING	TSUNAMI
+	EV7	WARNINGS	TSUNAMI
+	EV8	warning	Tsunami
+	MP1	WILDCARD $Calamity WILDCARD $Informing
+$Inhabitant	1	wildcard	$Number
+	EV1	residents	6,000
+	EV2	residents	600,000
+	EV3	residents	30,000
+	EV4	residents	200,000
+	EV5	Residents	6.0
+	EV6	residents	50,000
+	EV7	residents	10
+	EV8	Australians	400
+	EV9	villagers	1,000
+	EV10	residents	47,000
+	EV11	residents	10,000
+	MP1	WILDCARD $Number WILDCARD $Inhabitant
+$Inhabitant	2	wildcard	$Date
+	EV1	residents	2008-05-17
+	EV2	residents	2008-05-19
+	EV3	residents	2010-03-03
+	EV4	residents	2010-02-27
+	EV5	RESIDENTS	2010-02-27
+	EV6	SAME	2010-02-27
+	EV7	AMERICAN	2010-02-26
+	MP1	WILDCARD $Date WILDCARD $Inhabitant
+$Inhabitant	3	wildcard wildcard	$Settlement
+	EV1	resident	Tachileik
+	EV2	residents	Hanoi
+	EV3	Residents	Shanghai
+	EV4	resident	Somerset West
+	EV5	resident	Wetherill Park
+	EV6	resident	Santiago
+	MP1	WILDCARD $Settlement WILDCARD $Inhabitant
+$Inhabitant	4	wildcard wildcard	$Tremor
+	EV1	residents	aftershocks
+	MP1	WILDCARD $Tremor rattled WILDCARD $Inhabitant
+$Job_action	1	wildcard wildcard	$Geological_phenomenon
+	EV1	Strikes	Earthquake
+	EV2	strikes	quake
+	EV3	strikes	earthquake
+	EV4	strike	earthquake
+	EV5	strike	earthquakes
+	EV6	STRIKES	EARTHQUAKE
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Job_action
+$Male_offspring	1	wildcard	$Duration
+	EV1	SON	4Y
+	MP1	$Duration WILDCARD $Male_offspring
+$Management	1	wildcard wildcard	$Geological_phenomenon
+	EV1	administration	earthquake
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Management
+$Management	2	china wildcard wildcard	$Geological_phenomenon
+	EV1	Administration	Earthquake
+	MP1	China WILDCARD $Geological_phenomenon WILDCARD $Management
+$Number	1	wildcard	$Number
+	EV1	820	4,900
+	EV2	4,900	820
+	EV3	1,820	840
+	EV4	840	1,820
+	EV5	4,900	17
+	EV6	17	4,900
+	EV7	17	1,820
+	EV8	1,820	17
+	EV9	115,900	879,500
+	EV10	879,500	115,900
+	EV11	10,200	118,600
+	EV12	118,600	10,200
+	EV13	3,000	5,000
+	EV14	5,000	3,000
+	EV15	20	30
+	EV16	30	20
+	EV17	500	1,000
+	EV18	1,000	500
+	EV19	154,900	1,473,500
+	EV20	1,473,500	154,900
+	EV21	840	6,720
+	EV22	6,720	840
+	EV23	28,800	475,400
+	EV24	475,400	28,800
+	EV25	15	20
+	EV26	20	15
+	EV27	27	3
+	EV28	3	27
+	EV29	475,400	154,900
+	EV30	154,900	475,400
+	EV31	18,000	4,800
+	EV32	4,800	18,000
+	EV33	360,000	380,000
+	EV34	380,000	360,000
+	EV35	10	15
+	EV36	15	10
+	EV37	13	30
+	EV38	30	13
+	EV39	+86	13910973801
+	EV40	13910973801	+86
+	EV41	55	65
+	EV42	65	55
+	EV43	7	1
+	EV44	1	7
+	EV45	8	8
+	EV46	10,000	30,000
+	EV47	30,000	10,000
+	EV48	200	300
+	EV49	300	200
+	EV50	80	90
+	EV51	90	80
+	EV52	+65	6379
+	EV53	6379	+65
+	EV54	4.8	5.4
+	EV55	5.4	4.8
+	EV56	9.5	1964
+	EV57	1964	9.5
+	EV58	9.2	2004
+	EV59	2004	9.2
+	EV60	9.1	1952
+	EV61	1952	9.1
+	EV62	9.0	1868
+	EV63	1868	9.0
+	EV64	9.0	1700
+	EV65	1700	9.0
+	EV66	9.0	2010
+	EV67	2010	9.0
+	EV68	8.8	1965
+	EV69	1965	8.8
+	EV70	8.7	1755
+	EV71	1755	8.7
+	EV72	23	110315
+	EV73	110315	23
+	EV74	0845	230
+	EV75	230	0845
+	EV76	2	3
+	EV77	3	2
+	EV78	50,000	5.4
+	EV79	5.4	50,000
+	EV80	6.0	7.0
+	EV81	7.0	6.0
+	EV82	6	7
+	EV83	7	6
+	EV84	0.15	0.2
+	EV85	0.2	0.15
+	EV86	8	10
+	EV87	10	8
+	EV88	60	70
+	EV89	70	60
+	EV90	33	434
+	EV91	434	33
+	EV92	+86	13701066671
+	EV93	13701066671	+86
+	EV94	2008	26
+	EV95	26	2008
+	EV96	7.8	8.0
+	EV97	8.0	7.8
+	EV98	3000	5000
+	EV99	5000	3000
+	EV100	2011	894
+	EV101	894	2011
+	EV102	2010	57
+	EV103	57	2010
+	EV104	279	1,000
+	EV105	1,000	279
+	EV106	26	2011
+	EV107	2011	26
+	EV108	20747	8
+	EV109	8	20747
+	EV110	8	2
+	EV111	2	8
+	EV112	50	000
+	EV113	000	50
+	EV114	25	30
+	EV115	30	25
+	EV116	20760	8
+	EV117	8	20760
+	EV118	15	40
+	EV119	40	15
+	EV120	6.3	6.8
+	EV121	6.8	6.3
+	EV122	100,000	200,000
+	EV123	200,000	100,000
+	EV124	95	559001
+	EV125	559001	95
+	EV126	95	559922
+	EV127	559922	95
+	EV128	6379	8800
+	EV129	8800	6379
+	EV130	+65	6476
+	EV131	6476	+65
+	EV132	313	1.3
+	EV133	1.3	313
+	EV134	600	000
+	EV135	000	600
+	EV136	6.0	100
+	EV137	100	6.0
+	EV138	1964	03
+	EV139	03	1964
+	EV140	2004	12
+	EV141	12	2004
+	EV142	1952	11
+	EV143	11	1952
+	EV144	1868	08
+	EV145	08	1868
+	EV146	1700	01
+	EV147	01	1700
+	EV148	2010	02
+	EV149	02	2010
+	EV150	1965	02
+	EV151	02	1965
+	EV152	1755	11
+	EV153	11	1755
+	EV154	3	000
+	EV155	000	3
+	EV156	032	072
+	EV157	072	032
+	EV158	9.5	2010
+	EV159	2010	9.5
+	EV160	2010	8.8
+	EV161	8.8	2010
+	EV162	300	708
+	EV163	708	300
+	EV164	6.6	6.3
+	EV165	6.3	6.6
+	EV166	250	350
+	EV167	350	250
+	EV168	6	3
+	EV169	3	6
+	EV170	8.8	3
+	EV171	3	8.8
+	EV172	1	3
+	EV173	3	1
+	EV174	1	888
+	EV175	888	1
+	EV176	3	5
+	EV177	5	3
+	EV178	3	43
+	EV179	43	3
+	EV180	1	000
+	EV181	000	1
+	EV182	250	90
+	EV183	90	250
+	EV184	2011	2012
+	EV185	2012	2011
+	EV186	22	2011
+	EV187	2011	22
+	EV188	40,000	50,000
+	EV189	50,000	40,000
+	EV190	30,000	35,000
+	EV191	35,000	30,000
+	EV192	100	300
+	EV193	300	100
+	EV194	110315	61
+	EV195	61	110315
+	EV196	230	9876
+	EV197	9876	230
+	EV198	0.25	0.4
+	EV199	0.4	0.25
+	EV200	2007	1,000
+	EV201	1,000	2007
+	EV202	100	30
+	EV203	30	100
+	EV204	22	27
+	EV205	27	22
+	EV206	92	84
+	EV207	84	92
+	EV208	10,341	11,874
+	EV209	11,874	10,341
+	EV210	50	900
+	EV211	900	50
+	EV212	27	2011
+	EV213	2011	27
+	EV214	300	400
+	EV215	400	300
+	EV216	6.8	6.6
+	EV217	6.6	6.8
+	EV218	6476	7302
+	EV219	7302	6476
+	EV220	500	000
+	EV221	000	500
+	EV222	110330	71
+	EV223	71	110330
+	EV224	110328	61
+	EV225	61	110328
+	EV226	70	80
+	EV227	80	70
+	EV228	8.81906	01
+	EV229	01	8.81906
+	EV230	1	8
+	EV231	8	1
+	EV232	640	800
+	EV233	800	640
+	EV234	6.2	6.9
+	EV235	6.9	6.2
+	EV236	2010	3
+	EV237	3	2010
+	EV238	10	16
+	EV239	16	10
+	EV240	5	8
+	EV241	8	5
+	EV242	6	11
+	EV243	11	6
+	EV244	50	3
+	EV245	3	50
+	EV246	10	12
+	EV247	12	10
+	EV248	110322	61
+	EV249	61	110322
+	EV250	97	110329
+	EV251	110329	97
+	EV252	0.25	0.40
+	EV253	0.40	0.25
+	EV254	10	13
+	EV255	13	10
+	MP1	$Number WILDCARD $Number
+	MP2	WILDCARD $Number to WILDCARD $Number
+	MP3	WILDCARD $Number WILDCARD $Number
+	MP4	WILDCARD $Number WILDCARD $Number WILDCARD $Number
+	MP5	WILDCARD $Number and WILDCARD $Number
+	MP6	WILDCARD $Number WILDCARD $Number WILDCARD $Number WILDCARD $Number
+	MP7	WILDCARD $Number of the WILDCARD $Number
+$Number	2	wildcard	$Date
+	EV1	14,463	2008-05-14
+	EV2	7.2	2010-01-20
+	EV3	8.8	2010-02-27
+	EV4	3	2010-02-27
+	EV5	27	2010-02
+	EV6	40	2008-05-24
+	EV7	15	2008-05
+	EV8	12.5	2008-05-15
+	EV9	26,000	2008-05-14
+	EV10	0	2008-05-13
+	EV11	7.2	2011-10-23
+	EV12	138	2011-10-23
+	EV13	7.6	1999-XX-XX
+	EV14	27	2011-03-25
+	EV15	-4	2011-03-25
+	EV16	25	2011-03
+	EV17	9.5	1960-XX-XX
+	EV18	708	2010-02-28
+	EV19	12	2010-03
+	EV20	15	2008-05-15
+	EV21	50,000	2008-05-22
+	EV22	51,151	2008-05-22
+	EV23	592	2008-05-12
+	EV24	3	2008-08
+	EV25	7.8	2008-05-12
+	EV26	159,000	2008-05-16
+	EV27	151	2008-05-15
+	EV28	11,921	2008-05-13
+	EV29	7.9	2008-05-12
+	EV30	8500	2008-05-12
+	EV31	15	2008-06
+	EV32	4	2008-08
+	EV33	50,000	2008-05-15
+	EV34	12,000	2008-05-13
+	EV35	800,000	2008-05-22
+	EV36	167	2008-05-22
+	EV37	7.2	2011-11-06
+	EV38	1,600	2011-XX-XX
+	EV39	279	2011-10-24
+	EV40	70	2011-10-23
+	EV41	22	2011-10
+	EV42	200	2011-10-24
+	EV43	723	2010-03-01
+	EV44	7	2010-02
+	EV45	29	2011-03
+	EV46	24	2011-03
+	EV47	7.0	2011-03-24
+	EV48	6.8	2011-03-24
+	EV49	9	2011-03-25
+	EV50	9.0	2011-03-11
+	EV51	4.6	2011-01-01
+	EV52	244	2011-03-25
+	EV53	47	2010-02-27
+	EV54	59.4	2010-02-27
+	EV55	2010	2010-02-27
+	EV56	5.9	2010-03-08
+	EV57	25	2010-03-06
+	EV58	20	2010-03-06
+	EV59	700	2010-02-28
+	EV60	7	2010-03
+	EV61	3	2010-02-26
+	EV62	20	2010-02-22
+	EV63	12	2010-01
+	EV64	30	2011-03-11
+	EV65	14	2011-03-11
+	EV66	2011	2011-XX-XX
+	EV67	7.9	1923-09-01
+	MP1	WILDCARD $Date WILDCARD $Number
+	MP2	WILDCARD $Number WILDCARD $Date
+	MP3	$Number on WILDCARD $Date
+	MP4	WILDCARD $Date At WILDCARD $Number
+	MP5	WILDCARD $Date More than WILDCARD $Number
+	MP6	WILDCARD $Date a WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP7	WILDCARD $Number on WILDCARD $Date
+	MP8	WILDCARD $Date where a WILDCARD $Number WILDCARD
+	MP9	WILDCARD $Date killed more than WILDCARD $Number
+	MP10	WILDCARD $Date A WILDCARD $Number
+$Number	3	wildcard	$Geological_phenomenon
+	EV1	7.2	quake
+	EV2	7.2	earthquake
+	EV3	8.8	quake
+	EV4	7.9	earthquake
+	EV5	6.8	quake
+	EV6	7.8	quake
+	EV7	7.0	quake
+	EV8	6.8	earthquake
+	EV9	8.0	quake
+	EV10	5.4	quake
+	EV11	5.8	earthquake
+	EV12	8.0	earthquake
+	EV13	7.2	temblor
+	EV14	9.5	quake
+	EV15	7.9	quake
+	EV16	7.6	quake
+	EV17	7.6	earthquake
+	EV18	13	quakes
+	EV19	5.9	earthquake
+	EV20	9.0	earthquake
+	EV21	5.2	earthquake
+	EV22	8.8	EARTHQUAKE
+	EV23	3.9	earthquake
+	EV24	7.8	earthquake
+	EV25	921	Earthquake
+	EV26	5.8	quake
+	EV27	9.1	earthquake
+	EV28	8.8	Earthquake
+	EV29	8.5	earthquake
+	EV30	6.9	quake
+	EV31	5.3	earthquake
+	EV32	8	earthquakes
+	EV33	7.9	temblor
+	EV34	8	earthquake
+	EV35	7.5	temblor
+	EV36	7.8	temblor
+	EV37	2011	Earthquake
+	EV38	2010	earthquake
+	EV39	7	quake
+	EV40	6.3	earthquake
+	EV41	4.6	quake
+	EV42	10	quake
+	EV43	10	earthquakes
+	EV44	15	earthquakes
+	EV45	17	earthquakes
+	EV46	9	earthquakes
+	EV47	5.9	Earthquake
+	EV48	4.5	earthquake
+	EV49	8.7	quake
+	EV50	83	earthquakes
+	EV51	3	EARTHQUAKES
+	EV52	12	EARTHQUAKE
+	EV53	8.8	temblor
+	EV54	6.0	quake
+	EV55	6	Earthquakes
+	MP1	WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP2	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP3	WILDCARD $Geological_phenomenon measuring WILDCARD $Number on the Richter scale
+	MP4	WILDCARD $Geological_phenomenon measuring WILDCARD $Number
+	MP5	WILDCARD $Date a WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP6	WILDCARD $Number WILDCARD $Earthquake
+	MP7	WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP8	WILDCARD $Geological_phenomenon at WILDCARD $Number
+	MP9	$Number WILDCARD $Geological_phenomenon
+	MP10	$Geological_phenomenon measuring WILDCARD $Number on the Richter
+$Number	4	wildcard	$Person
+	EV1	900	students
+	EV2	91,000	National
+	EV3	4,000	students
+	EV4	900	teenagers
+	EV5	380,000	inhabitants
+	EV6	900	pupils
+	EV7	10	children
+	EV8	100	students
+	EV9	20	rescuers
+	EV10	360	students
+	EV11	7,000	children
+	EV12	23	students
+	EV13	100	experts
+	EV14	31	rescuers
+	EV15	1,000	children
+	EV16	200	workers
+	EV17	420	students
+	EV18	4,000	children
+	EV19	25	children
+	EV20	20	kids
+	EV21	16	suspects
+	EV22	7,000	students
+	EV23	1,000	pupils
+	EV24	100	children
+	EV25	3,000	workers
+	EV26	1,270	workers
+	EV27	800	students
+	EV28	60	children
+	EV29	2	children
+	EV30	350	students
+	EV31	26	suspects
+	EV32	28	students
+	EV33	2	Rescuers
+	EV34	7	Firefighter
+	EV35	2	Relatives
+	EV36	800	Amateur
+	EV37	1.37	children
+	EV38	2.06	children
+	MP1	WILDCARD $Number WILDCARD $Person
+$Number	5	wildcard	$Tremor
+	EV1	100	aftershocks
+	EV2	313	aftershocks
+	EV3	20	aftershocks
+	EV4	4.9	aftershock
+	EV5	90	aftershocks
+	EV6	4	Aftershocks
+	EV7	6.1	aftershock
+	EV8	70	aftershocks
+	EV9	5.4	aftershock
+	EV10	39	aftershocks
+	EV11	3	aftershocks
+	EV12	7,182	aftershocks
+	EV13	150	aftershocks
+	EV14	1,000	aftershocks
+	EV15	30	aftershocks
+	EV16	300	aftershocks
+	EV17	167	aftershocks
+	EV18	200	aftershocks
+	EV19	80	aftershocks
+	EV20	115	aftershocks
+	EV21	40	aftershocks
+	EV22	11	aftershocks
+	EV23	47	aftershocks
+	EV24	6.9	aftershock
+	EV25	122	aftershocks
+	EV26	15	aftershocks
+	EV27	6.0	aftershocks
+	EV28	142	aftershocks
+	EV29	33	aftershocks
+	EV30	121	aftershocks
+	EV31	120	aftershocks
+	EV32	6.3	aftershock
+	EV33	14	aftershocks
+	MP1	WILDCARD $Number WILDCARD $Tremor
+$Number	6	wildcard wildcard	$Country
+	EV1	138	Turkey
+	EV2	589	Myanmar
+	EV3	7.2	Turkey
+	EV4	6.4	Taiwan
+	EV5	+86	China
+	EV6	75	Turkey
+	EV7	25	Myanmar
+	EV8	100	Chile
+	EV9	8.8	Chile
+	EV10	9,000	China
+	EV11	1,800	Thailand
+	EV12	28	Chad
+	EV13	88	Turkey
+	EV14	89	Turkey
+	EV15	217	Turkey
+	EV16	16.3015	Turkey
+	EV17	2009	Bolivia
+	EV18	10	Myanmar
+	EV19	2	Afghanistan
+	EV20	2	Poland
+	EV21	1	Myanmar
+	EV22	147	Chile
+	EV23	115	Chile
+	EV24	320	Chile
+	EV25	5.9	Turkey
+	EV26	2010	Chile
+	EV27	2009	Chile
+	EV28	1.5	Chile
+	EV29	17	Chile
+	MP1	WILDCARD $Country WILDCARD $Number
+	MP2	WILDCARD $Country killing at WILDCARD $Number
+	MP3	WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon
+$Number	7	wildcard wildcard	$Settlement
+	EV1	680	Tachilek
+	EV2	1,500	Beijing
+	EV3	200	Santiago
+	EV4	1,700	Shanghai
+	EV5	160	Taipei
+	EV6	160	Beichuan County
+	EV7	300,000	Yingjiang county
+	EV8	90	Xishuangbanna
+	EV9	55	Chiang Rai
+	EV10	600	Juan Fernandez Islands
+	EV11	100	Wenchuan county
+	EV12	54	Daggett
+	EV13	159	Wenchuan County
+	EV14	61	Chongqing
+	EV15	95	Wenchuan county
+	EV16	19	Shanghai
+	EV17	159	Wenchuan county
+	EV18	60	Wenchuan county
+	EV19	80	Beichuan county
+	EV20	92	Wenchuan County
+	EV21	1500	Beijing
+	EV22	30	Patnos
+	EV23	90	Chiang Rai
+	EV24	2010	Christchurch
+	EV25	320	Santiago
+	EV26	225	Taipei
+	MP1	WILDCARD $Settlement WILDCARD $Number
+	MP2	WILDCARD $Settlement about WILDCARD $Number
+	MP3	WILDCARD $Settlement some WILDCARD $Number
+$Number	8	wildcard	$Change
+	EV1	19,500	deaths
+	EV2	500	deaths
+	EV3	61	deaths
+	EV4	138	deaths
+	EV5	20	deaths
+	EV6	216	deaths
+	EV7	80,000	deaths
+	EV8	51,151	deaths
+	EV9	800	deaths
+	EV10	400	deaths
+	EV11	12,012	deaths
+	EV12	5,000	deaths
+	EV13	9,000	deaths
+	EV14	160,000	deaths
+	EV15	217	deaths
+	EV16	700	deaths
+	EV17	85	deaths
+	EV18	799	deaths
+	EV19	3,000	deaths
+	EV20	103	deaths
+	EV21	200,000	deaths
+	EV22	78	deaths
+	EV23	120	deaths
+	EV24	708	deaths
+	MP1	WILDCARD $Number WILDCARD $Change
+$Number	9	wildcard wildcard	$Municipality
+	EV1	75,000	city
+	EV2	3.75	city
+	EV3	380,000	city
+	EV4	18,000	town
+	EV5	75,000	town
+	EV6	100,000	town
+	EV7	100,000	city
+	EV8	20,000	town
+	EV9	700,000	city
+	EV10	11	city
+	EV11	90,000	city
+	EV12	80,000	town
+	EV13	200,000	city
+	MP1	WILDCARD $Municipality of WILDCARD $Number
+$Number	10	wildcard	$Unit
+	EV1	28	families
+	EV2	250	households
+	EV3	500	families
+	EV4	1,235	teams
+	EV5	180	team
+	EV6	30	team
+	EV7	200	team
+	EV8	20,000	families
+	EV9	2,500	families
+	EV10	1,039	families
+	EV11	10	team
+	EV12	700,000	households
+	EV13	240,000	households
+	MP1	$Number WILDCARD $Unit
+$Number	11	wildcard	$Enlisted_person
+	EV1	1,000	soldiers
+	EV2	24	soldiers
+	EV3	400	soldiers
+	EV4	8,000	soldiers
+	EV5	100,000	soldiers
+	EV6	5,000	soldiers
+	EV7	1,600	soldiers
+	EV8	200	soldiers
+	EV9	20,000	soldiers
+	EV10	5000	soldiers
+	EV11	166	soldiers
+	EV12	13	soldiers
+	EV13	10,000	soldiers
+	MP1	$Number WILDCARD $Enlisted_person
+	MP2	WILDCARD $Number WILDCARD $Skilled_worker
+$Number	12	wildcard	$Unfortunate
+	EV1	38	survivors
+	EV2	30,000	victims
+	EV3	200	prisoners
+	EV4	1000	mourners
+	EV5	288,431	Homeless
+	EV6	100	victims
+	EV7	3,000	survivors
+	EV8	2,300	survivors
+	EV9	1,000	survivors
+	EV10	279	survivors
+	EV11	1,300	survivors
+	EV12	1.2	homeless
+	EV13	173124	victim
+	MP1	$Number WILDCARD $Unfortunate
+	MP2	WILDCARD $Number WILDCARD $Unfortunate
+$Number	13	wildcard wildcard	$Geological_phenomenon
+	EV1	7.3	quake
+	EV2	7.0	earthquake
+	EV3	7.5	earthquake
+	EV4	27	earthquake
+	EV5	60	earthquake
+	EV6	34,000	quake
+	EV7	50,000	quake
+	EV8	50	earthquake
+	EV9	6.1	earthquake
+	EV10	7	earthquake
+	EV11	24	earthquake
+	EV12	8.6	earthquake
+	EV13	5.0	earthquakes
+	MP1	WILDCARD $Geological_phenomenon at WILDCARD $Number
+	MP2	WILDCARD $Geological_phenomenon measuring WILDCARD $Number on the Richter scale
+	MP3	WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP4	WILDCARD $Geological_phenomenon killed at WILDCARD $Number people
+	MP5	WILDCARD $Geological_phenomenon measuring WILDCARD $Number
+	MP6	WILDCARD $Number WILDCARD $Earthquake
+	MP7	WILDCARD $Geological_phenomenon killed at WILDCARD $Number
+$Number	14	wildcard	$Inhabitant
+	EV1	6,000	residents
+	EV2	600,000	residents
+	EV3	30,000	residents
+	EV4	200,000	residents
+	EV5	6.0	Residents
+	EV6	50,000	residents
+	EV7	10	residents
+	EV8	400	Australians
+	EV9	1,000	villagers
+	EV10	47,000	residents
+	EV11	10,000	residents
+	MP1	WILDCARD $Number WILDCARD $Inhabitant
+$Number	15	wildcard	$Termination
+	EV1	27	kills
+	EV2	5	kills
+	EV3	75	Kills
+	EV4	88	kills
+	EV5	89	kills
+	EV6	85	kills
+	EV7	45	kills
+	EV8	89	KILLS
+	EV9	75	kills
+	EV10	1	kills
+	EV11	200	kills
+	MP1	WILDCARD $Termination WILDCARD $Number
+	MP2	WILDCARD $Geological_phenomenon WILDCARD $Termination WILDCARD $Number
+$Number	16	wildcard wildcard	$Number $Shelter
+	EV1	5,000	10,000|tents
+	EV2	10,000	5,000|tents
+	EV3	79,700	828,600|tents
+	EV4	828,600	79,700|tents
+	EV5	1,000	15,000|tents
+	EV6	15,000	1,000|tents
+	EV7	350	3,000|tents
+	EV8	3,000	350|tents
+	EV9	2,000	3,000|tents
+	EV10	3,000	2,000|tents
+	MP1	WILDCARD $Number WILDCARD $Shelter , WILDCARD $Number
+$Number	17	wildcard wildcard	$City
+	EV1	100	Yerevan
+	EV2	2008	Chengdu
+	EV3	33	Chengdu
+	EV4	2,586	Chengdu
+	EV5	2,871	Guangyuan
+	EV6	160	Yerevan
+	EV7	238	Yangon
+	EV8	167	Talca
+	EV9	3	CHICAGO
+	EV10	200	Sendai
+	MP1	WILDCARD $City WILDCARD $Number
+$Number	18	wildcard	$Housing
+	EV1	27	apartment
+	EV2	17	apartment
+	EV3	80	apartment
+	EV4	15	apartment
+	EV5	55	apartment
+	EV6	25	apartment
+	EV7	20	apartment
+	EV8	24	apartment
+	MP1	$Number WILDCARD $Housing
+$Number	19	wildcard	$Fatality
+	EV1	138	killing
+	EV2	85	killing
+	EV3	279	killing
+	EV4	534	killing
+	EV5	19	killing
+	EV6	22	killing
+	EV7	122	killing
+	MP1	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP2	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+$Number	20	wildcard wildcard	$Administrative_district
+	EV1	50	province
+	EV2	364	Province
+	EV3	106	Province
+	EV4	14	Province
+	EV5	113	Province
+	EV6	16	Province
+	MP1	WILDCARD $Administrative_district , WILDCARD $Number
+$Number	21	people wildcard	$Number
+	EV1	27	50
+	EV2	50	27
+	EV3	7,300	18,000
+	EV4	18,000	7,300
+	EV5	100,000	3
+	EV6	3	100,000
+	MP1	WILDCARD $Number people died and WILDCARD $Number
+$Number	22	wildcard	$Duration
+	EV1	1,200	1M
+	EV2	13	1Y
+	EV3	22,000	1D
+	EV4	2	1Y
+	EV5	19	1Y
+	MP1	WILDCARD $Number WILDCARD $Duration
+$Number	23	wildcard	$Recovery
+	EV1	1,275	rescue
+	EV2	30	rescue
+	EV3	45	rescue
+	EV4	900	rescue
+	EV5	272	rescue
+	MP1	WILDCARD $Number WILDCARD $Recovery
+$Number	24	wildcard	$Earthquake
+	EV1	8.8	earthquake
+	EV2	9.5	earthquake
+	EV3	6.4	earthquake
+	EV4	7.1	earthquake
+	EV5	6.2	earthquake
+	MP1	WILDCARD $Number WILDCARD $Earthquake
+	MP2	WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP3	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+$Number	25	wildcard wildcard	$Region
+	EV1	700	tops
+	EV2	313	areas
+	EV3	12	area
+	EV4	1,500	area
+	MP1	WILDCARD $Region WILDCARD $Number
+$Number	26	people dead wildcard	$Number
+	EV1	77	1,000
+	EV2	1,000	77
+	MP1	WILDCARD $Number people dead and more than WILDCARD $Number
+$Number	27	wildcard depth wildcard	$Settlement
+	EV1	35	Santiago
+	EV2	59.4	Santiago
+	MP1	WILDCARD $Settlement at a depth of WILDCARD $Number
+$Officeholder	1	wildcard	$Corporate_executive
+	EV1	Michelle Bachelet	President
+	EV2	Abdullah Gul	President
+	EV3	Hu Jintao	President
+	EV4	Xi Jinping	President
+	EV5	Nicolas Sarkozy	President
+	EV6	Ahmadinejad	President
+	EV7	Massoud Barzani	President
+	EV8	Michelle Bachelet	president
+	EV9	Robert Zoellick	President
+	EV10	Hu Jintao	president
+	EV11	Mahmoud Ahmadinejad	President
+	EV12	Serzh Sargsyan	President
+	EV13	Jerzy Buzek	President
+	EV14	Jose Mujica	President
+	EV15	Jimmy Carter	President
+	EV16	Raul Castro	President
+	EV17	Thein Sein	President
+	EV18	Jose Manuel Durao Barroso	President
+	EV19	Luiz Inacio Lula da Silva	President
+	EV20	Cristina Fernandez	President
+	EV21	Hugo Chavez	President
+	EV22	Alan Garcia	President
+	EV23	Rafael Correa	President
+	EV24	Michele Bachelet	President
+	MP1	WILDCARD $Corporate_executive WILDCARD $Officeholder
+	MP2	WILDCARD $Country WILDCARD $Officeholder
+	MP3	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+$Officeholder	2	wildcard	$Clergyman
+	EV1	Recep Tayyip Erdogan	Minister
+	EV2	Manmohan Singh	Minister
+	EV3	Naoto Kan	Minister
+	EV4	Erdogan	Minister
+	EV5	Banri Kaieda	minister
+	EV6	Samak Sundaravej	Minister
+	EV7	Masahiko Komura	Minister
+	EV8	Wen Jiabao	Minister
+	EV9	Yang Jiechi	Minister
+	EV10	Thein Sein	Minister
+	EV11	Recep Tayyip Erdogan	minister
+	EV12	Bulent Arinc	minister
+	EV13	Franco Frattini	Minister
+	EV14	Egemen Bagis	Minister
+	EV15	Benjamin Netanyahu	Minister
+	EV16	Sheikh Hasina	Minister
+	EV17	Abhisit Vejjajiva	Minister
+	EV18	Guido Westerwelle	Minister
+	EV19	Sergio	Minister
+	MP1	Prime WILDCARD $Clergyman WILDCARD $Officeholder
+	MP2	WILDCARD $Clergyman WILDCARD $Officeholder
+	MP3	Foreign WILDCARD $Clergyman WILDCARD $Officeholder
+$Officeholder	3	wildcard	$Date
+	EV1	Abdullah Gul	2011-10-24
+	EV2	Abdullah Gul	2011-10-23
+	EV3	Michelle Bachelet	2010-03-01
+	EV4	Kim Jong-il	2008-05-13
+	EV5	Washington	2008-05
+	EV6	Egemen Bagis	2011-10-24
+	EV7	Nicolas Sarkozy	2011-03-31
+	EV8	Manmohan Singh	2011-03-26
+	EV9	David Miliband	2010-XX-XX
+	MP1	WILDCARD $Officeholder on WILDCARD $Date
+$Officeholder	4	wildcard	$Head
+	EV1	Yukio Edano	Secretary
+	EV2	David Miliband	Secretary
+	EV3	Hu Jintao	Secretary
+	EV4	He Guoqiang	Secretary
+	EV5	Janet Napolitano	Secretary
+	EV6	Hillary Clinton	secretary
+	EV7	Robert Gibbs	secretary
+	EV8	Robert Gibbs	Secretary
+	MP1	WILDCARD $Head WILDCARD $Officeholder
+$Officeholder	5	wildcard	$Officeholder
+	EV1	Ban Ki-moon	Yang Jiechi
+	EV2	Yang Jiechi	Ban Ki-moon
+	EV3	Washington	Barbara
+	EV4	Barbara	Washington
+	EV5	British Prime Minister	Gordon Brown
+	EV6	Gordon Brown	British Prime Minister
+	MP1	WILDCARD $Officeholder WILDCARD $Officeholder
+$Officeholder	6	wildcard wildcard	$Country
+	EV1	Rubio	Chile
+	EV2	Yang Jiechi	China
+	EV3	Thein Sein	Burma
+	EV4	Yang Jiechi	Burma
+	EV5	He Guoqiang	China
+	MP1	WILDCARD $Country WILDCARD $Officeholder
+$Officeholder	7	wildcard	$Head_of_state
+	EV1	Wen Jiabao	Premier
+	EV2	Hu Jintao	Premier
+	EV3	Recep Tayyip Erdogan	Premier
+	MP1	WILDCARD $Head_of_state WILDCARD $Officeholder
+	MP2	WILDCARD $Country WILDCARD $Head_of_state WILDCARD $Officeholder
+	MP3	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+$Officeholder	8	wildcard	$Civil_authority
+	EV1	Gavin Newsom	Mayor
+	EV2	Han Zheng	Mayor
+	MP1	WILDCARD $Civil_authority WILDCARD $Officeholder
+$Person	1	wildcard	$Number
+	EV1	students	900
+	EV2	National	91,000
+	EV3	students	4,000
+	EV4	teenagers	900
+	EV5	inhabitants	380,000
+	EV6	pupils	900
+	EV7	children	10
+	EV8	students	100
+	EV9	rescuers	20
+	EV10	students	360
+	EV11	children	7,000
+	EV12	students	23
+	EV13	experts	100
+	EV14	rescuers	31
+	EV15	children	1,000
+	EV16	workers	200
+	EV17	students	420
+	EV18	children	4,000
+	EV19	children	25
+	EV20	kids	20
+	EV21	suspects	16
+	EV22	students	7,000
+	EV23	pupils	1,000
+	EV24	children	100
+	EV25	workers	3,000
+	EV26	workers	1,270
+	EV27	students	800
+	EV28	children	60
+	EV29	children	2
+	EV30	students	350
+	EV31	suspects	26
+	EV32	students	28
+	EV33	Rescuers	2
+	EV34	Firefighter	7
+	EV35	Relatives	2
+	EV36	Amateur	800
+	EV37	children	1.37
+	EV38	children	2.06
+	MP1	WILDCARD $Number WILDCARD $Person
+$Person	2	wildcard wildcard	$Country
+	EV1	nationals	Chinese
+	EV2	friends	American
+	EV3	nationals	Kyrgyz
+	EV4	National	Chile
+	EV5	leader	Korean
+	EV6	National	China
+	EV7	leader	Chinese
+	EV8	workers	Chinese
+	EV9	Suresh	China
+	EV10	National	Kurdistan
+	EV11	workers	Taiwan
+	EV12	National	Philippines
+	EV13	rulers	Burma
+	EV14	workers	UN
+	EV15	National	Japan
+	EV16	scientists	Japanese
+	EV17	friends	Chinese
+	MP1	WILDCARD $Country WILDCARD $Person
+$Person	3	wildcard	$Date
+	EV1	rescuers	2008-05-15
+	EV2	HAVE	2009-05
+	EV3	rescuers	2008-05-12
+	EV4	rescuers	2008-05-20
+	EV5	Rescuers	2008-05-12
+	EV6	Workers	2008-05-13
+	EV7	rescuers	2008-05-11
+	EV8	workers	2008-05-12
+	EV9	Workers	2008-05-22
+	EV10	National	2008-05-12
+	EV11	killer	2011-03-11
+	EV12	Scientists	2010-02-26
+	EV13	SPONSOR	2010-02-27
+	MP1	WILDCARD $Date WILDCARD $Person
+$Person	4	wildcard	$Corporate_executive
+	EV1	Barack Obama	President
+	EV2	Shimon Peres	President
+	EV3	Jacques Rogge	President
+	EV4	Bush	President
+	EV5	Jacques Rogge	president
+	EV6	Obama	President
+	EV7	OBAMA	PRESIDENT
+	MP1	WILDCARD $Corporate_executive WILDCARD $Person
+$Person	5	wildcard	$Duration
+	EV1	baby	4M
+	EV2	boy	13Y
+	EV3	boy	4Y
+	EV4	baby	70D
+	EV5	boy	12Y
+	EV6	boy	10Y
+	MP1	WILDCARD $Duration WILDCARD $Person
+$Person	6	wildcard	$Recovery
+	EV1	workers	rescue
+	EV2	workers	Rescue
+	EV3	worker	rescue
+	EV4	WORKERS	RESCUE
+	EV5	experts	rescue
+	MP1	WILDCARD $Recovery WILDCARD $Person
+	MP2	$Recovery WILDCARD $Person
+	MP3	WILDCARD $Company WILDCARD $Recovery WILDCARD $Person
+$Person	7	wildcard wildcard	$Organization
+	EV1	worker	Red Cross
+	EV2	workers	Mennonite Central Committee
+	EV3	leader	Party
+	EV4	National	Access World News
+	EV5	KILLER	FIRST
+	MP1	WILDCARD $Organization WILDCARD $Person
+$Person	8	wildcard	$Crisis
+	EV1	workers	Emergency
+	EV2	workers	emergency
+	MP1	WILDCARD $Crisis WILDCARD $Person
+$Person	9	wildcard	$Activity
+	EV1	changer	game
+	MP1	WILDCARD $Activity WILDCARD $Person
+$Recovery	1	wildcard	$Activity
+	EV1	rescue	efforts
+	EV2	rescue	search
+	EV3	rescue	work
+	EV4	Rescue	efforts
+	EV5	rescue	effort
+	EV6	rescue	Search
+	EV7	RESCUE	HELP
+	EV8	Rescue	effort
+	EV9	RESCUE	efforts
+	MP1	WILDCARD $Recovery WILDCARD $Activity
+	MP2	WILDCARD $Activity and WILDCARD $Recovery
+	MP3	WILDCARD $Recovery and relief WILDCARD $Activity
+$Recovery	2	wildcard	$Person
+	EV1	rescue	workers
+	EV2	Rescue	workers
+	EV3	rescue	worker
+	EV4	RESCUE	WORKERS
+	EV5	rescue	experts
+	MP1	WILDCARD $Recovery WILDCARD $Person
+	MP2	$Recovery WILDCARD $Person
+	MP3	WILDCARD $Company WILDCARD $Recovery WILDCARD $Person
+$Recovery	3	wildcard	$Number
+	EV1	rescue	1,275
+	EV2	rescue	30
+	EV3	rescue	45
+	EV4	rescue	900
+	EV5	rescue	272
+	MP1	WILDCARD $Number WILDCARD $Recovery
+$Recovery	4	wildcard	$Unit
+	EV1	rescue	teams
+	EV2	rescue	team
+	EV3	Rescue	teams
+	EV4	Rescue	Team
+	MP1	WILDCARD $Recovery WILDCARD $Unit
+$Recovery	5	wildcard wildcard	$Company
+	EV1	Rescue	AP
+	EV2	Rescue	NTV
+	MP1	WILDCARD $Company WILDCARD $Recovery WILDCARD $Person
+	MP2	WILDCARD $Company WILDCARD $Recovery WILDCARD
+$Recovery	6	wildcard	$Transaction
+	EV1	rescue	operations
+	EV2	Rescue	operations
+	MP1	WILDCARD $Recovery WILDCARD $Transaction
+$Removal	1	wildcard	$Area
+	EV1	evacuation	centers
+	EV2	evacuation	center
+	MP1	WILDCARD $Removal WILDCARD $Area
+$Serviceman	1	wildcard wildcard	$Force
+	EV1	officers	police
+	EV2	officers	Police
+	EV3	officer	police
+	MP1	WILDCARD $Force WILDCARD $Serviceman
+$Skilled_worker	1	wildcard wildcard	$Country
+	EV1	official	Myanmar
+	EV2	officials	Myanmar
+	EV3	official	U.N.
+	EV4	officials	Thai
+	EV5	officials	Chinese
+	EV6	officials	Turkish
+	EV7	officials	Thailand
+	EV8	official	China
+	EV9	Officials	Turkey
+	EV10	official	Kurdistan
+	EV11	Officials	Thailand
+	EV12	officials	Japanese
+	EV13	fishermen	Myanmar
+	EV14	officials	U.N.
+	EV15	official	UN
+	MP1	WILDCARD $Country WILDCARD $Skilled_worker
+$Skilled_worker	2	wildcard	$Number
+	EV1	soldiers	1,000
+	EV2	soldiers	24
+	EV3	soldiers	400
+	EV4	soldiers	8,000
+	EV5	soldiers	100,000
+	EV6	soldiers	5,000
+	EV7	soldiers	1,600
+	EV8	soldiers	200
+	EV9	soldiers	20,000
+	EV10	soldiers	5000
+	EV11	soldiers	166
+	EV12	soldiers	13
+	EV13	soldiers	10,000
+	MP1	WILDCARD $Number WILDCARD $Skilled_worker
+$Skilled_worker	3	wildcard	$Date
+	EV1	official	2011-03-25
+	EV2	officials	2011-03-25
+	EV3	official	2008-05-14
+	EV4	official	2008-05-23
+	EV5	officials	2011-03-26
+	EV6	officials	2011-04-01
+	EV7	official	2011-03-27
+	MP1	WILDCARD $Skilled_worker said WILDCARD $Date
+$Skilled_worker	4	wildcard wildcard	$Polity
+	EV1	officials	government
+	EV2	official	government
+	EV3	officials	Government
+	MP1	WILDCARD $Polity WILDCARD $Skilled_worker
+$Skilled_worker	5	wildcard	$Broadcastnetwork
+	EV1	official	Xinhua News Agency
+	EV2	official	Xinhua
+	MP1	WILDCARD $Skilled_worker WILDCARD $Broadcastnetwork
+$Social_control	1	wildcard	$Administrative_unit
+	EV1	Management	Agency
+	EV2	management	agencies
+	EV3	management	agency
+	MP1	WILDCARD $Social_control WILDCARD $Administrative_unit
+$Social_control	2	wildcard	$Crisis
+	EV1	Management	Emergency
+	EV2	management	emergency
+	MP1	WILDCARD $Crisis WILDCARD $Social_control
+$Speech_act	1	wildcard	$Activity
+	EV1	offers	help
+	EV2	offer	help
+	EV3	offers	support
+	MP1	WILDCARD $Speech_act of WILDCARD $Activity
+$Termination	1	wildcard	$Number
+	EV1	kills	27
+	EV2	kills	5
+	EV3	Kills	75
+	EV4	kills	88
+	EV5	kills	89
+	EV6	kills	85
+	EV7	kills	45
+	EV8	KILLS	89
+	EV9	kills	75
+	EV10	kills	1
+	EV11	kills	200
+	MP1	WILDCARD $Termination WILDCARD $Number
+	MP2	WILDCARD $Geological_phenomenon WILDCARD $Termination WILDCARD $Number
+$Termination	2	wildcard wildcard	$Geological_phenomenon
+	EV1	kills	earthquake
+	EV2	kills	quake
+	EV3	kills	Earthquake
+	EV4	KILLS	QUAKE
+	EV5	Kills	Earthquake
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Termination
+	MP2	WILDCARD $Geological_phenomenon WILDCARD $Termination WILDCARD $Number
+$Transaction	1	wildcard	$Recovery
+	EV1	operations	rescue
+	EV2	operations	Rescue
+	MP1	WILDCARD $Recovery WILDCARD $Transaction
+$Unfortunate	1	wildcard	$Number
+	EV1	survivors	38
+	EV2	victims	30,000
+	EV3	prisoners	200
+	EV4	mourners	1000
+	EV5	Homeless	288,431
+	EV6	victims	100
+	EV7	survivors	3,000
+	EV8	survivors	2,300
+	EV9	survivors	1,000
+	EV10	survivors	279
+	EV11	survivors	1,300
+	EV12	homeless	1.2
+	EV13	victim	173124
+	MP1	$Number WILDCARD $Unfortunate
+	MP2	WILDCARD $Number WILDCARD $Unfortunate
+$Unfortunate	2	wildcard wildcard	$Geological_phenomenon
+	EV1	victims	quake
+	EV2	survivors	earthquake
+	EV3	survivors	quake
+	EV4	survivors	Earthquake
+	EV5	victim	earthquake
+	EV6	survivor	quake
+	EV7	Victims	Earthquake
+	EV8	homeless	Earthquake
+	EV9	victims	Earthquake
+	MP1	WILDCARD $Geological_phenomenon WILDCARD $Unfortunate
+	MP2	$Unfortunate of the WILDCARD $Geological_phenomenon
+	MP3	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon ,
+$Unfortunate	3	wildcard	$Geological_phenomenon
+	EV1	Survivors	quake
+	EV2	Survivors	earthquake
+	EV3	Victims	quake
+	MP1	$Unfortunate of the WILDCARD $Geological_phenomenon
+	MP2	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon ,
+$Unfortunate	4	wildcard	$Earthquake
+	EV1	victims	earthquake
+	EV2	homeless	earthquake
+	MP1	WILDCARD $Earthquake WILDCARD $Unfortunate
+	MP2	WILDCARD $Geological_phenomenon WILDCARD $Unfortunate
+	MP3	$Unfortunate of the WILDCARD $Geological_phenomenon
+	MP4	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon ,
+$Unfortunate	5	wildcard	$Activity
+	EV1	survivors	search
+	EV2	victims	help
+	MP1	WILDCARD $Activity for WILDCARD $Unfortunate
+$Unfortunate	6	wildcard	$Date
+	EV1	victims	2011-10-23
+	EV2	survivors	2011-04
+	MP1	$Unfortunate of WILDCARD $Date
+	MP2	WILDCARD $Unfortunate of WILDCARD $Date
+$Unfortunate	7	wildcard	$Settlement
+	EV1	survivor	Beichuan
+	MP1	WILDCARD $Unfortunate in WILDCARD $Settlement
+$Unfortunate	8	wildcard wildcard	$Company
+	EV1	DESPERATE	MAN
+	MP1	WILDCARD $Company WILDCARD $Unfortunate
+
+(ENTITY,NAME,NULL)
+$Act	1	wildcard	NULL
+	EV1	production	NULL
+	EV2	fault	NULL
+	EV3	rescue	NULL
+	EV4	communication	NULL
+	EV5	activity	NULL
+	EV6	contact	NULL
+	EV7	activities	NULL
+	EV8	action	NULL
+	EV9	Communication	NULL
+	EV10	failure	NULL
+	EV11	GOING	NULL
+	EV12	CAUSING	NULL
+	EV13	Fault	NULL
+	EV14	Rescue	NULL
+	EV15	failures	NULL
+	EV16	mistakes	NULL
+	EV17	actions	NULL
+	EV18	rescues	NULL
+	EV19	faults	NULL
+	EV20	Production	NULL
+	EV21	mistake	NULL
+	EV22	GETTING	NULL
+	EV23	contacts	NULL
+	EV24	STAY	NULL
+	EV25	error	NULL
+	EV26	stay	NULL
+	EV27	Contact	NULL
+	EV28	Faults	NULL
+	EV29	DISCOVERY	NULL
+	EV30	COMMUNICATION	NULL
+	EV31	LEAVING	NULL
+	EV32	Action	NULL
+	EV33	CONTACT	NULL
+	EV34	Getting	NULL
+	EV35	negligence	NULL
+	EV36	Reduction	NULL
+	EV37	Activities	NULL
+	EV38	errors	NULL
+	EV39	departures	NULL
+	EV40	Activity	NULL
+	EV41	RESCUE	NULL
+	EV42	rejection	NULL
+	EV43	ACTIVITY	NULL
+	EV44	ACTIVITIES	NULL
+	EV45	MISTAKE	NULL
+	EV46	FAULT	NULL
+	EV47	departure	NULL
+	MP1	WILDCARD $Act
+	MP2	WILDCARD $Act in WILDCARD
+$Activity	1	wildcard	NULL
+	EV1	efforts	NULL
+	EV2	help	NULL
+	EV3	assistance	NULL
+	EV4	search	NULL
+	EV5	work	NULL
+	EV6	support	NULL
+	EV7	effort	NULL
+	EV8	construction	NULL
+	EV9	market	NULL
+	EV10	use	NULL
+	EV11	service	NULL
+	EV12	care	NULL
+	EV13	HELP	NULL
+	EV14	markets	NULL
+	EV15	Games	NULL
+	EV16	games	NULL
+	EV17	course	NULL
+	EV18	protection	NULL
+	EV19	education	NULL
+	EV20	project	NULL
+	EV21	leadership	NULL
+	EV22	job	NULL
+	EV23	preparations	NULL
+	EV24	process	NULL
+	EV25	prayers	NULL
+	EV26	Service	NULL
+	EV27	projects	NULL
+	EV28	game	NULL
+	EV29	Cares	NULL
+	EV30	Search	NULL
+	EV31	Protection	NULL
+	EV32	behalf	NULL
+	EV33	Assistance	NULL
+	EV34	procedures	NULL
+	EV35	practices	NULL
+	EV36	task	NULL
+	EV37	manufacturing	NULL
+	EV38	Education	NULL
+	EV39	USE	NULL
+	EV40	GAMES	NULL
+	EV41	INVESTIGATING	NULL
+	EV42	preparation	NULL
+	EV43	WORK	NULL
+	EV44	attempt	NULL
+	EV45	jobs	NULL
+	EV46	Helps	NULL
+	EV47	practice	NULL
+	EV48	training	NULL
+	EV49	CARE	NULL
+	EV50	Help	NULL
+	EV51	measurement	NULL
+	EV52	Efforts	NULL
+	EV53	SPORTS	NULL
+	EV54	SERVICE	NULL
+	EV55	PERFORMING	NULL
+	EV56	Sports	NULL
+	EV57	attempts	NULL
+	EV58	entertainment	NULL
+	EV59	tries	NULL
+	EV60	behavior	NULL
+	EV61	tasks	NULL
+	EV62	Training	NULL
+	EV63	measurements	NULL
+	EV64	procedure	NULL
+	EV65	Construction	NULL
+	EV66	supports	NULL
+	EV67	MARKET	NULL
+	EV68	Work	NULL
+	EV69	sports	NULL
+	EV70	usage	NULL
+	EV71	worship	NULL
+	EV72	try	NULL
+	EV73	Project	NULL
+	EV74	PROJECT	NULL
+	EV75	measuring	NULL
+	EV76	sport	NULL
+	EV77	FUN	NULL
+	EV78	COURSE	NULL
+	EV79	TRAINING	NULL
+	EV80	PROCESS	NULL
+	EV81	JOBS	NULL
+	EV82	processes	NULL
+	EV83	marketplace	NULL
+	EV84	Markets	NULL
+	EV85	EFFORTS	NULL
+	EV86	Manufacturing	NULL
+	EV87	Market	NULL
+	EV88	helps	NULL
+	EV89	prayer	NULL
+	EV90	searches	NULL
+	EV91	Locating	NULL
+	EV92	creation	NULL
+	EV93	PROJECTS	NULL
+	EV94	conduct	NULL
+	EV95	Procedures	NULL
+	EV96	Supports	NULL
+	EV97	PRACTICE	NULL
+	EV98	SPORT	NULL
+	EV99	SUPPORT	NULL
+	EV100	MARKETPLACE	NULL
+	EV101	PROCESSES	NULL
+	EV102	GAME	NULL
+	EV103	SEARCH	NULL
+	EV104	GAMBLING	NULL
+	EV105	JOB	NULL
+	EV106	DANCING	NULL
+	EV107	assist	NULL
+	EV108	investigating	NULL
+	MP1	WILDCARD $Activity
+	MP2	WILDCARD $Activity and WILDCARD $Recovery
+	MP3	relief WILDCARD $Activity
+	MP4	WILDCARD $Activity WILDCARD $Activity
+	MP5	offer WILDCARD $Activity
+	MP6	WILDCARD $Activity for WILDCARD $Unfortunate
+	MP7	WILDCARD $Activity to WILDCARD $Country
+	MP8	reconstruction WILDCARD $Activity
+	MP9	WILDCARD $Activity WILDCARD $Person
+	MP10	WILDCARD $Activity WILDCARD $Unit
+$Administrator	1	wildcard	NULL
+	EV1	president	NULL
+	EV2	director	NULL
+	EV3	President	NULL
+	EV4	manager	NULL
+	EV5	executive	NULL
+	EV6	PRESIDENT	NULL
+	EV7	CEO	NULL
+	EV8	Director	NULL
+	EV9	Executive	NULL
+	EV10	MANAGER	NULL
+	EV11	Executives	NULL
+	EV12	Manager	NULL
+	EV13	Presidents	NULL
+	EV14	Commissioner	NULL
+	EV15	directors	NULL
+	EV16	presidents	NULL
+	EV17	commissioner	NULL
+	MP1	WILDCARD $Administrator
+	MP2	WILDCARD $Administrator of WILDCARD
+$Adult	1	wildcard	NULL
+	EV1	woman	NULL
+	EV2	man	NULL
+	EV3	girl	NULL
+	EV4	teacher	NULL
+	EV5	teachers	NULL
+	EV6	host	NULL
+	EV7	women	NULL
+	EV8	WOMAN	NULL
+	EV9	girls	NULL
+	EV10	HOST	NULL
+	EV11	TEACHER	NULL
+	EV12	LADIES	NULL
+	EV13	professionals	NULL
+	EV14	hosts	NULL
+	EV15	Woman	NULL
+	EV16	Women	NULL
+	EV17	WOMEN	NULL
+	EV18	PROFESSIONAL	NULL
+	EV19	lecturers	NULL
+	EV20	Lady	NULL
+	EV21	Miss	NULL
+	EV22	EX-WIFE	NULL
+	EV23	MAN	NULL
+	EV24	elder	NULL
+	EV25	widows	NULL
+	EV26	Man	NULL
+	EV27	academics	NULL
+	EV28	lady	NULL
+	EV29	elders	NULL
+	EV30	GIRLS	NULL
+	EV31	LADY	NULL
+	EV32	MISS	NULL
+	EV33	Teacher	NULL
+	MP1	WILDCARD $Adult
+	MP2	WILDCARD $Adult ,
+	MP3	one WILDCARD $Adult
+$Agitation	1	wildcard	NULL
+	EV1	shaking	NULL
+	EV2	SHAKING	NULL
+	EV3	Shaking	NULL
+	MP1	WILDCARD $Agitation
+$Application	1	wildcard	NULL
+	EV1	engineering	NULL
+	EV2	Technology	NULL
+	EV3	technology	NULL
+	EV4	Engineering	NULL
+	MP1	WILDCARD $Application WILDCARD
+$Asian	1	wildcard	NULL
+	EV1	Israeli	NULL
+	EV2	Iraqi	NULL
+	EV3	KOREAN	NULL
+	EV4	JAPANESE	NULL
+	EV5	MALAYSIAN	NULL
+	EV6	Pakistani	NULL
+	EV7	Miao	NULL
+	EV8	Japanese	NULL
+	MP1	WILDCARD $Asian WILDCARD
+$Associate	1	wildcard	NULL
+	EV1	members	NULL
+	EV2	member	NULL
+	EV3	colleagues	NULL
+	EV4	Member	NULL
+	EV5	Members	NULL
+	EV6	co-workers	NULL
+	EV7	participants	NULL
+	EV8	affiliates	NULL
+	EV9	MEMBER	NULL
+	EV10	MEMBERS	NULL
+	EV11	TEAMMATES	NULL
+	EV12	co-worker	NULL
+	EV13	PARTICIPANTS	NULL
+	MP1	WILDCARD $Associate
+$Beginning	1	wildcard	NULL
+	EV1	START	NULL
+	EV2	establishment	NULL
+	EV3	Installation	NULL
+	EV4	start	NULL
+	EV5	installations	NULL
+	EV6	introduction	NULL
+	EV7	inauguration	NULL
+	EV8	founding	NULL
+	EV9	installation	NULL
+	EV10	starts	NULL
+	EV11	STARTS	NULL
+	EV12	emergence	NULL
+	MP1	WILDCARD $Beginning
+	MP2	WILDCARD $Beginning : WILDCARD $Date WILDCARD
+	MP3	WILDCARD $Beginning : WILDCARD $Date
+$Benefactor	1	wildcard	NULL
+	EV1	rescuers	NULL
+	EV2	Rescuers	NULL
+	EV3	donors	NULL
+	EV4	Humanitarian	NULL
+	EV5	rescuer	NULL
+	EV6	sponsors	NULL
+	EV7	HUMANITARIAN	NULL
+	EV8	Donors	NULL
+	EV9	Sponsor	NULL
+	EV10	Donor	NULL
+	EV11	donor	NULL
+	EV12	SPONSORS	NULL
+	MP1	WILDCARD $Benefactor
+	MP2	WILDCARD $Benefactor on WILDCARD $Date
+	MP3	WILDCARD $Benefactor WILDCARD $Activity
+$Calamity	1	wildcard	NULL
+	EV1	tsunami	NULL
+	EV2	Tsunami	NULL
+	EV3	TSUNAMI	NULL
+	EV4	Tsunamis	NULL
+	EV5	TSUNAMIS	NULL
+	MP1	WILDCARD $Calamity WILDCARD $Informing
+	MP2	WILDCARD $Calamity WILDCARD
+$Case	1	wildcard	NULL
+	EV1	time	NULL
+	EV2	TIME	NULL
+	EV3	Time	NULL
+	MP1	WILDCARD $Case
+	MP2	WILDCARD $Case WILDCARD $Date
+$Ceremony	1	wildcard	NULL
+	EV1	commemoration	NULL
+	EV2	funerals	NULL
+	EV3	funeral	NULL
+	EV4	wedding	NULL
+	MP1	WILDCARD $Ceremony
+$Change	1	wildcard	NULL
+	EV1	damage	NULL
+	EV2	death	NULL
+	EV3	deaths	NULL
+	EV4	Death	NULL
+	EV5	recovery	NULL
+	EV6	accommodation	NULL
+	EV7	DAMAGE	NULL
+	EV8	Damage	NULL
+	EV9	DEATH	NULL
+	EV10	decrease	NULL
+	EV11	Deaths	NULL
+	EV12	transformation	NULL
+	EV13	DEATHS	NULL
+	EV14	adjustment	NULL
+	EV15	killings	NULL
+	EV16	killing	NULL
+	EV17	Recovery	NULL
+	EV18	acceleration	NULL
+	EV19	accelerations	NULL
+	EV20	KILLING	NULL
+	EV21	conservation	NULL
+	EV22	recoveries	NULL
+	MP1	WILDCARD $Change
+	MP2	WILDCARD $Change toll
+	MP3	full extent of the WILDCARD $Change
+	MP4	extent of the WILDCARD $Change
+	MP5	$Change toll
+	MP6	WILDCARD $Change toll from WILDCARD $Date
+	MP7	WILDCARD $Date The WILDCARD $Change toll
+$Change_of_integrity	1	wildcard	NULL
+	EV1	BREAKING	NULL
+	EV2	evacuation	NULL
+	EV3	Evacuation	NULL
+	EV4	evacuations	NULL
+	MP1	WILDCARD $Change_of_integrity WILDCARD
+$Change_of_magnitude	1	wildcard	NULL
+	EV1	Reduction	NULL
+	MP1	WILDCARD $Change_of_magnitude and WILDCARD
+$Child	1	wildcard	NULL
+	EV1	baby	NULL
+	EV2	babys	NULL
+	EV3	BABY	NULL
+	MP1	WILDCARD $Child WILDCARD
+$Civil_authority	1	wildcard	NULL
+	EV1	mayor	NULL
+	EV2	Mayor	NULL
+	EV3	mayors	NULL
+	MP1	WILDCARD $Civil_authority
+	MP2	WILDCARD $Civil_authority WILDCARD $Officeholder
+$Clergyman	1	wildcard	NULL
+	EV1	minister	NULL
+	EV2	ministers	NULL
+	EV3	Ministers	NULL
+	EV4	priests	NULL
+	EV5	priest	NULL
+	EV6	Pastor	NULL
+	EV7	pastor	NULL
+	EV8	MINISTER	NULL
+	EV9	pastors	NULL
+	MP1	WILDCARD $Clergyman
+	MP2	WILDCARD $Clergyman ,
+	MP3	WILDCARD $Clergyman WILDCARD $Officeholder
+	MP4	Prime WILDCARD $Clergyman WILDCARD $Officeholder
+$Clergyman	2	prime wildcard	NULL
+	EV1	Minister	NULL
+	MP1	Prime WILDCARD $Clergyman WILDCARD $Officeholder
+	MP2	Prime WILDCARD $Clergyman
+	MP3	WILDCARD $Clergyman WILDCARD $Officeholder
+	MP4	WILDCARD $Clergyman
+	MP5	Foreign WILDCARD $Clergyman WILDCARD $Officeholder
+$Commerce	1	wildcard	NULL
+	EV1	tourism	NULL
+	EV2	marketing	NULL
+	EV3	trading	NULL
+	EV4	Trade	NULL
+	EV5	agriculture	NULL
+	EV6	Finance	NULL
+	EV7	Agriculture	NULL
+	EV8	finance	NULL
+	MP1	WILDCARD $Commerce WILDCARD
+$Communicator	1	wildcard	NULL
+	EV1	reporters	NULL
+	EV2	reporter	NULL
+	EV3	correspondent	NULL
+	EV4	Announcer	NULL
+	EV5	Author	NULL
+	EV6	broadcaster	NULL
+	EV7	correspondents	NULL
+	EV8	author	NULL
+	EV9	CORRESPONDENT	NULL
+	EV10	writer	NULL
+	EV11	senders	NULL
+	EV12	Authors	NULL
+	EV13	responders	NULL
+	EV14	AUTHOR	NULL
+	EV15	Writer	NULL
+	EV16	Correspondent	NULL
+	EV17	REPORTER	NULL
+	MP1	WILDCARD $Communicator
+	MP2	WILDCARD $Communicator in WILDCARD
+	MP3	WILDCARD $Communicator WILDCARD $Company
+$Contact	1	wildcard	NULL
+	EV1	impact	NULL
+	EV2	touch	NULL
+	EV3	Impact	NULL
+	EV4	impacts	NULL
+	EV5	IMPACT	NULL
+	EV6	TOUCH	NULL
+	EV7	flick	NULL
+	MP1	WILDCARD $Contact
+	MP2	WILDCARD $Contact of the WILDCARD $Geological_phenomenon
+$Corporate_executive	1	wildcard	NULL
+	EV1	President	NULL
+	EV2	president	NULL
+	EV3	PRESIDENT	NULL
+	MP1	WILDCARD $Corporate_executive WILDCARD $Officeholder
+	MP2	WILDCARD $Corporate_executive WILDCARD $Person
+$Creating_from_raw_materials	1	wildcard	NULL
+	EV1	construction	NULL
+	EV2	Construction	NULL
+	EV3	manufacturing	NULL
+	EV4	Manufacturing	NULL
+	MP1	WILDCARD $Creating_from_raw_materials WILDCARD
+$Creator	1	wildcard	NULL
+	EV1	modeler	NULL
+	EV2	architect	NULL
+	EV3	Architects	NULL
+	EV4	developers	NULL
+	EV5	architects	NULL
+	EV6	farmers	NULL
+	MP1	WILDCARD $Creator ,
+$Crisis	1	wildcard	NULL
+	EV1	emergency	NULL
+	EV2	Emergency	NULL
+	EV3	emergencies	NULL
+	EV4	Emergencies	NULL
+	MP1	WILDCARD $Crisis
+	MP2	WILDCARD $Crisis WILDCARD
+	MP3	WILDCARD $Crisis WILDCARD $Consequence
+	MP4	WILDCARD $Crisis WILDCARD $Social_control
+	MP5	WILDCARD $Crisis WILDCARD $Activity
+	MP6	WILDCARD $Crisis WILDCARD $Person
+	MP7	WILDCARD $Crisis WILDCARD $Unit
+$Date	1	wildcard	NULL
+	EV1	2010-02-27	NULL
+	EV2	2011-10-24	NULL
+	EV3	2011-10-23	NULL
+	EV4	2008-05-12	NULL
+	EV5	2010-02-26	NULL
+	EV6	2008-05-13	NULL
+	EV7	2011-03-24	NULL
+	EV8	2011-03-25	NULL
+	EV9	2011-03-11	NULL
+	EV10	2010-02-28	NULL
+	EV11	2008-05-14	NULL
+	EV12	2008-05-15	NULL
+	EV13	1999-XX-XX	NULL
+	EV14	2008-05-19	NULL
+	EV15	2010-XX-XX	NULL
+	EV16	2008-05	NULL
+	EV17	2010-03-01	NULL
+	EV18	2011-03-23	NULL
+	EV19	1960-XX-XX	NULL
+	EV20	2011-03	NULL
+	EV21	2011-03-12	NULL
+	EV22	2011-03-10	NULL
+	EV23	1976-XX-XX	NULL
+	EV24	2008-05-16	NULL
+	EV25	2008-05-17	NULL
+	EV26	2011-10-25	NULL
+	EV27	2010-03-02	NULL
+	EV28	2008-05-22	NULL
+	EV29	2010-03-06	NULL
+	EV30	2010-03-03	NULL
+	EV31	2008-05-23	NULL
+	EV32	2008-05-18	NULL
+	EV33	2010-03-04	NULL
+	EV34	2010-02	NULL
+	EV35	2008-XX-XX	NULL
+	EV36	2010-03-05	NULL
+	EV37	2011-XX-XX	NULL
+	EV38	1995-XX-XX	NULL
+	EV39	2011-10-27	NULL
+	EV40	2011-03-15	NULL
+	EV41	2010-03	NULL
+	EV42	2010-02-22	NULL
+	EV43	2008-05-20	NULL
+	EV44	2004-XX-XX	NULL
+	EV45	2011-03-22	NULL
+	EV46	2008-08	NULL
+	EV47	2010-01-12	NULL
+	EV48	2011-03-13	NULL
+	EV49	2011-03-14	NULL
+	EV50	2011-10-28	NULL
+	EV51	2011-10-22	NULL
+	EV52	2010-01	NULL
+	EV53	2011-03-26	NULL
+	EV54	2008-05-24	NULL
+	EV55	2011-10-29	NULL
+	EV56	2011-10-26	NULL
+	EV57	1900-XX-XX	NULL
+	EV58	1000-XX-XX	NULL
+	EV59	2011-03-18	NULL
+	EV60	2008-05-21	NULL
+	EV61	2008-05-11	NULL
+	EV62	2011-03-20	NULL
+	EV63	2011-03-31	NULL
+	EV64	2010-05	NULL
+	EV65	2010-03-08	NULL
+	EV66	2011-04-01	NULL
+	EV67	2011-03-28	NULL
+	EV68	2010-03-11	NULL
+	EV69	2010-03-07	NULL
+	EV70	2008-06	NULL
+	EV71	XXXX-XX-XX	NULL
+	EV72	2005-XX-XX	NULL
+	EV73	2010-03-10	NULL
+	EV74	1933-08-25	NULL
+	EV75	2004-12	NULL
+	EV76	2007-XX-XX	NULL
+	EV77	2011-10-30	NULL
+	EV78	2011-05	NULL
+	EV79	2011-03-17	NULL
+	EV80	2009-XX-XX	NULL
+	EV81	2011-03-21	NULL
+	EV82	2011-03-16	NULL
+	EV83	2008-05-25	NULL
+	EV84	2008-05-29	NULL
+	EV85	2008-04	NULL
+	EV86	2006-XX-XX	NULL
+	EV87	2011-10	NULL
+	EV88	1994-XX-XX	NULL
+	EV89	1991-XX-XX	NULL
+	EV90	2011-04-04	NULL
+	EV91	2010-02-21	NULL
+	EV92	2010-03-13	NULL
+	EV93	2018-XX-XX	NULL
+	EV94	2010-02-23	NULL
+	EV95	2009-05	NULL
+	EV96	2007-06	NULL
+	EV97	2008-08-08	NULL
+	EV98	1933-XX-XX	NULL
+	EV99	2000-XX-XX	NULL
+	EV100	2011-07	NULL
+	EV101	2009-12	NULL
+	EV102	2011-04	NULL
+	EV103	2011-03-27	NULL
+	EV104	2010-03-14	NULL
+	EV105	2011-09	NULL
+	EV106	2008-08-03	NULL
+	EV107	2008-05-26	NULL
+	EV108	2003-XX-XX	NULL
+	EV109	1939-XX-XX	NULL
+	EV110	1041-XX-XX	NULL
+	EV111	1973-XX-XX	NULL
+	EV112	2011-03-09	NULL
+	EV113	2011-01	NULL
+	EV114	2011-03-19	NULL
+	EV115	1985-XX-XX	NULL
+	EV116	1960-05	NULL
+	EV117	2010-03-09	NULL
+	EV118	1896-XX-XX	NULL
+	EV119	2008-01	NULL
+	EV120	1500-XX-XX	NULL
+	EV121	2008-05-07	NULL
+	EV122	1989-XX-XX	NULL
+	EV123	2008-05-10	NULL
+	EV124	2008-03	NULL
+	EV125	1950-XX-XX	NULL
+	EV126	1976-11	NULL
+	EV127	1056-XX-XX	NULL
+	EV128	2011-08	NULL
+	EV129	1341-XX-XX	NULL
+	EV130	2011-10-31	NULL
+	EV131	2009-03-11	NULL
+	EV132	2011-02	NULL
+	EV133	1990-XX-XX	NULL
+	EV134	1330-XX-XX	NULL
+	EV135	1922-XX-XX	NULL
+	EV136	2010-01-20	NULL
+	EV137	1973-06-14	NULL
+	EV138	2010-04-04	NULL
+	EV139	2008-02	NULL
+	EV140	2002-XX-XX	NULL
+	EV141	1987-XX-XX	NULL
+	EV142	2009-01	NULL
+	EV143	2008-08-06	NULL
+	EV144	1988-XX-XX	NULL
+	EV145	1947-XX-XX	NULL
+	EV146	1728-XX-XX	NULL
+	EV147	2008-06-15	NULL
+	EV148	2030-XX-XX	NULL
+	EV149	1800-XX-XX	NULL
+	EV150	2011-10-16	NULL
+	EV151	2011-11-06	NULL
+	EV152	2011-11-03	NULL
+	EV153	2011-11-04	NULL
+	EV154	1970-XX-XX	NULL
+	EV155	2011-10-17	NULL
+	EV156	2011-03-30	NULL
+	EV157	2010-08	NULL
+	EV158	2010-11-28	NULL
+	EV159	2010-12	NULL
+	EV160	2010-11	NULL
+	EV161	2011-03-29	NULL
+	EV162	2009-03	NULL
+	EV163	2011-01-01	NULL
+	EV164	1925-XX-XX	NULL
+	EV165	1556-XX-XX	NULL
+	EV166	2010-02-24	NULL
+	EV167	1100-XX-XX	NULL
+	EV168	2010-04	NULL
+	EV169	2010-01-23	NULL
+	EV170	2010-02-25	NULL
+	EV171	1923-XX-XX	NULL
+	EV172	1995-02	NULL
+	EV173	1923-09-01	NULL
+	EV174	2008-09-11	NULL
+	EV175	1978-XX-XX	NULL
+	EV176	2006-05-21	NULL
+	EV177	2040-05-21	NULL
+	EV178	1976-07	NULL
+	EV179	1980-XX-XX	NULL
+	EV180	1013-XX-XX	NULL
+	EV181	2005-08	NULL
+	EV182	2008-06-12	NULL
+	EV183	2300-XX-XX	NULL
+	EV184	2009-05-12	NULL
+	EV185	1978-05-22	NULL
+	EV186	2008-04-17	NULL
+	EV187	1934-XX-XX	NULL
+	EV188	1979-XX-XX	NULL
+	EV189	1428-XX-XX	NULL
+	EV190	2008-08-10	NULL
+	EV191	2008-05-08	NULL
+	EV192	1976-07-28	NULL
+	EV193	1915-XX-XX	NULL
+	EV194	2011-10-20	NULL
+	EV195	1400-XX-XX	NULL
+	EV196	2005-10-25	NULL
+	EV197	1999-10-25	NULL
+	EV198	2005-10-24	NULL
+	EV199	1999-10-24	NULL
+	EV200	1600-XX-XX	NULL
+	EV201	2011-07-27	NULL
+	EV202	2011-11-01	NULL
+	EV203	XXXX-05	NULL
+	EV204	1650-XX-XX	NULL
+	EV205	1984-XX-XX	NULL
+	EV206	2011-09-26	NULL
+	EV207	2010-11-14	NULL
+	EV208	2012-XX-XX	NULL
+	EV209	2011-10-21	NULL
+	EV210	2011-10-18	NULL
+	EV211	1996-10-26	NULL
+	EV212	1860-XX-XX	NULL
+	EV213	2009-11-23	NULL
+	EV214	2010-07	NULL
+	EV215	XXXX-02-28	NULL
+	EV216	2011-03-01	NULL
+	EV217	1997-XX-XX	NULL
+	EV218	2050-XX-XX	NULL
+	EV219	2010-09-18	NULL
+	EV220	1943-XX-XX	NULL
+	EV221	2010-02-16	NULL
+	EV222	1998-03-26	NULL
+	EV223	2010-06	NULL
+	EV224	1760-03-01	NULL
+	EV225	2007-05-16	NULL
+	EV226	2010-03-25	NULL
+	EV227	1879-08	NULL
+	EV228	1912-07	NULL
+	EV229	2013-XX-XX	NULL
+	EV230	2009-11	NULL
+	EV231	2015-XX-XX	NULL
+	EV232	2011-04-03	NULL
+	EV233	2010-10	NULL
+	EV234	2011-04-11	NULL
+	EV235	1960-02-28	NULL
+	EV236	2010-03-31	NULL
+	EV237	2011-02-22	NULL
+	EV238	1355-XX-XX	NULL
+	EV239	2010-09	NULL
+	EV240	1669-XX-XX	NULL
+	EV241	2011-04-18	NULL
+	EV242	1981-04-04	NULL
+	EV243	2016-04-04	NULL
+	EV244	1986-XX-XX	NULL
+	EV245	2010-03-12	NULL
+	EV246	2011-04-07	NULL
+	EV247	2015-03-05	NULL
+	EV248	1993-XX-XX	NULL
+	EV249	2009-03-09	NULL
+	EV250	1960-05-22	NULL
+	EV251	2010-02-07	NULL
+	EV252	1972-XX-XX	NULL
+	EV253	1977-03-04	NULL
+	EV254	1922-11	NULL
+	EV255	2009-07	NULL
+	EV256	1999-09	NULL
+	EV257	1906-XX-XX	NULL
+	EV258	2010-05-28	NULL
+	EV259	2009-07-27	NULL
+	EV260	2010-03-20	NULL
+	EV261	1964-XX-XX	NULL
+	EV262	1931-XX-XX	NULL
+	EV263	1960-03-04	NULL
+	EV264	1960-03-03	NULL
+	EV265	1909-XX-XX	NULL
+	EV266	2009-08	NULL
+	EV267	2005-03-17	NULL
+	EV268	1996-XX-XX	NULL
+	EV269	1995-07	NULL
+	EV270	2004-11-02	NULL
+	EV271	2005-03-26	NULL
+	EV272	2011-01-17	NULL
+	EV273	2009-03-31	NULL
+	EV274	2011-06	NULL
+	EV275	2011-04-25	NULL
+	EV276	2010-12-31	NULL
+	EV277	1881-03-16	NULL
+	EV278	2004-12-26	NULL
+	EV279	1986-03-24	NULL
+	EV280	2082-03-21	NULL
+	EV281	1998-XX-XX	NULL
+	EV282	2021-03-21	NULL
+	EV283	2008-08-01	NULL
+	EV284	2011-08-05	NULL
+	MP1	WILDCARD $Date
+	MP2	WILDCARD $Date WILDCARD $Geological_phenomenon
+	MP3	WILDCARD $Date WILDCARD $Earthquake
+	MP4	WILDCARD $Date WILDCARD $Number
+	MP5	WILDCARD $Date and WILDCARD $Date
+	MP6	WILDCARD $Date WILDCARD $Case
+	MP7	WILDCARD $Date WILDCARD $Change
+	MP8	WILDCARD $Beginning : WILDCARD $Date WILDCARD
+	MP9	WILDCARD $Date on WILDCARD $Date
+	MP10	WILDCARD $Date WILDCARD $Person
+	MP11	WILDCARD $Date WILDCARD $Date
+	MP12	WILDCARD $Date in WILDCARD $Settlement
+	MP13	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+	MP14	WILDCARD $Date WILDCARD $Duration
+	MP15	WILDCARD $Date a WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP16	WILDCARD $Date WILDCARD $Inhabitant
+	MP17	WILDCARD $Date WILDCARD $Activity
+	MP18	WILDCARD $Date At WILDCARD $Number
+	MP19	WILDCARD $Date More than WILDCARD $Number
+	MP20	WILDCARD $Date WILDCARD $Case WILDCARD $Date
+	MP21	toll from WILDCARD $Date
+	MP22	WILDCARD $Date where a WILDCARD $Number WILDCARD
+	MP23	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+	MP24	WILDCARD $Date The WILDCARD $Change toll
+	MP25	WILDCARD $Date WILDCARD $Affair
+	MP26	WILDCARD $Date A WILDCARD $Number
+	MP27	$Geological_phenomenon struck at WILDCARD $Date WILDCARD
+	MP28	WILDCARD $Date a WILDCARD $Geological_phenomenon
+	MP29	WILDCARD $Date A WILDCARD $Earthquake
+$Date	2	lunar wildcard	NULL
+	EV1	2008-01-01	NULL
+	MP1	Lunar WILDCARD $Date
+$Defender	1	wildcard	NULL
+	EV1	firefighters	NULL
+	EV2	FIREFIGHTERS	NULL
+	EV3	Guard	NULL
+	EV4	guards	NULL
+	EV5	FIREFIGHTER	NULL
+	EV6	Firefighters	NULL
+	EV7	watchdog	NULL
+	EV8	firefighter	NULL
+	MP1	WILDCARD $Defender
+	MP2	WILDCARD $Defender WILDCARD $Activity
+	MP3	WILDCARD $Defender ,
+$Diversion	1	wildcard	NULL
+	EV1	shows	NULL
+	EV2	sports	NULL
+	EV3	Show	NULL
+	EV4	SHOW	NULL
+	EV5	sport	NULL
+	EV6	FUN	NULL
+	EV7	entertainment	NULL
+	MP1	WILDCARD $Diversion WILDCARD
+$Duration	1	wildcard	NULL
+	EV1	1D	NULL
+	EV2	1Y	NULL
+	EV3	1M	NULL
+	EV4	1H	NULL
+	EV5	3M	NULL
+	EV6	30Y	NULL
+	EV7	52Y	NULL
+	EV8	10Y	NULL
+	EV9	10H	NULL
+	EV10	3D	NULL
+	EV11	24H	NULL
+	EV12	1S	NULL
+	EV13	3H	NULL
+	EV14	25Y	NULL
+	EV15	2H	NULL
+	EV16	2D	NULL
+	EV17	2Y	NULL
+	EV18	4M	NULL
+	EV19	4Y	NULL
+	EV20	40Y	NULL
+	EV21	20Y	NULL
+	EV22	10M	NULL
+	EV23	10D	NULL
+	EV24	90S	NULL
+	EV25	21Y	NULL
+	EV26	50Y	NULL
+	EV27	4D	NULL
+	EV28	23Y	NULL
+	EV29	100Y	NULL
+	EV30	32Y	NULL
+	EV31	49Y	NULL
+	EV32	53Y	NULL
+	EV33	13Y	NULL
+	EV34	6H	NULL
+	EV35	40M	NULL
+	EV36	5D	NULL
+	EV37	5M	NULL
+	EV38	8Y	NULL
+	EV39	18Y	NULL
+	EV40	19Y	NULL
+	EV41	200Y	NULL
+	EV42	7Y	NULL
+	EV43	20M	NULL
+	EV44	12H	NULL
+	EV45	2M	NULL
+	EV46	100H	NULL
+	EV47	30H	NULL
+	EV48	17Y	NULL
+	EV49	80Y	NULL
+	EV50	9Y	NULL
+	EV51	34Y	NULL
+	EV52	60M	NULL
+	EV53	36H	NULL
+	EV54	31Y	NULL
+	EV55	45D	NULL
+	EV56	13D	NULL
+	EV57	108H	NULL
+	EV58	15M	NULL
+	EV59	6M	NULL
+	EV60	5Y	NULL
+	EV61	18M	NULL
+	EV62	25M	NULL
+	EV63	283H	NULL
+	EV64	39Y	NULL
+	EV65	35Y	NULL
+	EV66	20H	NULL
+	EV67	40D	NULL
+	EV68	17D	NULL
+	EV69	60Y	NULL
+	EV70	22H	NULL
+	EV71	7D	NULL
+	EV72	44Y	NULL
+	EV73	120H	NULL
+	EV74	61Y	NULL
+	EV75	70D	NULL
+	EV76	26Y	NULL
+	EV77	6D	NULL
+	EV78	10S	NULL
+	EV79	29S	NULL
+	EV80	48H	NULL
+	EV81	25S	NULL
+	EV82	12Y	NULL
+	EV83	30S	NULL
+	EV84	15Y	NULL
+	EV85	5S	NULL
+	EV86	55Y	NULL
+	EV87	1000Y	NULL
+	EV88	30M	NULL
+	EV89	26H	NULL
+	EV90	8M	NULL
+	EV91	11Y	NULL
+	EV92	43Y	NULL
+	EV93	89Y	NULL
+	EV94	48Y	NULL
+	EV95	24Y	NULL
+	EV96	13H	NULL
+	EV97	60S	NULL
+	EV98	80H	NULL
+	EV99	8D	NULL
+	EV100	200H	NULL
+	EV101	15D	NULL
+	EV102	9H	NULL
+	EV103	124H	NULL
+	EV104	66Y	NULL
+	EV105	72H	NULL
+	EV106	16H	NULL
+	EV107	90M	NULL
+	EV108	9D	NULL
+	EV109	146H	NULL
+	EV110	11D	NULL
+	EV111	14H	NULL
+	EV112	20S	NULL
+	EV113	70H	NULL
+	EV114	42Y	NULL
+	EV115	32H	NULL
+	EV116	29Y	NULL
+	EV117	28D	NULL
+	EV118	11H	NULL
+	EV119	2100H	NULL
+	EV120	14D	NULL
+	EV121	45S	NULL
+	EV122	40S	NULL
+	EV123	4H	NULL
+	EV124	71Y	NULL
+	EV125	60D	NULL
+	EV126	16Y	NULL
+	EV127	23M	NULL
+	EV128	8H	NULL
+	EV129	21H	NULL
+	EV130	6Y	NULL
+	EV131	65Y	NULL
+	MP1	WILDCARD $Duration
+	MP2	WILDCARD $Duration WILDCARD
+	MP3	WILDCARD $Duration WILDCARD $Adult
+	MP4	WILDCARD $Duration WILDCARD $Person
+	MP5	WILDCARD $Duration after the WILDCARD $Geological_phenomenon
+	MP6	INTERSECT WILDCARD $Duration
+	MP7	per WILDCARD $Duration
+	MP8	WILDCARD $Duration WILDCARD $Duration
+	MP9	WILDCARD $Duration after an WILDCARD $Geological_phenomenon
+	MP10	WILDCARD $Duration after the WILDCARD $Geological_phenomenon struck.
+$Earthquake	1	wildcard	NULL
+	EV1	earthquake	NULL
+	EV2	Haiti	NULL
+	EV3	7.2-magnitude earthquake	NULL
+	EV4	8.8-magnitude earthquake	NULL
+	EV5	8.8 magnitude earthquake	NULL
+	EV6	7.2 magnitude earthquake	NULL
+	EV7	magnitude 7.2 earthquake	NULL
+	EV8	Chilean earthquake	NULL
+	EV9	Tohoku earthquake	NULL
+	EV10	Great Hanshin Earthquake	NULL
+	EV11	tsunami	NULL
+	EV12	Tangshan earthquake	NULL
+	EV13	8.0-magnitude earthquake	NULL
+	EV14	7.8-magnitude earthquake	NULL
+	EV15	magnitude 7.5 earthquake	NULL
+	EV16	earthquake measuring 7.8	NULL
+	EV17	7.0-magnitude earthquake	NULL
+	EV18	Tsunami	NULL
+	EV19	7.9 magnitude earthquake	NULL
+	EV20	Pakistan earthquake	NULL
+	EV21	aftershock	NULL
+	EV22	Wenchuan earthquake	NULL
+	EV23	Northridge	NULL
+	EV24	5.8 magnitude earthquake	NULL
+	EV25	EARTHQUAKE IN CHILE	NULL
+	EV26	Wenchuan quake	NULL
+	EV27	Asian Tsunami	NULL
+	EV28	6.0 magnitude earthquake	NULL
+	EV29	magnitude 6.8 earthquake	NULL
+	EV30	Loma Prieta earthquake	NULL
+	EV31	magnitude 8.8 earthquake	NULL
+	EV32	Indian Ocean tsunami	NULL
+	EV33	7.0 magnitude earthquake struck	NULL
+	EV34	Two earthquakes	NULL
+	EV35	magnitude 7.0 earthquake	NULL
+	EV36	EARTHQUAKE THAT HIT CHILE	NULL
+	EV37	great Alaska earthquake	NULL
+	EV38	Haiti earthquake 2010	NULL
+	EV39	Great Kanto Earthquake	NULL
+	EV40	A major aftershock	NULL
+	EV41	Great Tohoku Earthquake	NULL
+	EV42	great Tohoku earthquake	NULL
+	MP1	WILDCARD $Earthquake
+	MP2	WILDCARD $Earthquake in WILDCARD $Country
+	MP3	WILDCARD $Earthquake struck WILDCARD $Country
+	MP4	WILDCARD $Earthquake WILDCARD $Unfortunate
+	MP5	WILDCARD $Earthquake in WILDCARD $Date
+	MP6	WILDCARD $Earthquake WILDCARD $Date
+$Employment	1	wildcard	NULL
+	EV1	services	NULL
+	MP1	WILDCARD $Employment ,
+$Enrollee	1	wildcard	NULL
+	EV1	student	NULL
+	EV2	students	NULL
+	EV3	Students	NULL
+	EV4	Student	NULL
+	EV5	STUDENTS	NULL
+	EV6	STUDENT	NULL
+	EV7	pupils	NULL
+	MP1	WILDCARD $Enrollee
+	MP2	WILDCARD $Enrollee WILDCARD
+	MP3	WILDCARD $Enrollee ,
+$Entertainment	1	video wildcard	NULL
+	EV1	shows	NULL
+	MP1	video WILDCARD $Entertainment WILDCARD
+	MP2	Video WILDCARD $Entertainment
+$European	1	wildcard	NULL
+	EV1	CZECH	NULL
+	EV2	BRIT	NULL
+	MP1	WILDCARD $European WILDCARD
+$Examination	1	u.s. geological wildcard	NULL
+	EV1	Survey	NULL
+	EV2	survey	NULL
+	EV3	Surveys	NULL
+	MP1	U.S. Geological WILDCARD $Examination
+	MP2	Geological WILDCARD $Examination
+$Examination	2	wildcard	NULL
+	EV1	Studies	NULL
+	MP1	WILDCARD $Examination at WILDCARD
+$Expedient	1	wildcard	NULL
+	EV1	makeshift	NULL
+	EV2	MAKESHIFT	NULL
+	MP1	WILDCARD $Expedient WILDCARD
+	MP2	WILDCARD $Expedient WILDCARD $Structure
+	MP3	WILDCARD $Expedient WILDCARD $Military_quarters
+$Feat	1	wildcard	NULL
+	EV1	hit	NULL
+	EV2	hits	NULL
+	EV3	HIT	NULL
+	EV4	Hits	NULL
+	EV5	HITS	NULL
+	MP1	WILDCARD $Feat
+	MP2	WILDCARD $Feat WILDCARD
+	MP3	WILDCARD $Feat WILDCARD $Country
+	MP4	WILDCARD $Feat ,
+$Female_sibling	1	wildcard	NULL
+	EV1	sister	NULL
+	EV2	sisters	NULL
+	EV3	SISTER	NULL
+	MP1	WILDCARD $Female_sibling
+$Fictionalcharacter	1	wildcard	NULL
+	EV1	Quake	NULL
+	EV2	Batman	NULL
+	EV3	Daisy	NULL
+	EV4	The passenger	NULL
+	EV5	Carla	NULL
+	EV6	Chase	NULL
+	EV7	ROXANNE	NULL
+	EV8	Nathan	NULL
+	MP1	WILDCARD $Fictionalcharacter WILDCARD
+$General_officer	1	wildcard	NULL
+	EV1	General	NULL
+	MP1	WILDCARD $General_officer WILDCARD
+$Guardianship	1	wildcard	NULL
+	EV1	hands	NULL
+	MP1	WILDCARD $Guardianship ,
+$Happening	1	wildcard	NULL
+	EV1	time	NULL
+	EV2	case	NULL
+	EV3	fire	NULL
+	EV4	cases	NULL
+	EV5	tsunami	NULL
+	EV6	fires	NULL
+	EV7	Fire	NULL
+	EV8	tragedy	NULL
+	EV9	incident	NULL
+	EV10	contingency	NULL
+	EV11	change	NULL
+	EV12	changes	NULL
+	EV13	BREAK	NULL
+	EV14	success	NULL
+	EV15	fate	NULL
+	EV16	instance	NULL
+	EV17	catastrophe	NULL
+	EV18	outbreaks	NULL
+	EV19	beginning	NULL
+	EV20	catastrophes	NULL
+	EV21	tsunamis	NULL
+	EV22	FIRE	NULL
+	EV23	CHANGE	NULL
+	EV24	occasion	NULL
+	EV25	break	NULL
+	EV26	miracle	NULL
+	EV27	instances	NULL
+	EV28	Fires	NULL
+	EV29	CASE	NULL
+	EV30	Miracle	NULL
+	EV31	breaks	NULL
+	EV32	landslides	NULL
+	EV33	Change	NULL
+	EV34	INCIDENT	NULL
+	EV35	calamity	NULL
+	EV36	successes	NULL
+	EV37	miracles	NULL
+	EV38	Contingency	NULL
+	EV39	incidents	NULL
+	EV40	eventualities	NULL
+	EV41	destiny	NULL
+	EV42	setbacks	NULL
+	EV43	juncture	NULL
+	EV44	Tsunamis	NULL
+	EV45	MIRACLE	NULL
+	EV46	episode	NULL
+	MP1	WILDCARD $Happening ,
+	MP2	WILDCARD $Happening
+	MP3	WILDCARD $Happening WILDCARD $Division
+$Head	1	wildcard	NULL
+	EV1	Secretary	NULL
+	EV2	secretary	NULL
+	EV3	Administrator	NULL
+	EV4	administrator	NULL
+	MP1	WILDCARD $Head WILDCARD $Officeholder
+	MP2	WILDCARD $Head
+	MP3	WILDCARD $Head of WILDCARD $Administrative_district
+$Head_of_state	1	wildcard	NULL
+	EV1	Premier	NULL
+	MP1	WILDCARD $Head_of_state WILDCARD $Officeholder
+	MP2	WILDCARD $Head_of_state WILDCARD
+$Improvement	1	wildcard	NULL
+	EV1	Development	NULL
+	EV2	recovery	NULL
+	EV3	development	NULL
+	EV4	repair	NULL
+	EV5	Recovery	NULL
+	EV6	developments	NULL
+	EV7	Reform	NULL
+	EV8	reform	NULL
+	EV9	repairs	NULL
+	EV10	conservation	NULL
+	EV11	redevelopment	NULL
+	EV12	cleaning	NULL
+	MP1	WILDCARD $Improvement WILDCARD
+	MP2	WILDCARD $Improvement
+	MP3	WILDCARD $Improvement WILDCARD $Activity
+$Inhabitant	1	wildcard	NULL
+	EV1	residents	NULL
+	EV2	Residents	NULL
+	EV3	Chileans	NULL
+	EV4	resident	NULL
+	EV5	Chilean	NULL
+	EV6	villagers	NULL
+	EV7	Americans	NULL
+	EV8	European	NULL
+	EV9	RESIDENTS	NULL
+	EV10	Australians	NULL
+	EV11	RESIDENT	NULL
+	EV12	AUSTRALIAN	NULL
+	EV13	AMERICANS	NULL
+	EV14	Frank	NULL
+	EV15	AMERICAN	NULL
+	EV16	Australian	NULL
+	EV17	American	NULL
+	EV18	occupants	NULL
+	EV19	AUSTRALIANS	NULL
+	EV20	ISLANDERS	NULL
+	EV21	Resident	NULL
+	EV22	ITALIAN	NULL
+	MP1	WILDCARD $Inhabitant
+$Juvenile	1	wildcard	NULL
+	EV1	children	NULL
+	EV2	child	NULL
+	EV3	Children	NULL
+	EV4	kids	NULL
+	EV5	teenagers	NULL
+	EV6	CHILDREN	NULL
+	EV7	KIDS	NULL
+	EV8	teenager	NULL
+	EV9	youngsters	NULL
+	EV10	CHILD	NULL
+	EV11	youths	NULL
+	EV12	youngster	NULL
+	EV13	Kids	NULL
+	EV14	YOUNGSTERS	NULL
+	EV15	YOUTH	NULL
+	EV16	youth	NULL
+	EV17	Youth	NULL
+	EV18	kid	NULL
+	EV19	childs	NULL
+	MP1	WILDCARD $Juvenile
+	MP2	WILDCARD $Juvenile ,
+	MP3	two WILDCARD $Juvenile
+$Lawman	1	wildcard	NULL
+	EV1	deputy	NULL
+	EV2	Deputy	NULL
+	MP1	WILDCARD $Lawman WILDCARD
+$Leader	1	wildcard	NULL
+	EV1	Minister	NULL
+	EV2	Chief	NULL
+	EV3	Secretary	NULL
+	EV4	chief	NULL
+	EV5	secretary	NULL
+	EV6	politicians	NULL
+	EV7	TRAINER	NULL
+	EV8	TRAINERS	NULL
+	EV9	hero	NULL
+	EV10	CHIEF	NULL
+	EV11	employers	NULL
+	EV12	bellwether	NULL
+	EV13	torchbearers	NULL
+	EV14	heroes	NULL
+	EV15	superior	NULL
+	EV16	Superior	NULL
+	MP1	WILDCARD $Leader WILDCARD
+	MP2	WILDCARD $Leader
+$Male_offspring	1	wildcard	NULL
+	EV1	son	NULL
+	EV2	Son	NULL
+	MP1	WILDCARD $Male_offspring ,
+$Maneuver	1	wildcard	NULL
+	EV1	measures	NULL
+	EV2	step	NULL
+	EV3	measure	NULL
+	EV4	Measures	NULL
+	EV5	STEP	NULL
+	MP1	WILDCARD $Maneuver
+$Meeting	1	wildcard	NULL
+	EV1	visit	NULL
+	EV2	VISIT	NULL
+	EV3	visits	NULL
+	EV4	Visit	NULL
+	EV5	VISITS	NULL
+	MP1	WILDCARD $Meeting
+$Military_action	1	wildcard	NULL
+	EV1	Defense	NULL
+	EV2	defense	NULL
+	EV3	fight	NULL
+	MP1	WILDCARD $Military_action WILDCARD
+$Militaryconflict	1	wildcard	NULL
+	EV1	World War II	NULL
+	EV2	Pacific	NULL
+	EV3	Palo Alto	NULL
+	EV4	NANJING	NULL
+	EV5	Nanjing	NULL
+	MP1	WILDCARD $Militaryconflict WILDCARD
+$Misfortune	1	wildcard	NULL
+	EV1	tsunami	NULL
+	EV2	catastrophe	NULL
+	EV3	tragedy	NULL
+	EV4	Tsunami	NULL
+	EV5	tsunamis	NULL
+	EV6	TSUNAMI	NULL
+	EV7	Catastrophe	NULL
+	EV8	catastrophes	NULL
+	EV9	calamity	NULL
+	EV10	tragedies	NULL
+	EV11	CATASTROPHE	NULL
+	EV12	Tsunamis	NULL
+	EV13	apocalypse	NULL
+	EV14	TRAGEDY	NULL
+	MP1	WILDCARD $Misfortune
+$Movement	1	wildcard	NULL
+	EV1	waves	NULL
+	EV2	wave	NULL
+	EV3	WAVES	NULL
+	EV4	Waves	NULL
+	EV5	SEEKS	NULL
+	EV6	rebound	NULL
+	EV7	WAVE	NULL
+	EV8	SEEK	NULL
+	EV9	Wave	NULL
+	MP1	WILDCARD $Movement
+$Nonaccomplishment	1	longmenshan wildcard	NULL
+	EV1	Fault	NULL
+	MP1	Longmenshan WILDCARD $Nonaccomplishment
+$Nonaccomplishment	2	wildcard	NULL
+	EV1	fault	NULL
+	MP1	WILDCARD $Nonaccomplishment lines
+	MP2	$Nonaccomplishment line
+$Number	1	wildcard	NULL
+	EV1	100	NULL
+	EV2	10	NULL
+	EV3	8.8	NULL
+	EV4	1,000	NULL
+	EV5	20	NULL
+	EV6	80	NULL
+	EV7	3	NULL
+	EV8	2010	NULL
+	EV9	50	NULL
+	EV10	200	NULL
+	EV11	5	NULL
+	EV12	900	NULL
+	EV13	30	NULL
+	EV14	7.2	NULL
+	EV15	1	NULL
+	EV16	500	NULL
+	EV17	10,000	NULL
+	EV18	6.8	NULL
+	EV19	2011	NULL
+	EV20	70	NULL
+	EV21	25	NULL
+	EV22	55	NULL
+	EV23	15	NULL
+	EV24	60	NULL
+	EV25	40	NULL
+	EV26	2	NULL
+	EV27	150	NULL
+	EV28	1,275	NULL
+	EV29	45	NULL
+	EV30	50,000	NULL
+	EV31	700	NULL
+	EV32	90	NULL
+	EV33	11	NULL
+	EV34	300	NULL
+	EV35	13	NULL
+	EV36	38	NULL
+	EV37	20,000	NULL
+	EV38	7	NULL
+	EV39	350	NULL
+	EV40	2008	NULL
+	EV41	12	NULL
+	EV42	7.9	NULL
+	EV43	6	NULL
+	EV44	8	NULL
+	EV45	7.0	NULL
+	EV46	138	NULL
+	EV47	93	NULL
+	EV48	800	NULL
+	EV49	400	NULL
+	EV50	9.5	NULL
+	EV51	250	NULL
+	EV52	30,000	NULL
+	EV53	7.8	NULL
+	EV54	5,000	NULL
+	EV55	22	NULL
+	EV56	4	NULL
+	EV57	18,000	NULL
+	EV58	14	NULL
+	EV59	28	NULL
+	EV60	1.5	NULL
+	EV61	21	NULL
+	EV62	27	NULL
+	EV63	25,000	NULL
+	EV64	100,000	NULL
+	EV65	74	NULL
+	EV66	24	NULL
+	EV67	19	NULL
+	EV68	5.0	NULL
+	EV69	9.0	NULL
+	EV70	3,000	NULL
+	EV71	4,000	NULL
+	EV72	279	NULL
+	EV73	36	NULL
+	EV74	200,000	NULL
+	EV75	75	NULL
+	EV76	16	NULL
+	EV77	230	NULL
+	EV78	6,000	NULL
+	EV79	600	NULL
+	EV80	1,200	NULL
+	EV81	111	NULL
+	EV82	12,000	NULL
+	EV83	5.4	NULL
+	EV84	500,000	NULL
+	EV85	9	NULL
+	EV86	33	NULL
+	EV87	34	NULL
+	EV88	217	NULL
+	EV89	26	NULL
+	EV90	66	NULL
+	EV91	8.0	NULL
+	EV92	56	NULL
+	EV93	35	NULL
+	EV94	9,000	NULL
+	EV95	2,000	NULL
+	EV96	147	NULL
+	EV97	130,000	NULL
+	EV98	22,000	NULL
+	EV99	7.3	NULL
+	EV100	73	NULL
+	EV101	80,000	NULL
+	EV102	600,000	NULL
+	EV103	23	NULL
+	EV104	29	NULL
+	EV105	6.6	NULL
+	EV106	1,300	NULL
+	EV107	820	NULL
+	EV108	240,000	NULL
+	EV109	3.9	NULL
+	EV110	32	NULL
+	EV111	708	NULL
+	EV112	7.6	NULL
+	EV113	17,000	NULL
+	EV114	5.8	NULL
+	EV115	65	NULL
+	EV116	2007	NULL
+	EV117	8,533	NULL
+	EV118	8.5	NULL
+	EV119	140	NULL
+	EV120	6.3	NULL
+	EV121	117	NULL
+	EV122	17	NULL
+	EV123	390	NULL
+	EV124	225	NULL
+	EV125	115,900	NULL
+	EV126	10,200	NULL
+	EV127	18	NULL
+	EV128	4.8	NULL
+	EV129	6.9	NULL
+	EV130	6.1	NULL
+	EV131	1,600	NULL
+	EV132	7,000	NULL
+	EV133	40,000	NULL
+	EV134	171	NULL
+	EV135	61	NULL
+	EV136	48	NULL
+	EV137	313	NULL
+	EV138	91,000	NULL
+	EV139	92	NULL
+	EV140	9.2	NULL
+	EV141	1000	NULL
+	EV142	63	NULL
+	EV143	59	NULL
+	EV144	7.5	NULL
+	EV145	6.2	NULL
+	EV146	28,800	NULL
+	EV147	220	NULL
+	EV148	9,300	NULL
+	EV149	8,000	NULL
+	EV150	31	NULL
+	EV151	55,000	NULL
+	EV152	44	NULL
+	EV153	5.2	NULL
+	EV154	2,300	NULL
+	EV155	47	NULL
+	EV156	5.6	NULL
+	EV157	970	NULL
+	EV158	4.7	NULL
+	EV159	772	NULL
+	EV160	95	NULL
+	EV161	87,000	NULL
+	EV162	1,655	NULL
+	EV163	6.4	NULL
+	EV164	230,000	NULL
+	EV165	19,500	NULL
+	EV166	134	NULL
+	EV167	57	NULL
+	EV168	1,500	NULL
+	EV169	240	NULL
+	EV170	32,500	NULL
+	EV171	4.9	NULL
+	EV172	58	NULL
+	EV173	77	NULL
+	EV174	264	NULL
+	EV175	145	NULL
+	EV176	1,090	NULL
+	EV177	201	NULL
+	EV178	235	NULL
+	EV179	27,000	NULL
+	EV180	110	NULL
+	EV181	122	NULL
+	EV182	9.1	NULL
+	EV183	8.9	NULL
+	EV184	840	NULL
+	EV185	1,820	NULL
+	EV186	12.5	NULL
+	EV187	242,000	NULL
+	EV188	60,000	NULL
+	EV189	78	NULL
+	EV190	76	NULL
+	EV191	15,000	NULL
+	EV192	360,000	NULL
+	EV193	8,500	NULL
+	EV194	160	NULL
+	EV195	4.5	NULL
+	EV196	34,000	NULL
+	EV197	19,509	NULL
+	EV198	0.3	NULL
+	EV199	5.5	NULL
+	EV200	3000	NULL
+	EV201	5.9	NULL
+	EV202	270	NULL
+	EV203	75,000	NULL
+	EV204	7,500	NULL
+	EV205	3,840	NULL
+	EV206	127,000	NULL
+	EV207	207	NULL
+	EV208	138,000	NULL
+	EV209	64	NULL
+	EV210	125	NULL
+	EV211	2012	NULL
+	EV212	1.26	NULL
+	EV213	53	NULL
+	EV214	1,470,000	NULL
+	EV215	155,000	NULL
+	EV216	2,076	NULL
+	EV217	615	NULL
+	EV218	3,093,400	NULL
+	EV219	236,400	NULL
+	EV220	6,720	NULL
+	EV221	4.1	NULL
+	EV222	2,200	NULL
+	EV223	49	NULL
+	EV224	11,921	NULL
+	EV225	1.8	NULL
+	EV226	78,000	NULL
+	EV227	55,239	NULL
+	EV228	288,431	NULL
+	EV229	140,000	NULL
+	EV230	79,700	NULL
+	EV231	1,100	NULL
+	EV232	99	NULL
+	EV233	34,073	NULL
+	EV234	14,000	NULL
+	EV235	5,046	NULL
+	EV236	62	NULL
+	EV237	52	NULL
+	EV238	+86	NULL
+	EV239	180	NULL
+	EV240	130	NULL
+	EV241	13,000	NULL
+	EV242	26,000	NULL
+	EV243	120	NULL
+	EV244	291	NULL
+	EV245	98	NULL
+	EV246	7.4	NULL
+	EV247	1.41	NULL
+	EV248	650	NULL
+	EV249	582	NULL
+	EV250	1,800	NULL
+	EV251	220,000	NULL
+	EV252	2009	NULL
+	EV253	3.5	NULL
+	EV254	115	NULL
+	EV255	3,600	NULL
+	EV256	90,000	NULL
+	EV257	+65	NULL
+	EV258	360	NULL
+	EV259	1,400	NULL
+	EV260	700,000	NULL
+	EV261	95,000	NULL
+	EV262	8.7	NULL
+	EV263	799	NULL
+	EV264	0.25	NULL
+	EV265	5.00	NULL
+	EV266	154,900	NULL
+	EV267	45,000	NULL
+	EV268	109	NULL
+	EV269	2.9	NULL
+	EV270	400,000	NULL
+	EV271	72	NULL
+	EV272	2,360	NULL
+	EV273	105,000	NULL
+	EV274	8.2	NULL
+	EV275	88	NULL
+	EV276	3.07	NULL
+	EV277	6.7	NULL
+	EV278	202	NULL
+	EV279	32,477	NULL
+	EV280	37	NULL
+	EV281	3.3	NULL
+	EV282	54	NULL
+	EV283	1.1	NULL
+	EV284	41	NULL
+	EV285	2,500	NULL
+	EV286	86	NULL
+	EV287	1.3	NULL
+	EV288	9,404	NULL
+	EV289	239	NULL
+	EV290	160,000	NULL
+	EV291	185	NULL
+	EV292	5,291	NULL
+	EV293	380,000	NULL
+	EV294	166	NULL
+	EV295	2,262	NULL
+	EV296	187	NULL
+	EV297	272	NULL
+	EV298	231	NULL
+	EV299	24.7	NULL
+	EV300	97.9	NULL
+	EV301	128	NULL
+	EV302	1.2	NULL
+	EV303	325	NULL
+	EV304	501	NULL
+	EV305	-4	NULL
+	EV306	174	NULL
+	EV307	450	NULL
+	EV308	228,000	NULL
+	EV309	43	NULL
+	EV310	830,000	NULL
+	EV311	90999	NULL
+	EV312	640	NULL
+	EV313	475,400	NULL
+	EV314	4,900	NULL
+	EV315	2.5	NULL
+	EV316	0845	NULL
+	EV317	216	NULL
+	EV318	1,380	NULL
+	EV319	0.917	NULL
+	EV320	4.37	NULL
+	EV321	4.979	NULL
+	EV322	5.36	NULL
+	EV323	977	NULL
+	EV324	706	NULL
+	EV325	135	NULL
+	EV326	24,960	NULL
+	EV327	40,075	NULL
+	EV328	14,207	NULL
+	EV329	67	NULL
+	EV330	245	NULL
+	EV331	3.0	NULL
+	EV332	112,000	NULL
+	EV333	270,000	NULL
+	EV334	184	NULL
+	EV335	24,949	NULL
+	EV336	51,151	NULL
+	EV337	21.4	NULL
+	EV338	1.9	NULL
+	EV339	64,000	NULL
+	EV340	12,600	NULL
+	EV341	844	NULL
+	EV342	18,870	NULL
+	EV343	351,100	NULL
+	EV344	9.4	NULL
+	EV345	44,000	NULL
+	EV346	387.7	NULL
+	EV347	250,000	NULL
+	EV348	28,300	NULL
+	EV349	102,103	NULL
+	EV350	280	NULL
+	EV351	12,300	NULL
+	EV352	670	NULL
+	EV353	420	NULL
+	EV354	164.23	NULL
+	EV355	14.63	NULL
+	EV356	85.8	NULL
+	EV357	42.9	NULL
+	EV358	8500	NULL
+	EV359	0.15	NULL
+	EV360	4.4	NULL
+	EV361	69	NULL
+	EV362	74,000	NULL
+	EV363	1.55	NULL
+	EV364	198,347	NULL
+	EV365	71	NULL
+	EV366	12,012	NULL
+	EV367	7,300	NULL
+	EV368	0	NULL
+	EV369	16,000	NULL
+	EV370	550	NULL
+	EV371	800,000	NULL
+	EV372	167	NULL
+	EV373	2.3	NULL
+	EV374	4.2	NULL
+	EV375	921	NULL
+	EV376	10,341	NULL
+	EV377	5000	NULL
+	EV378	894	NULL
+	EV379	430	NULL
+	EV380	11,000	NULL
+	EV381	366	NULL
+	EV382	2,400	NULL
+	EV383	740	NULL
+	EV384	461	NULL
+	EV385	1,352	NULL
+	EV386	1,589	NULL
+	EV387	20747	NULL
+	EV388	1,270	NULL
+	EV389	20760	NULL
+	EV390	84	NULL
+	EV391	432	NULL
+	EV392	11,300	NULL
+	EV393	157	NULL
+	EV394	8.25	NULL
+	EV395	460	NULL
+	EV396	20.8	NULL
+	EV397	99.8	NULL
+	EV398	101.12	NULL
+	EV399	1.07	NULL
+	EV400	3.43	NULL
+	EV401	0.40	NULL
+	EV402	6,500	NULL
+	EV403	356,600	NULL
+	EV404	216,000	NULL
+	EV405	8.6	NULL
+	EV406	170	NULL
+	EV407	311	NULL
+	EV408	670,000	NULL
+	EV409	222,000	NULL
+	EV410	2004	NULL
+	EV411	7.1	NULL
+	EV412	39	NULL
+	EV413	802	NULL
+	EV414	47,000	NULL
+	EV415	032	NULL
+	EV416	217,000	NULL
+	EV417	0.5	NULL
+	EV418	52000	NULL
+	EV419	103	NULL
+	EV420	215	NULL
+	EV421	214	NULL
+	EV422	2.7	NULL
+	EV423	59.17	NULL
+	EV424	210,000	NULL
+	EV425	725	NULL
+	EV426	81	NULL
+	EV427	306,600	NULL
+	EV428	3,661,400	NULL
+	EV429	1.37	NULL
+	EV430	2.06	NULL
+	EV431	4372	NULL
+	EV432	021202337	NULL
+	EV433	2,900	NULL
+	EV434	133,000	NULL
+	EV435	60,560	NULL
+	EV436	352,290	NULL
+	EV437	26,221	NULL
+	EV438	51,000	NULL
+	EV439	30612	NULL
+	EV440	292,481	NULL
+	EV441	247,645	NULL
+	EV442	28,400	NULL
+	EV443	728	NULL
+	EV444	850	NULL
+	EV445	612	NULL
+	EV446	12.1	NULL
+	EV447	2.0	NULL
+	EV448	2.28	NULL
+	EV449	5.28	NULL
+	EV450	9,533	NULL
+	EV451	141	NULL
+	EV452	29,000	NULL
+	EV453	9,800	NULL
+	EV454	29,328	NULL
+	EV455	150,000	NULL
+	EV456	68,608	NULL
+	EV457	33,665	NULL
+	EV458	3,444	NULL
+	EV459	7,182	NULL
+	EV460	9.35	NULL
+	EV461	66,000	NULL
+	EV462	900,000	NULL
+	EV463	4.0	NULL
+	EV464	158	NULL
+	EV465	234	NULL
+	EV466	3220	NULL
+	EV467	9,219	NULL
+	EV468	3,515.71	NULL
+	EV469	12,727.76	NULL
+	EV470	3.33	NULL
+	EV471	24,000	NULL
+	EV472	1,387	NULL
+	EV473	14,200	NULL
+	EV474	32.68	NULL
+	EV475	1.78	NULL
+	EV476	1.7	NULL
+	EV477	17.05	NULL
+	EV478	5,260	NULL
+	EV479	10,600	NULL
+	EV480	22,069	NULL
+	EV481	21,577	NULL
+	EV482	27,560	NULL
+	EV483	12,323	NULL
+	EV484	1,235	NULL
+	EV485	189	NULL
+	EV486	94	NULL
+	EV487	2,897	NULL
+	EV488	245,108	NULL
+	EV489	4,434	NULL
+	EV490	2,841	NULL
+	EV491	930	NULL
+	EV492	9500	NULL
+	EV493	105	NULL
+	EV494	190	NULL
+	EV495	151.7	NULL
+	EV496	33,333	NULL
+	EV497	11.6	NULL
+	EV498	470,000	NULL
+	EV499	370,000	NULL
+	EV500	310	NULL
+	EV501	1.86	NULL
+	EV502	1.71	NULL
+	EV503	121.7	NULL
+	EV504	480	NULL
+	EV505	70,000	NULL
+	EV506	8,600	NULL
+	EV507	5,894	NULL
+	EV508	6,898	NULL
+	EV509	33,000	NULL
+	EV510	623	NULL
+	EV511	3,669	NULL
+	EV512	1.12	NULL
+	EV513	164,000	NULL
+	EV514	2.02	NULL
+	EV515	1620	NULL
+	EV516	430,000	NULL
+	EV517	8,325	NULL
+	EV518	15.6	NULL
+	EV519	13701066671	NULL
+	EV520	391	NULL
+	EV521	323	NULL
+	EV522	6,100	NULL
+	EV523	18,645	NULL
+	EV524	2.30	NULL
+	EV525	114	NULL
+	EV526	1,209	NULL
+	EV527	5,300	NULL
+	EV528	1,971	NULL
+	EV529	2.6	NULL
+	EV530	3.4	NULL
+	EV531	-0255	NULL
+	EV532	5.47	NULL
+	EV533	5.25	NULL
+	EV534	32,476	NULL
+	EV535	31,978	NULL
+	EV536	209,905	NULL
+	EV537	4,156	NULL
+	EV538	364	NULL
+	EV539	4760	NULL
+	EV540	268	NULL
+	EV541	375	NULL
+	EV542	4.6	NULL
+	EV543	1,650	NULL
+	EV544	198	NULL
+	EV545	199	NULL
+	EV546	1,750	NULL
+	EV547	108	NULL
+	EV548	1.0129	NULL
+	EV549	17.3043	NULL
+	EV550	18.3152	NULL
+	EV551	269	NULL
+	EV552	750,000	NULL
+	EV553	292	NULL
+	EV554	523	NULL
+	EV555	459	NULL
+	EV556	1,301	NULL
+	EV557	3,755	NULL
+	EV558	422	NULL
+	EV559	595	NULL
+	EV560	860	NULL
+	EV561	15,379	NULL
+	EV562	76,500	NULL
+	EV563	5,139	NULL
+	EV564	1,234	NULL
+	EV565	4,689	NULL
+	EV566	1025	NULL
+	EV567	530	NULL
+	EV568	3,700	NULL
+	EV569	1,035	NULL
+	EV570	115,000	NULL
+	EV571	4,152	NULL
+	EV572	38.6270	NULL
+	EV573	43.5349	NULL
+	EV574	51	NULL
+	EV575	455	NULL
+	EV576	3,088	NULL
+	EV577	9.6	NULL
+	EV578	805	NULL
+	EV579	135,000	NULL
+	EV580	730	NULL
+	EV581	583	NULL
+	EV582	1,264	NULL
+	EV583	17,658	NULL
+	EV584	1,27,100	NULL
+	EV585	3,152	NULL
+	EV586	11,181	NULL
+	EV587	11.9	NULL
+	EV588	10.4	NULL
+	EV589	616	NULL
+	EV590	194	NULL
+	EV591	350,000	NULL
+	EV592	8855	NULL
+	EV593	770	NULL
+	EV594	0.7	NULL
+	EV595	433.26	NULL
+	EV596	857.38	NULL
+	EV597	0.010	NULL
+	EV598	1.215	NULL
+	EV599	-5	NULL
+	EV600	-13	NULL
+	EV601	1,900	NULL
+	EV602	244	NULL
+	EV603	000	NULL
+	EV604	392	NULL
+	EV605	485	NULL
+	EV606	96	NULL
+	EV607	110330	NULL
+	EV608	653	NULL
+	EV609	656	NULL
+	EV610	226,000	NULL
+	EV611	89	NULL
+	EV612	110328	NULL
+	EV613	379,292	NULL
+	EV614	46.31	NULL
+	EV615	0.48	NULL
+	EV616	10,035	NULL
+	EV617	104	NULL
+	EV618	1,039	NULL
+	EV619	308	NULL
+	EV620	106	NULL
+	EV621	-18	NULL
+	EV622	0.1	NULL
+	EV623	97,400	NULL
+	EV624	79,000	NULL
+	EV625	2,464	NULL
+	EV626	322	NULL
+	EV627	3,000,000	NULL
+	EV628	410	NULL
+	EV629	24.9	NULL
+	EV630	1,350	NULL
+	EV631	35.9	NULL
+	EV632	197	NULL
+	EV633	05	NULL
+	EV634	8.81906	NULL
+	EV635	01	NULL
+	EV636	7.7	NULL
+	EV637	201836	NULL
+	EV638	7.34	NULL
+	EV639	660	NULL
+	EV640	59.4	NULL
+	EV641	205	NULL
+	EV642	-1830	NULL
+	EV643	142	NULL
+	EV644	271	NULL
+	EV645	540	NULL
+	EV646	452	NULL
+	EV647	68	NULL
+	EV648	25383	NULL
+	EV649	20222	NULL
+	EV650	1600	NULL
+	EV651	870	NULL
+	EV652	541	NULL
+	EV653	16.6	NULL
+	EV654	330	NULL
+	EV655	3.15	NULL
+	EV656	340	NULL
+	EV657	83	NULL
+	EV658	152	NULL
+	EV659	8.4	NULL
+	EV660	42	NULL
+	EV661	183	NULL
+	EV662	164645	NULL
+	EV663	162446	NULL
+	EV664	173124	NULL
+	EV665	149	NULL
+	EV666	121	NULL
+	EV667	65,000	NULL
+	EV668	22.4	NULL
+	EV669	6000	NULL
+	EV670	110322	NULL
+	EV671	170,000	NULL
+	EV672	1995	NULL
+	EV673	8,200	NULL
+	EV674	8,968	NULL
+	EV675	86,000	NULL
+	EV676	19,000	NULL
+	EV677	1,167	NULL
+	EV678	801	NULL
+	EV679	733	NULL
+	EV680	240,600	NULL
+	EV681	131,700	NULL
+	EV682	1,260	NULL
+	EV683	168	NULL
+	EV684	735	NULL
+	EV685	1,128	NULL
+	EV686	576	NULL
+	EV687	116,000	NULL
+	EV688	97	NULL
+	EV689	3.6	NULL
+	EV690	2,010	NULL
+	EV691	+81	NULL
+	EV692	6,400	NULL
+	EV693	3.75	NULL
+	EV694	24.4	NULL
+	EV695	703	NULL
+	EV696	122,000	NULL
+	EV697	15,839	NULL
+	EV698	6,553	NULL
+	EV699	2,649	NULL
+	EV700	137	NULL
+	EV701	3,007	NULL
+	EV702	144	NULL
+	EV703	317,000	NULL
+	EV704	4.88	NULL
+	EV705	22.7	NULL
+	EV706	7,800	NULL
+	EV707	6400	NULL
+	EV708	1,473,500	NULL
+	MP1	WILDCARD $Number
+	MP2	WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP3	WILDCARD $Number WILDCARD $Tremor
+	MP4	WILDCARD $Number to WILDCARD $Number
+	MP5	WILDCARD $Number WILDCARD $Person
+	MP6	WILDCARD $Number WILDCARD $Number
+	MP7	$Number per cent
+	MP8	WILDCARD $Number WILDCARD $Change
+	MP9	magnitude WILDCARD $Number
+	MP10	magnitude of WILDCARD $Number
+	MP11	WILDCARD $Number WILDCARD $Skilled_worker
+	MP12	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+	MP13	WILDCARD $Number WILDCARD $Recovery
+	MP14	WILDCARD $Number WILDCARD $Earthquake
+	MP15	WILDCARD $Number and WILDCARD $Number
+	MP16	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP17	people were killed and WILDCARD $Number
+	MP18	total of WILDCARD $Number
+	MP19	WILDCARD $Number WILDCARD $Inhabitant
+	MP20	WILDCARD $Number WILDCARD $Number WILDCARD $Number
+	MP21	WILDCARD $Geological_phenomenon measuring WILDCARD $Number on the Richter scale
+	MP22	depth of WILDCARD $Number
+	MP23	WILDCARD $Number WILDCARD $Unfortunate
+	MP24	$Number miles northeast
+	MP25	WILDCARD $Number WILDCARD $Date
+	MP26	less than WILDCARD $Number
+	MP27	WILDCARD $Number WILDCARD $Shelter , WILDCARD $Number
+	MP28	toll at WILDCARD $Number
+	MP29	dead and WILDCARD $Number
+	MP30	$Number million yuan
+	MP31	WILDCARD $Number WILDCARD $Duration
+	MP32	WILDCARD $Number people died and WILDCARD $Number
+	MP33	$Number kilometers northeast
+	MP34	rose to WILDCARD $Number
+	MP35	$Number people dead or missing.
+	MP36	WILDCARD $Number of the WILDCARD $Number
+	MP37	WILDCARD $Geological_phenomenon killed at WILDCARD $Number people
+	MP38	WILDCARD $Number WILDCARD $Number WILDCARD $Number WILDCARD $Number
+	MP39	far WILDCARD $Number
+	MP40	WILDCARD $Number on WILDCARD $Date
+	MP41	population of WILDCARD $Number
+	MP42	WILDCARD $Date where a WILDCARD $Number WILDCARD
+	MP43	population of about WILDCARD $Number
+	MP44	magnitude at WILDCARD $Number
+	MP45	dead and more than WILDCARD $Number
+	MP46	WILDCARD $Number people dead and more than WILDCARD $Number
+$Number	2	total wildcard	NULL
+	EV1	82	NULL
+	EV2	45.5	NULL
+	EV3	79,853	NULL
+	EV4	28,497	NULL
+	EV5	2,680	NULL
+	EV6	40,265	NULL
+	EV7	464	NULL
+	MP1	total of WILDCARD $Number
+	MP2	WILDCARD $Number
+$Number	3	magnitude wildcard	NULL
+	EV1	6.0	NULL
+	EV2	5.7	NULL
+	EV3	5.3	NULL
+	EV4	6.5	NULL
+	EV5	8.3	NULL
+	MP1	magnitude of WILDCARD $Number
+	MP2	WILDCARD $Number
+	MP3	magnitude WILDCARD $Number
+	MP4	WILDCARD $Number to WILDCARD $Number
+	MP5	WILDCARD $Number WILDCARD $Inhabitant
+	MP6	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+$Number	4	rose wildcard	NULL
+	EV1	55,740	NULL
+	EV2	723	NULL
+	MP1	rose to WILDCARD $Number
+	MP2	WILDCARD $Number
+$Number	5	population wildcard	NULL
+	EV1	300,000	NULL
+	EV2	161,000	NULL
+	MP1	population of about WILDCARD $Number
+	MP2	population of WILDCARD $Number
+$Number	6	people	NULL
+	EV1	85	NULL
+	EV2	534	NULL
+	MP1	$Date WILDCARD $Fatality at WILDCARD $Number people
+	MP2	WILDCARD $Number WILDCARD $Change
+	MP3	WILDCARD $Number
+	MP4	toll at WILDCARD $Number
+$Number	7	depth wildcard	NULL
+	EV1	12.4	NULL
+	EV2	7.20	NULL
+	MP1	depth of WILDCARD $Number
+	MP2	WILDCARD $Number
+$Number	8	dead wildcard	NULL
+	EV1	220,109	NULL
+	MP1	dead and WILDCARD $Number
+	MP2	WILDCARD $Number
+$Number	9	toll wildcard	NULL
+	EV1	28,881	NULL
+	MP1	toll at WILDCARD $Number
+	MP2	rose to WILDCARD $Number
+	MP3	WILDCARD $Number
+$Number	10	people wildcard	NULL
+	EV1	79	NULL
+	MP1	people were killed and WILDCARD $Number
+$Number	11	shallow depth wildcard	NULL
+	EV1	12.2	NULL
+	MP1	shallow depth of WILDCARD $Number
+$Number	12	kilometers northeast	NULL
+	EV1	320	NULL
+	MP1	$Number kilometers northeast
+	MP2	WILDCARD $Number
+$Observation	1	wildcard	NULL
+	EV1	monitoring	NULL
+	MP1	WILDCARD $Observation WILDCARD
+$Officeholder	1	wildcard	NULL
+	EV1	Erdogan	NULL
+	EV2	Washington	NULL
+	EV3	Wen Jiabao	NULL
+	EV4	Hillary Clinton	NULL
+	EV5	Zhou	NULL
+	EV6	Than Shwe	NULL
+	EV7	Michelle Bachelet	NULL
+	EV8	Rubio	NULL
+	EV9	Hu Jintao	NULL
+	EV10	Mustafa	NULL
+	EV11	Recep Tayyip Erdogan	NULL
+	EV12	Rudd	NULL
+	EV13	Ban Ki-moon	NULL
+	EV14	He Guoqiang	NULL
+	EV15	Hillary Rodham Clinton	NULL
+	EV16	Abdullah Gul	NULL
+	EV17	Kim Jong-il	NULL
+	EV18	Huang Ju	NULL
+	EV19	Castro	NULL
+	EV20	Manmohan Singh	NULL
+	EV21	David Norris	NULL
+	EV22	Pinochet	NULL
+	EV23	Ban Ki Moon	NULL
+	EV24	Chu	NULL
+	EV25	Yang Jiechi	NULL
+	EV26	Ahmet Davutoglu	NULL
+	EV27	Najib	NULL
+	EV28	Selahattin Demirtas	NULL
+	EV29	Alassane Ouattara	NULL
+	EV30	Rene Preval	NULL
+	EV31	Benjamin Franklin	NULL
+	EV32	Michelle	NULL
+	EV33	Robert Gibbs	NULL
+	EV34	Thein Sein	NULL
+	EV35	David Miliband	NULL
+	EV36	British Prime Minister	NULL
+	EV37	Sergio	NULL
+	EV38	Surin Pitsuwan	NULL
+	EV39	Kevan Gosper	NULL
+	EV40	Thomas	NULL
+	EV41	Jefferson	NULL
+	EV42	Franklin	NULL
+	EV43	Dana Perino	NULL
+	EV44	George Lee	NULL
+	EV45	Sezgin Tanrikulu	NULL
+	EV46	Massoud Barzani	NULL
+	EV47	Ferit Melen	NULL
+	EV48	William Hague	NULL
+	EV49	Egemen Bagis	NULL
+	EV50	Kemal Kilicdaroglu	NULL
+	EV51	Ekmeleddin Ihsanoglu	NULL
+	EV52	Herman Van Rompuy	NULL
+	EV53	Anders Fogh Rasmussen	NULL
+	EV54	Netanyahu	NULL
+	EV55	Bulent Arinc	NULL
+	EV56	Leyla Zana	NULL
+	EV57	Rosalynn	NULL
+	EV58	Cameron	NULL
+	EV59	Gabrielle Giffords	NULL
+	EV60	Yukio Edano	NULL
+	EV61	Aung San Suu Kyi	NULL
+	EV62	Than Tun	NULL
+	EV63	Nicolas Sarkozy	NULL
+	EV64	Jeffrey Immelt	NULL
+	EV65	Tin Aung Myint Oo	NULL
+	EV66	Nyan Win	NULL
+	EV67	MICHELLE BACHELET	NULL
+	EV68	Barbara	NULL
+	EV69	Pacquiao	NULL
+	EV70	Howard	NULL
+	EV71	Ben Ali	NULL
+	EV72	Michele Bachelet	NULL
+	EV73	Stephen Lynch	NULL
+	EV74	Salvador Allende	NULL
+	EV75	Augusto Pinochet	NULL
+	EV76	Noda	NULL
+	EV77	Ichiro Ozawa	NULL
+	EV78	Toru Hashimoto	NULL
+	MP1	WILDCARD $Officeholder
+	MP2	WILDCARD $Officeholder on WILDCARD $Date
+	MP3	WILDCARD $Officeholder WILDCARD $Officeholder
+$Parent	1	wildcard	NULL
+	EV1	mother	NULL
+	EV2	father	NULL
+	EV3	MOTHER	NULL
+	EV4	FATHER	NULL
+	EV5	mothers	NULL
+	EV6	Father	NULL
+	EV7	FATHERS	NULL
+	MP1	WILDCARD $Parent
+	MP2	WILDCARD $Parent ,
+$Person	1	wildcard	NULL
+	EV1	relatives	NULL
+	EV2	workers	NULL
+	EV3	friends	NULL
+	EV4	scientists	NULL
+	EV5	wife	NULL
+	EV6	HAVE	NULL
+	EV7	experts	NULL
+	EV8	National	NULL
+	EV9	Experts	NULL
+	EV10	husband	NULL
+	EV11	soldiers	NULL
+	EV12	leader	NULL
+	EV13	friend	NULL
+	EV14	Workers	NULL
+	EV15	worker	NULL
+	EV16	fighters	NULL
+	EV17	engineers	NULL
+	EV18	engineer	NULL
+	EV19	White	NULL
+	EV20	Mustafa	NULL
+	EV21	neighbors	NULL
+	EV22	Scientists	NULL
+	EV23	native	NULL
+	EV24	officers	NULL
+	EV25	firefighters	NULL
+	EV26	farmers	NULL
+	EV27	neighbor	NULL
+	EV28	mother	NULL
+	EV29	guards	NULL
+	EV30	JENNIFER LOPEZ	NULL
+	EV31	Ocalan	NULL
+	EV32	MGK	NULL
+	EV33	SUSPECTS	NULL
+	EV34	Ward	NULL
+	EV35	EXPERT	NULL
+	EV36	closer	NULL
+	EV37	Engineers	NULL
+	EV38	Prakash	NULL
+	EV39	Isha	NULL
+	EV40	developer	NULL
+	EV41	expert	NULL
+	EV42	killer	NULL
+	EV43	modeler	NULL
+	EV44	relative	NULL
+	EV45	architects	NULL
+	EV46	Bob Schieffer	NULL
+	EV47	nationals	NULL
+	EV48	LONGER	NULL
+	EV49	WHITE	NULL
+	EV50	Mimi	NULL
+	EV51	LEADER	NULL
+	EV52	maker	NULL
+	EV53	Gerhard Heiberg	NULL
+	EV54	bloggers	NULL
+	EV55	wail	NULL
+	EV56	farmer	NULL
+	EV57	travelers	NULL
+	EV58	rulers	NULL
+	EV59	suspects	NULL
+	EV60	suspect	NULL
+	EV61	adult	NULL
+	EV62	Abdullah Ocalan	NULL
+	EV63	fighter	NULL
+	EV64	Volunteer	NULL
+	EV65	Ethnic	NULL
+	EV66	applicants	NULL
+	EV67	ward	NULL
+	EV68	explorer	NULL
+	EV69	JONATHAN MANN	NULL
+	EV70	Isha Sesay	NULL
+	EV71	Errol Barnett	NULL
+	EV72	scientist	NULL
+	EV73	Optimists	NULL
+	EV74	volunteers	NULL
+	EV75	KILLER	NULL
+	EV76	JOHN GOODMAN	NULL
+	EV77	TIGER	NULL
+	EV78	STRAIGHT	NULL
+	EV79	WORKERS	NULL
+	EV80	SYLVIA BROWNE	NULL
+	EV81	EXPERTS	NULL
+	EV82	FRIEND	NULL
+	EV83	WIFE	NULL
+	EV84	COLLECTORS	NULL
+	EV85	Friends	NULL
+	EV86	chief Joseph	NULL
+	EV87	Artist	NULL
+	EV88	Nationals	NULL
+	EV89	users	NULL
+	EV90	Gosper	NULL
+	EV91	Wilbur	NULL
+	EV92	inhabitants	NULL
+	EV93	habitants	NULL
+	EV94	collector	NULL
+	EV95	straight	NULL
+	EV96	Sean	NULL
+	EV97	neighbours	NULL
+	EV98	Mehmet Ali Birand	NULL
+	EV99	George Clooney	NULL
+	EV100	Sniffer	NULL
+	EV101	Muhammad	NULL
+	EV102	intellectuals	NULL
+	EV103	Jew	NULL
+	EV104	Killer	NULL
+	EV105	Paterson	NULL
+	EV106	ARTIST	NULL
+	EV107	Muslim	NULL
+	EV108	modelers	NULL
+	EV109	missioner	NULL
+	EV110	John Saunders	NULL
+	EV111	James Cameron	NULL
+	EV112	ouster	NULL
+	EV113	Jim Rogers	NULL
+	EV114	wards	NULL
+	EV115	Irwin Allen	NULL
+	EV116	planners	NULL
+	EV117	William Clayton	NULL
+	EV118	dwellers	NULL
+	EV119	Buddha	NULL
+	EV120	Travelers	NULL
+	EV121	artists	NULL
+	EV122	Christina	NULL
+	EV123	Janet	NULL
+	EV124	adults	NULL
+	EV125	Lindsay Lohan	NULL
+	EV126	worshippers	NULL
+	EV127	natives	NULL
+	EV128	Maria Antonieta	NULL
+	EV129	Scientist	NULL
+	EV130	risers	NULL
+	EV131	Jesus Christ	NULL
+	EV132	WARRIORS	NULL
+	EV133	THE YOUNGER	NULL
+	EV134	FRIENDS	NULL
+	EV135	LOVERS	NULL
+	EV136	CHRISTIAN	NULL
+	EV137	LESTER HOLT	NULL
+	EV138	Sylvia	NULL
+	EV139	SHAMU	NULL
+	EV140	ERIC PETERSON	NULL
+	EV141	BRUCE SPRINGSTEEN	NULL
+	EV142	VINCE VAUGHN	NULL
+	EV143	P.DIDDY	NULL
+	EV144	WILL FORTE	NULL
+	EV145	KENAN THOMPSON	NULL
+	EV146	ABBY ELLIOTT	NULL
+	EV147	BOBBY MOYNIHAN	NULL
+	EV148	MARRIED	NULL
+	EV149	BO DEREK	NULL
+	EV150	MARIO LOPEZ	NULL
+	EV151	makers	NULL
+	EV152	Vivek	NULL
+	EV153	equals	NULL
+	EV154	Have	NULL
+	MP1	WILDCARD $Person
+	MP2	WILDCARD $Person and WILDCARD
+	MP3	U.S. WILDCARD $Person
+$Politician	1	wildcard	NULL
+	EV1	governor	NULL
+	EV2	Governor	NULL
+	EV3	Communist	NULL
+	EV4	candidates	NULL
+	EV5	governors	NULL
+	EV6	Democrats	NULL
+	EV7	GOVERNOR	NULL
+	MP1	WILDCARD $Politician
+$Presiding_officer	1	wildcard	NULL
+	EV1	chairman	NULL
+	EV2	Chairman	NULL
+	MP1	WILDCARD $Presiding_officer
+$Recovery	1	wildcard	NULL
+	EV1	rescue	NULL
+	EV2	Rescue	NULL
+	EV3	RESCUE	NULL
+	MP1	WILDCARD $Recovery WILDCARD $Activity
+	MP2	WILDCARD $Recovery WILDCARD $Unit
+	MP3	WILDCARD $Recovery WILDCARD $Person
+	MP4	WILDCARD $Recovery and relief
+	MP5	WILDCARD $Recovery WILDCARD
+$Religious_person	1	wildcard	NULL
+	EV1	Buddhist	NULL
+	EV2	Christian	NULL
+	EV3	CHRISTIAN	NULL
+	EV4	novice	NULL
+	MP1	WILDCARD $Religious_person WILDCARD
+$Removal	1	wildcard	NULL
+	EV1	evacuation	NULL
+	MP1	WILDCARD $Removal WILDCARD $Area
+$Saint	1	wildcard	NULL
+	EV1	Joseph	NULL
+	EV2	Kaleb	NULL
+	EV3	Noah	NULL
+	MP1	WILDCARD $Saint WILDCARD
+$Serviceman	1	wildcard	NULL
+	EV1	volunteer	NULL
+	EV2	volunteers	NULL
+	EV3	officer	NULL
+	MP1	WILDCARD $Serviceman ,
+$Skilled_worker	1	wildcard	NULL
+	EV1	officials	NULL
+	EV2	official	NULL
+	EV3	soldiers	NULL
+	EV4	Officials	NULL
+	EV5	volunteers	NULL
+	EV6	officer	NULL
+	EV7	Soldiers	NULL
+	EV8	Officer	NULL
+	EV9	OFFICIALS	NULL
+	EV10	commandos	NULL
+	EV11	Official	NULL
+	EV12	fishermen	NULL
+	EV13	COOK	NULL
+	EV14	editor	NULL
+	EV15	Editor	NULL
+	EV16	volunteer	NULL
+	EV17	marine	NULL
+	EV18	VETERAN	NULL
+	EV19	MARINE	NULL
+	EV20	Volunteers	NULL
+	EV21	commandoes	NULL
+	EV22	EDITOR	NULL
+	EV23	officers	NULL
+	EV24	COOKS	NULL
+	EV25	technicians	NULL
+	EV26	Volunteer	NULL
+	EV27	OFFICIAL	NULL
+	EV28	Editors	NULL
+	MP1	WILDCARD $Skilled_worker
+	MP2	WILDCARD $Skilled_worker said WILDCARD $Date
+	MP3	WILDCARD $Skilled_worker WILDCARD $Broadcastnetwork
+$Social_control	1	wildcard	NULL
+	EV1	management	NULL
+	EV2	hands	NULL
+	EV3	Management	NULL
+	EV4	Administration	NULL
+	EV5	administration	NULL
+	EV6	responsibility	NULL
+	EV7	duty	NULL
+	EV8	supervision	NULL
+	EV9	HANDS	NULL
+	EV10	responsibilities	NULL
+	EV11	Duty	NULL
+	EV12	mobilization	NULL
+	EV13	enforcement	NULL
+	EV14	managements	NULL
+	EV15	Hands	NULL
+	EV16	discrimination	NULL
+	EV17	punishments	NULL
+	EV18	penalties	NULL
+	EV19	ADMINISTRATION	NULL
+	MP1	WILDCARD $Social_control
+	MP2	WILDCARD $Social_control WILDCARD
+	MP3	WILDCARD $Social_control WILDCARD $Administrative_unit
+$South_american	1	wildcard	NULL
+	EV1	Chilean	NULL
+	EV2	Uruguayan	NULL
+	EV3	Venezuelan	NULL
+	EV4	Ecuadorian	NULL
+	EV5	CHILEAN	NULL
+	MP1	WILDCARD $South_american WILDCARD
+$Speech_act	1	wildcard	NULL
+	EV1	offers	NULL
+	EV2	offer	NULL
+	EV3	order	NULL
+	EV4	questions	NULL
+	EV5	question	NULL
+	EV6	Caption	NULL
+	EV7	Command	NULL
+	EV8	orders	NULL
+	EV9	bid	NULL
+	EV10	speech	NULL
+	EV11	OFFER	NULL
+	EV12	command	NULL
+	EV13	ORDER	NULL
+	EV14	QUESTIONS	NULL
+	EV15	QUESTION	NULL
+	EV16	OFFERS	NULL
+	EV17	SPEECH	NULL
+	EV18	ORDERS	NULL
+	EV19	enquiries	NULL
+	EV20	Queries	NULL
+	EV21	bidding	NULL
+	EV22	CAPTIONS	NULL
+	EV23	REVELATION	NULL
+	EV24	disclosure	NULL
+	MP1	WILDCARD $Speech_act
+	MP2	WILDCARD $Speech_act of WILDCARD $Activity
+	MP3	WILDCARD $Speech_act of WILDCARD
+$Spokesperson	1	wildcard	NULL
+	EV1	spokesman	NULL
+	EV2	spokeswoman	NULL
+	EV3	SPOKESMAN	NULL
+	EV4	Spokesman	NULL
+	MP1	WILDCARD $Spokesperson
+$Spouse	1	wildcard	NULL
+	EV1	husband	NULL
+	EV2	wife	NULL
+	MP1	WILDCARD $Spouse ,
+$Termination	1	wildcard	NULL
+	EV1	destruction	NULL
+	EV2	kills	NULL
+	EV3	KILL	NULL
+	EV4	shutdown	NULL
+	EV5	Kills	NULL
+	EV6	shutdowns	NULL
+	EV7	KILLS	NULL
+	EV8	destructions	NULL
+	EV9	breakup	NULL
+	EV10	DESTRUCTION	NULL
+	MP1	WILDCARD $Termination
+	MP2	WILDCARD $Termination WILDCARD $Number
+$Transaction	1	wildcard	NULL
+	EV1	operations	NULL
+	EV2	Commerce	NULL
+	EV3	deal	NULL
+	EV4	Operations	NULL
+	EV5	commerce	NULL
+	EV6	DEAL	NULL
+	EV7	uptick	NULL
+	MP1	WILDCARD $Transaction
+	MP2	WILDCARD $Transaction ,
+	MP3	relief WILDCARD $Transaction
+$Traveler	1	wildcard	NULL
+	EV1	tourists	NULL
+	EV2	tourist	NULL
+	EV3	passengers	NULL
+	EV4	visitors	NULL
+	EV5	foreigners	NULL
+	EV6	rider	NULL
+	EV7	Tourists	NULL
+	EV8	CARRIER	NULL
+	EV9	bearers	NULL
+	EV10	fliers	NULL
+	EV11	passenger	NULL
+	EV12	PASSENGERS	NULL
+	EV13	carrier	NULL
+	EV14	pedestrians	NULL
+	EV15	migrants	NULL
+	EV16	Foreigners	NULL
+	EV17	rover	NULL
+	EV18	Messenger	NULL
+	EV19	Messengers	NULL
+	EV20	foreigner	NULL
+	EV21	Passengers	NULL
+	MP1	WILDCARD $Traveler
+	MP2	WILDCARD $Traveler WILDCARD
+$Unfortunate	1	wildcard	NULL
+	EV1	survivors	NULL
+	EV2	victims	NULL
+	EV3	casualties	NULL
+	EV4	homeless	NULL
+	EV5	casualty	NULL
+	EV6	victim	NULL
+	EV7	Survivors	NULL
+	EV8	survivor	NULL
+	EV9	mourner	NULL
+	EV10	Desperate	NULL
+	EV11	Victims	NULL
+	EV12	CASUALTIES	NULL
+	EV13	Casualty	NULL
+	EV14	VICTIMS	NULL
+	EV15	Casualties	NULL
+	EV16	Victim	NULL
+	EV17	sufferers	NULL
+	EV18	HOMELESS	NULL
+	EV19	DESPERATE	NULL
+	EV20	desperate	NULL
+	MP1	WILDCARD $Unfortunate
+	MP2	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon ,
+	MP3	WILDCARD $Unfortunate in WILDCARD $Settlement
+	MP4	WILDCARD $Unfortunate of WILDCARD $Date
+$Vibration	1	wildcard	NULL
+	EV1	tremors	NULL
+	EV2	tremor	NULL
+	EV3	Tremor	NULL
+	MP1	WILDCARD $Vibration
+	MP2	WILDCARD $Vibration ,
+$Victory	1	wildcard	NULL
+	EV1	landslides	NULL
+	EV2	landslide	NULL
+	EV3	SLAM	NULL
+	EV4	Landslides	NULL
+	EV5	Win	NULL
+	EV6	LANDSLIDES	NULL
+	MP1	WILDCARD $Victory
+$Work	1	wildcard	NULL
+	EV1	Research	NULL
+	EV2	service	NULL
+	EV3	Survey	NULL
+	EV4	care	NULL
+	EV5	research	NULL
+	EV6	Service	NULL
+	EV7	SERVICE	NULL
+	EV8	projects	NULL
+	EV9	Project	NULL
+	EV10	project	NULL
+	EV11	Medical	NULL
+	EV12	survey	NULL
+	EV13	comparison	NULL
+	EV14	CARE	NULL
+	EV15	study	NULL
+	EV16	Cares	NULL
+	EV17	comparisons	NULL
+	MP1	WILDCARD $Work WILDCARD
+	MP2	WILDCARD $Work ,
+$Workman	1	wildcard	NULL
+	EV1	excavators	NULL
+	MP1	WILDCARD $Workman
+$Writer	1	wildcard	NULL
+	EV1	SEABROOK	NULL
+	EV2	Conrad	NULL
+	EV3	Li Bai	NULL
+	EV4	Raleigh	NULL
+	EV5	Mishima	NULL
+	MP1	WILDCARD $Writer WILDCARD
+
+(ENTITY,NULL,VALUE)

@@ -1,0 +1,935 @@
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.9645067675	WILDCARD $Number WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.9616318899	WILDCARD $Date WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.9589613472	WILDCARD $Number WILDCARD $Change
+WILDCARD <Date></Date> WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake>	0.9574677082	WILDCARD $Date WILDCARD $Earthquake
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.9572300743	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor>	0.9377299791	WILDCARD $Number WILDCARD $Tremor
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.9315128145	WILDCARD $Earthquake in WILDCARD $Country
+WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD <Person.Officeholder></Person.Officeholder>	0.9107595751	WILDCARD $Head_of_state WILDCARD $Officeholder
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Officeholder></Person.Officeholder>	0.8575285921	WILDCARD $Country WILDCARD $Officeholder
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.814415829	WILDCARD $Country WILDCARD $Date
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority>	0.8134297696	WILDCARD $Settlement WILDCARD $Civil_authority
+WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.8059654137	WILDCARD $Activity WILDCARD $Activity
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> and relief	0.7990019179	WILDCARD $Recovery and relief
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.7871815657	WILDCARD $Geological_phenomenon WILDCARD $Unfortunate
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender>	0.7805581508	WILDCARD $Company WILDCARD $Defender
+WILDCARD <Event.Act.Activity></Event.Act.Activity> to WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.7722150512	WILDCARD $Activity to WILDCARD $Country
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat>	0.7681372361	WILDCARD $Geological_phenomenon WILDCARD $Feat
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.763986289	WILDCARD $Earthquake WILDCARD $Unfortunate
+WILDCARD <Duration></Duration> WILDCARD <Person.Adult></Person.Adult>	0.756286174	WILDCARD $Duration WILDCARD $Adult
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Organization.Unit></Organization.Unit>	0.753926428	WILDCARD $Crisis WILDCARD $Unit
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> on WILDCARD <Date></Date>	0.748366586	WILDCARD $Country on WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Date></Date>	0.7455686922	WILDCARD $Geological_phenomenon in WILDCARD $Date
+WILDCARD <Organization.Force></Organization.Force> WILDCARD <Person.Worker.Skilled_worker.Serviceman></Person.Worker.Skilled_worker.Serviceman>	0.7274184877	WILDCARD $Force WILDCARD $Serviceman
+WILDCARD <Date></Date> and WILDCARD <Date></Date>	0.7268621161	WILDCARD $Date and WILDCARD $Date
+WILDCARD <Organization.Polity></Organization.Polity> WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker>	0.7251450225	WILDCARD $Polity WILDCARD $Skilled_worker
+WILDCARD <Duration></Duration> WILDCARD <Person.Adult.Woman></Person.Adult.Woman>	0.7251077339	WILDCARD $Duration WILDCARD $Woman
+WILDCARD <Date></Date> Announcer-read report over video:	0.7239472946	WILDCARD $Date Announcer-read report over video:
+WILDCARD <Number></Number> to WILDCARD <Number></Number>	0.7217027185	WILDCARD $Number to WILDCARD $Number
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.7175747424	WILDCARD $Company WILDCARD $Unfortunate
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> on WILDCARD <Date></Date>	0.7174644786	WILDCARD $Geological_phenomenon on WILDCARD $Date
+WILDCARD <Number></Number>	0.7003551541	WILDCARD $Number
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.6940415751	WILDCARD $Recovery WILDCARD $Activity
+WILDCARD <Date></Date> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.6767623188	WILDCARD $Date in WILDCARD $Settlement
+WILDCARD <Number></Number> WILDCARD <Person.Enrollee></Person.Enrollee>	0.6750802115	WILDCARD $Number WILDCARD $Enrollee
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> in WILDCARD <Date></Date>	0.665988788	WILDCARD $Country in WILDCARD $Date
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> on WILDCARD <Date></Date>	0.6655718714	WILDCARD $Settlement on WILDCARD $Date
+WILDCARD <Organization.Company></Organization.Company> A WILDCARD <Person.Juvenile></Person.Juvenile>	0.662193363	WILDCARD $Company A WILDCARD $Juvenile
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.6584929628	WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Number></Number> and WILDCARD <Number></Number>	0.6582101453	WILDCARD $Number and WILDCARD $Number
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker>	0.6580926493	WILDCARD $Country WILDCARD $Skilled_worker
+WILDCARD <Event.Act.Activity></Event.Act.Activity> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery>	0.6559328944	WILDCARD $Activity and WILDCARD $Recovery
+WILDCARD <Date></Date> on WILDCARD <Date></Date>	0.6424527314	WILDCARD $Date on WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Artifact.Covering.Cloth_covering.Bedclothes></Artifact.Covering.Cloth_covering.Bedclothes>	0.6396399827	WILDCARD $Number WILDCARD $Bedclothes
+WILDCARD <Organization.Company></Organization.Company> A WILDCARD <Person.Adult></Person.Adult>	0.6334578335	WILDCARD $Company A WILDCARD $Adult
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony>	0.6320480592	WILDCARD $Administrative_district WILDCARD $Ceremony
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Phenomenon.Consequence></Phenomenon.Consequence>	0.6314773543	WILDCARD $Crisis WILDCARD $Consequence
+total of WILDCARD <Number></Number>	0.6263746794	total of WILDCARD $Number
+WILDCARD <Person.Unfortunate></Person.Unfortunate> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.622661288	WILDCARD $Unfortunate in WILDCARD $Settlement
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> on WILDCARD <Date></Date>	0.6222265738	WILDCARD $Benefactor on WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> at WILDCARD <Number></Number>	0.6177591738	WILDCARD $Geological_phenomenon at WILDCARD $Number
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD	0.6135386151	WILDCARD $Country WILDCARD $Recovery WILDCARD
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Event.Act.Activity.Occupation.Employment></Event.Act.Activity.Occupation.Employment>	0.613313097	WILDCARD $Crisis WILDCARD $Employment
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Person></Person>	0.607879089	WILDCARD $Recovery WILDCARD $Person
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Group_action.Social_control.Management></Event.Act.Group_action.Social_control.Management>	0.6053373638	WILDCARD $Geological_phenomenon WILDCARD $Management
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> some WILDCARD <Number></Number>	0.602400013	WILDCARD $Settlement some WILDCARD $Number
+WILDCARD <Date></Date> a WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.6001533014	WILDCARD $Date a WILDCARD $Geological_phenomenon
+WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control> WILDCARD <Organization.Unit.Administrative_unit></Organization.Unit.Administrative_unit>	0.599377962	WILDCARD $Social_control WILDCARD $Administrative_unit
+WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD <Organization.Unit></Organization.Unit>	0.5963417674	WILDCARD $Activity WILDCARD $Unit
+WILDCARD <Number></Number> WILDCARD <Structure.Building></Structure.Building>	0.5950379169	WILDCARD $Number WILDCARD $Building
+WILDCARD <Location.Region></Location.Region> WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman>	0.5908736352	WILDCARD $Region WILDCARD $Clergyman
+WILDCARD <Number></Number> WILDCARD <Organization.Unit></Organization.Unit>	0.5901513352	WILDCARD $Number WILDCARD $Unit
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> in WILDCARD <Date></Date>	0.586749143	WILDCARD $Earthquake in WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Group_action.Resistance.Protest.Direct_action.Job_action></Event.Act.Group_action.Resistance.Protest.Direct_action.Job_action>	0.5867454334	WILDCARD $Geological_phenomenon WILDCARD $Job_action
+WILDCARD <Event.Act.Activity></Event.Act.Activity> at the WILDCARD <Structure.Building></Structure.Building> ,	0.5834223535	WILDCARD $Activity at the WILDCARD $Building ,
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Event.Act.Group_action.Transaction></Event.Act.Group_action.Transaction>	0.5780399564	WILDCARD $Recovery WILDCARD $Transaction
+Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.5775013007	Sichuan WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> WILDCARD <Organization.Broadcaster.Broadcastnetwork></Organization.Broadcaster.Broadcastnetwork>	0.5761577473	WILDCARD $Country WILDCARD $Skilled_worker WILDCARD $Broadcastnetwork
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date> and was felt across a broad swath	0.5756492725	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon struck at WILDCARD $Date and was felt across a broad swath
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD <Person.Officeholder></Person.Officeholder>	0.5750620231	WILDCARD $Corporate_executive WILDCARD $Officeholder
+WILDCARD <Structure.Building></Structure.Building> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.5705964579	WILDCARD $Building in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Person.Adult></Person.Adult> ,	0.5699363928	WILDCARD $Adult ,
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.5680500983	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Number></Number> people dead	0.5632692391	WILDCARD $Number people dead
+powerful, WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> before WILDCARD <Date></Date>	0.5571418658	powerful, WILDCARD $Geological_phenomenon struck WILDCARD $Country before WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter>	0.5537773348	WILDCARD $Number WILDCARD $Shelter
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck.	0.550391692	WILDCARD $Duration after the WILDCARD $Geological_phenomenon struck.
+rose to WILDCARD <Number></Number>	0.5497900396	rose to WILDCARD $Number
+WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> WILDCARD <Person.Officeholder></Person.Officeholder>	0.5481170262	WILDCARD $Clergyman WILDCARD $Officeholder
+Lushan WILDCARD <Location.Region></Location.Region> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.5445531915	Lushan WILDCARD $Region in WILDCARD $Country Sichuan WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization>	0.544286386	WILDCARD $Number - WILDCARD $Organization
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.542510927	WILDCARD $Benefactor WILDCARD $Activity
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.5415066325	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control>	0.5390488716	WILDCARD $Crisis WILDCARD $Social_control
+WILDCARD <Number></Number> WILDCARD <Number></Number>	0.5370595165	WILDCARD $Number WILDCARD $Number
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Person></Person>	0.5301971817	WILDCARD $Crisis WILDCARD $Person
+WILDCARD <Organization.Unit></Organization.Unit> WILDCARD <Person.Peer.Associate></Person.Peer.Associate>	0.5291232048	WILDCARD $Unit WILDCARD $Associate
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> It comes as WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> observed WILDCARD <Duration></Duration> WILDCARD	0.5282113346	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date It comes as WILDCARD $Country observed WILDCARD $Duration WILDCARD
+WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> of WILDCARD <Number></Number>	0.5279703482	WILDCARD $Municipality of WILDCARD $Number
+WILDCARD <Number></Number> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.5275759279	WILDCARD $Number in WILDCARD $Settlement
+WILDCARD <Number></Number> million people	0.5252189874	WILDCARD $Number million people
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Communicator></Person.Communicator>	0.5248637025	WILDCARD $Company WILDCARD $Communicator
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Date></Date>	0.5241170556	WILDCARD $Geological_phenomenon struck WILDCARD $Date
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.5229148343	WILDCARD $Company WILDCARD $Benefactor
+WILDCARD <Duration></Duration> WILDCARD <Person.Male></Person.Male>	0.5221861371	WILDCARD $Duration WILDCARD $Male
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person></Person>	0.5217549815	WILDCARD $Country WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Person.Traveler.Visitor></Person.Traveler.Visitor>	0.5215314838	WILDCARD $Number WILDCARD $Visitor
+WILDCARD <Number></Number> people.	0.5202997367	WILDCARD $Number people.
+WILDCARD <Event.Act.Implementation.Means.Expedient></Event.Act.Implementation.Means.Expedient> WILDCARD <Structure></Structure>	0.5201877843	WILDCARD $Expedient WILDCARD $Structure
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> of WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.5139089166	WILDCARD $Civil_authority of WILDCARD $Settlement
+WILDCARD <Event.Happening.Trouble.Misfortune.Calamity></Event.Happening.Trouble.Misfortune.Calamity> WILDCARD <Event.Act.Speech_act.Informing></Event.Act.Speech_act.Informing>	0.5093651606	WILDCARD $Calamity WILDCARD $Informing
+Prime WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> WILDCARD <Person.Officeholder></Person.Officeholder>	0.5088765985	Prime WILDCARD $Clergyman WILDCARD $Officeholder
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit>	0.5085541849	WILDCARD $Recovery WILDCARD $Unit
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.5068520926	WILDCARD $Number WILDCARD $Geological_phenomenon struck WILDCARD $Country WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Event.Social_event.Affair></Event.Social_event.Affair>	0.5066215659	WILDCARD $Date WILDCARD $Affair
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.5061168817	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon ,
+WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> WILDCARD <Date></Date> looking for WILDCARD	0.5057836098	WILDCARD $Residence WILDCARD $Date looking for WILDCARD
+WILDCARD <Number></Number> magnitude WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.5036173008	WILDCARD $Number magnitude WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date>	0.5035038547	WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> including WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> where WILDCARD <Person.Inhabitant></Person.Inhabitant> of the capital felt a long swaying followed by WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor>	0.5025592171	WILDCARD $Country including WILDCARD $Settlement where WILDCARD $Inhabitant of the capital felt a long swaying followed by WILDCARD $Tremor
+WILDCARD <Number></Number> WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.5021603196	WILDCARD $Number WILDCARD $Inhabitant
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll	0.497178074	WILDCARD $Change toll
+WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company>	0.4971132624	WILDCARD $Date The WILDCARD $Company
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.4969464635	WILDCARD $Country WILDCARD $Activity
+WILDCARD <Number></Number> people	0.4934724045	WILDCARD $Number people
+WILDCARD <Date></Date> WILDCARD <Duration></Duration> after a WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4922289467	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Case></Event.Happening.Case>	0.4911647246	WILDCARD $Date WILDCARD $Case
+WILDCARD <Event.Act.Activity></Event.Act.Activity> for WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.4861511249	WILDCARD $Activity for WILDCARD $Unfortunate
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> WILDCARD <Person.Officeholder></Person.Officeholder>	0.4857849462	WILDCARD $Civil_authority WILDCARD $Officeholder
+<Event.Happening.Change></Event.Happening.Change> toll	0.4832502999	$Change toll
+WILDCARD <Number></Number> WILDCARD <Organization.Force></Organization.Force>	0.4831367403	WILDCARD $Number WILDCARD $Force
+farewell WILDCARD <Date></Date> to WILDCARD	0.482040092	farewell WILDCARD $Date to WILDCARD
+WILDCARD <Event.Act.Activity></Event.Act.Activity> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit>	0.4768680848	WILDCARD $Activity and WILDCARD $Recovery WILDCARD $Unit
+WILDCARD <Event.Happening.Case></Event.Happening.Case> WILDCARD <Date></Date>	0.4761447567	WILDCARD $Case WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.4753645665	WILDCARD $Date WILDCARD $Benefactor
+WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker>	0.4718024009	WILDCARD $Activity WILDCARD $Skilled_worker
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.470109627	WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.4665593603	WILDCARD $Company WILDCARD $Benefactor WILDCARD $Activity
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> , WILDCARD <Number></Number>	0.4665079258	WILDCARD $Number WILDCARD $Shelter , WILDCARD $Number
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.4653933078	WILDCARD $Unfortunate of an WILDCARD $Geological_phenomenon in WILDCARD $Country
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> at WILDCARD <Date></Date>	0.4649740198	WILDCARD $Administrative_district at WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Number></Number>	0.4619783868	WILDCARD $Date WILDCARD $Number
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority>	0.4613090312	WILDCARD $Civil_authority
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The WILDCARD	0.460699099	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date The WILDCARD
+WILDCARD <Duration></Duration> after a WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> wreaked WILDCARD <Event.Happening.Change></Event.Happening.Change> across the WILDCARD <Location></Location>	0.4565321993	WILDCARD $Duration after a WILDCARD $Geological_phenomenon wreaked WILDCARD $Change across the WILDCARD $Location
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.4557504572	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country
+block-time WILDCARD <Number></Number> BST	0.4553743626	block-time WILDCARD $Number BST
+WILDCARD <Organization.Company></Organization.Company> An WILDCARD <Person.Adult></Person.Adult>	0.4550531168	WILDCARD $Company An WILDCARD $Adult
+WILDCARD <Number></Number> WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European>	0.4544494626	WILDCARD $Number WILDCARD $European
+WILDCARD <Number></Number> WILDCARD <Person.Worker.Skilled_worker.Serviceman.Enlisted_person></Person.Worker.Skilled_worker.Serviceman.Enlisted_person>	0.4542191162	WILDCARD $Number WILDCARD $Enlisted_person
+magnitude WILDCARD <Number></Number>	0.4524689788	magnitude WILDCARD $Number
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> and WILDCARD <Event.Happening.Trouble.Misfortune.Calamity></Event.Happening.Trouble.Misfortune.Calamity>	0.4523555698	WILDCARD $Geological_phenomenon and WILDCARD $Calamity
+magnitude of WILDCARD <Number></Number>	0.4515314414	magnitude of WILDCARD $Number
+WILDCARD <Date></Date> a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4488808987	WILDCARD $Date a WILDCARD $Number WILDCARD $Geological_phenomenon
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of the devastating WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4480671822	WILDCARD $Unfortunate of the devastating WILDCARD $Geological_phenomenon
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.4467333525	WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Duration></Duration> WILDCARD <Person.Relative.Offspring.Child></Person.Relative.Offspring.Child>	0.4456822858	WILDCARD $Duration WILDCARD $Child
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.4453528874	WILDCARD $Settlement WILDCARD $Inhabitant
+<Organization.Unit></Organization.Unit> WILDCARD <Person.Peer.Associate></Person.Peer.Associate> for a WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4445991186	$Unit WILDCARD $Associate for a WILDCARD $Administrative_district WILDCARD $Ceremony for some of the WILDCARD $Unfortunate of WILDCARD $Date WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> kilometers	0.4414752691	WILDCARD $Number kilometers
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> WILDCARD <Structure.Housing.Living_quarters.Military_quarters></Structure.Housing.Living_quarters.Military_quarters> or WILDCARD <Structure></Structure> arranged by the WILDCARD <Organization></Organization> The WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender>	0.4411972041	WILDCARD $Number WILDCARD $Shelter WILDCARD $Military_quarters or WILDCARD $Structure arranged by the WILDCARD $Organization The WILDCARD $Company WILDCARD $Defender
+depth of WILDCARD <Number></Number>	0.4401687994	depth of WILDCARD $Number
+WILDCARD <Person.Leader.Head></Person.Leader.Head> WILDCARD <Person.Officeholder></Person.Officeholder>	0.4389713445	WILDCARD $Head WILDCARD $Officeholder
+WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> of WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.4387668533	WILDCARD $Speech_act of WILDCARD $Activity
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD	0.4385972844	WILDCARD $Country WILDCARD $Date where a WILDCARD $Number WILDCARD
+WILDCARD <Number></Number> miles	0.4377957019	WILDCARD $Number miles
+WILDCARD <Structure></Structure> after an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.4370017019	WILDCARD $Structure after an WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll from the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4353906523	WILDCARD $Change toll from the WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date> The WILDCARD <Event.Happening.Change></Event.Happening.Change> toll	0.4345187726	WILDCARD $Date The WILDCARD $Change toll
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD <Person.Politician.President></Person.Politician.President>	0.4334631295	WILDCARD $Corporate_executive WILDCARD $President
+WILDCARD <Event.Happening></Event.Happening> WILDCARD <Organization.Unit.Administrative_unit.Division></Organization.Unit.Administrative_unit.Division>	0.4322982613	WILDCARD $Happening WILDCARD $Division
+WILDCARD <Person.Relative.Sibling></Person.Relative.Sibling> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4274770516	WILDCARD $Sibling WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date> WILDCARD <Duration></Duration>	0.42648776	WILDCARD $Date WILDCARD $Duration
+WILDCARD <Date></Date> A WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake>	0.4240046037	WILDCARD $Date A WILDCARD $Earthquake
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.4224915242	WILDCARD $Duration after the WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> villages	0.4222810341	WILDCARD $Number villages
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number>	0.4218160585	WILDCARD $Number WILDCARD $Number WILDCARD $Number
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> in WILDCARD <Date></Date>	0.4207214189	WILDCARD $Settlement in WILDCARD $Date
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> and relief WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.4186250057	WILDCARD $Recovery and relief WILDCARD $Activity
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date>	0.4169319719	WILDCARD $Geological_phenomenon struck at WILDCARD $Date
+WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.416236427	WILDCARD $Unfortunate
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date>	0.4140962367	WILDCARD $Country Sichuan WILDCARD $Administrative_district , WILDCARD $Date
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Date></Date>	0.4136880313	WILDCARD $Settlement WILDCARD $Date
+dead and WILDCARD <Number></Number>	0.4118819955	dead and WILDCARD $Number
+WILDCARD <Number></Number> WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence>	0.4116017198	WILDCARD $Number WILDCARD $Residence
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.411058445	WILDCARD $Date WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Organization.Company></Organization.Company>	0.4109732089	WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date WILDCARD $Company
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman>	0.4087216124	WILDCARD $Country WILDCARD $Clergyman
+WILDCARD <Person></Person> WILDCARD <Artifact.Instrumentality.Equipment.Sports_equipment.Baseball_equipment.Base></Artifact.Instrumentality.Equipment.Sports_equipment.Baseball_equipment.Base>	0.4083193179	WILDCARD $Person WILDCARD $Base
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Case></Event.Happening.Case> WILDCARD <Date></Date>	0.407153624	WILDCARD $Date WILDCARD $Case WILDCARD $Date
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> WILDCARD <Organization.Broadcaster.Broadcastnetwork></Organization.Broadcaster.Broadcastnetwork>	0.4054197751	WILDCARD $Skilled_worker WILDCARD $Broadcastnetwork
+WILDCARD <Number></Number> miles north	0.4029243777	WILDCARD $Number miles north
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> killed at WILDCARD <Number></Number> people	0.4019576629	WILDCARD $Geological_phenomenon killed at WILDCARD $Number people
+WILDCARD <Number></Number> magnitude WILDCARD	0.3997067542	WILDCARD $Number magnitude WILDCARD
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Person.Communicator></Person.Communicator> WILDCARD <Organization.Company></Organization.Company>	0.3983266988	WILDCARD $Administrative_district WILDCARD $Communicator WILDCARD $Company
+Yunnan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.3968702356	Yunnan WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> Yunnan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.3942064128	WILDCARD $Country Yunnan WILDCARD $Administrative_district WILDCARD $Date
+<Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> line	0.3940843821	$Nonaccomplishment line
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Organization.Polity></Organization.Polity>	0.3896642497	WILDCARD $Date WILDCARD $Country WILDCARD $Polity
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> WILDCARD <Structure.Housing.Living_quarters.Military_quarters></Structure.Housing.Living_quarters.Military_quarters> or WILDCARD <Structure></Structure> arranged by the WILDCARD <Organization></Organization>	0.389141079	WILDCARD $Number WILDCARD $Shelter WILDCARD $Military_quarters or WILDCARD $Structure arranged by the WILDCARD $Organization
+WILDCARD <Person.Adult></Person.Adult> cries	0.3874295969	WILDCARD $Adult cries
+WILDCARD <Event.Happening.Change.Transformation.Improvement></Event.Happening.Change.Transformation.Improvement> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.3860344375	WILDCARD $Improvement WILDCARD $Activity
+WILDCARD <Person.Communicator></Person.Communicator> WILDCARD <Organization.Company></Organization.Company>	0.3818666192	WILDCARD $Communicator WILDCARD $Company
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> about WILDCARD <Number></Number>	0.3800273084	WILDCARD $Settlement about WILDCARD $Number
+<Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> where WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.3791762423	$Settlement where WILDCARD $Inhabitant
+WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.3790591955	WILDCARD $Change
+WILDCARD <Number></Number> percent	0.3787775268	WILDCARD $Number percent
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.3771837261	WILDCARD $Date WILDCARD $Country
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , in Accumoli, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> rocked WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.3766139327	WILDCARD $Geological_phenomenon , in Accumoli, WILDCARD $Country WILDCARD $Date A devastating WILDCARD $Geological_phenomenon rocked WILDCARD $Country
+WILDCARD <Date></Date> WILDCARD <Artifact.Creation.Representation></Artifact.Creation.Representation>	0.3762610435	WILDCARD $Date WILDCARD $Representation
+Tainan WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> WILDCARD <Person.Officeholder></Person.Officeholder>	0.3742982154	Tainan WILDCARD $Civil_authority WILDCARD $Officeholder
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3742703805	WILDCARD $Unfortunate of WILDCARD $Date WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> kilometres	0.3733181344	WILDCARD $Number kilometres
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number>	0.3730760141	WILDCARD $Number WILDCARD $Number WILDCARD $Number WILDCARD $Number
+WILDCARD <Person.Officeholder></Person.Officeholder> and WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD <Person.Officeholder></Person.Officeholder>	0.372969147	WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+<Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD <Person.Officeholder></Person.Officeholder> and WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD <Person.Officeholder></Person.Officeholder>	0.3717510069	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder
+WILDCARD <Date></Date> WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Artifact.Instrumentality.Medium.Telecommunication.Broadcasting></Artifact.Instrumentality.Medium.Telecommunication.Broadcasting>	0.371188753	WILDCARD $Date WILDCARD $Administrative_district WILDCARD $Broadcasting
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3709918925	WILDCARD $Date WILDCARD $Country WILDCARD $Geological_phenomenon
+WILDCARD <Date></Date> - WILDCARD <Organization></Organization>	0.3690204338	WILDCARD $Date - WILDCARD $Organization
+WILDCARD <Event.Act.Action.Interaction></Event.Act.Action.Interaction> with WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD	0.3681298032	WILDCARD $Interaction with WILDCARD $Country WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date> The WILDCARD	0.3672465076	WILDCARD $Country Sichuan WILDCARD $Administrative_district , WILDCARD $Date The WILDCARD
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.3671409584	WILDCARD $Earthquake struck WILDCARD $Country
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.3670457073	WILDCARD $Geological_phenomenon , in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Person.Officeholder></Person.Officeholder> WILDCARD <Person.Officeholder></Person.Officeholder>	0.3670200109	WILDCARD $Officeholder WILDCARD $Officeholder
+WILDCARD <Person.Relative.Ancestor.Progenitor.Genitor.Parent></Person.Relative.Ancestor.Progenitor.Genitor.Parent> and WILDCARD	0.366107768	WILDCARD $Parent and WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Action.Change.Change_of_state.Termination></Event.Act.Action.Change.Change_of_state.Termination>	0.3658465049	WILDCARD $Geological_phenomenon WILDCARD $Termination
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality>	0.3651813161	WILDCARD $Date WILDCARD $Fatality
+WILDCARD <Person.Officeholder></Person.Officeholder>	0.3648856173	WILDCARD $Officeholder
+WILDCARD <Number></Number> WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender>	0.3636712915	WILDCARD $Number WILDCARD $Defender
+Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.3636128846	Pescara Del Tronto, WILDCARD $Country WILDCARD $Date
+less than WILDCARD <Number></Number>	0.3606504244	less than WILDCARD $Number
+WILDCARD <Date></Date> WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3603904254	WILDCARD $Date WILDCARD $Number WILDCARD $Geological_phenomenon
+Lunar WILDCARD <Date></Date>	0.3601494304	Lunar WILDCARD $Date
+rubble following an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.3588685003	rubble following an WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A powerful, WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> before WILDCARD <Date></Date>	0.3577091458	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date A powerful, WILDCARD $Geological_phenomenon struck WILDCARD $Country before WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> killing at WILDCARD <Number></Number>	0.3558650712	WILDCARD $Country killing at WILDCARD $Number
+WILDCARD <Person.Domestic_partner.Spouse></Person.Domestic_partner.Spouse> and WILDCARD	0.3558139184	WILDCARD $Spouse and WILDCARD
+WILDCARD <Structure.Building></Structure.Building> following an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The magnitude WILDCARD <Number></Number>	0.355002404	WILDCARD $Building following an WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date The magnitude WILDCARD $Number
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor> ,	0.354072446	WILDCARD $Number WILDCARD $Tremor ,
+WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD <Person></Person>	0.3527132887	WILDCARD $Activity WILDCARD $Person
+WILDCARD <Event.Act.Action.Change.Change_of_integrity.Separation.Removal></Event.Act.Action.Change.Change_of_integrity.Separation.Removal> WILDCARD <Location.Region.Area></Location.Region.Area>	0.35100334	WILDCARD $Removal WILDCARD $Area
+WILDCARD <Location.Populatedplace.Settlement.City></Location.Populatedplace.Settlement.City> WILDCARD <Date></Date>	0.3496127379	WILDCARD $City WILDCARD $Date
+WILDCARD <Number></Number> were injured.	0.3472207855	WILDCARD $Number were injured.
+WILDCARD <Date></Date> More than WILDCARD <Number></Number>	0.3467054063	WILDCARD $Date More than WILDCARD $Number
+<Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> at a depth of WILDCARD <Number></Number>	0.3458423269	$Settlement at a depth of WILDCARD $Number
+<Organization.Company></Organization.Company> said the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> was the strongest to hit Yunnan in WILDCARD <Duration></Duration>	0.3441185799	$Company said the WILDCARD $Geological_phenomenon was the strongest to hit Yunnan in WILDCARD $Duration
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality> at WILDCARD <Number></Number>	0.344007834	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date>	0.3412848822	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon struck at WILDCARD $Date
+video WILDCARD <Event.Act.Activity.Diversion.Entertainment></Event.Act.Activity.Diversion.Entertainment> WILDCARD	0.3407641419	video WILDCARD $Entertainment WILDCARD
+WILDCARD <Date></Date> A WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3389651546	WILDCARD $Date A WILDCARD $Geological_phenomenon
+WILDCARD <Person.Worker.Skilled_worker.Serviceman></Person.Worker.Skilled_worker.Serviceman> and WILDCARD	0.338783891	WILDCARD $Serviceman and WILDCARD
+WILDCARD <Number></Number> magnitude	0.3373543101	WILDCARD $Number magnitude
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake>	0.3365699072	WILDCARD $Country WILDCARD $Earthquake
+Yunnan killed at WILDCARD <Number></Number>	0.3364572886	Yunnan killed at WILDCARD $Number
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , in Accumoli, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3345270649	WILDCARD $Geological_phenomenon , in Accumoli, WILDCARD $Country WILDCARD $Date A devastating WILDCARD $Geological_phenomenon
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll from WILDCARD <Date></Date>	0.3320198302	WILDCARD $Change toll from WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> killed at WILDCARD <Number></Number>	0.3301590542	WILDCARD $Geological_phenomenon killed at WILDCARD $Number
+<Person.Adult></Person.Adult> cries	0.3279168755	$Adult cries
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> WILDCARD <Structure.Housing.Living_quarters.Military_quarters></Structure.Housing.Living_quarters.Military_quarters> or WILDCARD <Structure></Structure> arranged by the WILDCARD <Organization></Organization> The WILDCARD <Organization.Company></Organization.Company>	0.3275485515	WILDCARD $Number WILDCARD $Shelter WILDCARD $Military_quarters or WILDCARD $Structure arranged by the WILDCARD $Organization The WILDCARD $Company
+population of WILDCARD <Number></Number>	0.3274906432	population of WILDCARD $Number
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck on WILDCARD <Date></Date>	0.3274666512	WILDCARD $Geological_phenomenon struck on WILDCARD $Date
+WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act>	0.3259912614	WILDCARD $European WILDCARD $Speech_act
+WILDCARD <Number></Number> The WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3259814704	WILDCARD $Number The WILDCARD $Geological_phenomenon
+gmt WILDCARD <Date></Date> - WILDCARD <Organization></Organization>	0.3253500484	gmt WILDCARD $Date - WILDCARD $Organization
+WILDCARD <Person.Unfortunate></Person.Unfortunate> , WILDCARD <Number></Number>	0.3221241428	WILDCARD $Unfortunate , WILDCARD $Number
+WILDCARD <Number></Number> people. WILDCARD	0.3215911984	WILDCARD $Number people. WILDCARD
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.3202741376	WILDCARD $Company WILDCARD $Defender WILDCARD $Activity
+WILDCARD <Number></Number> WILDCARD <Person.Juvenile></Person.Juvenile>	0.3197837229	WILDCARD $Number WILDCARD $Juvenile
+WILDCARD <Date></Date> The WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3192690466	WILDCARD $Date The WILDCARD $Geological_phenomenon
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.3171183267	WILDCARD $Geological_phenomenon WILDCARD $Change
+WILDCARD <Number></Number> WILDCARD <Date></Date>	0.316943002	WILDCARD $Number WILDCARD $Date
+offer WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.3165756827	offer WILDCARD $Activity
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality> at WILDCARD <Number></Number> people	0.3164635559	WILDCARD $Date WILDCARD $Fatality at WILDCARD $Number people
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Fictionalcharacter.Comicscharacter></Person.Fictionalcharacter.Comicscharacter>	0.3157974285	WILDCARD $Country WILDCARD $Comicscharacter
+WILDCARD <Date></Date> WILDCARD <Organization.Company></Organization.Company>	0.3147222049	WILDCARD $Date WILDCARD $Company
+Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> on WILDCARD <Date></Date>	0.3140166465	Sichuan WILDCARD $Administrative_district on WILDCARD $Date
+China WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Group_action.Social_control.Management></Event.Act.Group_action.Social_control.Management>	0.3122980217	China WILDCARD $Geological_phenomenon WILDCARD $Management
+WILDCARD <Number></Number> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.3115660837	WILDCARD $Number WILDCARD $Unfortunate
+WILDCARD <Duration></Duration> WILDCARD	0.3105652431	WILDCARD $Duration WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> in the WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality>	0.310225308	WILDCARD $Unfortunate in the WILDCARD $Municipality
+WILDCARD <Event.Happening.Contact></Event.Happening.Contact> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3099055179	WILDCARD $Contact of the WILDCARD $Geological_phenomenon
+WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality> at WILDCARD <Number></Number> people	0.3089405541	WILDCARD $Fatality at WILDCARD $Number people
+<Number></Number> per cent	0.3080986506	$Number per cent
+WILDCARD <Date></Date> after the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3072765468	WILDCARD $Date after the WILDCARD $Geological_phenomenon
+WILDCARD <Event.Happening.Change></Event.Happening.Change> from the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3049162485	WILDCARD $Change from the WILDCARD $Geological_phenomenon
+<Event.Happening.Change></Event.Happening.Change> toll rose	0.3047880386	$Change toll rose
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD	0.3046417398	WILDCARD $Recovery WILDCARD
+WILDCARD <Date></Date> Announcer-read report over video	0.3035611965	WILDCARD $Date Announcer-read report over video
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.3024464305	WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon
+<Date></Date> and was felt across a broad swath of WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> including WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> where WILDCARD <Person.Inhabitant></Person.Inhabitant> of the capital	0.3022942118	$Date and was felt across a broad swath of WILDCARD $Country including WILDCARD $Settlement where WILDCARD $Inhabitant of the capital
+WILDCARD <Structure.Building></Structure.Building> following an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.3016566677	WILDCARD $Building following an WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date
+WILDCARD <Number></Number> people dead and more than WILDCARD <Number></Number> injured.	0.3010137231	WILDCARD $Number people dead and more than WILDCARD $Number injured.
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake>	0.300537249	WILDCARD $Earthquake
+population of about WILDCARD <Number></Number>	0.29922592	population of about WILDCARD $Number
+WILDCARD <Number></Number> WILDCARD <Structure></Structure>	0.2988293296	WILDCARD $Number WILDCARD $Structure
+<Event.Act.Recovery></Event.Act.Recovery> operation	0.2981424765	$Recovery operation
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.2980844869	WILDCARD $Defender WILDCARD $Activity
+WILDCARD <Date></Date> At WILDCARD <Number></Number>	0.297256945	WILDCARD $Date At WILDCARD $Number
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> is located on WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> lines and is prone to WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2956834493	WILDCARD $Country is located on WILDCARD $Nonaccomplishment lines and is prone to WILDCARD $Geological_phenomenon
+<Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> lines	0.2955022915	$Nonaccomplishment lines
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , in Accumoli, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2952671053	WILDCARD $Geological_phenomenon , in Accumoli, WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Event.Act.Activity></Event.Act.Activity> ,	0.2945500963	WILDCARD $Recovery WILDCARD $Activity ,
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.293544851	WILDCARD $Benefactor
+WILDCARD <Number></Number> million	0.2927998508	WILDCARD $Number million
+WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> WILDCARD <Date></Date>	0.2906877208	WILDCARD $Residence WILDCARD $Date
+extent of the WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.2899704017	extent of the WILDCARD $Change
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Date></Date>	0.2874319538	WILDCARD $Geological_phenomenon WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Organization.Unit></Organization.Unit> ,	0.2867230437	WILDCARD $Number WILDCARD $Unit ,
+WILDCARD <Number></Number> people whose WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence>	0.2856519891	WILDCARD $Number people whose WILDCARD $Residence
+WILDCARD <Location.Region></Location.Region> WILDCARD <Date></Date>	0.2841410215	WILDCARD $Region WILDCARD $Date
+WILDCARD <Date></Date> A WILDCARD <Number></Number>	0.282410415	WILDCARD $Date A WILDCARD $Number
+people were killed and WILDCARD <Number></Number>	0.2815181036	people were killed and WILDCARD $Number
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.2806702156	WILDCARD $Unfortunate of WILDCARD $Country
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> was the strongest to hit Yunnan in WILDCARD <Duration></Duration>	0.2797163164	WILDCARD $Geological_phenomenon was the strongest to hit Yunnan in WILDCARD $Duration
+depth of WILDCARD <Number></Number> kilometers	0.2795094962	depth of WILDCARD $Number kilometers
+WILDCARD <Number></Number> people had been staying at the WILDCARD <Structure.Building></Structure.Building>	0.2779394515	WILDCARD $Number people had been staying at the WILDCARD $Building
+WILDCARD <Person.Adult></Person.Adult> is rescued from the rubble of a WILDCARD <Structure></Structure>	0.2774818829	WILDCARD $Adult is rescued from the rubble of a WILDCARD $Structure
+U.S. Geological WILDCARD <Event.Act.Activity.Work.Investigation.Examination></Event.Act.Activity.Work.Investigation.Examination>	0.2769153672	U.S. Geological WILDCARD $Examination
+WILDCARD <Event.Act.Implementation.Means.Expedient></Event.Act.Implementation.Means.Expedient> WILDCARD <Structure.Housing.Living_quarters.Military_quarters></Structure.Housing.Living_quarters.Military_quarters>	0.2768702044	WILDCARD $Expedient WILDCARD $Military_quarters
+people and injured more than WILDCARD <Number></Number>	0.2763976338	people and injured more than WILDCARD $Number
+WILDCARD <Date></Date> Announcer-read report over video with natural sound:	0.2756667538	WILDCARD $Date Announcer-read report over video with natural sound:
+WILDCARD <Number></Number> WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake>	0.2749275701	WILDCARD $Number WILDCARD $Earthquake
+WILDCARD <Event.Act.Activity.Diversion></Event.Act.Activity.Diversion> WILDCARD	0.2746768282	WILDCARD $Diversion WILDCARD
+Foreign WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> WILDCARD <Person.Officeholder></Person.Officeholder>	0.2745529625	Foreign WILDCARD $Clergyman WILDCARD $Officeholder
+Tronto, near WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2743119849	Tronto, near WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.2732588911	WILDCARD $Feat WILDCARD $Country
+magnitude at WILDCARD <Number></Number>	0.2730276575	magnitude at WILDCARD $Number
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Person.Communicator></Person.Communicator>	0.272368211	WILDCARD $Administrative_district WILDCARD $Communicator
+WILDCARD <Structure.Building></Structure.Building> following an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.271220686	WILDCARD $Building following an WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date The magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> people dead.	0.2712081441	WILDCARD $Number people dead.
+WILDCARD <Date></Date> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.270689297	WILDCARD $Date in WILDCARD $Country
+<Number></Number> people and injured more than WILDCARD <Number></Number>	0.2699429913	$Number people and injured more than WILDCARD $Number
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2690952831	WILDCARD $Geological_phenomenon struck WILDCARD $Country WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Duration></Duration>	0.2690804936	WILDCARD $Country WILDCARD $Duration
+WILDCARD <Number></Number> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.26849394	WILDCARD $Number in WILDCARD $Country
+WILDCARD <Number></Number> WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district>	0.2684272575	WILDCARD $Number WILDCARD $Administrative_district
+WILDCARD <Event.Happening.Case></Event.Happening.Case> ,	0.2680524621	WILDCARD $Case ,
+WILDCARD <Date></Date> two WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2669799195	WILDCARD $Date two WILDCARD $Geological_phenomenon
+WILDCARD <Organization></Organization> set up WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> around the WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> to accommodate the WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.2654127947	WILDCARD $Organization set up WILDCARD $Municipality around the WILDCARD $Municipality to accommodate the WILDCARD $Unfortunate
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Phenomenon.Consequence></Phenomenon.Consequence> WILDCARD <Location.Region.Area></Location.Region.Area>	0.26412409	WILDCARD $Crisis WILDCARD $Consequence WILDCARD $Area
+WILDCARD <Date></Date> a WILDCARD	0.2638325279	WILDCARD $Date a WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Yunnan killed at WILDCARD <Number></Number> people,	0.2637513051	WILDCARD $Geological_phenomenon in Yunnan killed at WILDCARD $Number people,
+shallow depth of WILDCARD <Number></Number>	0.263000311	shallow depth of WILDCARD $Number
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> WILDCARD <Date></Date>	0.2621309792	WILDCARD $Earthquake WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Structure></Structure> ,	0.2616845899	WILDCARD $Number WILDCARD $Structure ,
+WILDCARD <Date></Date> broke,	0.2610537788	WILDCARD $Date broke,
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Duration></Duration>	0.2602912877	WILDCARD $Settlement WILDCARD $Duration
+<Person.Authority.Civil_authority></Person.Authority.Civil_authority> Stefano Petrucci	0.2601652339	$Civil_authority Stefano Petrucci
+WILDCARD <Number></Number> WILDCARD <Event.Act.Recovery></Event.Act.Recovery>	0.2582539238	WILDCARD $Number WILDCARD $Recovery
+WILDCARD <Event.Happening.Case></Event.Happening.Case>	0.2568701776	WILDCARD $Case
+toll at WILDCARD <Number></Number>	0.256675015	toll at WILDCARD $Number
+dead and more than WILDCARD <Number></Number>	0.2556351678	dead and more than WILDCARD $Number
+Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2546129634	Tronto, WILDCARD $Country WILDCARD $Date
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker>	0.2545731922	WILDCARD $Skilled_worker
+WILDCARD <Number></Number> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.2543535092	WILDCARD $Number WILDCARD $Country
+WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.2542464869	WILDCARD $Activity
+WILDCARD <Number></Number> on WILDCARD <Date></Date>	0.253868414	WILDCARD $Number on WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality>	0.2533741571	WILDCARD $Number WILDCARD $Municipality
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state>	0.2529475397	WILDCARD $Country WILDCARD $Head_of_state
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization> WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.2522705442	WILDCARD $Number - WILDCARD $Organization WILDCARD $Settlement
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Person></Person>	0.250914734	WILDCARD $Company WILDCARD $Recovery WILDCARD $Person
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2491693073	WILDCARD $Country WILDCARD $Date A devastating WILDCARD $Geological_phenomenon
+WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD	0.2477235236	WILDCARD $Ceremony for some of the WILDCARD
+WILDCARD <Location></Location> of WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2476301488	WILDCARD $Location of WILDCARD $Country WILDCARD $Date
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Number></Number>	0.2473300903	WILDCARD $Administrative_district , WILDCARD $Number
+WILDCARD <Number></Number> of the WILDCARD <Number></Number>	0.2468239854	WILDCARD $Number of the WILDCARD $Number
+WILDCARD <Event.Act.Action.Interaction></Event.Act.Action.Interaction>	0.2450286566	WILDCARD $Interaction
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.2426700298	WILDCARD $Date WILDCARD $Geological_phenomenon in WILDCARD $Country
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.2424575017	WILDCARD $Date WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Duration></Duration> WILDCARD <Person.Relative.Offspring.Child.Male_offspring></Person.Relative.Offspring.Child.Male_offspring>	0.2411869931	WILDCARD $Duration WILDCARD $Male_offspring
+WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude> and WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control> WILDCARD	0.2407002185	WILDCARD $Change_of_magnitude and WILDCARD $Social_control WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> measuring WILDCARD <Number></Number> on the Richter scale	0.239848066	WILDCARD $Geological_phenomenon measuring WILDCARD $Number on the Richter scale
+<Person.Leader.Spiritual_leader.Clergyman.Priest></Person.Leader.Spiritual_leader.Clergyman.Priest> Giovanni	0.2397724761	$Priest Giovanni
+Disaster Risk WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude> and WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control>	0.2396625496	Disaster Risk WILDCARD $Change_of_magnitude and WILDCARD $Social_control
+WILDCARD <Number></Number> kilometers ,	0.2396141601	WILDCARD $Number kilometers ,
+WILDCARD <Location.Point.Geographic_point></Location.Point.Geographic_point> of WILDCARD <Date></Date>	0.238612009	WILDCARD $Geographic_point of WILDCARD $Date
+WILDCARD <Duration></Duration> after an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2380700985	WILDCARD $Duration after an WILDCARD $Geological_phenomenon
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date>	0.2368648754	WILDCARD $Administrative_district , WILDCARD $Date
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> in WILDCARD <Date></Date>	0.2350833424	WILDCARD $Geological_phenomenon in WILDCARD $Country in WILDCARD $Date
+WILDCARD <Number></Number> on the Richter scale	0.2348522009	WILDCARD $Number on the Richter scale
+WILDCARD <Number></Number> on the Richter	0.2338083793	WILDCARD $Number on the Richter
+WILDCARD <Number></Number> people dead and more than WILDCARD <Number></Number>	0.2334495701	WILDCARD $Number people dead and more than WILDCARD $Number
+WILDCARD <Person.Peer.Associate></Person.Peer.Associate>	0.2331304785	WILDCARD $Associate
+Yunnan killed at WILDCARD <Number></Number> people,	0.2330746404	Yunnan killed at WILDCARD $Number people,
+WILDCARD <Date></Date> WILDCARD <Date></Date>	0.2329492246	WILDCARD $Date WILDCARD $Date
+WILDCARD <Duration></Duration> WILDCARD <Duration></Duration>	0.2303128769	WILDCARD $Duration WILDCARD $Duration
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> ,	0.2301423021	WILDCARD $Number WILDCARD $Shelter ,
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2296906811	WILDCARD $Unfortunate of the WILDCARD $Geological_phenomenon
+Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date>	0.227299587	Sichuan WILDCARD $Administrative_district , WILDCARD $Date
+WILDCARD <Event.Happening.Beginning></Event.Happening.Beginning>	0.2271555559	WILDCARD $Beginning
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor> rattled WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.226923815	WILDCARD $Tremor rattled WILDCARD $Inhabitant
+WILDCARD <Number></Number> people, and a WILDCARD	0.2263298643	WILDCARD $Number people, and a WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> farewell WILDCARD <Date></Date> to WILDCARD	0.2252363633	WILDCARD $Country WILDCARD $Date WILDCARD $European WILDCARD $Speech_act farewell WILDCARD $Date to WILDCARD
+WILDCARD <Event.Act.Speech_act.Command></Event.Act.Speech_act.Command>	0.2242109799	WILDCARD $Command
+magnitude WILDCARD <Number></Number> WILDCARD	0.2231695689	magnitude WILDCARD $Number WILDCARD
+WILDCARD <Duration></Duration> after a WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2221409568	WILDCARD $Duration after a WILDCARD $Geological_phenomenon
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> make their way through destroyed WILDCARD	0.2204066749	WILDCARD $Company WILDCARD $Benefactor make their way through destroyed WILDCARD
+WILDCARD <Number></Number> magnitude WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.2199360216	WILDCARD $Number magnitude WILDCARD $Geological_phenomenon ,
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date> The WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2196282287	WILDCARD $Settlement WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date The WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD	0.2188859815	WILDCARD $Number WILDCARD
+WILDCARD <Person.Worker.Skilled_worker.Serviceman.Enlisted_person></Person.Worker.Skilled_worker.Serviceman.Enlisted_person> and WILDCARD	0.2172507648	WILDCARD $Enlisted_person and WILDCARD
+WILDCARD <Number></Number> WILDCARD <Location.Populatedplace.Settlement.City></Location.Populatedplace.Settlement.City>	0.216938307	WILDCARD $Number WILDCARD $City
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> of the WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality>	0.216669571	WILDCARD $Civil_authority of the WILDCARD $Municipality
+WILDCARD <Event.Act.Implementation.Means.Expedient></Event.Act.Implementation.Means.Expedient> WILDCARD	0.2162206214	WILDCARD $Expedient WILDCARD
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> measuring WILDCARD <Number></Number> on the Richter	0.2139882229	$Geological_phenomenon measuring WILDCARD $Number on the Richter
+WILDCARD <Organization.Company></Organization.Company> A WILDCARD <Person.Adult></Person.Adult> is rescued from the rubble of a WILDCARD <Structure></Structure>	0.2131496429	WILDCARD $Company A WILDCARD $Adult is rescued from the rubble of a WILDCARD $Structure
+WILDCARD <Person></Person> and WILDCARD	0.2131330574	WILDCARD $Person and WILDCARD
+relief WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.2128202862	relief WILDCARD $Activity
+WILDCARD <Duration></Duration>	0.2116316372	WILDCARD $Duration
+toll from WILDCARD <Date></Date>	0.210158393	toll from WILDCARD $Date
+WILDCARD <Number></Number> degrees	0.2099995181	WILDCARD $Number degrees
+WILDCARD <Date></Date> WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.2082102057	WILDCARD $Date WILDCARD $Inhabitant
+WILDCARD <Event.Act.Activity.Creation.Creating_from_raw_materials></Event.Act.Activity.Creation.Creating_from_raw_materials> WILDCARD <Organization.Unit></Organization.Unit>	0.2076620195	WILDCARD $Creating_from_raw_materials WILDCARD $Unit
+<Person></Person> Disaster Risk WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude>	0.207516283	$Person Disaster Risk WILDCARD $Change_of_magnitude
+WILDCARD <Person.Advocate.Spokesperson></Person.Advocate.Spokesperson>	0.2075130014	WILDCARD $Spokesperson
+WILDCARD <Date></Date> killed more than WILDCARD <Number></Number>	0.2069437418	WILDCARD $Date killed more than WILDCARD $Number
+relief WILDCARD <Event.Act.Activity></Event.Act.Activity> ,	0.2050873181	relief WILDCARD $Activity ,
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.2041112351	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date WILDCARD $Benefactor
+WILDCARD <Event.Act.Action.Interaction></Event.Act.Action.Interaction> with WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.2040877553	WILDCARD $Interaction with WILDCARD $Country
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date>	0.2027521399	WILDCARD $Number WILDCARD $Geological_phenomenon struck at WILDCARD $Date
+WILDCARD <Duration></Duration> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.2018127461	WILDCARD $Duration of the WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD <Duration></Duration>	0.1986086999	WILDCARD $Number WILDCARD $Duration
+alike WILDCARD <Date></Date>	0.1970240244	alike WILDCARD $Date
+WILDCARD <Location.Region></Location.Region> in WILDCARD <Date></Date>	0.1960596546	WILDCARD $Region in WILDCARD $Date
+experiences at least one WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Duration></Duration> on average,	0.195282746	experiences at least one WILDCARD $Geological_phenomenon WILDCARD $Duration on average,
+Disaster Risk WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude>	0.1926174774	Disaster Risk WILDCARD $Change_of_magnitude
+WILDCARD <Person.Adult></Person.Adult>	0.1926137697	WILDCARD $Adult
+WILDCARD <Number></Number> and WILDCARD	0.1903016314	WILDCARD $Number and WILDCARD
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.1886367003	WILDCARD $Settlement WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.1877523604	WILDCARD $Organization WILDCARD $Person
+WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> farewell WILDCARD <Date></Date> to WILDCARD	0.1872386197	WILDCARD $European WILDCARD $Speech_act farewell WILDCARD $Date to WILDCARD
+WILDCARD <Date></Date> A magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.1872339233	WILDCARD $Date A magnitude WILDCARD $Number WILDCARD $Geological_phenomenon
+WILDCARD <Event.Happening.Contact></Event.Happening.Contact>	0.1867211927	WILDCARD $Contact
+WILDCARD <Number></Number> injured.	0.1862143962	WILDCARD $Number injured.
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery>	0.1858294828	WILDCARD $Recovery
+WILDCARD <Number></Number> kilometers northeast	0.1840548037	WILDCARD $Number kilometers northeast
+full extent of the WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.1832367373	full extent of the WILDCARD $Change
+WILDCARD <Number></Number> miles northeast	0.1818428398	WILDCARD $Number miles northeast
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A WILDCARD	0.1810798384	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date A WILDCARD
+WILDCARD <Date></Date> At WILDCARD	0.1795372596	WILDCARD $Date At WILDCARD
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.1780769309	WILDCARD $Date WILDCARD $Geological_phenomenon , in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+<Event.Act.Action.Change.Motion.Vibration></Event.Act.Action.Change.Motion.Vibration> before.	0.1754192618	$Vibration before.
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> and WILDCARD	0.1742457844	WILDCARD $Defender and WILDCARD
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.1704014854	WILDCARD $Duration after the WILDCARD $Geological_phenomenon ,
+WILDCARD <Date></Date> at a depth	0.1685926831	WILDCARD $Date at a depth
+WILDCARD <Person.Inhabitant></Person.Inhabitant> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit>	0.1682521226	WILDCARD $Inhabitant and WILDCARD $Recovery WILDCARD $Unit
+WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.163021734	WILDCARD $Inhabitant
+WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> farewell WILDCARD <Date></Date>	0.16277378	WILDCARD $European WILDCARD $Speech_act farewell WILDCARD $Date
+WILDCARD <Number></Number> people,	0.1617795299	WILDCARD $Number people,
+WILDCARD <Number></Number> km	0.1614112451	WILDCARD $Number km
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.16139881	WILDCARD $Number WILDCARD $Geological_phenomenon in WILDCARD $Country
+<Duration></Duration> of national mourning, with WILDCARD <Artifact.Decoration.Design.Emblem></Artifact.Decoration.Design.Emblem> on WILDCARD <Structure></Structure> flying at WILDCARD <Location.Point.Position></Location.Point.Position>	0.1589997712	$Duration of national mourning, with WILDCARD $Emblem on WILDCARD $Structure flying at WILDCARD $Position
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.1587457669	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.158129529	WILDCARD $Number WILDCARD $Benefactor
+WILDCARD <Structure.Building></Structure.Building> WILDCARD <Date></Date>	0.1579537842	WILDCARD $Building WILDCARD $Date
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit> from WILDCARD	0.157414867	WILDCARD $Recovery WILDCARD $Unit from WILDCARD
+village of Santi Lorenzo e Flaviano, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> farewell WILDCARD <Date></Date> to WILDCARD	0.1565528984	village of Santi Lorenzo e Flaviano, WILDCARD $Country WILDCARD $Date WILDCARD $European WILDCARD $Speech_act farewell WILDCARD $Date to WILDCARD
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.15616654	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Number></Number> The WILDCARD	0.1542478241	WILDCARD $Number The WILDCARD
+WILDCARD <Person></Person>	0.1526727811	WILDCARD $Person
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> of WILDCARD <Date></Date>	0.152385212	WILDCARD $Geological_phenomenon of WILDCARD $Date
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> before WILDCARD <Date></Date>	0.1521325855	WILDCARD $Country before WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.1509229748	WILDCARD $Date WILDCARD $Change
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD	0.1507208564	WILDCARD $Country WILDCARD $Date where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date WILDCARD $Country WILDCARD
+WILDCARD <Person.Leader.Head.Administrator></Person.Leader.Head.Administrator> of WILDCARD	0.1491815056	WILDCARD $Administrator of WILDCARD
+WILDCARD <Number></Number> people died and WILDCARD <Number></Number>	0.1481637525	WILDCARD $Number people died and WILDCARD $Number
+WILDCARD <Event.Act.Activity.Work></Event.Act.Activity.Work> in a WILDCARD	0.1471467822	WILDCARD $Work in a WILDCARD
+WILDCARD <Date></Date> after WILDCARD	0.1466472841	WILDCARD $Date after WILDCARD
+WILDCARD <Person.Officeholder></Person.Officeholder> the WILDCARD	0.1460121243	WILDCARD $Officeholder the WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> measuring WILDCARD <Number></Number>	0.1459626256	WILDCARD $Geological_phenomenon measuring WILDCARD $Number
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> operation	0.1458578782	WILDCARD $Recovery operation
+<Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date> In this WILDCARD <Artifact.Creation.Representation></Artifact.Creation.Representation>	0.145538879	$Country Sichuan WILDCARD $Administrative_district WILDCARD $Date In this WILDCARD $Representation
+Disaster Risk WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude> and WILDCARD	0.1443852842	Disaster Risk WILDCARD $Change_of_magnitude and WILDCARD
+ahead of a WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.1435874022	ahead of a WILDCARD $Administrative_district WILDCARD $Ceremony for some of the WILDCARD $Unfortunate
+WILDCARD <Event.Happening.Beginning></Event.Happening.Beginning> : WILDCARD <Date></Date> WILDCARD	0.1432293007	WILDCARD $Beginning : WILDCARD $Date WILDCARD
+WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> lines	0.1425213235	WILDCARD $Nonaccomplishment lines
+<Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.1424928361	$Date WILDCARD $Geological_phenomenon
+WILDCARD <Event.Act.Group_action.Transaction.Commerce.Commercial_enterprise.Industry.Production.Cultivation></Event.Act.Group_action.Transaction.Commerce.Commercial_enterprise.Industry.Production.Cultivation>	0.1421653924	WILDCARD $Cultivation
+<Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.1421529106	$Settlement WILDCARD $Country WILDCARD $Date where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Number></Number> miles northeast of WILDCARD	0.1419416929	WILDCARD $Number miles northeast of WILDCARD
+WILDCARD <Event.Act.Action.Change.Change_of_state.Termination></Event.Act.Action.Change.Change_of_state.Termination> WILDCARD <Number></Number>	0.1413204233	WILDCARD $Termination WILDCARD $Number
+WILDCARD <Person></Person> 's WILDCARD	0.1409449166	WILDCARD $Person 's WILDCARD
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> toppling at least one WILDCARD <Structure.Tower></Structure.Tower> WILDCARD <Structure></Structure> and trapping people inside.	0.1399495457	$Geological_phenomenon struck WILDCARD $Country WILDCARD $Date toppling at least one WILDCARD $Tower WILDCARD $Structure and trapping people inside.
+WILDCARD <Date></Date> Announcer-read report over video: WILDCARD	0.1393368897	WILDCARD $Date Announcer-read report over video: WILDCARD
+WILDCARD <Number></Number> per cent	0.139260713	WILDCARD $Number per cent
+WILDCARD <Person.Officeholder></Person.Officeholder> on WILDCARD <Date></Date>	0.1391809583	WILDCARD $Officeholder on WILDCARD $Date
+block-time updated-timeUpdated at WILDCARD <Number></Number>	0.1388258696	block-time updated-timeUpdated at WILDCARD $Number
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> rocked WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> collapsing WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> on WILDCARD <Location.Region></Location.Region> of WILDCARD <Person.Inhabitant></Person.Inhabitant> as they slept.	0.1379108075	$Geological_phenomenon rocked WILDCARD $Country WILDCARD $Date collapsing WILDCARD $Residence on WILDCARD $Region of WILDCARD $Inhabitant as they slept.
+WILDCARD <Number></Number> and struck WILDCARD	0.1372870118	WILDCARD $Number and struck WILDCARD
+WILDCARD <Number></Number> to WILDCARD	0.1367225371	WILDCARD $Number to WILDCARD
+WILDCARD <Number></Number> people whose WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> collapsed or left unsafe by the WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> PRESENT_REF WILDCARD <Event.Act></Event.Act>	0.1366295575	WILDCARD $Number people whose WILDCARD $Residence collapsed or left unsafe by the WILDCARD $Date WILDCARD $Geological_phenomenon PRESENT_REF WILDCARD $Act
+<Event.Act.Activity.Creation.Creating_from_raw_materials></Event.Act.Activity.Creation.Creating_from_raw_materials> WILDCARD <Organization.Unit></Organization.Unit> worked through the WILDCARD	0.1355645939	$Creating_from_raw_materials WILDCARD $Unit worked through the WILDCARD
+WILDCARD <Number></Number> million WILDCARD	0.1353066358	WILDCARD $Number million WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> ,	0.1346478863	WILDCARD $Unfortunate ,
+<Number></Number> million yuan	0.1343608502	$Number million yuan
+WILDCARD <Event.Act.Activity.Work.Investigation></Event.Act.Activity.Work.Investigation> WILDCARD	0.1341740868	WILDCARD $Investigation WILDCARD
+WILDCARD <Event.Act.Activity.Work.Investigation.Examination></Event.Act.Activity.Work.Investigation.Examination> ,	0.1341740868	WILDCARD $Examination ,
+WILDCARD <Person.Enrollee></Person.Enrollee> ,	0.1332610692	WILDCARD $Enrollee ,
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit> and WILDCARD	0.1332181199	WILDCARD $Recovery WILDCARD $Unit and WILDCARD
+village of Santi Lorenzo e Flaviano, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> farewell WILDCARD <Date></Date>	0.1331406871	village of Santi Lorenzo e Flaviano, WILDCARD $Country WILDCARD $Date WILDCARD $European WILDCARD $Speech_act farewell WILDCARD $Date
+WILDCARD <Work.Writtenwork.Periodicalliterature.Magazine></Work.Writtenwork.Periodicalliterature.Magazine> WILDCARD <Event.Happening.Beginning></Event.Happening.Beginning> : WILDCARD <Date></Date>	0.133067912	WILDCARD $Magazine WILDCARD $Beginning : WILDCARD $Date
+WILDCARD <Event.Act.Action.Change.Motion.Vibration></Event.Act.Action.Change.Motion.Vibration> ,	0.1324596612	WILDCARD $Vibration ,
+WILDCARD <Person.Leader.Head.Administrator></Person.Leader.Head.Administrator>	0.1319045872	WILDCARD $Administrator
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Organization.Polity></Organization.Polity> are pondering how to provide warmer, less WILDCARD	0.1318383181	WILDCARD $Date WILDCARD $Country WILDCARD $Polity are pondering how to provide warmer, less WILDCARD
+WILDCARD <Event.Happening.Trouble.Misfortune></Event.Happening.Trouble.Misfortune> ,	0.1301783622	WILDCARD $Misfortune ,
+WILDCARD <Event.Act.Activity></Event.Act.Activity> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD	0.1295449815	WILDCARD $Activity and WILDCARD $Recovery WILDCARD
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.1292981117	WILDCARD $Date WILDCARD $Geological_phenomenon ,
+WILDCARD <Number></Number> dead	0.12884	WILDCARD $Number dead
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD	0.1286519538	WILDCARD $Settlement WILDCARD $Country where a WILDCARD $Number WILDCARD
+WILDCARD <Number></Number> people were reported dead	0.1284911164	WILDCARD $Number people were reported dead
+<Duration></Duration> WILDCARD <Person.Relative.Offspring.Child.Male_offspring></Person.Relative.Offspring.Child.Male_offspring>	0.1277802204	$Duration WILDCARD $Male_offspring
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> ,	0.1277209784	WILDCARD $Defender ,
+<Number></Number> WILDCARD <Structure.Housing></Structure.Housing>	0.1274918403	$Number WILDCARD $Housing
+WILDCARD <Date></Date> WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.1267994624	WILDCARD $Date WILDCARD $Activity
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> WILDCARD <Event.Act.Activity></Event.Act.Activity> to clear a WILDCARD <Artifact.Way.Road.Thoroughfare></Artifact.Way.Road.Thoroughfare> from debris	0.1267960681	WILDCARD $Company WILDCARD $Defender WILDCARD $Activity to clear a WILDCARD $Thoroughfare from debris
+WILDCARD <Person.Relative.Sibling></Person.Relative.Sibling> WILDCARD	0.1265653113	WILDCARD $Sibling WILDCARD
+WILDCARD <Location.Populatedplace.Settlement.City></Location.Populatedplace.Settlement.City> WILDCARD <Number></Number>	0.1256299732	WILDCARD $City WILDCARD $Number
+WILDCARD <Event.Act.Action.Change.Change_of_integrity></Event.Act.Action.Change.Change_of_integrity> WILDCARD	0.1253667192	WILDCARD $Change_of_integrity WILDCARD
+WILDCARD <Person.Creator></Person.Creator> ,	0.1253667192	WILDCARD $Creator ,
+WILDCARD <Event.Act.Activity></Event.Act.Activity> amid	0.1251510537	WILDCARD $Activity amid
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive>	0.1245481649	WILDCARD $Corporate_executive
+Foreign WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman>	0.1245286222	Foreign WILDCARD $Clergyman
+WILDCARD <Person.Artist></Person.Artist> WILDCARD	0.1243667192	WILDCARD $Artist WILDCARD
+WILDCARD <Event.Act.Activity.Occupation.Employment></Event.Act.Activity.Occupation.Employment> ,	0.1243497832	WILDCARD $Employment ,
+WILDCARD <Event.Act.Action.Change.Change_of_integrity.Separation.Removal></Event.Act.Action.Change.Change_of_integrity.Separation.Removal> WILDCARD	0.1243497832	WILDCARD $Removal WILDCARD
+<Date></Date> collapsing WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> on WILDCARD <Location.Region></Location.Region> of WILDCARD <Person.Inhabitant></Person.Inhabitant> as they slept. At WILDCARD <Number></Number> people	0.123865507	$Date collapsing WILDCARD $Residence on WILDCARD $Region of WILDCARD $Inhabitant as they slept. At WILDCARD $Number people
+WILDCARD <Date></Date> The WILDCARD	0.1234788214	WILDCARD $Date The WILDCARD
+WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> lines and is prone to WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.1234074858	WILDCARD $Nonaccomplishment lines and is prone to WILDCARD $Geological_phenomenon
+five WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European>	0.1233983463	five WILDCARD $European
+<Number></Number> miles northeast	0.1233983463	$Number miles northeast
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll.	0.1233983463	WILDCARD $Change toll.
+<Person.Good_person.Benefactor></Person.Good_person.Benefactor> on WILDCARD <Date></Date> found signs	0.1232878223	$Benefactor on WILDCARD $Date found signs
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> WILDCARD	0.1230852331	WILDCARD $Benefactor WILDCARD
+WILDCARD <Work.Writtenwork.Periodicalliterature.Magazine></Work.Writtenwork.Periodicalliterature.Magazine> WILDCARD <Event.Happening.Beginning></Event.Happening.Beginning> : WILDCARD <Date></Date> WILDCARD	0.1225389195	WILDCARD $Magazine WILDCARD $Beginning : WILDCARD $Date WILDCARD
+WILDCARD <Location.Populatedplace.Settlement.City></Location.Populatedplace.Settlement.City> on WILDCARD <Date></Date>	0.122437173	WILDCARD $City on WILDCARD $Date
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> WILDCARD	0.1218611435	WILDCARD $Earthquake WILDCARD
+<Organization.Unit></Organization.Unit> WILDCARD <Person.Peer.Associate></Person.Peer.Associate>	0.1215103163	$Unit WILDCARD $Associate
+WILDCARD <Event.Act.Group_action.Transaction></Event.Act.Group_action.Transaction> ,	0.1214955078	WILDCARD $Transaction ,
+WILDCARD <Date></Date> Strong WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor> rattled WILDCARD <Person.Inhabitant></Person.Inhabitant> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit> alike WILDCARD <Date></Date>	0.1213497832	WILDCARD $Date Strong WILDCARD $Tremor rattled WILDCARD $Inhabitant and WILDCARD $Recovery WILDCARD $Unit alike WILDCARD $Date
+WILDCARD <Event.Happening.Trouble.Misfortune.Calamity></Event.Happening.Trouble.Misfortune.Calamity> ,	0.1209459708	WILDCARD $Calamity ,
+WILDCARD <Event.Happening.Change></Event.Happening.Change> from WILDCARD	0.1207500624	WILDCARD $Change from WILDCARD
+Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Organization.Polity></Organization.Polity> are pondering how to provide warmer, less WILDCARD	0.120737084	Del Tronto, WILDCARD $Country WILDCARD $Date WILDCARD $Country WILDCARD $Polity are pondering how to provide warmer, less WILDCARD
+<Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Person></Person>	0.1204955078	$Recovery WILDCARD $Person
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit> rattled by WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor> dug through crumbled WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> WILDCARD <Date></Date> looking for WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD	0.1204953257	WILDCARD $Recovery WILDCARD $Unit rattled by WILDCARD $Tremor dug through crumbled WILDCARD $Residence WILDCARD $Date looking for WILDCARD $Geological_phenomenon WILDCARD
+WILDCARD <Person.Relative.Ancestor.Progenitor.Genitor.Parent></Person.Relative.Ancestor.Progenitor.Genitor.Parent> ,	0.1197262789	WILDCARD $Parent ,
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> wreaked WILDCARD <Event.Happening.Change></Event.Happening.Change> across the WILDCARD <Location></Location>	0.1192388414	WILDCARD $Geological_phenomenon wreaked WILDCARD $Change across the WILDCARD $Location
+<Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Person.Communicator></Person.Communicator>	0.1191510537	$Administrative_district WILDCARD $Communicator
+WILDCARD <Person.Relative.Offspring.Child.Male_offspring></Person.Relative.Offspring.Child.Male_offspring> ,	0.1191510537	WILDCARD $Male_offspring ,
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.11899499	WILDCARD $Date WILDCARD $Settlement
+WILDCARD <Person.Religious_person></Person.Religious_person> WILDCARD	0.1185659994	WILDCARD $Religious_person WILDCARD
+WILDCARD <Event.Act.Group_action.Transaction.Commerce></Event.Act.Group_action.Transaction.Commerce> WILDCARD	0.1185659994	WILDCARD $Commerce WILDCARD
+WILDCARD <Event.Societalevent.Militaryconflict></Event.Societalevent.Militaryconflict> WILDCARD	0.1185659994	WILDCARD $Militaryconflict WILDCARD
+WILDCARD <Location.Region></Location.Region> on WILDCARD <Date></Date>	0.1185651506	WILDCARD $Region on WILDCARD $Date
+far WILDCARD <Number></Number>	0.1184997832	far WILDCARD $Number
+WILDCARD <Number></Number> Announcer-read	0.1180754853	WILDCARD $Number Announcer-read
+relief WILDCARD <Event.Act.Group_action.Transaction></Event.Act.Group_action.Transaction>	0.1180750487	relief WILDCARD $Transaction
+WILDCARD <Number></Number> dead.	0.1176011579	WILDCARD $Number dead.
+WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD	0.11757198	WILDCARD $Date where a WILDCARD $Number WILDCARD
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> on WILDCARD <Date></Date>	0.1175651506	WILDCARD $Administrative_district on WILDCARD $Date
+WILDCARD <Number></Number> bodies	0.1174997832	WILDCARD $Number bodies
+WILDCARD <Date></Date> WILDCARD <Person></Person>	0.1173645532	WILDCARD $Date WILDCARD $Person
+WILDCARD <Number></Number> people, WILDCARD	0.1170990547	WILDCARD $Number people, WILDCARD
+Arcuata del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date>	0.1163934052	Arcuata del Tronto, WILDCARD $Country where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date
+WILDCARD <Person.Peer.Associate></Person.Peer.Associate> ,	0.1161526193	WILDCARD $Associate ,
+<Organization.Unit></Organization.Unit> WILDCARD <Person.Peer.Associate></Person.Peer.Associate> for a WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony>	0.1160838279	$Unit WILDCARD $Associate for a WILDCARD $Administrative_district WILDCARD $Ceremony
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.115864392	WILDCARD $Country Sichuan WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Event.Act.Speech_act.Objection.Exception></Event.Act.Speech_act.Objection.Exception>	0.1158290177	WILDCARD $Exception
+<Number></Number> WILDCARD <Number></Number>	0.1157440731	$Number WILDCARD $Number
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Date></Date>	0.1157391787	WILDCARD $Company WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD	0.1155596544	WILDCARD $Number WILDCARD $Country WILDCARD
+WILDCARD <Person></Person> who	0.115236174	WILDCARD $Person who
+<Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date>	0.1151607023	$Country Sichuan WILDCARD $Administrative_district , WILDCARD $Date
+WILDCARD <Event.Act.Action.Change.Motion.Vibration></Event.Act.Action.Change.Motion.Vibration>	0.1151528407	WILDCARD $Vibration
+WILDCARD <Number></Number> WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.1146295236	WILDCARD $Number WILDCARD $Settlement
+WILDCARD <Event.Act.Group_action.Social_control.Duty.Guardianship></Event.Act.Group_action.Social_control.Duty.Guardianship> ,	0.1146011579	WILDCARD $Guardianship ,
+<Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Number></Number>	0.1144157795	$Settlement WILDCARD $Number
+WILDCARD <Person.Worker.Skilled_worker.Serviceman></Person.Worker.Skilled_worker.Serviceman> ,	0.1143818986	WILDCARD $Serviceman ,
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Number></Number>	0.1142621562	WILDCARD $Settlement WILDCARD $Number
+WILDCARD <Date></Date> looking for WILDCARD	0.1140754302	WILDCARD $Date looking for WILDCARD
+WILDCARD <Number></Number> tons	0.1138173741	WILDCARD $Number tons
+WILDCARD <Event.Act.Activity.Diversion></Event.Act.Activity.Diversion> WILDCARD <Artifact></Artifact>	0.113814795	WILDCARD $Diversion WILDCARD $Artifact
+WILDCARD <Number></Number> per	0.1136011579	WILDCARD $Number per
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> , WILDCARD	0.1133756462	WILDCARD $Defender , WILDCARD
+WILDCARD <Person></Person> WILDCARD	0.113156938	WILDCARD $Person WILDCARD
+WILDCARD <Number></Number> people were killed and WILDCARD	0.1125756095	WILDCARD $Number people were killed and WILDCARD
+WILDCARD <Structure.Building></Structure.Building> WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.1114511063	WILDCARD $Building WILDCARD $Date WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD	0.1113934737	WILDCARD $Crisis WILDCARD
+WILDCARD <Date></Date> Announcer-read	0.1113695856	WILDCARD $Date Announcer-read
+WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat> WILDCARD	0.1113440498	WILDCARD $Feat WILDCARD
+WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European> WILDCARD	0.1113434737	WILDCARD $European WILDCARD
+<Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.1112169649	$Date WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date The WILDCARD $Company WILDCARD $Benefactor
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Number></Number>	0.1111733875	WILDCARD $Country WILDCARD $Number
+WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> ,	0.111125458	WILDCARD $Clergyman ,
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Organization.Company></Organization.Company>	0.1108462953	WILDCARD $Country WILDCARD $Date WILDCARD $Company
+WILDCARD <Person.Juvenile></Person.Juvenile> ,	0.1108410136	WILDCARD $Juvenile ,
+WILDCARD <Date></Date> ,	0.110771289	WILDCARD $Date ,
+WILDCARD <Number></Number> from WILDCARD	0.1106068176	WILDCARD $Number from WILDCARD
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> said WILDCARD <Date></Date>	0.1103934737	WILDCARD $Skilled_worker said WILDCARD $Date
+Yunnan in WILDCARD <Duration></Duration>	0.1103846063	Yunnan in WILDCARD $Duration
+WILDCARD <Date></Date> WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD	0.1103648138	WILDCARD $Date WILDCARD $Administrative_district WILDCARD
+WILDCARD <Event.Happening.Ending.Victory></Event.Happening.Ending.Victory> ,	0.1100760306	WILDCARD $Victory ,
+WILDCARD <Number></Number> billion	0.1098173741	WILDCARD $Number billion
+WILDCARD <Person.Unfortunate></Person.Unfortunate> WILDCARD	0.1097990668	WILDCARD $Unfortunate WILDCARD
+WILDCARD <Date></Date> when WILDCARD	0.1096097717	WILDCARD $Date when WILDCARD
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> and WILDCARD	0.1095588378	WILDCARD $Recovery and WILDCARD
+WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD	0.1094175853	WILDCARD $Activity WILDCARD
+<Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company>	0.1093533285	$Date WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date The WILDCARD $Company
+WILDCARD <Person.Inhabitant.American.South_american></Person.Inhabitant.American.South_american> WILDCARD	0.1090754522	WILDCARD $South_american WILDCARD
+WILDCARD <Event.Act.Group_action.Military_action></Event.Act.Group_action.Military_action> WILDCARD	0.1090754522	WILDCARD $Military_action WILDCARD
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> ,	0.1090754522	WILDCARD $Corporate_executive ,
+<Date></Date> WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality> at WILDCARD <Number></Number> people	0.1089696201	$Date WILDCARD $Fatality at WILDCARD $Number people
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> said.	0.1087325968	WILDCARD $Skilled_worker said.
+WILDCARD <Person.Worker.Skilled_worker.Serviceman.Military_officer.Commissioned_officer.Commissioned_military_officer.General_officer></Person.Worker.Skilled_worker.Serviceman.Military_officer.Commissioned_officer.Commissioned_military_officer.General_officer> WILDCARD	0.1085852172	WILDCARD $General_officer WILDCARD
+WILDCARD <Person.Inhabitant.Asian></Person.Inhabitant.Asian> WILDCARD	0.1085622247	WILDCARD $Asian WILDCARD
+<Number></Number> WILDCARD <Person.Worker.Skilled_worker.Serviceman.Enlisted_person></Person.Worker.Skilled_worker.Serviceman.Enlisted_person>	0.1085293364	$Number WILDCARD $Enlisted_person
+WILDCARD <Person.Inhabitant></Person.Inhabitant> and WILDCARD	0.1084608654	WILDCARD $Inhabitant and WILDCARD
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD	0.1076424576	magnitude WILDCARD $Number WILDCARD $Geological_phenomenon struck at WILDCARD
+<Date></Date> A powerful, WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> before WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company>	0.1075533285	$Date A powerful, WILDCARD $Geological_phenomenon struck WILDCARD $Country before WILDCARD $Date The WILDCARD $Company
+WILDCARD <Number></Number> INTERSECT	0.1074875487	WILDCARD $Number INTERSECT
+WILDCARD <Event.Act.Activity.Sensory_activity.Sensing.Look.Observation></Event.Act.Activity.Sensory_activity.Sensing.Look.Observation> WILDCARD	0.1074042153	WILDCARD $Observation WILDCARD
+<Location.Populatedplace.Country></Location.Populatedplace.Country> Sichuan WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date> The WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.1073407023	$Country Sichuan WILDCARD $Administrative_district , WILDCARD $Date The WILDCARD $Geological_phenomenon
+WILDCARD <Person.Leader.Head></Person.Leader.Head> of WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district>	0.1071861892	WILDCARD $Head of WILDCARD $Administrative_district
+WILDCARD <Person.Inhabitant></Person.Inhabitant> who	0.1066126697	WILDCARD $Inhabitant who
+WILDCARD <Person.Adult.Woman></Person.Adult.Woman> ,	0.1066126697	WILDCARD $Woman ,
+WILDCARD <Event.Happening.Trouble.Misfortune.Calamity></Event.Happening.Trouble.Misfortune.Calamity> WILDCARD	0.1063776355	WILDCARD $Calamity WILDCARD
+WILDCARD <Person.Cleric.Saint></Person.Cleric.Saint> WILDCARD	0.1060754522	WILDCARD $Saint WILDCARD
+<Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date> and was felt across a broad swath	0.1059033285	$Country WILDCARD $Date A magnitude WILDCARD $Number WILDCARD $Geological_phenomenon struck at WILDCARD $Date and was felt across a broad swath
+WILDCARD <Event.Act></Event.Act> in WILDCARD	0.1056607743	WILDCARD $Act in WILDCARD
+WILDCARD <Event.Happening></Event.Happening> ,	0.104625348	WILDCARD $Happening ,
+WILDCARD <Person.Fictionalcharacter></Person.Fictionalcharacter> WILDCARD	0.1042743731	WILDCARD $Fictionalcharacter WILDCARD
+WILDCARD <Event.Act.Activity.Use.Application></Event.Act.Activity.Use.Application> WILDCARD	0.1032916684	WILDCARD $Application WILDCARD
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Person.Unfortunate></Person.Unfortunate> living in WILDCARD <Structure.Shelter></Structure.Shelter>	0.1032600484	$Geological_phenomenon WILDCARD $Unfortunate living in WILDCARD $Shelter
+WILDCARD <Person.Preserver.Defender.Lawman></Person.Preserver.Defender.Lawman> WILDCARD	0.1030754522	WILDCARD $Lawman WILDCARD
+WILDCARD <Person.Fictionalcharacter.Comicscharacter></Person.Fictionalcharacter.Comicscharacter> WILDCARD	0.1030754522	WILDCARD $Comicscharacter WILDCARD
+Accumoli, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> rocked WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.1025673002	Accumoli, WILDCARD $Country WILDCARD $Date A devastating WILDCARD $Geological_phenomenon rocked WILDCARD $Country WILDCARD $Date
+WILDCARD <Event.Act.Activity.Work.Investigation.Examination></Event.Act.Activity.Work.Investigation.Examination> at WILDCARD	0.1025224758	WILDCARD $Examination at WILDCARD
+WILDCARD <Person.Worker.Skilled_worker.Serviceman.Enlisted_person></Person.Worker.Skilled_worker.Serviceman.Enlisted_person>	0.1024257715	WILDCARD $Enlisted_person
+WILDCARD <Person.Leader.Head></Person.Leader.Head> WILDCARD	0.1022916684	WILDCARD $Head WILDCARD
+WILDCARD <Date></Date> WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European>	0.1015680366	WILDCARD $Date WILDCARD $European
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> in WILDCARD	0.1012044878	WILDCARD $Skilled_worker in WILDCARD
+WILDCARD <Number></Number> BST	0.1008365919	WILDCARD $Number BST
+WILDCARD <Person.Juvenile></Person.Juvenile>	0.1008365919	WILDCARD $Juvenile
+WILDCARD <Person.Relative.Offspring.Child></Person.Relative.Offspring.Child> WILDCARD	0.1004806636	WILDCARD $Child WILDCARD
+WILDCARD <Person.Communicator></Person.Communicator> in WILDCARD	0.1001618994	WILDCARD $Communicator in WILDCARD
+<Structure></Structure> for WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Person.Unfortunate></Person.Unfortunate> living in WILDCARD <Structure.Shelter></Structure.Shelter> in the WILDCARD <Location.Naturalplace.Mountainrange></Location.Naturalplace.Mountainrange> WILDCARD <Location></Location>	0.1000213701	$Structure for WILDCARD $Geological_phenomenon WILDCARD $Unfortunate living in WILDCARD $Shelter in the WILDCARD $Mountainrange WILDCARD $Location
+block-time WILDCARD <Number></Number>	0.100010505	block-time WILDCARD $Number
+WILDCARD <Person.Unfortunate></Person.Unfortunate> in WILDCARD	0.0995917921	WILDCARD $Unfortunate in WILDCARD
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD <Person.Officeholder></Person.Officeholder> and WILDCARD	0.0995138405	WILDCARD $Corporate_executive WILDCARD $Officeholder and WILDCARD
+WILDCARD <Event.Act.Group_action.Transaction.Commerce.Commercial_enterprise></Event.Act.Group_action.Transaction.Commerce.Commercial_enterprise> WILDCARD	0.0994252039	WILDCARD $Commercial_enterprise WILDCARD
+WILDCARD <Number></Number> WILDCARD <Person></Person>	0.0989501523	WILDCARD $Number WILDCARD $Person
+<Date></Date> WILDCARD <Date></Date>	0.0986446403	$Date WILDCARD $Date
+WILDCARD <Event.Act.Activity></Event.Act.Activity> for WILDCARD	0.0981426923	WILDCARD $Activity for WILDCARD
+WILDCARD <Structure.Building></Structure.Building> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.0981141638	WILDCARD $Building in WILDCARD $Settlement WILDCARD $Country WILDCARD $Date
+WILDCARD <Person.Peer.Associate></Person.Peer.Associate> of the WILDCARD	0.0979344017	WILDCARD $Associate of the WILDCARD
+<Date></Date> In WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series of WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.0974835459	$Date In WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series of WILDCARD $Geological_phenomenon
+WILDCARD <Event.Act.Activity></Event.Act.Activity> ,	0.0973549334	WILDCARD $Activity ,
+WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control> WILDCARD	0.0970085749	WILDCARD $Social_control WILDCARD
+WILDCARD <Duration></Duration> WILDCARD <Duration></Duration> of national mourning, with WILDCARD <Artifact.Decoration.Design.Emblem></Artifact.Decoration.Design.Emblem> on WILDCARD <Structure></Structure> flying at WILDCARD <Location.Point.Position></Location.Point.Position>	0.0968224486	WILDCARD $Duration WILDCARD $Duration of national mourning, with WILDCARD $Emblem on WILDCARD $Structure flying at WILDCARD $Position
+WILDCARD <Number></Number> of WILDCARD	0.0967365703	WILDCARD $Number of WILDCARD
+<Person.Unfortunate></Person.Unfortunate> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.0963578187	$Unfortunate of the WILDCARD $Geological_phenomenon
+WILDCARD <Event.Act.Activity.Diversion.Entertainment></Event.Act.Activity.Diversion.Entertainment> WILDCARD	0.0960470306	WILDCARD $Entertainment WILDCARD
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> and WILDCARD	0.0960329201	WILDCARD $Benefactor and WILDCARD
+WILDCARD <Event.Act.Activity.Work></Event.Act.Activity.Work> ,	0.0957280768	WILDCARD $Work ,
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> WILDCARD	0.0957028251	WILDCARD $Civil_authority WILDCARD
+WILDCARD <Date></Date> WILDCARD	0.0954983849	WILDCARD $Date WILDCARD
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> and relief WILDCARD	0.0954704439	WILDCARD $Recovery and relief WILDCARD
+<Number></Number> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.0948924887	$Number WILDCARD $Unfortunate
+WILDCARD <Event.Act></Event.Act>	0.0948028732	WILDCARD $Act
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis>	0.0947280768	WILDCARD $Crisis
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> where WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.0944337502	WILDCARD $Settlement where WILDCARD $Inhabitant
+WILDCARD <Person.Unfortunate></Person.Unfortunate> from WILDCARD	0.0943489436	WILDCARD $Unfortunate from WILDCARD
+WILDCARD <Person.Leader></Person.Leader> WILDCARD	0.0940470306	WILDCARD $Leader WILDCARD
+WILDCARD <Number></Number> who	0.0935978678	WILDCARD $Number who
+WILDCARD <Event.Act.Recovery></Event.Act.Recovery> ,	0.0935978678	WILDCARD $Recovery ,
+WILDCARD <Number></Number> people. The WILDCARD	0.0928392624	WILDCARD $Number people. The WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll from WILDCARD	0.0927680031	WILDCARD $Change toll from WILDCARD
+WILDCARD <Date></Date> with WILDCARD	0.0926514492	WILDCARD $Date with WILDCARD
+WILDCARD <Event.Happening></Event.Happening>	0.0924721611	WILDCARD $Happening
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> struck WILDCARD	0.0924588591	WILDCARD $Earthquake struck WILDCARD
+<Number></Number> WILDCARD <Organization.Unit></Organization.Unit>	0.0923574338	$Number WILDCARD $Unit
+WILDCARD <Person></Person> in WILDCARD	0.0918562612	WILDCARD $Person in WILDCARD
+WILDCARD <Date></Date> In WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series of WILDCARD	0.0916188561	WILDCARD $Date In WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series of WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> - WILDCARD <Organization></Organization>	0.0915884649	WILDCARD $Unfortunate - WILDCARD $Organization
+WILDCARD <Person.Enrollee></Person.Enrollee> WILDCARD	0.0898545848	WILDCARD $Enrollee WILDCARD
+WILDCARD <Person.Communicator></Person.Communicator>	0.0894564742	WILDCARD $Communicator
+WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act> of WILDCARD	0.0893966278	WILDCARD $Speech_act of WILDCARD
+WILDCARD <Person.Officeholder></Person.Officeholder> WILDCARD	0.0890054338	WILDCARD $Officeholder WILDCARD
+WILDCARD <Person.Worker.Skilled_worker.Serviceman></Person.Worker.Skilled_worker.Serviceman>	0.0888332772	WILDCARD $Serviceman
+<Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Date></Date>	0.0882054338	$Settlement WILDCARD $Date
+WILDCARD <Person.Inhabitant></Person.Inhabitant> WILDCARD	0.0882054338	WILDCARD $Inhabitant WILDCARD
+WILDCARD <Date></Date> the WILDCARD	0.0880643932	WILDCARD $Date the WILDCARD
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> WILDCARD	0.0875980264	WILDCARD $Skilled_worker WILDCARD
+<Duration></Duration> of national mourning, with WILDCARD <Artifact.Decoration.Design.Emblem></Artifact.Decoration.Design.Emblem>	0.0873106395	$Duration of national mourning, with WILDCARD $Emblem
+WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> ,	0.0870470306	WILDCARD $Skilled_worker ,
+WILDCARD <Event.Act.Action.Change.Change_of_state.Improvement></Event.Act.Action.Change.Change_of_state.Improvement> WILDCARD	0.0870470306	WILDCARD $Improvement WILDCARD
+WILDCARD <Person.Inhabitant></Person.Inhabitant> ,	0.086920768	WILDCARD $Inhabitant ,
+<Structure.Building></Structure.Building> WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in Pescara Del Tronto, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company>	0.0869073859	$Building WILDCARD $Date WILDCARD $Geological_phenomenon in Pescara Del Tronto, WILDCARD $Country WILDCARD $Date The WILDCARD $Company
+WILDCARD <Person></Person> ,	0.0866489854	WILDCARD $Person ,
+WILDCARD <Date></Date> in WILDCARD	0.0860643932	WILDCARD $Date in WILDCARD
+WILDCARD <Duration></Duration> after the WILDCARD	0.0860549503	WILDCARD $Duration after the WILDCARD
+WILDCARD <Event.Happening.Change.Transformation.Improvement></Event.Happening.Change.Transformation.Improvement> WILDCARD	0.0860470306	WILDCARD $Improvement WILDCARD
+WILDCARD <Event.Act.Activity.Creation.Creating_from_raw_materials></Event.Act.Activity.Creation.Creating_from_raw_materials> WILDCARD	0.0860470306	WILDCARD $Creating_from_raw_materials WILDCARD
+Prime WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman>	0.0859431052	Prime WILDCARD $Clergyman
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender>	0.085723386	WILDCARD $Defender
+WILDCARD <Event.Happening.Beginning></Event.Happening.Beginning> : WILDCARD <Date></Date>	0.0856909534	WILDCARD $Beginning : WILDCARD $Date
+WILDCARD <Person.Advocate.Spokesperson></Person.Advocate.Spokesperson> WILDCARD	0.085250804	WILDCARD $Spokesperson WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> and WILDCARD	0.084936607	WILDCARD $Change and WILDCARD
+WILDCARD <Event.Happening.Trouble.Misfortune.Calamity></Event.Happening.Trouble.Misfortune.Calamity>	0.0847091669	WILDCARD $Calamity
+WILDCARD <Person.Inhabitant></Person.Inhabitant> of WILDCARD	0.0847076592	WILDCARD $Inhabitant of WILDCARD
+WILDCARD <Event.Happening></Event.Happening> WILDCARD	0.0843893278	WILDCARD $Happening WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> where a WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> hit WILDCARD <Date></Date> Strong WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor> rattled WILDCARD <Person.Inhabitant></Person.Inhabitant> and WILDCARD <Event.Act.Recovery></Event.Act.Recovery>	0.0842909501	WILDCARD $Country WILDCARD $Date where a WILDCARD $Geological_phenomenon hit WILDCARD $Date Strong WILDCARD $Tremor rattled WILDCARD $Inhabitant and WILDCARD $Recovery
+WILDCARD <Person.Leader.Head.Administrator></Person.Leader.Head.Administrator> WILDCARD	0.0840470306	WILDCARD $Administrator WILDCARD
+WILDCARD <Person.Traveler></Person.Traveler> WILDCARD	0.0840470306	WILDCARD $Traveler WILDCARD
+WILDCARD <Person.Worker.Skilled_worker.Serviceman></Person.Worker.Skilled_worker.Serviceman> WILDCARD	0.083920768	WILDCARD $Serviceman WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> ,	0.0835185875	WILDCARD $Change ,
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Event.Act.Activity></Event.Act.Activity> WILDCARD	0.0834964919	WILDCARD $Country WILDCARD $Activity WILDCARD
+WILDCARD <Date></Date> two WILDCARD	0.0833932804	WILDCARD $Date two WILDCARD
+WILDCARD <Event.Act.Group_action.Social_control.Management></Event.Act.Group_action.Social_control.Management>	0.0828858594	WILDCARD $Management
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> WILDCARD	0.082605544	WILDCARD $Defender WILDCARD
+WILDCARD <Duration></Duration> after a WILDCARD	0.0825188061	WILDCARD $Duration after a WILDCARD
+WILDCARD <Number></Number> times	0.0818858594	WILDCARD $Number times
+WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> WILDCARD	0.0817945393	WILDCARD $Clergyman WILDCARD
+per WILDCARD <Duration></Duration>	0.0816614742	per WILDCARD $Duration
+Civil WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.0816614742	Civil WILDCARD $Activity
+WILDCARD <Person.Adult></Person.Adult> WILDCARD	0.081644435	WILDCARD $Adult WILDCARD
+WILDCARD <Person.Officeholder></Person.Officeholder> who	0.0816191928	WILDCARD $Officeholder who
+WILDCARD <Event.Happening.Change></Event.Happening.Change> in the WILDCARD	0.0814290738	WILDCARD $Change in the WILDCARD
+WILDCARD <Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD	0.0811369842	WILDCARD $Corporate_executive WILDCARD
+WILDCARD <Date></Date> we	0.0811369842	WILDCARD $Date we
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> , which struck at WILDCARD <Date></Date>	0.0809413757	$Geological_phenomenon , which struck at WILDCARD $Date
+WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat> ,	0.080938776	WILDCARD $Feat ,
+WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude> and WILDCARD	0.0808975752	WILDCARD $Change_of_magnitude and WILDCARD
+WILDCARD <Person.Communicator></Person.Communicator> WILDCARD	0.0808941013	WILDCARD $Communicator WILDCARD
+WILDCARD <Date></Date> in a WILDCARD	0.0801230498	WILDCARD $Date in a WILDCARD
+WILDCARD <Person.Juvenile></Person.Juvenile> WILDCARD	0.0801159161	WILDCARD $Juvenile WILDCARD
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> at a depth of WILDCARD <Number></Number>	0.0800214111	WILDCARD $Settlement at a depth of WILDCARD $Number
+WILDCARD <Event.Act.Activity></Event.Act.Activity> in WILDCARD	0.0799397839	WILDCARD $Activity in WILDCARD
+WILDCARD <Date></Date> Strong WILDCARD	0.0798935758	WILDCARD $Date Strong WILDCARD
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date> WILDCARD	0.079581969	$Geological_phenomenon struck at WILDCARD $Date WILDCARD
+magnitude of WILDCARD <Number></Number> WILDCARD	0.0793296346	magnitude of WILDCARD $Number WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor>	0.0792727366	WILDCARD $Country WILDCARD $Benefactor
+WILDCARD <Event.Happening.Case></Event.Happening.Case> WILDCARD	0.0792068252	WILDCARD $Case WILDCARD
+degrees in longitude and WILDCARD <Number></Number> degrees	0.0789985212	degrees in longitude and WILDCARD $Number degrees
+WILDCARD <Person.Relative.Kinswoman.Female_sibling></Person.Relative.Kinswoman.Female_sibling>	0.0787962896	WILDCARD $Female_sibling
+WILDCARD <Date></Date> A WILDCARD	0.0787248312	WILDCARD $Date A WILDCARD
+total of WILDCARD <Number></Number> WILDCARD	0.0784115328	total of WILDCARD $Number WILDCARD
+<Number></Number> others sustained WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.0782474704	$Number others sustained WILDCARD $Change
+Accumoli, WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date>	0.0781037982	Accumoli, WILDCARD $Country WILDCARD $Date
+one WILDCARD <Person.Adult></Person.Adult>	0.0780989742	one WILDCARD $Adult
+WILDCARD <Date></Date> INTERSECT	0.0780989742	WILDCARD $Date INTERSECT
+WILDCARD <Person.Domestic_partner.Spouse></Person.Domestic_partner.Spouse> ,	0.0780989742	WILDCARD $Spouse ,
+WILDCARD <Number></Number> percent of the WILDCARD	0.0778593408	WILDCARD $Number percent of the WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> toll in WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.0777365726	WILDCARD $Change toll in WILDCARD $Country
+WILDCARD <Structure></Structure> for WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.0774350323	WILDCARD $Structure for WILDCARD $Geological_phenomenon WILDCARD $Unfortunate
+degrees in longitude and WILDCARD <Number></Number> degrees in latitude.	0.0772492121	degrees in longitude and WILDCARD $Number degrees in latitude.
+<Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state>	0.077188776	$Country WILDCARD $Head_of_state
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> , WILDCARD <Date></Date> The WILDCARD	0.0768558771	WILDCARD $Administrative_district , WILDCARD $Date The WILDCARD
+WILDCARD <Number></Number> people were killed in the WILDCARD	0.0767506854	WILDCARD $Number people were killed in the WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> and WILDCARD	0.0761413615	WILDCARD $Unfortunate and WILDCARD
+WILDCARD <Date></Date> As WILDCARD	0.0760845752	WILDCARD $Date As WILDCARD
+WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD	0.0758935758	WILDCARD $Head_of_state WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD <Person.Officeholder></Person.Officeholder>	0.0757673132	WILDCARD $Country WILDCARD $Head_of_state WILDCARD $Officeholder
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> WILDCARD	0.0753743803	WILDCARD $Settlement WILDCARD $Civil_authority WILDCARD
+two WILDCARD <Person.Juvenile></Person.Juvenile>	0.0753489742	two WILDCARD $Juvenile
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Person.Communicator></Person.Communicator> WILDCARD	0.0753358582	WILDCARD $Administrative_district WILDCARD $Communicator WILDCARD
+WILDCARD <Event.Happening.Juncture.Crisis></Event.Happening.Juncture.Crisis> WILDCARD <Phenomenon.Consequence></Phenomenon.Consequence> WILDCARD	0.0749915502	WILDCARD $Crisis WILDCARD $Consequence WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Action.Change.Change_of_state.Termination></Event.Act.Action.Change.Change_of_state.Termination> WILDCARD <Number></Number>	0.0749042697	WILDCARD $Geological_phenomenon WILDCARD $Termination WILDCARD $Number
+WILDCARD <Event.Act.Activity.Work></Event.Act.Activity.Work> WILDCARD	0.0748173132	WILDCARD $Work WILDCARD
+WILDCARD <Event.Act></Event.Act> WILDCARD	0.0748173132	WILDCARD $Act WILDCARD
+<Number></Number> people dead or missing.	0.0748030669	$Number people dead or missing.
+WILDCARD <Event.Happening.Change></Event.Happening.Change> to the WILDCARD	0.0747527827	WILDCARD $Change to the WILDCARD
+WILDCARD <Person.Inhabitant></Person.Inhabitant> of the WILDCARD	0.0747108955	WILDCARD $Inhabitant of the WILDCARD
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> on WILDCARD	0.0738674362	WILDCARD $Benefactor on WILDCARD
+WILDCARD <Person.Domestic_partner.Spouse></Person.Domestic_partner.Spouse>	0.0735730544	WILDCARD $Spouse
+WILDCARD <Event.Happening.Change></Event.Happening.Change> to WILDCARD	0.0733719737	WILDCARD $Change to WILDCARD
+WILDCARD <Event.Act.Activity></Event.Act.Activity> , WILDCARD	0.0732894253	WILDCARD $Activity , WILDCARD
+WILDCARD <Event.Happening.Contact></Event.Happening.Contact> with the WILDCARD	0.0732699988	WILDCARD $Contact with the WILDCARD
+WILDCARD <Person.Authority.Civil_authority></Person.Authority.Civil_authority> of WILDCARD	0.0732502619	WILDCARD $Civil_authority of WILDCARD
+WILDCARD <Person.Writer></Person.Writer> WILDCARD	0.0730823075	WILDCARD $Writer WILDCARD
+WILDCARD <Person.Adult></Person.Adult> who	0.0723489742	WILDCARD $Adult who
+WILDCARD <Date></Date> collapsing WILDCARD <Location.Point.Geographic_point.Address.Residence></Location.Point.Geographic_point.Address.Residence> on WILDCARD <Location.Region></Location.Region> of WILDCARD <Person.Inhabitant></Person.Inhabitant> as they slept.	0.0721575593	WILDCARD $Date collapsing WILDCARD $Residence on WILDCARD $Region of WILDCARD $Inhabitant as they slept.
+WILDCARD <Duration></Duration> of the WILDCARD	0.071826487	WILDCARD $Duration of the WILDCARD
+WILDCARD <Person.Officeholder></Person.Officeholder> said WILDCARD	0.0716448963	WILDCARD $Officeholder said WILDCARD
+WILDCARD <Number></Number> in the WILDCARD	0.0716161704	WILDCARD $Number in the WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.0714109769	WILDCARD $Unfortunate of WILDCARD $Date WILDCARD $Geological_phenomenon ,
+WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD	0.0712191124	WILDCARD $Date WILDCARD $Country WILDCARD
+WILDCARD <Person.Preserver.Defender></Person.Preserver.Defender> would find any WILDCARD <Person.Unfortunate></Person.Unfortunate> from WILDCARD	0.0707600384	WILDCARD $Defender would find any WILDCARD $Unfortunate from WILDCARD
+WILDCARD <Event.Act.Activity></Event.Act.Activity> and WILDCARD	0.0707521556	WILDCARD $Activity and WILDCARD
+<Location.Region></Location.Region> and WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> again anguished over its WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> to protect WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> and WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> from the WILDCARD	0.0703274641	$Region and WILDCARD $Country again anguished over its WILDCARD $Nonaccomplishment to protect WILDCARD $Municipality and WILDCARD $Municipality from the WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> in WILDCARD	0.0700786588	WILDCARD $Change in WILDCARD
+WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony>	0.0699811684	WILDCARD $Ceremony
+<Number></Number> kilometers northeast	0.0697513892	$Number kilometers northeast
+<Location.Populatedplace.Country></Location.Populatedplace.Country> is located on WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment>	0.0695680987	$Country is located on WILDCARD $Nonaccomplishment
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of the WILDCARD	0.0690995404	WILDCARD $Unfortunate of the WILDCARD
+INTERSECT WILDCARD <Duration></Duration>	0.0688305343	INTERSECT WILDCARD $Duration
+Announcer-read report over video with natural sound: WILDCARD <Number></Number>	0.0681590555	Announcer-read report over video with natural sound: WILDCARD $Number
+WILDCARD <Person.Adult></Person.Adult> is pulled out of the rubble	0.0679281339	WILDCARD $Adult is pulled out of the rubble
+<Date></Date> and was felt across a broad swath of WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> including WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> where WILDCARD <Person.Inhabitant></Person.Inhabitant>	0.0676428028	$Date and was felt across a broad swath of WILDCARD $Country including WILDCARD $Settlement where WILDCARD $Inhabitant
+WILDCARD <Event.Act.Activity.Work.Duty.Function.Stead></Event.Act.Activity.Work.Duty.Function.Stead>	0.0676410212	WILDCARD $Stead
+WILDCARD <Number></Number> people and injured more than WILDCARD	0.0675307585	WILDCARD $Number people and injured more than WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date>	0.0670963564	WILDCARD $Unfortunate of WILDCARD $Date
+WILDCARD <Event.Happening.Change.Transformation.Improvement></Event.Happening.Change.Transformation.Improvement>	0.0669338746	WILDCARD $Improvement
+WILDCARD <Person.Leader></Person.Leader>	0.0668869464	WILDCARD $Leader
+WILDCARD <Date></Date> on WILDCARD	0.0663964179	WILDCARD $Date on WILDCARD
+WILDCARD <Number></Number> in WILDCARD	0.0663207308	WILDCARD $Number in WILDCARD
+WILDCARD <Date></Date> The WILDCARD <Organization.Company></Organization.Company> A WILDCARD	0.0661997922	WILDCARD $Date The WILDCARD $Company A WILDCARD
+reconstruction WILDCARD <Event.Act.Activity></Event.Act.Activity>	0.0660355343	reconstruction WILDCARD $Activity
+WILDCARD <Event.Act.Group_action.Social_control></Event.Act.Group_action.Social_control>	0.0658909396	WILDCARD $Social_control
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD	0.0658185538	WILDCARD $Country WILDCARD $Date WILDCARD $Country WILDCARD
+WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude>	0.0655810681	WILDCARD $Change_of_magnitude
+WILDCARD <Person.Officeholder></Person.Officeholder> Pirozzi,	0.0653171654	WILDCARD $Officeholder Pirozzi,
+WILDCARD <Organization.Company></Organization.Company> WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD	0.0651619307	WILDCARD $Company WILDCARD $Recovery WILDCARD
+WILDCARD <Person.Leader.Head></Person.Leader.Head>	0.064882331	WILDCARD $Head
+WILDCARD <Event.Happening.Trouble.Misfortune></Event.Happening.Trouble.Misfortune>	0.0647339128	WILDCARD $Misfortune
+Longmenshan WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment>	0.064611283	Longmenshan WILDCARD $Nonaccomplishment
+Video WILDCARD <Event.Act.Activity.Diversion.Entertainment></Event.Act.Activity.Diversion.Entertainment>	0.064611283	Video WILDCARD $Entertainment
+<Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> around the WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> to accommodate the WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.0645042845	$Municipality around the WILDCARD $Municipality to accommodate the WILDCARD $Unfortunate
+WILDCARD <Date></Date> after the WILDCARD	0.0641309279	WILDCARD $Date after the WILDCARD
+WILDCARD <Date></Date> and was felt across a broad swath of WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> including WILDCARD	0.0639417845	WILDCARD $Date and was felt across a broad swath of WILDCARD $Country including WILDCARD
+<Event.Act.Speech_act.Request.Questioning.Interrogation></Event.Act.Speech_act.Request.Questioning.Interrogation> WILDCARD <Event.Act.Activity.Occupation.Profession.Education.Teaching></Event.Act.Activity.Occupation.Profession.Education.Teaching>	0.0634619324	$Interrogation WILDCARD $Teaching
+Geological WILDCARD <Event.Act.Activity.Work.Investigation.Examination></Event.Act.Activity.Work.Investigation.Examination>	0.0634619324	Geological WILDCARD $Examination
+WILDCARD <Person.Officeholder></Person.Officeholder> Pirozzi	0.0634619324	WILDCARD $Officeholder Pirozzi
+Risk WILDCARD <Event.Act.Action.Change.Change_of_magnitude></Event.Act.Action.Change.Change_of_magnitude>	0.0634619324	Risk WILDCARD $Change_of_magnitude
+<Event.Act.Activity.Creation.Creating_from_raw_materials></Event.Act.Activity.Creation.Creating_from_raw_materials> WILDCARD <Organization.Unit></Organization.Unit> worked through the WILDCARD <Date></Date> to build a WILDCARD <Structure.Shelter></Structure.Shelter> complex to host	0.0633737558	$Creating_from_raw_materials WILDCARD $Unit worked through the WILDCARD $Date to build a WILDCARD $Shelter complex to host
+WILDCARD <Person.Enrollee></Person.Enrollee>	0.0632736213	WILDCARD $Enrollee
+WILDCARD <Event.Act.Action.Change.Change_of_state.Improvement></Event.Act.Action.Change.Change_of_state.Improvement>	0.0630449554	WILDCARD $Improvement
+Foreign WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman> WILDCARD	0.0629586754	Foreign WILDCARD $Clergyman WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> The WILDCARD	0.0628471286	WILDCARD $Country WILDCARD $Date The WILDCARD
+WILDCARD <Person.Inhabitant.European></Person.Inhabitant.European>	0.0622736213	WILDCARD $European
+WILDCARD <Person.Leader.Presiding_officer></Person.Leader.Presiding_officer>	0.0622736213	WILDCARD $Presiding_officer
+WILDCARD <Event.Happening.Ending.Victory></Event.Happening.Ending.Victory>	0.0620170055	WILDCARD $Victory
+WILDCARD <Person.Juvenile></Person.Juvenile> spent the WILDCARD <Date></Date> inside a WILDCARD <Event.Act.Activity.Diversion></Event.Act.Activity.Diversion> WILDCARD <Artifact></Artifact>	0.0613960741	WILDCARD $Juvenile spent the WILDCARD $Date inside a WILDCARD $Diversion WILDCARD $Artifact
+WILDCARD <Date></Date> collapsing WILDCARD	0.0598560376	WILDCARD $Date collapsing WILDCARD
+WILDCARD <Number></Number> of the WILDCARD	0.0597103218	WILDCARD $Number of the WILDCARD
+WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD <Person.Unfortunate></Person.Unfortunate>	0.0594240699	WILDCARD $Ceremony for some of the WILDCARD $Unfortunate
+WILDCARD <Number></Number> WILDCARD <Structure.Housing></Structure.Housing>	0.059198868	WILDCARD $Number WILDCARD $Housing
+WILDCARD <Number></Number> people and injuring more than WILDCARD	0.058799136	WILDCARD $Number people and injuring more than WILDCARD
+<Person.Leader.Head.Administrator.Executive.Corporate_executive></Person.Leader.Head.Administrator.Executive.Corporate_executive> WILDCARD <Person.Officeholder></Person.Officeholder> and WILDCARD <Person.Communicator.Negotiator.Representative.Head_of_state></Person.Communicator.Negotiator.Representative.Head_of_state> WILDCARD <Person.Officeholder></Person.Officeholder> joined grieving WILDCARD <Organization.Unit></Organization.Unit> WILDCARD <Person.Peer.Associate></Person.Peer.Associate>	0.0586178013	$Corporate_executive WILDCARD $Officeholder and WILDCARD $Head_of_state WILDCARD $Officeholder joined grieving WILDCARD $Unit WILDCARD $Associate
+WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement>	0.0585445558	WILDCARD $Date WILDCARD $Geological_phenomenon in WILDCARD $Settlement
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat> WILDCARD	0.0584442873	WILDCARD $Geological_phenomenon WILDCARD $Feat WILDCARD
+WILDCARD <Person.Unfortunate.Victim></Person.Unfortunate.Victim>	0.0582611716	WILDCARD $Victim
+WILDCARD <Event.Act.Speech_act></Event.Act.Speech_act>	0.0581285076	WILDCARD $Speech_act
+WILDCARD <Person.Officeholder></Person.Officeholder> and WILDCARD	0.0580037901	WILDCARD $Officeholder and WILDCARD
+experiences at least one WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Duration></Duration>	0.0575802925	experiences at least one WILDCARD $Geological_phenomenon WILDCARD $Duration
+WILDCARD <Person.Adult.Woman></Person.Adult.Woman>	0.0574631317	WILDCARD $Woman
+WILDCARD <Person.Inhabitant.American.South_american></Person.Inhabitant.American.South_american>	0.057236636	WILDCARD $South_american
+WILDCARD <Person.Inhabitant></Person.Inhabitant> in WILDCARD	0.0570906967	WILDCARD $Inhabitant in WILDCARD
+<Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date>	0.0570505554	$Unfortunate of WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Date></Date> WILDCARD	0.0570354381	WILDCARD $Date WILDCARD $Date WILDCARD
+WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD	0.0569532029	WILDCARD $Unfortunate of WILDCARD
+WILDCARD <Date></Date> killed more than WILDCARD	0.0569287567	WILDCARD $Date killed more than WILDCARD
+WILDCARD <Person.Worker.Employee.Workman></Person.Worker.Employee.Workman> and other WILDCARD	0.0567730556	WILDCARD $Workman and other WILDCARD
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD	0.0566950272	WILDCARD $Number WILDCARD $Geological_phenomenon struck WILDCARD
+WILDCARD <Person.Creator></Person.Creator>	0.0565951265	WILDCARD $Creator
+WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> or WILDCARD <Event.Act.Activity.Wrongdoing.Transgression.Crime></Event.Act.Activity.Wrongdoing.Transgression.Crime>	0.0565335867	WILDCARD $Nonaccomplishment or WILDCARD $Crime
+WILDCARD <Event.Act.Activity.Work></Event.Act.Activity.Work>	0.0564717381	WILDCARD $Work
+WILDCARD <Event.Act.Activity></Event.Act.Activity> of WILDCARD	0.0564223172	WILDCARD $Activity of WILDCARD
+WILDCARD <Event.Act.Activity.Creation.Creating_from_raw_materials></Event.Act.Activity.Creation.Creating_from_raw_materials>	0.0563411779	WILDCARD $Creating_from_raw_materials
+<Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.0561726512	$Number WILDCARD $Geological_phenomenon
+WILDCARD <Event.Act.Action.Change.Change_of_state.Termination></Event.Act.Action.Change.Change_of_state.Termination>	0.0560635433	WILDCARD $Termination
+WILDCARD <Person></Person> , WILDCARD	0.0559971826	WILDCARD $Person , WILDCARD
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization> WILDCARD	0.0559884049	WILDCARD $Number - WILDCARD $Organization WILDCARD
+WILDCARD <Date></Date> at WILDCARD	0.0558542385	WILDCARD $Date at WILDCARD
+WILDCARD <Person.Religious_person></Person.Religious_person>	0.0557221376	WILDCARD $Religious_person
+WILDCARD <Event.Act.Activity.Worship></Event.Act.Activity.Worship>	0.0557050528	WILDCARD $Worship
+WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment>	0.0556847136	WILDCARD $Nonaccomplishment
+WILDCARD <Event.Act.Action.Choice.Decision.Move.Maneuver></Event.Act.Action.Choice.Decision.Move.Maneuver>	0.0556612558	WILDCARD $Maneuver
+WILDCARD <Event.Happening.Change></Event.Happening.Change> across the WILDCARD <Location></Location>	0.0556157391	WILDCARD $Change across the WILDCARD $Location
+WILDCARD <Person.Inhabitant></Person.Inhabitant> of the capital felt a long swaying followed by WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor></Phenomenon.Natural_phenomenon.Geological_phenomenon.Earthquake.Tremor>	0.0551072211	WILDCARD $Inhabitant of the capital felt a long swaying followed by WILDCARD $Tremor
+<Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.055044974	$Number WILDCARD $Geological_phenomenon ,
+WILDCARD <Date></Date> as WILDCARD	0.0549112641	WILDCARD $Date as WILDCARD
+WILDCARD <Event.Happening.Movement></Event.Happening.Movement>	0.0545951265	WILDCARD $Movement
+WILDCARD <Event.Act.Action.Interaction></Event.Act.Action.Interaction> with WILDCARD	0.0539359904	WILDCARD $Interaction with WILDCARD
+WILDCARD <Event.Act.Action.Change.Change_of_state.Beginning></Event.Act.Action.Change.Change_of_state.Beginning>	0.0537445892	WILDCARD $Beginning
+WILDCARD <Event.Act.Action.Accomplishment.Feat></Event.Act.Action.Accomplishment.Feat>	0.0536934692	WILDCARD $Feat
+WILDCARD <Event.Act.Group_action.Transaction></Event.Act.Group_action.Transaction>	0.0535019949	WILDCARD $Transaction
+<Location.Populatedplace.Country></Location.Populatedplace.Country> where a WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck just after WILDCARD <Date></Date> The WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> was felt across a broad	0.0534881791	$Country where a WILDCARD $Number WILDCARD $Geological_phenomenon struck just after WILDCARD $Date The WILDCARD $Geological_phenomenon was felt across a broad
+WILDCARD <Person.Adult></Person.Adult> is pulled out of the rubble following an WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> in WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country>	0.0534881791	WILDCARD $Adult is pulled out of the rubble following an WILDCARD $Geological_phenomenon in WILDCARD $Settlement WILDCARD $Country
+WILDCARD <Number></Number> - WILDCARD	0.0534726937	WILDCARD $Number - WILDCARD
+WILDCARD <Structure.Building></Structure.Building> WILDCARD <Date></Date> WILDCARD	0.0534500138	WILDCARD $Building WILDCARD $Date WILDCARD
+WILDCARD <Date></Date> In WILDCARD	0.0528395177	WILDCARD $Date In WILDCARD
+WILDCARD <Date></Date> - WILDCARD	0.052642707	WILDCARD $Date - WILDCARD
+WILDCARD <Person.Relative.Ancestor.Progenitor.Genitor.Parent></Person.Relative.Ancestor.Progenitor.Genitor.Parent>	0.052437642	WILDCARD $Parent
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Date></Date> WILDCARD	0.0524154625	WILDCARD $Settlement WILDCARD $Date WILDCARD
+WILDCARD <Event.Happening.Change></Event.Happening.Change> from the WILDCARD	0.0516917435	WILDCARD $Change from the WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Person.Worker.Skilled_worker></Person.Worker.Skilled_worker> WILDCARD	0.0515375045	WILDCARD $Country WILDCARD $Skilled_worker WILDCARD
+WILDCARD <Event.Naturalevent.Earthquake></Event.Naturalevent.Earthquake> in WILDCARD	0.0514377326	WILDCARD $Earthquake in WILDCARD
+WILDCARD <Person.Leader.Politician></Person.Leader.Politician>	0.0509315485	WILDCARD $Politician
+WILDCARD <Number></Number> the WILDCARD	0.0506670828	WILDCARD $Number the WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> A WILDCARD	0.0503697432	WILDCARD $Country WILDCARD $Date A WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck WILDCARD <Date></Date> WILDCARD	0.0502508359	WILDCARD $Geological_phenomenon struck WILDCARD $Date WILDCARD
+<Number></Number> on WILDCARD <Date></Date>	0.0499995135	$Number on WILDCARD $Date
+WILDCARD <Person.Unfortunate></Person.Unfortunate> from the WILDCARD	0.0499662094	WILDCARD $Unfortunate from the WILDCARD
+WILDCARD <Date></Date> WILDCARD <Number></Number> WILDCARD	0.0496633809	WILDCARD $Date WILDCARD $Number WILDCARD
+WILDCARD <Duration></Duration> after an WILDCARD	0.0496347958	WILDCARD $Duration after an WILDCARD
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD	0.049616621	WILDCARD $Number WILDCARD $Number WILDCARD
+WILDCARD <Location.Populatedplace.Settlement></Location.Populatedplace.Settlement> WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Date></Date> WILDCARD	0.0494823803	WILDCARD $Settlement WILDCARD $Country WILDCARD $Date WILDCARD
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Date></Date>	0.0486401747	WILDCARD $Country WILDCARD $Administrative_district WILDCARD $Date
+WILDCARD <Person.Unfortunate></Person.Unfortunate> by the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.048378968	WILDCARD $Unfortunate by the WILDCARD $Geological_phenomenon
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD	0.0481683993	WILDCARD $Number WILDCARD $Number WILDCARD $Number WILDCARD
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Date></Date> WILDCARD	0.0479297739	WILDCARD $Geological_phenomenon WILDCARD $Date WILDCARD
+<Person></Person> Disaster	0.0477868032	$Person Disaster
+WILDCARD <Location.Region></Location.Region> WILDCARD <Number></Number>	0.0467604702	WILDCARD $Region WILDCARD $Number
+WILDCARD <Location.Point.Geographic_point></Location.Point.Geographic_point> of the WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> was located in an WILDCARD <Location.Region></Location.Region> WILDCARD <Number></Number>	0.0464988628	WILDCARD $Geographic_point of the WILDCARD $Geological_phenomenon was located in an WILDCARD $Region WILDCARD $Number
+WILDCARD <Event.Act.Activity></Event.Act.Activity> in the WILDCARD	0.0460532045	WILDCARD $Activity in the WILDCARD
+WILDCARD <Number></Number> WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD	0.0458629965	WILDCARD $Number WILDCARD $Recovery WILDCARD
+WILDCARD <Person.Leader.Spiritual_leader.Clergyman></Person.Leader.Spiritual_leader.Clergyman>	0.0456727408	WILDCARD $Clergyman
+WILDCARD <Person.Unfortunate></Person.Unfortunate> , WILDCARD	0.0454325601	WILDCARD $Unfortunate , WILDCARD
+WILDCARD <Number></Number> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.0449160408	WILDCARD $Number WILDCARD $Geological_phenomenon ,
+WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series of WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon>	0.0446727408	WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series of WILDCARD $Geological_phenomenon
+WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Duration></Duration>	0.0444535204	WILDCARD $Geological_phenomenon WILDCARD $Duration
+WILDCARD <Person.Traveler></Person.Traveler>	0.0442955616	WILDCARD $Traveler
+WILDCARD <Event.Happening.Change.Death.Fatality></Event.Happening.Change.Death.Fatality>	0.0431896868	WILDCARD $Fatality
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> WILDCARD <Event.Act.Recovery></Event.Act.Recovery>	0.0427329747	WILDCARD $Country WILDCARD $Recovery
+experiences at least one WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> WILDCARD <Duration></Duration> on average, although the vast majority are so small they go unnoticed.	0.0423319384	experiences at least one WILDCARD $Geological_phenomenon WILDCARD $Duration on average, although the vast majority are so small they go unnoticed.
+WILDCARD <Event.Act.Activity.Work></Event.Act.Activity.Work> in a WILDCARD <Facility.Airfield></Facility.Airfield> WILDCARD <Structure></Structure>	0.0422955616	WILDCARD $Work in a WILDCARD $Airfield WILDCARD $Structure
+WILDCARD <Date></Date> to WILDCARD	0.0422400107	WILDCARD $Date to WILDCARD
+ahead of a WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.0421585277	ahead of a WILDCARD $Administrative_district WILDCARD $Ceremony for some of the WILDCARD $Unfortunate of WILDCARD $Date WILDCARD $Geological_phenomenon ,
+WILDCARD <Date></Date> WILDCARD <Event.Happening.Case></Event.Happening.Case> WILDCARD	0.0415327956	WILDCARD $Date WILDCARD $Case WILDCARD
+WILDCARD <Number></Number> WILDCARD <Structure.Shelter></Structure.Shelter> WILDCARD	0.0410497816	WILDCARD $Number WILDCARD $Shelter WILDCARD
+WILDCARD <Person.Good_person.Benefactor></Person.Good_person.Benefactor> make their way through destroyed WILDCARD	0.0410257887	WILDCARD $Benefactor make their way through destroyed WILDCARD
+WILDCARD <Location.Region.District.Administrative_district></Location.Region.District.Administrative_district> WILDCARD <Event.Social_event.Affair.Ceremony></Event.Social_event.Affair.Ceremony> for some of the WILDCARD <Person.Unfortunate></Person.Unfortunate> of WILDCARD <Date></Date> WILDCARD <Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> ,	0.0408914474	WILDCARD $Administrative_district WILDCARD $Ceremony for some of the WILDCARD $Unfortunate of WILDCARD $Date WILDCARD $Geological_phenomenon ,
+WILDCARD <Event.Act.Group_action.Social_control.Duty.Guardianship></Event.Act.Group_action.Social_control.Duty.Guardianship>	0.0406507567	WILDCARD $Guardianship
+WILDCARD <Date></Date> and WILDCARD	0.0406198618	WILDCARD $Date and WILDCARD
+WILDCARD <Event.Act.Speech_act.Request.Questioning></Event.Act.Speech_act.Request.Questioning>	0.040379341	WILDCARD $Questioning
+WILDCARD <Date></Date> in the WILDCARD	0.0402632287	WILDCARD $Date in the WILDCARD
+WILDCARD <Event.Act.Activity></Event.Act.Activity> to WILDCARD	0.0399509488	WILDCARD $Activity to WILDCARD
+<Person.Inhabitant></Person.Inhabitant> were digging their WILDCARD <Person></Person>	0.0399234587	$Inhabitant were digging their WILDCARD $Person
+WILDCARD <Event.Act.Action.Change.Motion.Agitation></Event.Act.Action.Change.Motion.Agitation>	0.0397206459	WILDCARD $Agitation
+U.S. Geological WILDCARD <Event.Act.Activity.Work.Investigation.Examination></Event.Act.Activity.Work.Investigation.Examination> at WILDCARD <Number></Number>	0.0396009753	U.S. Geological WILDCARD $Examination at WILDCARD $Number
+minor and cause little or no WILDCARD <Event.Happening.Change></Event.Happening.Change>	0.0386815054	minor and cause little or no WILDCARD $Change
+WILDCARD <Event.Act.Activity></Event.Act.Activity> to the WILDCARD	0.0384466491	WILDCARD $Activity to the WILDCARD
+WILDCARD <Date></Date> general audience	0.0358519026	WILDCARD $Date general audience
+WILDCARD <Location.Populatedplace.Country></Location.Populatedplace.Country> is located on WILDCARD <Event.Act.Nonaccomplishment></Event.Act.Nonaccomplishment> lines and is prone	0.035584341	WILDCARD $Country is located on WILDCARD $Nonaccomplishment lines and is prone
+<Number></Number> were old and made of WILDCARD <Artifact.Building_material></Artifact.Building_material> ,	0.0350503074	$Number were old and made of WILDCARD $Building_material ,
+WILDCARD <Event.Act.Group_action.Assembly.Meeting></Event.Act.Group_action.Assembly.Meeting>	0.035021841	WILDCARD $Meeting
+WILDCARD <Person.Adult.Professional.Educator></Person.Adult.Professional.Educator>	0.0342515901	WILDCARD $Educator
+<Phenomenon.Natural_phenomenon.Geological_phenomenon></Phenomenon.Natural_phenomenon.Geological_phenomenon> struck at WILDCARD <Date></Date>	0.0333872577	$Geological_phenomenon struck at WILDCARD $Date
+WILDCARD <Event.Act.Activity.Diversion></Event.Act.Activity.Diversion>	0.0332515901	WILDCARD $Diversion
+WILDCARD <Event.Act.Activity.Education></Event.Act.Activity.Education>	0.0332515901	WILDCARD $Education
+U.S. WILDCARD <Person></Person>	0.0332515901	U.S. WILDCARD $Person
+strongest to hit Yunnan in WILDCARD <Duration></Duration>	0.0328140901	strongest to hit Yunnan in WILDCARD $Duration
+Ludian, which has a population of about WILDCARD <Number></Number>	0.0320422378	Ludian, which has a population of about WILDCARD $Number
+WILDCARD <Person.Traveler.Wayfarer></Person.Traveler.Wayfarer>	0.032021841	WILDCARD $Wayfarer
+WILDCARD <Location.Region.District.Administrative_district.Municipality></Location.Region.District.Administrative_district.Municipality> where WILDCARD <Event.Act.Recovery></Event.Act.Recovery> WILDCARD <Organization.Unit></Organization.Unit> raced to dig WILDCARD <Person.Unfortunate></Person.Unfortunate> out of the rubble, but the toll	0.031584341	WILDCARD $Municipality where WILDCARD $Recovery WILDCARD $Unit raced to dig WILDCARD $Unfortunate out of the rubble, but the toll
+WILDCARD <Person.Worker.Employee.Workman></Person.Worker.Employee.Workman>	0.0302023223	WILDCARD $Workman

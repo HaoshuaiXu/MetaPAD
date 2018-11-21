@@ -1,0 +1,911 @@
+WILDCARD <Event></Event> in WILDCARD <Location></Location>	0.9583771208	WILDCARD $Event in WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Event></Event>	0.9514888322	WILDCARD $Number WILDCARD $Event
+WILDCARD <Event></Event> of WILDCARD <Location></Location>	0.9474720289	WILDCARD $Event of WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.9448442326	WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Person></Person> of the WILDCARD <Event></Event>	0.9360247823	WILDCARD $Person of the WILDCARD $Event
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.9338585074	magnitude WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Event></Event> WILDCARD <Artifact></Artifact>	0.8890915909	WILDCARD $Event WILDCARD $Artifact
+WILDCARD <Number></Number> WILDCARD <Organization></Organization>	0.8878154585	WILDCARD $Number WILDCARD $Organization
+WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.8829832346	WILDCARD $Event WILDCARD $Organization
+WILDCARD <Artifact></Artifact> WILDCARD <Event></Event>	0.877105246	WILDCARD $Artifact WILDCARD $Event
+WILDCARD <Number></Number> WILDCARD <Person></Person>	0.869538458	WILDCARD $Number WILDCARD $Person
+WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.868514664	WILDCARD $Organization WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Event></Event>	0.8644864154	WILDCARD $Date WILDCARD $Event
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon>	0.8593104953	WILDCARD $Date WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> WILDCARD <Event></Event>	0.856908568	WILDCARD $Organization WILDCARD $Event
+WILDCARD <Person></Person> in WILDCARD <Location></Location>	0.8556186329	WILDCARD $Person in WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.8495156851	WILDCARD $Location WILDCARD $Person WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Location></Location>	0.8483030179	WILDCARD $Number WILDCARD $Location
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Date></Date>	0.8427966117	WILDCARD $Phenomenon WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Person></Person>	0.8401862039	WILDCARD $Person WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Date></Date> The WILDCARD	0.838215538	WILDCARD $Location WILDCARD $Date The WILDCARD
+WILDCARD <Person></Person> and WILDCARD <Person></Person>	0.8362202223	WILDCARD $Person and WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Person></Person>	0.8345235564	WILDCARD $Date WILDCARD $Person
+WILDCARD <Event></Event> WILDCARD <Date></Date>	0.820268789	WILDCARD $Event WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Organization></Organization>	0.8051865774	WILDCARD $Date WILDCARD $Organization
+WILDCARD <Person></Person> WILDCARD <Event></Event>	0.8023052949	WILDCARD $Person WILDCARD $Event
+WILDCARD <Event></Event> WILDCARD <Structure></Structure>	0.8013394875	WILDCARD $Event WILDCARD $Structure
+WILDCARD <Event></Event> to WILDCARD <Event></Event>	0.7928731857	WILDCARD $Event to WILDCARD $Event
+WILDCARD <Location></Location> on WILDCARD <Date></Date>	0.7917827856	WILDCARD $Location on WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.7908561694	WILDCARD $Number WILDCARD $Event WILDCARD $Organization
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event>	0.7868936189	WILDCARD $Number WILDCARD $Phenomenon WILDCARD $Event
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event> WILDCARD <Number></Number>	0.7868936189	WILDCARD $Phenomenon WILDCARD $Event WILDCARD $Number
+WILDCARD <Event></Event> of WILDCARD <Organization></Organization>	0.7860240755	WILDCARD $Event of WILDCARD $Organization
+WILDCARD <Event></Event> WILDCARD <Event></Event>	0.7848626105	WILDCARD $Event WILDCARD $Event
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Number></Number>	0.7800202236	WILDCARD $Phenomenon WILDCARD $Number
+WILDCARD <Person></Person> WILDCARD <Artifact></Artifact>	0.7725819445	WILDCARD $Person WILDCARD $Artifact
+WILDCARD <Date></Date> WILDCARD <Number></Number>	0.7718292544	WILDCARD $Date WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Organization></Organization>	0.7691213069	WILDCARD $Location WILDCARD $Date WILDCARD $Organization
+WILDCARD <Location></Location> of WILDCARD <Person></Person>	0.7680396759	WILDCARD $Location of WILDCARD $Person
+WILDCARD <Person></Person> of the WILDCARD <Person></Person>	0.7593114186	WILDCARD $Person of the WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Number></Number>	0.7557815001	WILDCARD $Number WILDCARD $Number
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event> WILDCARD <Location></Location>	0.7506472892	WILDCARD $Phenomenon WILDCARD $Event WILDCARD $Location
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Person></Person>	0.7464990872	WILDCARD $Phenomenon WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Date></Date>	0.7458314526	WILDCARD $Location WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Event></Event> WILDCARD <Person></Person>	0.7454455227	WILDCARD $Date WILDCARD $Event WILDCARD $Person
+WILDCARD <Event></Event> and WILDCARD <Event></Event>	0.7413188218	WILDCARD $Event and WILDCARD $Event
+WILDCARD <Duration></Duration> WILDCARD <Duration></Duration>	0.7402252886	WILDCARD $Duration WILDCARD $Duration
+WILDCARD <Event></Event> WILDCARD <Person></Person>	0.7381995602	WILDCARD $Event WILDCARD $Person
+WILDCARD <Person></Person> WILDCARD <Date></Date>	0.7335826946	WILDCARD $Person WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Organization></Organization>	0.7325209533	WILDCARD $Person WILDCARD $Organization
+WILDCARD <Date></Date> WILDCARD <Event></Event> WILDCARD <Event></Event>	0.7301933968	WILDCARD $Date WILDCARD $Event WILDCARD $Event
+WILDCARD <Location></Location> of the WILDCARD <Event></Event>	0.7299748897	WILDCARD $Location of the WILDCARD $Event
+WILDCARD <Person></Person> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.7263685933	WILDCARD $Person WILDCARD $Person WILDCARD $Person
+WILDCARD <Event></Event> of the WILDCARD <Person></Person>	0.7213105494	WILDCARD $Event of the WILDCARD $Person
+WILDCARD <Artifact></Artifact> WILDCARD <Person></Person>	0.7199687717	WILDCARD $Artifact WILDCARD $Person
+WILDCARD <Person></Person> of WILDCARD <Person></Person>	0.7191585762	WILDCARD $Person of WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event>	0.7159464138	WILDCARD $Phenomenon WILDCARD $Event
+WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD <Event></Event>	0.7158092143	WILDCARD $Date WILDCARD $Person WILDCARD $Event
+WILDCARD <Location></Location> of WILDCARD <Location></Location> WILDCARD <Date></Date>	0.7152338115	WILDCARD $Location of WILDCARD $Location WILDCARD $Date
+WILDCARD <Date></Date> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.713636577	WILDCARD $Date in WILDCARD $Location WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Person></Person> WILDCARD <Location></Location>	0.7106583055	WILDCARD $Location WILDCARD $Person WILDCARD $Location
+WILDCARD <Organization></Organization> and WILDCARD <Event></Event>	0.7088542438	WILDCARD $Organization and WILDCARD $Event
+WILDCARD <Location></Location> WILDCARD <Number></Number> miles	0.7085418018	WILDCARD $Location WILDCARD $Number miles
+WILDCARD <Event></Event> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.7080458004	WILDCARD $Event WILDCARD $Event WILDCARD $Organization
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Organization></Organization>	0.7076890138	WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date WILDCARD $Organization
+WILDCARD <Event></Event> to WILDCARD <Location></Location>	0.7056048364	WILDCARD $Event to WILDCARD $Location
+WILDCARD <Number></Number> in WILDCARD <Location></Location>	0.7020825759	WILDCARD $Number in WILDCARD $Location
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> WILDCARD <Event></Event>	0.701549471	WILDCARD $Organization WILDCARD $Person WILDCARD $Event
+WILDCARD <Person></Person> , WILDCARD <Location></Location>	0.6995739663	WILDCARD $Person , WILDCARD $Location
+WILDCARD <Event></Event> of WILDCARD <Person></Person>	0.6994074467	WILDCARD $Event of WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> measuring WILDCARD <Number></Number>	0.6979643706	WILDCARD $Phenomenon measuring WILDCARD $Number
+WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD <Phenomenon></Phenomenon>	0.6957186956	WILDCARD $Date WILDCARD $Location WILDCARD $Phenomenon
+WILDCARD <Person></Person> of WILDCARD <Location></Location>	0.6947866935	WILDCARD $Person of WILDCARD $Location
+WILDCARD <Location></Location> in WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6938481737	WILDCARD $Location in WILDCARD $Location WILDCARD $Date
+<Location></Location> Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date> The WILDCARD <Phenomenon></Phenomenon>	0.6932263082	$Location Sichuan WILDCARD $Location , WILDCARD $Date The WILDCARD $Phenomenon
+WILDCARD <Location></Location> Yunnan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6923801543	WILDCARD $Location Yunnan WILDCARD $Location WILDCARD $Date
+<Number></Number> WILDCARD <Date></Date>	0.6917763478	$Number WILDCARD $Date
+China WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event>	0.6877582484	China WILDCARD $Phenomenon WILDCARD $Event
+WILDCARD <Organization></Organization> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.6844041275	WILDCARD $Organization WILDCARD $Event WILDCARD $Organization
+WILDCARD <Organization></Organization> WILDCARD <Date></Date>	0.6836460557	WILDCARD $Organization WILDCARD $Date
+WILDCARD <Person></Person> to WILDCARD <Location></Location>	0.6824241223	WILDCARD $Person to WILDCARD $Location
+WILDCARD <Date></Date> the WILDCARD <Event></Event>	0.6817444359	WILDCARD $Date the WILDCARD $Event
+WILDCARD <Event></Event> of WILDCARD <Event></Event>	0.6785659134	WILDCARD $Event of WILDCARD $Event
+WILDCARD <Person></Person> and WILDCARD <Location></Location>	0.6759813736	WILDCARD $Person and WILDCARD $Location
+WILDCARD <Date></Date>	0.6742092993	WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.6725535677	WILDCARD $Date WILDCARD $Person WILDCARD $Person
+WILDCARD <Person></Person> of WILDCARD <Event></Event>	0.6719772142	WILDCARD $Person of WILDCARD $Event
+WILDCARD <Location></Location> and WILDCARD <Number></Number>	0.6706247048	WILDCARD $Location and WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Number></Number>	0.6692601441	WILDCARD $Location WILDCARD $Number
+Prime WILDCARD <Person></Person> WILDCARD <Person></Person>	0.6688708705	Prime WILDCARD $Person WILDCARD $Person
+WILDCARD <Event></Event> of the WILDCARD <Location></Location>	0.6682611025	WILDCARD $Event of the WILDCARD $Location
+WILDCARD <Number></Number> kilometers ,	0.666423112	WILDCARD $Number kilometers ,
+WILDCARD <Person></Person> WILDCARD <Phenomenon></Phenomenon>	0.6650795509	WILDCARD $Person WILDCARD $Phenomenon
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> in WILDCARD <Date></Date>	0.6629282702	WILDCARD $Phenomenon in WILDCARD $Location in WILDCARD $Date
+WILDCARD <Event></Event> , WILDCARD <Location></Location>	0.662389888	WILDCARD $Event , WILDCARD $Location
+WILDCARD <Person></Person> and a WILDCARD <Person></Person>	0.6608300186	WILDCARD $Person and a WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Number></Number>	0.6599508843	WILDCARD $Location WILDCARD $Location WILDCARD $Number
+WILDCARD <Date></Date> WILDCARD <Location></Location>	0.6598268698	WILDCARD $Date WILDCARD $Location
+WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6574528908	WILDCARD $Location Sichuan WILDCARD $Location WILDCARD $Date
+WILDCARD <Location></Location> in WILDCARD <Date></Date>	0.6568191255	WILDCARD $Location in WILDCARD $Date
+WILDCARD <Event></Event> in the WILDCARD <Phenomenon></Phenomenon>	0.6563583925	WILDCARD $Event in the WILDCARD $Phenomenon
+<Date></Date> WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date> The WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.650652017	$Date WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date The WILDCARD $Organization WILDCARD $Person
+WILDCARD <Event></Event> of WILDCARD <Number></Number>	0.6503114124	WILDCARD $Event of WILDCARD $Number
+WILDCARD <Date></Date> the WILDCARD <Location></Location>	0.6497150913	WILDCARD $Date the WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD	0.6483916046	WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD
+WILDCARD <Number></Number> people	0.6473986085	WILDCARD $Number people
+WILDCARD <Person></Person> of the WILDCARD <Location></Location>	0.6466598808	WILDCARD $Person of the WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Structure></Structure>	0.6455330779	WILDCARD $Number WILDCARD $Structure
+WILDCARD <Number></Number>	0.6452102346	WILDCARD $Number
+WILDCARD <Person></Person>	0.6438991677	WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Location></Location> WILDCARD <Location></Location>	0.6425367586	WILDCARD $Number WILDCARD $Location WILDCARD $Location
+thousands of WILDCARD <Person></Person>	0.6407194473	thousands of WILDCARD $Person
+WILDCARD <Event></Event> and WILDCARD <Location></Location>	0.6406876477	WILDCARD $Event and WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number>	0.640458547	WILDCARD $Number WILDCARD $Number WILDCARD $Number WILDCARD $Number
+number of WILDCARD <Person></Person>	0.6401847483	number of WILDCARD $Person
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> and WILDCARD <Person></Person>	0.6367878175	WILDCARD $Event WILDCARD $Organization and WILDCARD $Person
+powerful, WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Location></Location> before WILDCARD <Date></Date>	0.6360455601	powerful, WILDCARD $Phenomenon struck WILDCARD $Location before WILDCARD $Date
+WILDCARD <Event></Event> WILDCARD <Number></Number>	0.6358267749	WILDCARD $Event WILDCARD $Number
+WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date>	0.6352603718	WILDCARD $Location Sichuan WILDCARD $Location , WILDCARD $Date
+Tronto, near WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6350187654	Tronto, near WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Person></Person> and WILDCARD <Organization></Organization>	0.6348369696	WILDCARD $Person and WILDCARD $Organization
+Lushan WILDCARD <Location></Location> in WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6317656523	Lushan WILDCARD $Location in WILDCARD $Location Sichuan WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Location></Location> WILDCARD <Person></Person>	0.6294617231	WILDCARD $Number WILDCARD $Location WILDCARD $Person
+WILDCARD <Location></Location> and WILDCARD <Event></Event>	0.6292551844	WILDCARD $Location and WILDCARD $Event
+WILDCARD <Event></Event>	0.6287277947	WILDCARD $Event
+WILDCARD <Location></Location> in WILDCARD <Location></Location> Yunnan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.6255407572	WILDCARD $Location in WILDCARD $Location Yunnan WILDCARD $Location WILDCARD $Date
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Date></Date>	0.6230514257	WILDCARD $Phenomenon in WILDCARD $Date
+WILDCARD <Event></Event> from the WILDCARD <Location></Location>	0.6221142118	WILDCARD $Event from the WILDCARD $Location
+WILDCARD <Date></Date> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.6204637546	WILDCARD $Date WILDCARD $Event WILDCARD $Organization
+WILDCARD <Event></Event> WILDCARD <Event></Event> WILDCARD <Location></Location>	0.6154693118	WILDCARD $Event WILDCARD $Event WILDCARD $Location
+WILDCARD <Date></Date> in WILDCARD <Location></Location>	0.6134381702	WILDCARD $Date in WILDCARD $Location
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.6113766869	WILDCARD $Event WILDCARD $Organization WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.611315077	WILDCARD $Date WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Duration></Duration> WILDCARD <Person></Person> who	0.611211708	WILDCARD $Duration WILDCARD $Person who
+WILDCARD <Date></Date> The WILDCARD <Organization></Organization> A WILDCARD <Person></Person>	0.6084857641	WILDCARD $Date The WILDCARD $Organization A WILDCARD $Person
+WILDCARD <Event></Event> WILDCARD	0.6082834233	WILDCARD $Event WILDCARD
+WILDCARD <Person></Person> of the WILDCARD <Organization></Organization>	0.6081974235	WILDCARD $Person of the WILDCARD $Organization
+depth of WILDCARD <Number></Number>	0.6080603484	depth of WILDCARD $Number
+Tainan WILDCARD <Person></Person> WILDCARD <Person></Person>	0.6078408708	Tainan WILDCARD $Person WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Person></Person>	0.6069010418	WILDCARD $Location WILDCARD $Location WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD <Number></Number>	0.6059350836	WILDCARD $Number WILDCARD $Number WILDCARD $Number
+WILDCARD <Number></Number> WILDCARD <Artifact></Artifact>	0.6057618377	WILDCARD $Number WILDCARD $Artifact
+WILDCARD <Event></Event> and WILDCARD <Organization></Organization>	0.605338327	WILDCARD $Event and WILDCARD $Organization
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> A powerful, WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Location></Location> before WILDCARD <Date></Date> The WILDCARD <Organization></Organization>	0.6050993897	WILDCARD $Location WILDCARD $Location WILDCARD $Date A powerful, WILDCARD $Phenomenon struck WILDCARD $Location before WILDCARD $Date The WILDCARD $Organization
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> A powerful, WILDCARD	0.6050993897	WILDCARD $Location WILDCARD $Location WILDCARD $Date A powerful, WILDCARD
+WILDCARD <Person></Person> WILDCARD <Location></Location>	0.6047965294	WILDCARD $Person WILDCARD $Location
+WILDCARD <Date></Date> WILDCARD <Date></Date>	0.6039962142	WILDCARD $Date WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Duration></Duration> after a WILDCARD <Phenomenon></Phenomenon>	0.6010041037	WILDCARD $Date WILDCARD $Duration after a WILDCARD $Phenomenon
+WILDCARD <Location></Location> WILDCARD <Phenomenon></Phenomenon> WILDCARD <Person></Person>	0.5993626525	WILDCARD $Location WILDCARD $Phenomenon WILDCARD $Person
+WILDCARD <Date></Date> A WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.5988980275	WILDCARD $Date A WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Number></Number> million people	0.5987852062	WILDCARD $Number million people
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Location></Location> WILDCARD <Date></Date>	0.598765317	WILDCARD $Number WILDCARD $Phenomenon struck WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Date></Date>	0.5976997532	WILDCARD $Number WILDCARD $Date
+WILDCARD <Event></Event> said.	0.597185546	WILDCARD $Event said.
+WILDCARD <Location></Location> WILDCARD <Event></Event>	0.5962415207	WILDCARD $Location WILDCARD $Event
+WILDCARD <Event></Event> WILDCARD <Location></Location>	0.5959335989	WILDCARD $Event WILDCARD $Location
+WILDCARD <Date></Date> in the WILDCARD <Location></Location>	0.5941357883	WILDCARD $Date in the WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Event></Event> WILDCARD <Person></Person>	0.5940403623	WILDCARD $Location WILDCARD $Event WILDCARD $Person
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon></Phenomenon> struck.	0.5923293195	WILDCARD $Duration after the WILDCARD $Phenomenon struck.
+WILDCARD <Location></Location> and WILDCARD <Person></Person>	0.5913760582	WILDCARD $Location and WILDCARD $Person
+WILDCARD <Location></Location> about WILDCARD <Number></Number> miles	0.5911040928	WILDCARD $Location about WILDCARD $Number miles
+WILDCARD <Organization></Organization> of WILDCARD <Person></Person>	0.5896956169	WILDCARD $Organization of WILDCARD $Person
+WILDCARD <Event></Event> in the WILDCARD <Location></Location>	0.5880258652	WILDCARD $Event in the WILDCARD $Location
+WILDCARD <Person></Person> of WILDCARD <Organization></Organization>	0.5867899738	WILDCARD $Person of WILDCARD $Organization
+four WILDCARD <Person></Person>	0.5846889794	four WILDCARD $Person
+WILDCARD <Event></Event> and WILDCARD <Artifact></Artifact>	0.5840315686	WILDCARD $Event and WILDCARD $Artifact
+WILDCARD <Person></Person> of WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon>	0.583355745	WILDCARD $Person of WILDCARD $Date WILDCARD $Phenomenon
+WILDCARD <Event></Event> WILDCARD <Phenomenon></Phenomenon>	0.5829289799	WILDCARD $Event WILDCARD $Phenomenon
+number of WILDCARD <Event></Event>	0.5824255501	number of WILDCARD $Event
+Foreign WILDCARD <Person></Person> WILDCARD <Person></Person>	0.5822626794	Foreign WILDCARD $Person WILDCARD $Person
+WILDCARD <Event></Event> , he said.	0.5805553149	WILDCARD $Event , he said.
+WILDCARD <Person></Person> and WILDCARD <Event></Event>	0.5790926928	WILDCARD $Person and WILDCARD $Event
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Person></Person> WILDCARD <Organization></Organization>	0.5785060563	WILDCARD $Location WILDCARD $Location WILDCARD $Person WILDCARD $Organization
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.5752988872	WILDCARD $Organization WILDCARD $Person WILDCARD $Person
+WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date> The WILDCARD	0.5746723867	WILDCARD $Location Sichuan WILDCARD $Location , WILDCARD $Date The WILDCARD
+WILDCARD <Number></Number> people dead	0.5743914255	WILDCARD $Number people dead
+WILDCARD <Event></Event> of the WILDCARD <Organization></Organization>	0.5739582656	WILDCARD $Event of the WILDCARD $Organization
+WILDCARD <Date></Date> WILDCARD <Event></Event> WILDCARD <Date></Date>	0.5715754747	WILDCARD $Date WILDCARD $Event WILDCARD $Date
+WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD <Person></Person>	0.5700383079	WILDCARD $Date WILDCARD $Location WILDCARD $Person
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization> WILDCARD <Location></Location>	0.568577961	WILDCARD $Number - WILDCARD $Organization WILDCARD $Location
+WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD <Organization></Organization>	0.5682881865	WILDCARD $Date WILDCARD $Location WILDCARD $Organization
+WILDCARD <Organization></Organization> The WILDCARD <Event></Event>	0.5681089386	WILDCARD $Organization The WILDCARD $Event
+WILDCARD <Event></Event> of WILDCARD <Phenomenon></Phenomenon>	0.5667291236	WILDCARD $Event of WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> WILDCARD <Location></Location> WILDCARD <Person></Person>	0.5660850839	WILDCARD $Organization WILDCARD $Location WILDCARD $Person
+WILDCARD <Number></Number> of the WILDCARD <Number></Number>	0.5660267889	WILDCARD $Number of the WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Person></Person>	0.5656581351	WILDCARD $Location WILDCARD $Person
+WILDCARD <Person></Person> , WILDCARD <Person></Person>	0.5651909561	WILDCARD $Person , WILDCARD $Person
+WILDCARD <Person></Person> ,	0.5651113294	WILDCARD $Person ,
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD <Event></Event> farewell WILDCARD <Date></Date> to WILDCARD	0.5648899627	WILDCARD $Location WILDCARD $Date WILDCARD $Person WILDCARD $Event farewell WILDCARD $Date to WILDCARD
+video WILDCARD <Event></Event> WILDCARD	0.5648608773	video WILDCARD $Event WILDCARD
+<Event></Event> WILDCARD <Location></Location>	0.5646241854	$Event WILDCARD $Location
+WILDCARD <Person></Person> in the WILDCARD <Location></Location>	0.5613427673	WILDCARD $Person in the WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event>	0.5607709153	WILDCARD $Location WILDCARD $Phenomenon WILDCARD $Event
+WILDCARD <Location></Location> of WILDCARD <Event></Event>	0.5606474162	WILDCARD $Location of WILDCARD $Event
+WILDCARD <Location></Location> , WILDCARD <Person></Person>	0.559746608	WILDCARD $Location , WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> and WILDCARD <Event></Event>	0.5590888997	WILDCARD $Phenomenon and WILDCARD $Event
+magnitude of WILDCARD <Number></Number>	0.5585119314	magnitude of WILDCARD $Number
+WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD <Event></Event> farewell WILDCARD <Date></Date>	0.5571517526	WILDCARD $Date WILDCARD $Person WILDCARD $Event farewell WILDCARD $Date
+<Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.5567109471	$Location WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Date></Date> the WILDCARD <Organization></Organization>	0.5566187605	WILDCARD $Date the WILDCARD $Organization
+Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date>	0.5552266753	Tronto, WILDCARD $Location WILDCARD $Date
+WILDCARD <Event></Event> ,	0.5543608189	WILDCARD $Event ,
+WILDCARD <Location></Location> of WILDCARD <Number></Number>	0.5535588805	WILDCARD $Location of WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> A WILDCARD	0.5516161293	WILDCARD $Location WILDCARD $Location WILDCARD $Date A WILDCARD
+WILDCARD <Person></Person> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.5513998162	WILDCARD $Person in WILDCARD $Location WILDCARD $Location
+WILDCARD <Event></Event> with WILDCARD <Location></Location>	0.5509560871	WILDCARD $Event with WILDCARD $Location
+WILDCARD <Duration></Duration> WILDCARD <Person></Person> ,	0.5501530838	WILDCARD $Duration WILDCARD $Person ,
+WILDCARD <Structure></Structure> after an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.548845007	WILDCARD $Structure after an WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+<Phenomenon></Phenomenon> struck WILDCARD <Location></Location> WILDCARD <Date></Date> toppling at least one WILDCARD <Structure></Structure> WILDCARD <Structure></Structure> and trapping people inside.	0.5466079178	$Phenomenon struck WILDCARD $Location WILDCARD $Date toppling at least one WILDCARD $Structure WILDCARD $Structure and trapping people inside.
+<Date></Date> WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date> The WILDCARD <Organization></Organization>	0.5463451101	$Date WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date The WILDCARD $Organization
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person>	0.545215825	WILDCARD $Location WILDCARD $Date WILDCARD $Person
+WILDCARD <Organization></Organization> WILDCARD <Number></Number>	0.544961054	WILDCARD $Organization WILDCARD $Number
+WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date> WILDCARD <Person></Person>	0.5446180199	WILDCARD $Location Sichuan WILDCARD $Location , WILDCARD $Date WILDCARD $Person
+WILDCARD <Structure></Structure> WILDCARD <Event></Event>	0.544160698	WILDCARD $Structure WILDCARD $Event
+relief and WILDCARD <Event></Event>	0.5413526774	relief and WILDCARD $Event
+WILDCARD <Location></Location> , WILDCARD <Number></Number>	0.5387808672	WILDCARD $Location , WILDCARD $Number
+WILDCARD <Person></Person> , WILDCARD <Event></Event>	0.5373467627	WILDCARD $Person , WILDCARD $Event
+WILDCARD <Event></Event> toll	0.537339903	WILDCARD $Event toll
+WILDCARD <Event></Event> at the WILDCARD <Structure></Structure> ,	0.5358997099	WILDCARD $Event at the WILDCARD $Structure ,
+WILDCARD <Event></Event> , WILDCARD <Person></Person>	0.5355120201	WILDCARD $Event , WILDCARD $Person
+WILDCARD <Person></Person> , WILDCARD <Organization></Organization>	0.5354279274	WILDCARD $Person , WILDCARD $Organization
+WILDCARD <Date></Date> A WILDCARD <Phenomenon></Phenomenon>	0.5348921602	WILDCARD $Date A WILDCARD $Phenomenon
+WILDCARD <Location></Location> WILDCARD <Event></Event> for some of the WILDCARD <Person></Person>	0.5343765971	WILDCARD $Location WILDCARD $Event for some of the WILDCARD $Person
+<Location></Location> Sichuan WILDCARD <Location></Location> WILDCARD <Date></Date> In this WILDCARD <Artifact></Artifact>	0.5330179866	$Location Sichuan WILDCARD $Location WILDCARD $Date In this WILDCARD $Artifact
+WILDCARD <Phenomenon></Phenomenon> killed at WILDCARD <Number></Number> people	0.532022204	WILDCARD $Phenomenon killed at WILDCARD $Number people
+WILDCARD <Event></Event> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.5319745994	WILDCARD $Event WILDCARD $Person WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.5304135809	WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> people.	0.5303477007	WILDCARD $Number people.
+WILDCARD <Person></Person> of the WILDCARD <Phenomenon></Phenomenon>	0.5296499278	WILDCARD $Person of the WILDCARD $Phenomenon
+WILDCARD <Person></Person> , Chen	0.5291192627	WILDCARD $Person , Chen
+WILDCARD <Person></Person> said WILDCARD <Date></Date>	0.5281881902	WILDCARD $Person said WILDCARD $Date
+WILDCARD <Location></Location> WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.5275546756	WILDCARD $Location WILDCARD $Organization WILDCARD $Person
+WILDCARD <Number></Number> on WILDCARD <Date></Date>	0.5274256805	WILDCARD $Number on WILDCARD $Date
+WILDCARD <Artifact></Artifact> , WILDCARD <Event></Event>	0.5271711942	WILDCARD $Artifact , WILDCARD $Event
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.5268356567	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+part in the WILDCARD <Event></Event>	0.5262348834	part in the WILDCARD $Event
+Disaster Risk WILDCARD <Event></Event> and WILDCARD <Event></Event> WILDCARD	0.5252638702	Disaster Risk WILDCARD $Event and WILDCARD $Event WILDCARD
+WILDCARD <Person></Person> whose WILDCARD	0.5252195011	WILDCARD $Person whose WILDCARD
+WILDCARD <Phenomenon></Phenomenon> , WILDCARD <Event></Event>	0.5221697765	WILDCARD $Phenomenon , WILDCARD $Event
+WILDCARD <Work></Work> WILDCARD <Event></Event> : WILDCARD <Date></Date>	0.5220158396	WILDCARD $Work WILDCARD $Event : WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Structure></Structure>	0.5210993918	WILDCARD $Person WILDCARD $Structure
+WILDCARD <Date></Date> The WILDCARD <Organization></Organization>	0.5196292396	WILDCARD $Date The WILDCARD $Organization
+WILDCARD <Number></Number> kilometers	0.519075759	WILDCARD $Number kilometers
+WILDCARD <Number></Number> in the WILDCARD <Location></Location>	0.5162551055	WILDCARD $Number in the WILDCARD $Location
+WILDCARD <Organization></Organization> , WILDCARD <Person></Person>	0.51464356	WILDCARD $Organization , WILDCARD $Person
+WILDCARD <Structure></Structure> WILDCARD <Person></Person>	0.5143842874	WILDCARD $Structure WILDCARD $Person
+WILDCARD <Event></Event> to WILDCARD <Organization></Organization>	0.5133376335	WILDCARD $Event to WILDCARD $Organization
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.5128591525	WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Organization></Organization> in WILDCARD <Event></Event>	0.5125227567	WILDCARD $Organization in WILDCARD $Event
+WILDCARD <Person></Person> of an WILDCARD	0.5107384357	WILDCARD $Person of an WILDCARD
+<Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.5102437236	$Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Location></Location> WILDCARD <Event></Event> WILDCARD <Event></Event>	0.5096733662	WILDCARD $Location WILDCARD $Event WILDCARD $Event
+<Number></Number> people were killed in WILDCARD <Location></Location>	0.509015757	$Number people were killed in WILDCARD $Location
+WILDCARD <Date></Date> As WILDCARD <Person></Person>	0.5084193059	WILDCARD $Date As WILDCARD $Person
+WILDCARD <Artifact></Artifact> WILDCARD <Number></Number>	0.5040341891	WILDCARD $Artifact WILDCARD $Number
+magnitude WILDCARD <Number></Number>	0.5038320687	magnitude WILDCARD $Number
+scope of the WILDCARD <Event></Event>	0.5037559756	scope of the WILDCARD $Event
+WILDCARD <Event></Event> from WILDCARD <Location></Location>	0.5019606441	WILDCARD $Event from WILDCARD $Location
+WILDCARD <Structure></Structure> and WILDCARD <Event></Event>	0.5018640068	WILDCARD $Structure and WILDCARD $Event
+WILDCARD <Event></Event> , WILDCARD <Event></Event>	0.5003209834	WILDCARD $Event , WILDCARD $Event
+U.S. Geological WILDCARD <Event></Event> at WILDCARD <Number></Number>	0.4995771146	U.S. Geological WILDCARD $Event at WILDCARD $Number
+WILDCARD <Date></Date> At WILDCARD <Number></Number>	0.4984230353	WILDCARD $Date At WILDCARD $Number
+WILDCARD <Person></Person> WILDCARD <Structure></Structure> ,	0.4964443333	WILDCARD $Person WILDCARD $Structure ,
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon></Phenomenon> ,	0.4956536765	WILDCARD $Duration after the WILDCARD $Phenomenon ,
+<Number></Number> per cent	0.495561218	$Number per cent
+WILDCARD <Organization></Organization> An WILDCARD <Person></Person>	0.4947504211	WILDCARD $Organization An WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> at WILDCARD <Number></Number>	0.4947412751	WILDCARD $Phenomenon at WILDCARD $Number
+WILDCARD <Person></Person> search a WILDCARD <Structure></Structure>	0.494182243	WILDCARD $Person search a WILDCARD $Structure
+WILDCARD <Number></Number> and WILDCARD <Number></Number>	0.4937362419	WILDCARD $Number and WILDCARD $Number
+WILDCARD <Person></Person> at WILDCARD <Organization></Organization>	0.4928940831	WILDCARD $Person at WILDCARD $Organization
+WILDCARD <Phenomenon></Phenomenon> of WILDCARD <Date></Date>	0.4913465122	WILDCARD $Phenomenon of WILDCARD $Date
+WILDCARD <Event></Event> and a WILDCARD	0.4874140875	WILDCARD $Event and a WILDCARD
+WILDCARD <Date></Date> Announcer-read report over video:	0.4853066455	WILDCARD $Date Announcer-read report over video:
+WILDCARD <Number></Number> to WILDCARD <Number></Number>	0.4846745312	WILDCARD $Number to WILDCARD $Number
+WILDCARD <Person></Person> from WILDCARD <Location></Location> WILDCARD <Phenomenon></Phenomenon>	0.4824585077	WILDCARD $Person from WILDCARD $Location WILDCARD $Phenomenon
+Accumoli, WILDCARD <Location></Location> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon></Phenomenon> rocked WILDCARD <Location></Location>	0.4790205568	Accumoli, WILDCARD $Location WILDCARD $Date A devastating WILDCARD $Phenomenon rocked WILDCARD $Location
+WILDCARD <Person></Person> cries	0.4777841774	WILDCARD $Person cries
+WILDCARD <Structure></Structure> WILDCARD <Date></Date>	0.4777029284	WILDCARD $Structure WILDCARD $Date
+WILDCARD <Phenomenon></Phenomenon> 's WILDCARD <Event></Event>	0.4760274361	WILDCARD $Phenomenon 's WILDCARD $Event
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location>	0.4753667193	WILDCARD $Date WILDCARD $Phenomenon in WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Date></Date> looking for WILDCARD	0.4753029151	WILDCARD $Location WILDCARD $Date looking for WILDCARD
+WILDCARD <Event></Event> struck WILDCARD <Location></Location>	0.4750076018	WILDCARD $Event struck WILDCARD $Location
+WILDCARD <Language></Language> WILDCARD <Person></Person>	0.4740693271	WILDCARD $Language WILDCARD $Person
+rose to WILDCARD <Number></Number>	0.4715095931	rose to WILDCARD $Number
+WILDCARD <Event></Event> in the WILDCARD <Location></Location> ,	0.4709558274	WILDCARD $Event in the WILDCARD $Location ,
+WILDCARD <Person></Person> spent the WILDCARD <Date></Date>	0.4708808504	WILDCARD $Person spent the WILDCARD $Date
+WILDCARD <Location></Location> The WILDCARD <Event></Event>	0.4693248578	WILDCARD $Location The WILDCARD $Event
+WILDCARD <Number></Number> kilometres	0.4687236225	WILDCARD $Number kilometres
+WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD <Artifact></Artifact>	0.467735662	WILDCARD $Date WILDCARD $Location WILDCARD $Artifact
+WILDCARD <Event></Event> and WILDCARD <Event></Event> WILDCARD <Event></Event>	0.4662285084	WILDCARD $Event and WILDCARD $Event WILDCARD $Event
+dead and WILDCARD <Number></Number>	0.4662203345	dead and WILDCARD $Number
+WILDCARD <Person></Person> WILDCARD <Event></Event> farewell WILDCARD <Date></Date>	0.4661385671	WILDCARD $Person WILDCARD $Event farewell WILDCARD $Date
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> , WILDCARD <Organization></Organization>	0.4654864163	WILDCARD $Organization WILDCARD $Person , WILDCARD $Organization
+WILDCARD <Person></Person> of an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location>	0.4651655015	WILDCARD $Person of an WILDCARD $Phenomenon in WILDCARD $Location
+WILDCARD <Organization></Organization> news WILDCARD <Organization></Organization> , WILDCARD <Person></Person>	0.4647118479	WILDCARD $Organization news WILDCARD $Organization , WILDCARD $Person
+WILDCARD <Person></Person> on WILDCARD <Date></Date>	0.4635870522	WILDCARD $Person on WILDCARD $Date
+population of WILDCARD <Number></Number>	0.4634855868	population of WILDCARD $Number
+WILDCARD <Organization></Organization> and WILDCARD <Person></Person>	0.4628607694	WILDCARD $Organization and WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> measuring WILDCARD <Number></Number> on the Richter	0.4616815806	WILDCARD $Phenomenon measuring WILDCARD $Number on the Richter
+WILDCARD <Number></Number> The WILDCARD <Phenomenon></Phenomenon>	0.4607267403	WILDCARD $Number The WILDCARD $Phenomenon
+WILDCARD <Date></Date> ,	0.4593190834	WILDCARD $Date ,
+WILDCARD <Duration></Duration> WILDCARD <Person></Person>	0.4591376033	WILDCARD $Duration WILDCARD $Person
+WILDCARD <Person></Person> , who	0.4585516057	WILDCARD $Person , who
+WILDCARD <Number></Number> people dead and more than WILDCARD <Number></Number> injured.	0.4585028015	WILDCARD $Number people dead and more than WILDCARD $Number injured.
+WILDCARD <Artifact></Artifact> , WILDCARD <Number></Number>	0.4579080385	WILDCARD $Artifact , WILDCARD $Number
+WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date>	0.4574343736	WILDCARD $Phenomenon struck at WILDCARD $Date
+WILDCARD <Event></Event> in WILDCARD <Number></Number>	0.4569199122	WILDCARD $Event in WILDCARD $Number
+WILDCARD <Event></Event> toll rose	0.4556073639	WILDCARD $Event toll rose
+WILDCARD <Event></Event> of WILDCARD <Artifact></Artifact>	0.4555286873	WILDCARD $Event of WILDCARD $Artifact
+WILDCARD <Organization></Organization> A WILDCARD <Person></Person>	0.4552847546	WILDCARD $Organization A WILDCARD $Person
+WILDCARD <Date></Date> two WILDCARD <Phenomenon></Phenomenon>	0.4545698131	WILDCARD $Date two WILDCARD $Phenomenon
+WILDCARD <Person></Person> of the devastating WILDCARD <Phenomenon></Phenomenon>	0.4527813236	WILDCARD $Person of the devastating WILDCARD $Phenomenon
+WILDCARD <Person></Person> of the WILDCARD <Phenomenon></Phenomenon> ,	0.4521700634	WILDCARD $Person of the WILDCARD $Phenomenon ,
+WILDCARD <Event></Event> of the WILDCARD <Phenomenon></Phenomenon>	0.4496462438	WILDCARD $Event of the WILDCARD $Phenomenon
+WILDCARD <Number></Number> million WILDCARD <Person></Person>	0.4490530248	WILDCARD $Number million WILDCARD $Person
+WILDCARD <Date></Date> The WILDCARD <Event></Event> toll	0.4476333318	WILDCARD $Date The WILDCARD $Event toll
+WILDCARD <Phenomenon></Phenomenon> , WILDCARD <Person></Person>	0.4448368781	WILDCARD $Phenomenon , WILDCARD $Person
+WILDCARD <Date></Date> The WILDCARD <Event></Event>	0.4418435533	WILDCARD $Date The WILDCARD $Event
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> , in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.4417208562	WILDCARD $Date WILDCARD $Phenomenon , in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Organization></Organization> WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Person></Person>	0.4414183603	WILDCARD $Organization WILDCARD $Location WILDCARD $Location WILDCARD $Person
+WILDCARD <Date></Date> The WILDCARD <Phenomenon></Phenomenon>	0.440263569	WILDCARD $Date The WILDCARD $Phenomenon
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date> The WILDCARD	0.440155143	WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date The WILDCARD
+WILDCARD <Event></Event> or WILDCARD <Event></Event>	0.4399161784	WILDCARD $Event or WILDCARD $Event
+WILDCARD <Event></Event> toll from WILDCARD <Date></Date>	0.4397884897	WILDCARD $Event toll from WILDCARD $Date
+population of about WILDCARD <Number></Number>	0.4397375541	population of about WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.4396967365	WILDCARD $Location WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Duration></Duration> after a WILDCARD <Phenomenon></Phenomenon>	0.438899876	WILDCARD $Duration after a WILDCARD $Phenomenon
+<Number></Number> people and injured more than WILDCARD <Number></Number>	0.4383373757	$Number people and injured more than WILDCARD $Number
+WILDCARD <Location></Location> at WILDCARD <Date></Date> WILDCARD <Event></Event>	0.4362366082	WILDCARD $Location at WILDCARD $Date WILDCARD $Event
+WILDCARD <Number></Number> WILDCARD <Structure></Structure> ,	0.4350217047	WILDCARD $Number WILDCARD $Structure ,
+WILDCARD <Number></Number> WILDCARD <Work></Work>	0.4348044371	WILDCARD $Number WILDCARD $Work
+WILDCARD <Person></Person> , WILDCARD <Number></Number>	0.4345983976	WILDCARD $Person , WILDCARD $Number
+WILDCARD <Location></Location> was WILDCARD <Number></Number>	0.4345760346	WILDCARD $Location was WILDCARD $Number
+WILDCARD <Artifact></Artifact> and WILDCARD <Event></Event>	0.43431444	WILDCARD $Artifact and WILDCARD $Event
+WILDCARD <Person></Person> in the WILDCARD <Phenomenon></Phenomenon>	0.4339640261	WILDCARD $Person in the WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> said WILDCARD <Date></Date>	0.4335300092	WILDCARD $Organization said WILDCARD $Date
+WILDCARD <Number></Number> people dead.	0.4323060296	WILDCARD $Number people dead.
+WILDCARD <Person></Person> 's WILDCARD <Structure></Structure>	0.4312174372	WILDCARD $Person 's WILDCARD $Structure
+WILDCARD <Number></Number> miles north	0.4310264795	WILDCARD $Number miles north
+extent of the WILDCARD <Event></Event>	0.4309306378	extent of the WILDCARD $Event
+WILDCARD <Event></Event> , WILDCARD <Organization></Organization>	0.4307760281	WILDCARD $Event , WILDCARD $Organization
+<Date></Date> As WILDCARD <Person></Person> observed WILDCARD <Duration></Duration> of national mourning, WILDCARD <Person></Person> WILDCARD <Person></Person> and WILDCARD <Person></Person> WILDCARD	0.4306766088	$Date As WILDCARD $Person observed WILDCARD $Duration of national mourning, WILDCARD $Person WILDCARD $Person and WILDCARD $Person WILDCARD
+Disaster Risk WILDCARD <Event></Event> and WILDCARD <Event></Event>	0.4306690895	Disaster Risk WILDCARD $Event and WILDCARD $Event
+people were killed and WILDCARD <Number></Number>	0.4276929076	people were killed and WILDCARD $Number
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> ,	0.4275888788	WILDCARD $Event WILDCARD $Organization ,
+WILDCARD <Location></Location> WILDCARD <Date></Date> A WILDCARD <Phenomenon></Phenomenon>	0.4275726736	WILDCARD $Location WILDCARD $Date A WILDCARD $Phenomenon
+WILDCARD <Event></Event> for WILDCARD <Person></Person>	0.4275029392	WILDCARD $Event for WILDCARD $Person
+WILDCARD <Person></Person> WILDCARD <Person></Person> and WILDCARD <Person></Person> WILDCARD <Person></Person>	0.426817326	WILDCARD $Person WILDCARD $Person and WILDCARD $Person WILDCARD $Person
+magnitude at WILDCARD <Number></Number>	0.4256161609	magnitude at WILDCARD $Number
+<Structure></Structure> WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date> The WILDCARD <Organization></Organization>	0.4254424685	$Structure WILDCARD $Date WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date The WILDCARD $Organization
+WILDCARD <Artifact></Artifact> released by WILDCARD <Location></Location> WILDCARD <Organization></Organization> news WILDCARD <Organization></Organization> , WILDCARD <Person></Person>	0.4250121813	WILDCARD $Artifact released by WILDCARD $Location WILDCARD $Organization news WILDCARD $Organization , WILDCARD $Person
+WILDCARD <Person></Person> of WILDCARD <Location></Location> WILDCARD <Person></Person>	0.4237222288	WILDCARD $Person of WILDCARD $Location WILDCARD $Person
+WILDCARD <Structure></Structure> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD	0.4225472886	WILDCARD $Structure in WILDCARD $Location WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD
+WILDCARD <Date></Date> WILDCARD <Artifact></Artifact>	0.4225200621	WILDCARD $Date WILDCARD $Artifact
+WILDCARD <Event></Event> of the WILDCARD <Event></Event>	0.4225092599	WILDCARD $Event of the WILDCARD $Event
+WILDCARD <Number></Number> kilometers northeast of WILDCARD <Location></Location>	0.4224784018	WILDCARD $Number kilometers northeast of WILDCARD $Location
+WILDCARD <Location></Location> is located on WILDCARD <Event></Event>	0.4222011902	WILDCARD $Location is located on WILDCARD $Event
+WILDCARD <Event></Event> for WILDCARD <Phenomenon></Phenomenon>	0.4210826305	WILDCARD $Event for WILDCARD $Phenomenon
+WILDCARD <Person></Person> with WILDCARD <Artifact></Artifact>	0.4199156058	WILDCARD $Person with WILDCARD $Artifact
+WILDCARD <Person></Person> a WILDCARD <Person></Person>	0.4197872345	WILDCARD $Person a WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> It comes as WILDCARD <Location></Location> observed WILDCARD	0.418641067	WILDCARD $Location WILDCARD $Location WILDCARD $Date It comes as WILDCARD $Location observed WILDCARD
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization> WILDCARD <Location></Location> WILDCARD <Location></Location>	0.4182392802	WILDCARD $Number - WILDCARD $Organization WILDCARD $Location WILDCARD $Location
+WILDCARD <Event></Event> - WILDCARD <Organization></Organization>	0.4179098	WILDCARD $Event - WILDCARD $Organization
+WILDCARD <Structure></Structure> WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date>	0.4178920361	WILDCARD $Structure WILDCARD $Date WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon>	0.416892542	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Phenomenon
+WILDCARD <Event></Event> and WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.4167813734	WILDCARD $Event and WILDCARD $Event WILDCARD $Organization
+WILDCARD <Event></Event> and relief WILDCARD <Event></Event>	0.4166774874	WILDCARD $Event and relief WILDCARD $Event
+WILDCARD <Event></Event> in WILDCARD <Date></Date>	0.41605577	WILDCARD $Event in WILDCARD $Date
+WILDCARD <Person></Person> of the WILDCARD <Structure></Structure>	0.4151785949	WILDCARD $Person of the WILDCARD $Structure
+WILDCARD <Event></Event> WILDCARD <Facility></Facility>	0.4144418093	WILDCARD $Event WILDCARD $Facility
+WILDCARD <Artifact></Artifact> and WILDCARD <Number></Number>	0.4134212417	WILDCARD $Artifact and WILDCARD $Number
+WILDCARD <Phenomenon></Phenomenon> on WILDCARD <Date></Date>	0.4131578424	WILDCARD $Phenomenon on WILDCARD $Date
+dead and more than WILDCARD <Number></Number>	0.4105776354	dead and more than WILDCARD $Number
+WILDCARD <Work></Work> WILDCARD <Event></Event>	0.4088945382	WILDCARD $Work WILDCARD $Event
+WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD	0.4086006627	WILDCARD $Location where a WILDCARD $Number WILDCARD
+WILDCARD <Number></Number> WILDCARD <Structure></Structure> WILDCARD <Structure></Structure>	0.4084815097	WILDCARD $Number WILDCARD $Structure WILDCARD $Structure
+WILDCARD <Number></Number> The WILDCARD <Organization></Organization>	0.4077643325	WILDCARD $Number The WILDCARD $Organization
+WILDCARD <Event></Event> WILDCARD <Phenomenon></Phenomenon> WILDCARD <Location></Location>	0.4076926072	WILDCARD $Event WILDCARD $Phenomenon WILDCARD $Location
+WILDCARD <Person></Person> search through debris	0.4069651517	WILDCARD $Person search through debris
+WILDCARD <Event></Event> for WILDCARD <Location></Location>	0.4050595822	WILDCARD $Event for WILDCARD $Location
+WILDCARD <Event></Event> toll from the WILDCARD <Phenomenon></Phenomenon>	0.4049379198	WILDCARD $Event toll from the WILDCARD $Phenomenon
+WILDCARD <Number></Number> WILDCARD	0.40416272	WILDCARD $Number WILDCARD
+WILDCARD <Event></Event> across the WILDCARD <Location></Location>	0.4020876977	WILDCARD $Event across the WILDCARD $Location
+WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Date></Date>	0.4019865324	WILDCARD $Phenomenon struck WILDCARD $Date
+WILDCARD <Location></Location> for WILDCARD <Person></Person>	0.4019806373	WILDCARD $Location for WILDCARD $Person
+Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date>	0.4017466445	Sichuan WILDCARD $Location , WILDCARD $Date
+WILDCARD <Location></Location> , WILDCARD <Date></Date>	0.4015986824	WILDCARD $Location , WILDCARD $Date
+WILDCARD <Number></Number> miles northeast of WILDCARD <Location></Location>	0.4006363726	WILDCARD $Number miles northeast of WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Location></Location> WILDCARD <Artifact></Artifact>	0.3998087795	WILDCARD $Number WILDCARD $Location WILDCARD $Artifact
+WILDCARD <Number></Number> WILDCARD <Artifact></Artifact> and WILDCARD <Number></Number>	0.3971879711	WILDCARD $Number WILDCARD $Artifact and WILDCARD $Number
+WILDCARD <Event></Event> and relief	0.3964912943	WILDCARD $Event and relief
+WILDCARD <Person></Person> from WILDCARD <Location></Location>	0.3956596161	WILDCARD $Person from WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Event></Event> for some of the WILDCARD <Person></Person> of WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> , in WILDCARD <Location></Location>	0.39552327	WILDCARD $Location WILDCARD $Event for some of the WILDCARD $Person of WILDCARD $Date WILDCARD $Phenomenon , in WILDCARD $Location
+WILDCARD <Duration></Duration> WILDCARD <Event></Event>	0.3945030884	WILDCARD $Duration WILDCARD $Event
+WILDCARD <Date></Date> and WILDCARD <Date></Date>	0.3941302897	WILDCARD $Date and WILDCARD $Date
+WILDCARD <Organization></Organization> 's WILDCARD <Event></Event>	0.3934730996	WILDCARD $Organization 's WILDCARD $Event
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date>	0.3929254264	magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date
+WILDCARD <Number></Number> people had been staying at the WILDCARD <Structure></Structure>	0.39198112	WILDCARD $Number people had been staying at the WILDCARD $Structure
+WILDCARD <Location></Location> some WILDCARD <Number></Number>	0.3916582777	WILDCARD $Location some WILDCARD $Number
+lot of WILDCARD <Event></Event>	0.391170204	lot of WILDCARD $Event
+WILDCARD <Location></Location> where WILDCARD <Event></Event>	0.3911337712	WILDCARD $Location where WILDCARD $Event
+WILDCARD <Location></Location> including WILDCARD <Location></Location> where WILDCARD <Person></Person> of the capital felt a long swaying followed by WILDCARD <Phenomenon></Phenomenon>	0.3910331486	WILDCARD $Location including WILDCARD $Location where WILDCARD $Person of the capital felt a long swaying followed by WILDCARD $Phenomenon
+WILDCARD <Duration></Duration> of the WILDCARD <Phenomenon></Phenomenon>	0.390855944	WILDCARD $Duration of the WILDCARD $Phenomenon
+WILDCARD <Event></Event> on WILDCARD <Date></Date>	0.3903414019	WILDCARD $Event on WILDCARD $Date
+WILDCARD <Date></Date> a WILDCARD <Phenomenon></Phenomenon>	0.3897540152	WILDCARD $Date a WILDCARD $Phenomenon
+<Person></Person> 's WILDCARD <Event></Event>	0.3863535605	$Person 's WILDCARD $Event
+WILDCARD <Work></Work> WILDCARD <Person></Person>	0.385191187	WILDCARD $Work WILDCARD $Person
+WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Location></Location> WILDCARD <Date></Date>	0.384659783	WILDCARD $Phenomenon struck WILDCARD $Location WILDCARD $Date
+WILDCARD <Event></Event> for some of the WILDCARD <Person></Person>	0.3844356284	WILDCARD $Event for some of the WILDCARD $Person
+Disaster Risk WILDCARD <Event></Event>	0.3841292626	Disaster Risk WILDCARD $Event
+WILDCARD <Person></Person> - WILDCARD <Organization></Organization>	0.3839244448	WILDCARD $Person - WILDCARD $Organization
+WILDCARD <Artifact></Artifact> WILDCARD <Date></Date>	0.3836462519	WILDCARD $Artifact WILDCARD $Date
+WILDCARD <Number></Number> - WILDCARD <Organization></Organization>	0.3836226637	WILDCARD $Number - WILDCARD $Organization
+WILDCARD <Location></Location> to WILDCARD <Number></Number>	0.38312515	WILDCARD $Location to WILDCARD $Number
+WILDCARD <Date></Date> WILDCARD <Structure></Structure>	0.3811029115	WILDCARD $Date WILDCARD $Structure
+WILDCARD <Number></Number> people. WILDCARD <Location></Location>	0.3810653651	WILDCARD $Number people. WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Structure></Structure> , WILDCARD <Number></Number>	0.3800372025	WILDCARD $Number WILDCARD $Structure , WILDCARD $Number
+<Location></Location> on WILDCARD <Date></Date> WILDCARD <Event></Event> at WILDCARD <Number></Number> people	0.3786672834	$Location on WILDCARD $Date WILDCARD $Event at WILDCARD $Number people
+WILDCARD <Location></Location> about WILDCARD <Number></Number>	0.3786066774	WILDCARD $Location about WILDCARD $Number
+WILDCARD <Location></Location> at a depth of WILDCARD <Number></Number>	0.3785715112	WILDCARD $Location at a depth of WILDCARD $Number
+WILDCARD <Event></Event> in the WILDCARD <Event></Event>	0.3779040883	WILDCARD $Event in the WILDCARD $Event
+WILDCARD <Organization></Organization> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.3760929462	WILDCARD $Organization WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Duration></Duration>	0.37606194	WILDCARD $Number WILDCARD $Duration
+WILDCARD <Structure></Structure> on WILDCARD <Date></Date>	0.3757851317	WILDCARD $Structure on WILDCARD $Date
+block-time WILDCARD <Number></Number> BST	0.3752077612	block-time WILDCARD $Number BST
+capital of WILDCARD <Location></Location> WILDCARD <Number></Number>	0.3741631129	capital of WILDCARD $Location WILDCARD $Number
+Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date>	0.373435668	Pescara Del Tronto, WILDCARD $Location WILDCARD $Date
+WILDCARD <Location></Location> of WILDCARD <Location></Location> WILDCARD <Number></Number>	0.3718073842	WILDCARD $Location of WILDCARD $Location WILDCARD $Number
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.3705759181	WILDCARD $Phenomenon WILDCARD $Event WILDCARD $Organization
+WILDCARD <Date></Date> A WILDCARD <Event></Event>	0.3690246416	WILDCARD $Date A WILDCARD $Event
+WILDCARD <Number></Number> people dead and more than WILDCARD <Number></Number>	0.3686936789	WILDCARD $Number people dead and more than WILDCARD $Number
+WILDCARD <Number></Number> magnitude WILDCARD <Phenomenon></Phenomenon> ,	0.3682840447	WILDCARD $Number magnitude WILDCARD $Phenomenon ,
+WILDCARD <Location></Location> at WILDCARD <Date></Date>	0.368213085	WILDCARD $Location at WILDCARD $Date
+WILDCARD <Location></Location> of WILDCARD <Date></Date>	0.3681308158	WILDCARD $Location of WILDCARD $Date
+WILDCARD <Location></Location> at WILDCARD <Number></Number>	0.3674915682	WILDCARD $Location at WILDCARD $Number
+WILDCARD <Number></Number> magnitude WILDCARD	0.3673307958	WILDCARD $Number magnitude WILDCARD
+toll at WILDCARD <Number></Number>	0.3666458936	toll at WILDCARD $Number
+U.S. Geological WILDCARD <Event></Event>	0.3663818452	U.S. Geological WILDCARD $Event
+total of WILDCARD <Number></Number>	0.3658791537	total of WILDCARD $Number
+offer WILDCARD <Event></Event>	0.3650219624	offer WILDCARD $Event
+WILDCARD <Number></Number> miles	0.3648918402	WILDCARD $Number miles
+WILDCARD <Location></Location> said WILDCARD <Date></Date>	0.3643157923	WILDCARD $Location said WILDCARD $Date
+WILDCARD <Organization></Organization> on WILDCARD <Date></Date>	0.3636256187	WILDCARD $Organization on WILDCARD $Date
+WILDCARD <Event></Event> for WILDCARD <Event></Event>	0.3627014472	WILDCARD $Event for WILDCARD $Event
+WILDCARD <Number></Number> from WILDCARD <Location></Location>	0.3616358067	WILDCARD $Number from WILDCARD $Location
+WILDCARD <Phenomenon></Phenomenon> killed at WILDCARD <Number></Number>	0.361058273	WILDCARD $Phenomenon killed at WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Duration></Duration>	0.3584929006	WILDCARD $Location WILDCARD $Duration
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD	0.3535212204	WILDCARD $Location WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD
+WILDCARD <Duration></Duration> after the WILDCARD <Phenomenon></Phenomenon>	0.353471548	WILDCARD $Duration after the WILDCARD $Phenomenon
+WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.3529569485	WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Event></Event> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.3526577646	WILDCARD $Event in WILDCARD $Location WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Person></Person> WILDCARD <Organization></Organization>	0.3515924529	WILDCARD $Location WILDCARD $Person WILDCARD $Organization
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> A WILDCARD	0.3504480953	WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date A WILDCARD
+WILDCARD <Number></Number> million	0.3484626554	WILDCARD $Number million
+WILDCARD <Location></Location> on WILDCARD <Date></Date> WILDCARD <Location></Location>	0.3465409664	WILDCARD $Location on WILDCARD $Date WILDCARD $Location
+WILDCARD <Event></Event> at WILDCARD <Number></Number> people	0.3464437298	WILDCARD $Event at WILDCARD $Number people
+WILDCARD <Person></Person> Disaster Risk WILDCARD <Event></Event>	0.3453355075	WILDCARD $Person Disaster Risk WILDCARD $Event
+WILDCARD <Number></Number> villages	0.3450409616	WILDCARD $Number villages
+WILDCARD <Date></Date> a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.3448417041	WILDCARD $Date a WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> , in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> It comes as WILDCARD <Location></Location> observed WILDCARD	0.3442642869	WILDCARD $Date WILDCARD $Phenomenon , in WILDCARD $Location WILDCARD $Location WILDCARD $Date It comes as WILDCARD $Location observed WILDCARD
+WILDCARD <Person></Person> told WILDCARD <Organization></Organization>	0.3435230806	WILDCARD $Person told WILDCARD $Organization
+WILDCARD <Date></Date> WILDCARD <Duration></Duration>	0.3432318655	WILDCARD $Date WILDCARD $Duration
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Duration></Duration>	0.3432318655	WILDCARD $Phenomenon WILDCARD $Duration
+WILDCARD <Duration></Duration> WILDCARD	0.3419840023	WILDCARD $Duration WILDCARD
+WILDCARD <Organization></Organization> set up WILDCARD <Location></Location> around the WILDCARD <Location></Location> to accommodate the WILDCARD <Person></Person>	0.3414161275	WILDCARD $Organization set up WILDCARD $Location around the WILDCARD $Location to accommodate the WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.3408791355	WILDCARD $Date WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Date></Date> - WILDCARD <Organization></Organization>	0.3401617487	WILDCARD $Date - WILDCARD $Organization
+<Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> Strong WILDCARD <Phenomenon></Phenomenon> rattled WILDCARD <Person></Person> and WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.3390578416	$Location WILDCARD $Location WILDCARD $Date Strong WILDCARD $Phenomenon rattled WILDCARD $Person and WILDCARD $Event WILDCARD $Organization
+<Location></Location> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon></Phenomenon> rocked WILDCARD	0.3372993515	$Location WILDCARD $Date A devastating WILDCARD $Phenomenon rocked WILDCARD
+rubble in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD	0.3363203268	rubble in WILDCARD $Location WILDCARD $Location WILDCARD $Date where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD
+WILDCARD <Person></Person> said.	0.3362270204	WILDCARD $Person said.
+WILDCARD <Number></Number> magnitude WILDCARD <Phenomenon></Phenomenon>	0.3359076059	WILDCARD $Number magnitude WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> said WILDCARD <Number></Number>	0.3339506634	WILDCARD $Organization said WILDCARD $Number
+WILDCARD <Event></Event> from the WILDCARD <Phenomenon></Phenomenon>	0.3324456759	WILDCARD $Event from the WILDCARD $Phenomenon
+WILDCARD <Phenomenon></Phenomenon> of the WILDCARD <Event></Event>	0.3319271128	WILDCARD $Phenomenon of the WILDCARD $Event
+WILDCARD <Event></Event> by the WILDCARD <Phenomenon></Phenomenon>	0.3296290116	WILDCARD $Event by the WILDCARD $Phenomenon
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> PRESENT_REF WILDCARD <Event></Event> in WILDCARD <Number></Number> WILDCARD <Structure></Structure> WILDCARD <Structure></Structure> or WILDCARD	0.3288416328	WILDCARD $Date WILDCARD $Phenomenon PRESENT_REF WILDCARD $Event in WILDCARD $Number WILDCARD $Structure WILDCARD $Structure or WILDCARD
+WILDCARD <Person></Person> who	0.3278684855	WILDCARD $Person who
+WILDCARD <Date></Date> on WILDCARD <Date></Date>	0.3265736209	WILDCARD $Date on WILDCARD $Date
+WILDCARD <Person></Person> by the WILDCARD <Phenomenon></Phenomenon>	0.3260308131	WILDCARD $Person by the WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> WILDCARD <Event></Event> amid	0.3258691862	WILDCARD $Organization WILDCARD $Person WILDCARD $Event amid
+said. WILDCARD <Person></Person>	0.3252485535	said. WILDCARD $Person
+WILDCARD <Event></Event> WILDCARD <Event></Event> ,	0.3231588866	WILDCARD $Event WILDCARD $Event ,
+WILDCARD <Location></Location> WILDCARD <Event></Event> for some of the WILDCARD <Person></Person> of WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> ,	0.3216393369	WILDCARD $Location WILDCARD $Event for some of the WILDCARD $Person of WILDCARD $Date WILDCARD $Phenomenon ,
+WILDCARD <Event></Event> relief	0.3158432953	WILDCARD $Event relief
+<Date></Date> WILDCARD <Event></Event> at WILDCARD <Number></Number> people	0.3138629096	$Date WILDCARD $Event at WILDCARD $Number people
+relief WILDCARD <Event></Event>	0.3137063228	relief WILDCARD $Event
+WILDCARD <Phenomenon></Phenomenon> rocked WILDCARD <Location></Location> WILDCARD <Date></Date> collapsing WILDCARD <Location></Location> on WILDCARD <Location></Location> of WILDCARD <Person></Person> as they slept.	0.3117543612	WILDCARD $Phenomenon rocked WILDCARD $Location WILDCARD $Date collapsing WILDCARD $Location on WILDCARD $Location of WILDCARD $Person as they slept.
+rubble following an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.3111605148	rubble following an WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Date></Date> Strong WILDCARD <Phenomenon></Phenomenon>	0.3095468049	WILDCARD $Date Strong WILDCARD $Phenomenon
+WILDCARD <Person></Person> and WILDCARD	0.3091267471	WILDCARD $Person and WILDCARD
+power WILDCARD <Event></Event>	0.3077231924	power WILDCARD $Event
+WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.3070558116	WILDCARD $Location where a WILDCARD $Number WILDCARD $Phenomenon
+WILDCARD <Date></Date> at a depth	0.3064665284	WILDCARD $Date at a depth
+magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD	0.3055727411	magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD
+village of Santi Lorenzo e Flaviano, WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD	0.3055152748	village of Santi Lorenzo e Flaviano, WILDCARD $Location WILDCARD $Date WILDCARD $Person WILDCARD
+<Date></Date> WILDCARD <Date></Date>	0.3028418384	$Date WILDCARD $Date
+WILDCARD <Location></Location> where WILDCARD <Person></Person>	0.3027026258	WILDCARD $Location where WILDCARD $Person
+WILDCARD <Date></Date> collapsing WILDCARD <Location></Location> on WILDCARD <Location></Location> of WILDCARD <Person></Person> as they slept. The WILDCARD <Organization></Organization> A WILDCARD <Person></Person>	0.3025240006	WILDCARD $Date collapsing WILDCARD $Location on WILDCARD $Location of WILDCARD $Person as they slept. The WILDCARD $Organization A WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Work></Work>	0.3015345597	WILDCARD $Date WILDCARD $Work
+Sichuan WILDCARD <Location></Location> on WILDCARD <Date></Date>	0.3010229514	Sichuan WILDCARD $Location on WILDCARD $Date
+WILDCARD <Date></Date> where a WILDCARD <Phenomenon></Phenomenon> hit WILDCARD <Date></Date> Strong WILDCARD <Phenomenon></Phenomenon> rattled WILDCARD <Person></Person> and WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.3001066967	WILDCARD $Date where a WILDCARD $Phenomenon hit WILDCARD $Date Strong WILDCARD $Phenomenon rattled WILDCARD $Person and WILDCARD $Event WILDCARD $Organization
+WILDCARD <Structure></Structure> following an WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date> The magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon>	0.2981338103	WILDCARD $Structure following an WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date The magnitude WILDCARD $Number WILDCARD $Phenomenon
+Yunnan killed at WILDCARD <Number></Number>	0.2971871948	Yunnan killed at WILDCARD $Number
+<Location></Location> WILDCARD <Date></Date> Strong WILDCARD <Phenomenon></Phenomenon> rattled WILDCARD <Person></Person> and WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.296632628	$Location WILDCARD $Date Strong WILDCARD $Phenomenon rattled WILDCARD $Person and WILDCARD $Event WILDCARD $Organization
+WILDCARD <Date></Date> after the WILDCARD <Phenomenon></Phenomenon>	0.2954806884	WILDCARD $Date after the WILDCARD $Phenomenon
+WILDCARD <Structure></Structure> from an WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.2954682353	WILDCARD $Structure from an WILDCARD $Date WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location
+WILDCARD <Number></Number> magnitude	0.2953384436	WILDCARD $Number magnitude
+WILDCARD <Number></Number> people,	0.2947747217	WILDCARD $Number people,
+WILDCARD <Date></Date> Announcer-read report over video	0.2943161317	WILDCARD $Date Announcer-read report over video
+WILDCARD <Number></Number> dead	0.2933258463	WILDCARD $Number dead
+WILDCARD <Date></Date> two WILDCARD	0.2933005421	WILDCARD $Date two WILDCARD
+WILDCARD <Person></Person> observed WILDCARD <Duration></Duration> of national mourning, WILDCARD <Person></Person> WILDCARD <Person></Person> and WILDCARD <Person></Person>	0.2911839457	WILDCARD $Person observed WILDCARD $Duration of national mourning, WILDCARD $Person WILDCARD $Person and WILDCARD $Person
+WILDCARD <Number></Number> and struck WILDCARD	0.2907858243	WILDCARD $Number and struck WILDCARD
+block-time WILDCARD <Number></Number>	0.2896989535	block-time WILDCARD $Number
+WILDCARD <Number></Number> BST	0.2893846678	WILDCARD $Number BST
+WILDCARD <Number></Number> WILDCARD <Person></Person> ,	0.289382261	WILDCARD $Number WILDCARD $Person ,
+WILDCARD <Location></Location> WILDCARD <Number></Number> kilometers	0.2881214741	WILDCARD $Location WILDCARD $Number kilometers
+WILDCARD <Location></Location> before WILDCARD <Date></Date>	0.2880449348	WILDCARD $Location before WILDCARD $Date
+WILDCARD <Person></Person> from a WILDCARD	0.2879534108	WILDCARD $Person from a WILDCARD
+WILDCARD <Date></Date> WILDCARD <Event></Event> at WILDCARD <Number></Number> people	0.287836096	WILDCARD $Date WILDCARD $Event at WILDCARD $Number people
+<Structure></Structure> arranged by the WILDCARD <Organization></Organization> The WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.2872581136	$Structure arranged by the WILDCARD $Organization The WILDCARD $Organization WILDCARD $Person
+PRESENT_REF WILDCARD <Event></Event>	0.2841431649	PRESENT_REF WILDCARD $Event
+WILDCARD <Event></Event> lines and is prone to WILDCARD <Phenomenon></Phenomenon>	0.2840060249	WILDCARD $Event lines and is prone to WILDCARD $Phenomenon
+WILDCARD <Duration></Duration> after an WILDCARD <Phenomenon></Phenomenon>	0.2830802404	WILDCARD $Duration after an WILDCARD $Phenomenon
+body of a WILDCARD <Person></Person>	0.282908134	body of a WILDCARD $Person
+two WILDCARD <Person></Person>	0.2823098315	two WILDCARD $Person
+WILDCARD <Date></Date> we	0.2823098315	WILDCARD $Date we
+said. WILDCARD <Event></Event>	0.2822154751	said. WILDCARD $Event
+disaster WILDCARD <Event></Event>	0.2816907482	disaster WILDCARD $Event
+WILDCARD <Person></Person> '	0.2811572642	WILDCARD $Person '
+WILDCARD <Number></Number> people whose WILDCARD <Location></Location>	0.2808282727	WILDCARD $Number people whose WILDCARD $Location
+WILDCARD <Structure></Structure> in WILDCARD <Location></Location> WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.2803815221	WILDCARD $Structure in WILDCARD $Location WILDCARD $Location where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Number></Number> injured.	0.2791387931	WILDCARD $Number injured.
+WILDCARD <Organization></Organization> At WILDCARD <Number></Number>	0.2766680509	WILDCARD $Organization At WILDCARD $Number
+one WILDCARD <Person></Person>	0.2763895149	one WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Event></Event>	0.2761729201	WILDCARD $Location WILDCARD $Location WILDCARD $Date WILDCARD $Event
+WILDCARD <Event></Event> lines	0.2751933225	WILDCARD $Event lines
+WILDCARD <Number></Number> km	0.2751579618	WILDCARD $Number km
+three WILDCARD <Person></Person>	0.2750647286	three WILDCARD $Person
+WILDCARD <Number></Number> on the Richter scale	0.2742634924	WILDCARD $Number on the Richter scale
+one WILDCARD <Event></Event>	0.2739181401	one WILDCARD $Event
+WILDCARD <Number></Number> bodies	0.2735552863	WILDCARD $Number bodies
+WILDCARD <Duration></Duration>	0.2723042512	WILDCARD $Duration
+WILDCARD <Phenomenon></Phenomenon> was the strongest to hit Yunnan in WILDCARD <Duration></Duration>	0.2717962764	WILDCARD $Phenomenon was the strongest to hit Yunnan in WILDCARD $Duration
+WILDCARD <Date></Date> Announcer-read	0.2708528651	WILDCARD $Date Announcer-read
+two WILDCARD <Event></Event>	0.2695982173	two WILDCARD $Event
+five WILDCARD <Person></Person>	0.2690491698	five WILDCARD $Person
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location>	0.2689627309	WILDCARD $Number WILDCARD $Phenomenon in WILDCARD $Location
+WILDCARD <Number></Number> WILDCARD <Artifact></Artifact> ,	0.2683287782	WILDCARD $Number WILDCARD $Artifact ,
+WILDCARD <Structure></Structure> following an WILDCARD <Phenomenon></Phenomenon> in Pescara Del Tronto, WILDCARD <Location></Location> WILDCARD <Date></Date> The magnitude WILDCARD <Number></Number>	0.268233371	WILDCARD $Structure following an WILDCARD $Phenomenon in Pescara Del Tronto, WILDCARD $Location WILDCARD $Date The magnitude WILDCARD $Number
+WILDCARD <Person></Person> Giovanni	0.2672892274	WILDCARD $Person Giovanni
+Prime WILDCARD <Person></Person>	0.2665755962	Prime WILDCARD $Person
+WILDCARD <Location></Location> since WILDCARD <Date></Date>	0.2643757252	WILDCARD $Location since WILDCARD $Date
+WILDCARD <Number></Number> who	0.2643291896	WILDCARD $Number who
+WILDCARD <Phenomenon></Phenomenon> , in Accumoli, WILDCARD <Location></Location> WILDCARD <Date></Date>	0.2642365119	WILDCARD $Phenomenon , in Accumoli, WILDCARD $Location WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Location></Location> ,	0.2641157579	WILDCARD $Person WILDCARD $Location ,
+<Location></Location> around the WILDCARD <Location></Location> to accommodate the WILDCARD <Person></Person>	0.2638298576	$Location around the WILDCARD $Location to accommodate the WILDCARD $Person
+WILDCARD <Organization></Organization> WILDCARD <Event></Event> WILDCARD <Person></Person>	0.2624413477	WILDCARD $Organization WILDCARD $Event WILDCARD $Person
+WILDCARD <Number></Number> others sustained WILDCARD <Event></Event>	0.2623406076	WILDCARD $Number others sustained WILDCARD $Event
+WILDCARD <Number></Number> percent	0.2610326045	WILDCARD $Number percent
+WILDCARD <Number></Number> billion	0.2609899556	WILDCARD $Number billion
+WILDCARD <Number></Number> WILDCARD <Person></Person> live in the WILDCARD	0.2602204224	WILDCARD $Number WILDCARD $Person live in the WILDCARD
+WILDCARD <Number></Number> tons	0.2595595374	WILDCARD $Number tons
+WILDCARD <Location></Location> on WILDCARD <Date></Date> WILDCARD <Event></Event>	0.2594731417	WILDCARD $Location on WILDCARD $Date WILDCARD $Event
+health WILDCARD <Person></Person>	0.2594627632	health WILDCARD $Person
+WILDCARD <Number></Number> per	0.2594627632	WILDCARD $Number per
+<Phenomenon></Phenomenon> wreaked WILDCARD <Event></Event> across the WILDCARD <Location></Location>	0.2593653386	$Phenomenon wreaked WILDCARD $Event across the WILDCARD $Location
+Risk WILDCARD <Event></Event>	0.2577262041	Risk WILDCARD $Event
+<Person></Person> joined grieving WILDCARD <Organization></Organization> WILDCARD <Person></Person> for a WILDCARD <Location></Location> WILDCARD <Event></Event>	0.2573487843	$Person joined grieving WILDCARD $Organization WILDCARD $Person for a WILDCARD $Location WILDCARD $Event
+people. WILDCARD <Person></Person>	0.2570840867	people. WILDCARD $Person
+million WILDCARD <Person></Person>	0.2570840867	million WILDCARD $Person
+WILDCARD <Date></Date> WILDCARD <Event></Event> at WILDCARD <Number></Number>	0.2563598599	WILDCARD $Date WILDCARD $Event at WILDCARD $Number
+rubble. WILDCARD <Person></Person>	0.2556634097	rubble. WILDCARD $Person
+WILDCARD <Person></Person> is pulled out of the rubble following an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.2554938668	WILDCARD $Person is pulled out of the rubble following an WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+gmt WILDCARD <Date></Date> - WILDCARD <Organization></Organization>	0.2546745416	gmt WILDCARD $Date - WILDCARD $Organization
+WILDCARD <Person></Person> said,	0.2537522623	WILDCARD $Person said,
+<Person></Person> , who	0.2537522623	$Person , who
+far WILDCARD <Number></Number>	0.2531924134	far WILDCARD $Number
+WILDCARD <Event></Event> '	0.2525269747	WILDCARD $Event '
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> ,	0.2522449871	WILDCARD $Date WILDCARD $Phenomenon ,
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> WILDCARD <Event></Event> to clear a WILDCARD <Artifact></Artifact> from debris	0.2520748445	WILDCARD $Organization WILDCARD $Person WILDCARD $Event to clear a WILDCARD $Artifact from debris
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Duration></Duration>	0.2512627703	WILDCARD $Location WILDCARD $Date WILDCARD $Duration
+Disaster WILDCARD <Event></Event>	0.2509857057	Disaster WILDCARD $Event
+WILDCARD <Event></Event> ''	0.2506876373	WILDCARD $Event ''
+WILDCARD <Date></Date> A magnitude	0.2502620341	WILDCARD $Date A magnitude
+WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Date></Date> WILDCARD	0.2499407151	WILDCARD $Phenomenon struck WILDCARD $Date WILDCARD
+WILDCARD <Event></Event> at WILDCARD <Number></Number>	0.249570114	WILDCARD $Event at WILDCARD $Number
+village of Santi Lorenzo e Flaviano, WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD <Event></Event> farewell WILDCARD <Date></Date>	0.2488543166	village of Santi Lorenzo e Flaviano, WILDCARD $Location WILDCARD $Date WILDCARD $Person WILDCARD $Event farewell WILDCARD $Date
+WILDCARD <Number></Number> were injured.	0.2486338373	WILDCARD $Number were injured.
+WILDCARD <Location></Location> shortly after WILDCARD <Date></Date>	0.247649754	WILDCARD $Location shortly after WILDCARD $Date
+WILDCARD <Number></Number> dead.	0.2469900465	WILDCARD $Number dead.
+WILDCARD <Location></Location> about WILDCARD <Number></Number> kilometers	0.2462983499	WILDCARD $Location about WILDCARD $Number kilometers
+WILDCARD <Number></Number> Announcer-read	0.2462099424	WILDCARD $Number Announcer-read
+<Location></Location> WILDCARD <Date></Date> A magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date>	0.2461204343	$Location WILDCARD $Date A magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date
+WILDCARD <Event></Event> amid	0.2456167766	WILDCARD $Event amid
+<Number></Number> million yuan	0.2455149355	$Number million yuan
+<Event></Event> WILDCARD <Organization></Organization> rattled by WILDCARD <Phenomenon></Phenomenon> dug through crumbled WILDCARD <Location></Location> WILDCARD <Date></Date> looking for WILDCARD <Phenomenon></Phenomenon>	0.2452769531	$Event WILDCARD $Organization rattled by WILDCARD $Phenomenon dug through crumbled WILDCARD $Location WILDCARD $Date looking for WILDCARD $Phenomenon
+alike WILDCARD <Date></Date>	0.244583219	alike WILDCARD $Date
+Foreign WILDCARD <Person></Person>	0.2445593482	Foreign WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.2443755459	WILDCARD $Location WILDCARD $Event WILDCARD $Organization
+Lunar WILDCARD <Date></Date>	0.2439503858	Lunar WILDCARD $Date
+WILDCARD <Event></Event> operation	0.2432209645	WILDCARD $Event operation
+WILDCARD <Phenomenon></Phenomenon> measuring WILDCARD <Number></Number> on the Richter scale	0.2428956138	WILDCARD $Phenomenon measuring WILDCARD $Number on the Richter scale
+Civil WILDCARD <Event></Event>	0.2427616426	Civil WILDCARD $Event
+block-time updated-timeUpdated at WILDCARD <Number></Number>	0.2426066825	block-time updated-timeUpdated at WILDCARD $Number
+WILDCARD <Date></Date> where a WILDCARD <Number></Number> WILDCARD	0.2417969864	WILDCARD $Date where a WILDCARD $Number WILDCARD
+WILDCARD <Number></Number> degrees	0.2411110484	WILDCARD $Number degrees
+WILDCARD <Event></Event> toll.	0.2411110484	WILDCARD $Event toll.
+relief WILDCARD <Event></Event> ,	0.2407780244	relief WILDCARD $Event ,
+WILDCARD <Location></Location> is located on WILDCARD <Event></Event> lines and is prone to WILDCARD <Phenomenon></Phenomenon>	0.2406741415	WILDCARD $Location is located on WILDCARD $Event lines and is prone to WILDCARD $Phenomenon
+<Structure></Structure> arranged by the WILDCARD <Organization></Organization> The WILDCARD <Organization></Organization> WILDCARD <Person></Person> WILDCARD <Event></Event> to clear a WILDCARD <Artifact></Artifact> from debris	0.2402772511	$Structure arranged by the WILDCARD $Organization The WILDCARD $Organization WILDCARD $Person WILDCARD $Event to clear a WILDCARD $Artifact from debris
+WILDCARD <Location></Location> WILDCARD <Date></Date> A magnitude WILDCARD <Number></Number>	0.2402315276	WILDCARD $Location WILDCARD $Date A magnitude WILDCARD $Number
+reconstruction WILDCARD <Event></Event>	0.2375680411	reconstruction WILDCARD $Event
+WILDCARD <Structure></Structure> following an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.2373953741	WILDCARD $Structure following an WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> on the Richter	0.2353164673	WILDCARD $Number on the Richter
+<Number></Number> WILDCARD <Location></Location>	0.2333342927	$Number WILDCARD $Location
+shallow depth of WILDCARD <Number></Number>	0.2327210028	shallow depth of WILDCARD $Number
+strongest to hit Yunnan in WILDCARD <Duration></Duration>	0.2310107249	strongest to hit Yunnan in WILDCARD $Duration
+<Person></Person> WILDCARD <Person></Person> and WILDCARD <Person></Person> WILDCARD <Person></Person> joined grieving WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.2309484698	$Person WILDCARD $Person and WILDCARD $Person WILDCARD $Person joined grieving WILDCARD $Organization WILDCARD $Person
+Accumoli, WILDCARD <Location></Location> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon></Phenomenon> rocked WILDCARD	0.2295466877	Accumoli, WILDCARD $Location WILDCARD $Date A devastating WILDCARD $Phenomenon rocked WILDCARD
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Event></Event>	0.2275521673	WILDCARD $Location WILDCARD $Date WILDCARD $Event
+WILDCARD <Number></Number> people whose WILDCARD <Location></Location> collapsed or left unsafe	0.2274514502	WILDCARD $Number people whose WILDCARD $Location collapsed or left unsafe
+<Number></Number> kilometers northeast	0.2272889222	$Number kilometers northeast
+WILDCARD <Person></Person> Disaster	0.2270564546	WILDCARD $Person Disaster
+<Location></Location> WILDCARD <Date></Date> The magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date> and was felt across a broad swath	0.2258538023	$Location WILDCARD $Date The magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date and was felt across a broad swath
+Two WILDCARD <Person></Person>	0.2245019178	Two WILDCARD $Person
+experiences at least one WILDCARD <Phenomenon></Phenomenon> WILDCARD <Duration></Duration> on average,	0.2243151215	experiences at least one WILDCARD $Phenomenon WILDCARD $Duration on average,
+<Duration></Duration> WILDCARD <Duration></Duration> of national mourning, with WILDCARD <Artifact></Artifact> on WILDCARD <Structure></Structure> flying at WILDCARD <Location></Location>	0.224047242	$Duration WILDCARD $Duration of national mourning, with WILDCARD $Artifact on WILDCARD $Structure flying at WILDCARD $Location
+ahead of a WILDCARD <Location></Location> WILDCARD <Event></Event> for some of the WILDCARD <Person></Person>	0.2228029117	ahead of a WILDCARD $Location WILDCARD $Event for some of the WILDCARD $Person
+WILDCARD <Number></Number> degrees in longitude and WILDCARD <Number></Number> degrees in latitude.	0.2227158566	WILDCARD $Number degrees in longitude and WILDCARD $Number degrees in latitude.
+<Number></Number> miles northeast	0.2223359338	$Number miles northeast
+WILDCARD <Person></Person> and their WILDCARD	0.2207610727	WILDCARD $Person and their WILDCARD
+six WILDCARD <Person></Person>	0.2206504446	six WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> in WILDCARD <Location></Location> after outraged WILDCARD <Person></Person> rejected the WILDCARD <Organization></Organization> 's plan	0.2206101097	WILDCARD $Location WILDCARD $Location WILDCARD $Date in WILDCARD $Location after outraged WILDCARD $Person rejected the WILDCARD $Organization 's plan
+One WILDCARD <Person></Person>	0.22056826	One WILDCARD $Person
+per WILDCARD <Duration></Duration>	0.2190663686	per WILDCARD $Duration
+WILDCARD <Event></Event> with WILDCARD <Location></Location> WILDCARD	0.2190403701	WILDCARD $Event with WILDCARD $Location WILDCARD
+Vice WILDCARD <Person></Person>	0.2187374308	Vice WILDCARD $Person
+Video WILDCARD <Event></Event>	0.2183514866	Video WILDCARD $Event
+WILDCARD <Phenomenon></Phenomenon> in Yunnan killed at WILDCARD <Number></Number> people,	0.217132224	WILDCARD $Phenomenon in Yunnan killed at WILDCARD $Number people,
+Longmenshan WILDCARD <Event></Event>	0.2162873282	Longmenshan WILDCARD $Event
+WILDCARD <Event></Event> line	0.216190554	WILDCARD $Event line
+WILDCARD <Number></Number> INTERSECT	0.2160247019	WILDCARD $Number INTERSECT
+WILDCARD <Date></Date> INTERSECT	0.2160247019	WILDCARD $Date INTERSECT
+WILDCARD <Person></Person> Pirozzi,	0.2159425174	WILDCARD $Person Pirozzi,
+Relief WILDCARD <Event></Event>	0.2159279277	Relief WILDCARD $Event
+WILDCARD <Number></Number> times	0.2150247019	WILDCARD $Number times
+US WILDCARD <Person></Person>	0.2146957642	US WILDCARD $Person
+WILDCARD <Number></Number> quake	0.2146957642	WILDCARD $Number quake
+St. WILDCARD <Person></Person>	0.2146957642	St. WILDCARD $Person
+<Artifact></Artifact> ahead of a WILDCARD <Location></Location> WILDCARD <Event></Event> for some of the WILDCARD <Person></Person> of WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> ,	0.2124331626	$Artifact ahead of a WILDCARD $Location WILDCARD $Event for some of the WILDCARD $Person of WILDCARD $Date WILDCARD $Phenomenon ,
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Location></Location>	0.2118223047	WILDCARD $Location WILDCARD $Date WILDCARD $Location
+Geological WILDCARD <Event></Event>	0.2116415935	Geological WILDCARD $Event
+WILDCARD <Event></Event> WILDCARD <Location></Location> ,	0.2100131613	WILDCARD $Event WILDCARD $Location ,
+WILDCARD <Person></Person> and other WILDCARD <Artifact></Artifact>	0.2094912771	WILDCARD $Person and other WILDCARD $Artifact
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> ,	0.2074093192	WILDCARD $Organization WILDCARD $Person ,
+WILDCARD <Number></Number> people, and a WILDCARD	0.207390537	WILDCARD $Number people, and a WILDCARD
+WILDCARD <Date></Date> In WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series of WILDCARD	0.2068392085	WILDCARD $Date In WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series of WILDCARD
+WILDCARD <Date></Date> in WILDCARD	0.2061665512	WILDCARD $Date in WILDCARD
+WILDCARD <Person></Person> and WILDCARD <Person></Person> ,	0.2050001466	WILDCARD $Person and WILDCARD $Person ,
+<Location></Location> WILDCARD <Date></Date> collapsing WILDCARD <Location></Location> on WILDCARD <Location></Location> of WILDCARD <Person></Person> as they slept. At WILDCARD <Number></Number> people	0.2048120897	$Location WILDCARD $Date collapsing WILDCARD $Location on WILDCARD $Location of WILDCARD $Person as they slept. At WILDCARD $Number people
+WILDCARD <Number></Number> people and injured more than WILDCARD	0.2044081604	WILDCARD $Number people and injured more than WILDCARD
+WILDCARD <Event></Event> of a WILDCARD	0.202932768	WILDCARD $Event of a WILDCARD
+WILDCARD <Person></Person> Pirozzi	0.2027922772	WILDCARD $Person Pirozzi
+WILDCARD <Person></Person> is rescued from the rubble of a WILDCARD <Structure></Structure> after an WILDCARD <Phenomenon></Phenomenon> , in Accumoli, WILDCARD	0.2027731333	WILDCARD $Person is rescued from the rubble of a WILDCARD $Structure after an WILDCARD $Phenomenon , in Accumoli, WILDCARD
+WILDCARD <Person></Person> Stefano Petrucci	0.2025352168	WILDCARD $Person Stefano Petrucci
+<Date></Date> The magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date> and was felt across a broad swath	0.2014830266	$Date The magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date and was felt across a broad swath
+WILDCARD <Location></Location> WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.1989726639	WILDCARD $Location WILDCARD $Location where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Date></Date> broke,	0.1983216296	WILDCARD $Date broke,
+INTERSECT WILDCARD <Duration></Duration>	0.1974513304	INTERSECT WILDCARD $Duration
+WILDCARD <Event></Event> with the WILDCARD <Organization></Organization>	0.196990511	WILDCARD $Event with the WILDCARD $Organization
+full extent of the WILDCARD <Event></Event>	0.1964490957	full extent of the WILDCARD $Event
+less than WILDCARD <Number></Number>	0.1960285498	less than WILDCARD $Number
+WILDCARD <Date></Date> Announcer-read report over video with natural sound:	0.1958889496	WILDCARD $Date Announcer-read report over video with natural sound:
+WILDCARD <Person></Person> is pulled out of the rubble following an WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.1958366464	WILDCARD $Person is pulled out of the rubble following an WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Event></Event>	0.1938475151	WILDCARD $Location WILDCARD $Location WILDCARD $Event
+Accumoli, WILDCARD <Location></Location> WILDCARD <Date></Date>	0.1934101645	Accumoli, WILDCARD $Location WILDCARD $Date
+WILDCARD <Number></Number> WILDCARD <Artifact></Artifact> and WILDCARD <Number></Number> WILDCARD	0.193053403	WILDCARD $Number WILDCARD $Artifact and WILDCARD $Number WILDCARD
+WILDCARD <Person></Person> of WILDCARD <Date></Date>	0.1923929166	WILDCARD $Person of WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Person></Person> and WILDCARD <Person></Person>	0.1919226423	WILDCARD $Person WILDCARD $Person and WILDCARD $Person
+WILDCARD <Event></Event> before.	0.1901034319	WILDCARD $Event before.
+counterpart WILDCARD <Person></Person>	0.1901034319	counterpart WILDCARD $Person
+Arcuata del Tronto, WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.1873377977	Arcuata del Tronto, WILDCARD $Location where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+<Location></Location> WILDCARD <Date></Date> A magnitude WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date> and was felt across a broad swath	0.1870532376	$Location WILDCARD $Date A magnitude WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date and was felt across a broad swath
+WILDCARD <Person></Person> spent the WILDCARD <Date></Date> inside a WILDCARD <Event></Event> WILDCARD <Artifact></Artifact>	0.1864557702	WILDCARD $Person spent the WILDCARD $Date inside a WILDCARD $Event WILDCARD $Artifact
+WILDCARD <Event></Event> caused by the WILDCARD	0.1854800474	WILDCARD $Event caused by the WILDCARD
+WILDCARD <Date></Date> killed more than WILDCARD <Number></Number>	0.184475397	WILDCARD $Date killed more than WILDCARD $Number
+WILDCARD <Location></Location> where WILDCARD <Person></Person> of the capital felt a long swaying followed by WILDCARD <Phenomenon></Phenomenon>	0.1821370169	WILDCARD $Location where WILDCARD $Person of the capital felt a long swaying followed by WILDCARD $Phenomenon
+WILDCARD <Number></Number> miles northeast	0.1817384335	WILDCARD $Number miles northeast
+WILDCARD <Date></Date> In WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series	0.1815273135	WILDCARD $Date In WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series
+WILDCARD <Person></Person> on WILDCARD <Date></Date> found signs	0.1812584719	WILDCARD $Person on WILDCARD $Date found signs
+<Phenomenon></Phenomenon> , which struck at WILDCARD <Date></Date>	0.1770976507	$Phenomenon , which struck at WILDCARD $Date
+people and injured more than WILDCARD <Number></Number>	0.176671063	people and injured more than WILDCARD $Number
+<Number></Number> people dead or missing.	0.1743675213	$Number people dead or missing.
+WILDCARD <Number></Number> to WILDCARD	0.1736796968	WILDCARD $Number to WILDCARD
+WILDCARD <Person></Person> as donations began pouring into the WILDCARD <Location></Location> and WILDCARD	0.1735446241	WILDCARD $Person as donations began pouring into the WILDCARD $Location and WILDCARD
+WILDCARD <Location></Location> of WILDCARD <Location></Location> on WILDCARD <Date></Date>	0.172812228	WILDCARD $Location of WILDCARD $Location on WILDCARD $Date
+WILDCARD <Location></Location> WILDCARD <Date></Date> A devastating WILDCARD <Phenomenon></Phenomenon> rocked WILDCARD	0.1708657095	WILDCARD $Location WILDCARD $Date A devastating WILDCARD $Phenomenon rocked WILDCARD
+WILDCARD <Date></Date> and was felt across a broad swath of WILDCARD <Location></Location> including WILDCARD <Location></Location> where WILDCARD <Person></Person>	0.1702846701	WILDCARD $Date and was felt across a broad swath of WILDCARD $Location including WILDCARD $Location where WILDCARD $Person
+WILDCARD <Artifact></Artifact> WILDCARD <Event></Event> ,	0.1701952529	WILDCARD $Artifact WILDCARD $Event ,
+WILDCARD <Person></Person> make their way through destroyed WILDCARD	0.1679248495	WILDCARD $Person make their way through destroyed WILDCARD
+WILDCARD <Number></Number> degrees in longitude and WILDCARD <Number></Number> degrees	0.1651456396	WILDCARD $Number degrees in longitude and WILDCARD $Number degrees
+WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Location></Location>	0.1644106318	WILDCARD $Date WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Location
+WILDCARD <Number></Number> per cent	0.1637346815	WILDCARD $Number per cent
+WILDCARD <Person></Person> WILDCARD <Event></Event> farewell WILDCARD <Date></Date> to WILDCARD	0.1618368523	WILDCARD $Person WILDCARD $Event farewell WILDCARD $Date to WILDCARD
+<Duration></Duration> after a WILDCARD <Phenomenon></Phenomenon> wreaked WILDCARD <Event></Event> across the WILDCARD <Location></Location>	0.16089687	$Duration after a WILDCARD $Phenomenon wreaked WILDCARD $Event across the WILDCARD $Location
+WILDCARD <Date></Date> killed more than WILDCARD	0.160276432	WILDCARD $Date killed more than WILDCARD
+WILDCARD <Duration></Duration> after an WILDCARD	0.1597952532	WILDCARD $Duration after an WILDCARD
+WILDCARD <Number></Number> people and injuring more than WILDCARD	0.1593790934	WILDCARD $Number people and injuring more than WILDCARD
+WILDCARD <Number></Number> and WILDCARD	0.1593141559	WILDCARD $Number and WILDCARD
+WILDCARD <Location></Location> WILDCARD <Organization></Organization> WILDCARD <Person></Person> ,	0.1591965683	WILDCARD $Location WILDCARD $Organization WILDCARD $Person ,
+WILDCARD <Number></Number> kilometers northeast	0.159115013	WILDCARD $Number kilometers northeast
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> make their way through destroyed WILDCARD	0.158228386	WILDCARD $Organization WILDCARD $Person make their way through destroyed WILDCARD
+Announcer-read report over video with natural sound: WILDCARD <Number></Number>	0.1579187503	Announcer-read report over video with natural sound: WILDCARD $Number
+experiences at least one WILDCARD <Phenomenon></Phenomenon> WILDCARD <Duration></Duration> on average, although the vast majority are so small they go unnoticed.	0.156554026	experiences at least one WILDCARD $Phenomenon WILDCARD $Duration on average, although the vast majority are so small they go unnoticed.
+"terrible WILDCARD <Event></Event>	0.156498409	"terrible WILDCARD $Event
+WILDCARD <Date></Date> and was felt across a broad swath	0.1558120833	WILDCARD $Date and was felt across a broad swath
+WILDCARD <Structure></Structure> for WILDCARD <Phenomenon></Phenomenon> WILDCARD <Person></Person>	0.1552279298	WILDCARD $Structure for WILDCARD $Phenomenon WILDCARD $Person
+<Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date>	0.1552010702	$Location where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date
+WILDCARD <Date></Date> The WILDCARD <Location></Location>	0.1539061347	WILDCARD $Date The WILDCARD $Location
+<Phenomenon></Phenomenon> measuring WILDCARD <Number></Number>	0.1538196617	$Phenomenon measuring WILDCARD $Number
+WILDCARD <Date></Date> The WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.1536343557	WILDCARD $Date The WILDCARD $Organization WILDCARD $Person
+WILDCARD <Person></Person> WILDCARD <Person></Person> WILDCARD <Person></Person> WILDCARD <Person></Person>	0.1536062642	WILDCARD $Person WILDCARD $Person WILDCARD $Person WILDCARD $Person
+<Duration></Duration> of national mourning, with WILDCARD <Artifact></Artifact>	0.1535519317	$Duration of national mourning, with WILDCARD $Artifact
+WILDCARD <Location></Location> , WILDCARD <Location></Location> Sichuan WILDCARD <Location></Location> , WILDCARD <Date></Date>	0.1529401143	WILDCARD $Location , WILDCARD $Location Sichuan WILDCARD $Location , WILDCARD $Date
+WILDCARD <Number></Number> were old and made of WILDCARD <Artifact></Artifact> ,	0.152839055	WILDCARD $Number were old and made of WILDCARD $Artifact ,
+WILDCARD <Event></Event> WILDCARD <Event></Event> in WILDCARD <Location></Location>	0.1527992963	WILDCARD $Event WILDCARD $Event in WILDCARD $Location
+WILDCARD <Person></Person> 's WILDCARD <Event></Event>	0.1523560915	WILDCARD $Person 's WILDCARD $Event
+<Number></Number> people dead and more than WILDCARD <Number></Number>	0.1522784976	$Number people dead and more than WILDCARD $Number
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date> The WILDCARD <Phenomenon></Phenomenon> was felt across a broad section	0.1506463965	WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date The WILDCARD $Phenomenon was felt across a broad section
+WILDCARD <Location></Location> WILDCARD <Location></Location> on WILDCARD <Date></Date>	0.1506337434	WILDCARD $Location WILDCARD $Location on WILDCARD $Date
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Person></Person> living in WILDCARD <Structure></Structure>	0.1496921397	WILDCARD $Phenomenon WILDCARD $Person living in WILDCARD $Structure
+WILDCARD <Date></Date> Announcer-read report over video: WILDCARD	0.1491073888	WILDCARD $Date Announcer-read report over video: WILDCARD
+WILDCARD <Structure></Structure> in WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date>	0.1489145569	WILDCARD $Structure in WILDCARD $Location WILDCARD $Location WILDCARD $Date
+WILDCARD <Event></Event> toll in WILDCARD <Location></Location>	0.148812789	WILDCARD $Event toll in WILDCARD $Location
+U.S. WILDCARD <Person></Person>	0.1478834857	U.S. WILDCARD $Person
+WILDCARD <Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person>	0.1472093133	WILDCARD $Location WILDCARD $Location WILDCARD $Date WILDCARD $Person
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> from WILDCARD	0.1464676376	WILDCARD $Event WILDCARD $Organization from WILDCARD
+WILDCARD <Number></Number> people were reported dead	0.1461248989	WILDCARD $Number people were reported dead
+WILDCARD <Event></Event> struck WILDCARD	0.1460056068	WILDCARD $Event struck WILDCARD
+Ludian, which has a population of about WILDCARD <Number></Number>	0.1446296485	Ludian, which has a population of about WILDCARD $Number
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> and WILDCARD <Person></Person>	0.1417730072	WILDCARD $Organization WILDCARD $Person and WILDCARD $Person
+WILDCARD <Person></Person> ' WILDCARD	0.1400176411	WILDCARD $Person ' WILDCARD
+WILDCARD <Location></Location> , WILDCARD <Date></Date> WILDCARD <Person></Person>	0.136656297	WILDCARD $Location , WILDCARD $Date WILDCARD $Person
+WILDCARD <Duration></Duration> of the WILDCARD	0.1358562386	WILDCARD $Duration of the WILDCARD
+minor and cause little or no WILDCARD <Event></Event>	0.132641818	minor and cause little or no WILDCARD $Event
+WILDCARD <Number></Number> WILDCARD <Organization></Organization> ,	0.1311296998	WILDCARD $Number WILDCARD $Organization ,
+WILDCARD <Date></Date> WILDCARD <Number></Number> people died and WILDCARD <Number></Number> were injured in a series of WILDCARD <Phenomenon></Phenomenon>	0.1302485287	WILDCARD $Date WILDCARD $Number people died and WILDCARD $Number were injured in a series of WILDCARD $Phenomenon
+WILDCARD <Organization></Organization> WILDCARD <Person></Person> in WILDCARD <Location></Location>	0.1301617099	WILDCARD $Organization WILDCARD $Person in WILDCARD $Location
+WILDCARD <Location></Location> WILDCARD <Person></Person> ,	0.1292654718	WILDCARD $Location WILDCARD $Person ,
+<Number></Number> people	0.1291342525	$Number people
+WILDCARD <Location></Location> is located on WILDCARD <Event></Event> lines and is prone	0.1264522401	WILDCARD $Location is located on WILDCARD $Event lines and is prone
+WILDCARD <Location></Location> WILDCARD <Event></Event> ,	0.1263959191	WILDCARD $Location WILDCARD $Event ,
+WILDCARD <Duration></Duration> WILDCARD <Location></Location>	0.1247003917	WILDCARD $Duration WILDCARD $Location
+experiences at least one WILDCARD <Phenomenon></Phenomenon> WILDCARD <Duration></Duration>	0.1233364557	experiences at least one WILDCARD $Phenomenon WILDCARD $Duration
+<Location></Location> where WILDCARD <Event></Event> WILDCARD <Organization></Organization> raced to dig WILDCARD <Person></Person>	0.1217238488	$Location where WILDCARD $Event WILDCARD $Organization raced to dig WILDCARD $Person
+<Person></Person> were digging their WILDCARD <Person></Person>	0.1216809629	$Person were digging their WILDCARD $Person
+WILDCARD <Person></Person> of the WILDCARD <Location></Location> WILDCARD <Location></Location>	0.1196248362	WILDCARD $Person of the WILDCARD $Location WILDCARD $Location
+WILDCARD <Location></Location> in WILDCARD <Location></Location> on WILDCARD <Date></Date>	0.1175710835	WILDCARD $Location in WILDCARD $Location on WILDCARD $Date
+Yunnan killed at WILDCARD <Number></Number> people,	0.117254304	Yunnan killed at WILDCARD $Number people,
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> raced to dig WILDCARD <Person></Person> out of the rubble, but the toll	0.1160777291	WILDCARD $Event WILDCARD $Organization raced to dig WILDCARD $Person out of the rubble, but the toll
+WILDCARD <Duration></Duration> after a WILDCARD	0.1119600907	WILDCARD $Duration after a WILDCARD
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck at WILDCARD <Date></Date>	0.1106770085	WILDCARD $Number WILDCARD $Phenomenon struck at WILDCARD $Date
+WILDCARD <Event></Event> to the WILDCARD <Location></Location>	0.1103997096	WILDCARD $Event to the WILDCARD $Location
+toll from WILDCARD <Date></Date>	0.1091276433	toll from WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Person></Person> on WILDCARD <Date></Date>	0.108159208	WILDCARD $Person WILDCARD $Person on WILDCARD $Date
+WILDCARD <Person></Person> of the WILDCARD	0.1048616485	WILDCARD $Person of the WILDCARD
+WILDCARD <Phenomenon></Phenomenon> in WILDCARD <Location></Location> WILDCARD <Event></Event>	0.1048611755	WILDCARD $Phenomenon in WILDCARD $Location WILDCARD $Event
+WILDCARD <Date></Date> general audience	0.1019332106	WILDCARD $Date general audience
+Sichuan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.1007938503	Sichuan WILDCARD $Location WILDCARD $Date
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD <Organization></Organization>	0.0994354784	WILDCARD $Location WILDCARD $Date WILDCARD $Location WILDCARD $Organization
+WILDCARD <Location></Location> , about WILDCARD <Number></Number>	0.0987602167	WILDCARD $Location , about WILDCARD $Number
+WILDCARD <Person></Person> of WILDCARD	0.0953110109	WILDCARD $Person of WILDCARD
+WILDCARD <Event></Event> WILDCARD <Person></Person> ,	0.0947609246	WILDCARD $Event WILDCARD $Person ,
+WILDCARD <Date></Date> The WILDCARD <Organization></Organization> A WILDCARD	0.0946202062	WILDCARD $Date The WILDCARD $Organization A WILDCARD
+WILDCARD <Date></Date> when WILDCARD	0.0922744049	WILDCARD $Date when WILDCARD
+WILDCARD <Person></Person> and WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.0922039033	WILDCARD $Person and WILDCARD $Event WILDCARD $Organization
+WILDCARD <Event></Event> , the WILDCARD <Organization></Organization>	0.090184811	WILDCARD $Event , the WILDCARD $Organization
+WILDCARD <Date></Date> to WILDCARD <Person></Person>	0.0884585726	WILDCARD $Date to WILDCARD $Person
+WILDCARD <Person></Person> on WILDCARD	0.0883058864	WILDCARD $Person on WILDCARD
+WILDCARD <Duration></Duration> after the WILDCARD	0.0882916211	WILDCARD $Duration after the WILDCARD
+WILDCARD <Date></Date> after WILDCARD	0.087832425	WILDCARD $Date after WILDCARD
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck WILDCARD <Location></Location>	0.0875398441	WILDCARD $Number WILDCARD $Phenomenon struck WILDCARD $Location
+WILDCARD <Number></Number> The WILDCARD	0.0873958297	WILDCARD $Number The WILDCARD
+WILDCARD <Person></Person> at WILDCARD	0.0861877207	WILDCARD $Person at WILDCARD
+WILDCARD <Date></Date> a WILDCARD	0.0860782793	WILDCARD $Date a WILDCARD
+WILDCARD <Event></Event> on the WILDCARD	0.0843986894	WILDCARD $Event on the WILDCARD
+WILDCARD <Event></Event> by WILDCARD	0.0838921607	WILDCARD $Event by WILDCARD
+<Location></Location> WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person>	0.0809724949	$Location WILDCARD $Location WILDCARD $Date WILDCARD $Person
+WILDCARD <Person></Person> with WILDCARD	0.0802370619	WILDCARD $Person with WILDCARD
+WILDCARD <Location></Location> of WILDCARD <Location></Location> about WILDCARD <Number></Number>	0.0794469107	WILDCARD $Location of WILDCARD $Location about WILDCARD $Number
+WILDCARD <Location></Location> WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> struck just after WILDCARD <Date></Date> The WILDCARD <Phenomenon></Phenomenon>	0.0785700976	WILDCARD $Location WILDCARD $Location where a WILDCARD $Number WILDCARD $Phenomenon struck just after WILDCARD $Date The WILDCARD $Phenomenon
+WILDCARD <Event></Event> from WILDCARD	0.0785407736	WILDCARD $Event from WILDCARD
+WILDCARD <Location></Location> WILDCARD <Location></Location> where a WILDCARD <Number></Number> WILDCARD	0.0779229714	WILDCARD $Location WILDCARD $Location where a WILDCARD $Number WILDCARD
+WILDCARD <Event></Event> after the WILDCARD	0.0777305917	WILDCARD $Event after the WILDCARD
+WILDCARD <Date></Date> as WILDCARD	0.0770248645	WILDCARD $Date as WILDCARD
+WILDCARD <Location></Location> where WILDCARD <Event></Event> WILDCARD <Organization></Organization>	0.0765044088	WILDCARD $Location where WILDCARD $Event WILDCARD $Organization
+WILDCARD <Event></Event> - WILDCARD	0.0759123423	WILDCARD $Event - WILDCARD
+WILDCARD <Number></Number> WILDCARD <Person></Person> and WILDCARD <Person></Person>	0.0758985105	WILDCARD $Number WILDCARD $Person and WILDCARD $Person
+WILDCARD <Person></Person> says WILDCARD	0.0746846677	WILDCARD $Person says WILDCARD
+WILDCARD <Number></Number> WILDCARD <Phenomenon></Phenomenon> ,	0.0742780273	WILDCARD $Number WILDCARD $Phenomenon ,
+WILDCARD <Event></Event> across the WILDCARD	0.0739645505	WILDCARD $Event across the WILDCARD
+WILDCARD <Number></Number> of WILDCARD	0.0734007098	WILDCARD $Number of WILDCARD
+WILDCARD <Person></Person> a WILDCARD	0.0733367126	WILDCARD $Person a WILDCARD
+WILDCARD <Number></Number> people in WILDCARD <Location></Location>	0.0728909739	WILDCARD $Number people in WILDCARD $Location
+WILDCARD <Person></Person> or WILDCARD	0.0723846118	WILDCARD $Person or WILDCARD
+WILDCARD <Date></Date> with WILDCARD	0.0717473135	WILDCARD $Date with WILDCARD
+WILDCARD <Event></Event> on WILDCARD	0.0717352815	WILDCARD $Event on WILDCARD
+WILDCARD <Person></Person> for WILDCARD	0.0710253101	WILDCARD $Person for WILDCARD
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD <Person></Person> WILDCARD	0.0693653418	WILDCARD $Location WILDCARD $Date WILDCARD $Person WILDCARD
+said. The WILDCARD <Event></Event>	0.0639092998	said. The WILDCARD $Event
+WILDCARD <Date></Date> WILDCARD <Date></Date> WILDCARD	0.0626892061	WILDCARD $Date WILDCARD $Date WILDCARD
+WILDCARD <Person></Person> of WILDCARD <Date></Date> WILDCARD <Phenomenon></Phenomenon> ,	0.0599427156	WILDCARD $Person of WILDCARD $Date WILDCARD $Phenomenon ,
+Yunnan in WILDCARD <Duration></Duration>	0.0599396361	Yunnan in WILDCARD $Duration
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Event></Event> ,	0.0587354956	WILDCARD $Phenomenon WILDCARD $Event ,
+WILDCARD <Number></Number> people, WILDCARD	0.0579159209	WILDCARD $Number people, WILDCARD
+WILDCARD <Event></Event> for the WILDCARD	0.0576804124	WILDCARD $Event for the WILDCARD
+WILDCARD <Event></Event> in the WILDCARD	0.057544415	WILDCARD $Event in the WILDCARD
+<Location></Location> WILDCARD <Person></Person> WILDCARD <Organization></Organization>	0.056267824	$Location WILDCARD $Person WILDCARD $Organization
+WILDCARD <Event></Event> : WILDCARD	0.0562418589	WILDCARD $Event : WILDCARD
+said. WILDCARD <Location></Location> WILDCARD <Person></Person>	0.0537729242	said. WILDCARD $Location WILDCARD $Person
+WILDCARD <Number></Number> in WILDCARD	0.05306458	WILDCARD $Number in WILDCARD
+WILDCARD <Date></Date> WILDCARD <Event></Event> ,	0.0528739443	WILDCARD $Date WILDCARD $Event ,
+WILDCARD <Person></Person> WILDCARD <Event></Event> amid	0.0526647185	WILDCARD $Person WILDCARD $Event amid
+<Date></Date> The WILDCARD <Organization></Organization>	0.0525908303	$Date The WILDCARD $Organization
+WILDCARD <Event></Event> : WILDCARD <Date></Date>	0.0522712423	WILDCARD $Event : WILDCARD $Date
+WILDCARD <Person></Person> of the WILDCARD <Location></Location> WILDCARD	0.0517055415	WILDCARD $Person of the WILDCARD $Location WILDCARD
+WILDCARD <Number></Number> - WILDCARD	0.051505254	WILDCARD $Number - WILDCARD
+WILDCARD <Number></Number> million WILDCARD	0.0512409008	WILDCARD $Number million WILDCARD
+WILDCARD <Person></Person> 's WILDCARD	0.0510809522	WILDCARD $Person 's WILDCARD
+WILDCARD <Event></Event> with WILDCARD	0.0497354223	WILDCARD $Event with WILDCARD
+WILDCARD <Number></Number> WILDCARD <Organization></Organization> and WILDCARD	0.0490911551	WILDCARD $Number WILDCARD $Organization and WILDCARD
+<Person></Person> of the WILDCARD <Phenomenon></Phenomenon>	0.048665047	$Person of the WILDCARD $Phenomenon
+WILDCARD <Date></Date> WILDCARD <Organization></Organization> WILDCARD	0.0485831485	WILDCARD $Date WILDCARD $Organization WILDCARD
+WILDCARD <Number></Number> WILDCARD <Location></Location> WILDCARD	0.0482457737	WILDCARD $Number WILDCARD $Location WILDCARD
+WILDCARD <Artifact></Artifact> WILDCARD <Person></Person> WILDCARD	0.0479512644	WILDCARD $Artifact WILDCARD $Person WILDCARD
+WILDCARD <Person></Person> WILDCARD <Organization></Organization> WILDCARD	0.0477364104	WILDCARD $Person WILDCARD $Organization WILDCARD
+<Date></Date> The WILDCARD <Organization></Organization> WILDCARD <Person></Person>	0.0476657995	$Date The WILDCARD $Organization WILDCARD $Person
+WILDCARD <Person></Person> WILDCARD <Person></Person> who	0.0471497822	WILDCARD $Person WILDCARD $Person who
+WILDCARD <Location></Location> WILDCARD <Event></Event> WILDCARD	0.0467364104	WILDCARD $Location WILDCARD $Event WILDCARD
+Yunnan WILDCARD <Location></Location> WILDCARD <Date></Date>	0.0466528344	Yunnan WILDCARD $Location WILDCARD $Date
+WILDCARD <Event></Event> to clear	0.0464002256	WILDCARD $Event to clear
+WILDCARD <Number></Number> from WILDCARD	0.0463665539	WILDCARD $Number from WILDCARD
+WILDCARD <Event></Event> , WILDCARD <Location></Location> WILDCARD	0.0462780318	WILDCARD $Event , WILDCARD $Location WILDCARD
+WILDCARD <Structure></Structure> WILDCARD <Date></Date> WILDCARD	0.0450300991	WILDCARD $Structure WILDCARD $Date WILDCARD
+WILDCARD <Person></Person> WILDCARD <Person></Person> ,	0.04468567	WILDCARD $Person WILDCARD $Person ,
+WILDCARD <Number></Number> WILDCARD <Number></Number> WILDCARD	0.0442775547	WILDCARD $Number WILDCARD $Number WILDCARD
+WILDCARD <Event></Event> WILDCARD <Location></Location> WILDCARD	0.0438735072	WILDCARD $Event WILDCARD $Location WILDCARD
+WILDCARD <Date></Date> At WILDCARD	0.0437107251	WILDCARD $Date At WILDCARD
+WILDCARD <Person></Person> WILDCARD	0.0436827435	WILDCARD $Person WILDCARD
+<Location></Location> WILDCARD <Event></Event>	0.0435225154	$Location WILDCARD $Event
+WILDCARD <Event></Event> and WILDCARD	0.0432745534	WILDCARD $Event and WILDCARD
+WILDCARD <Date></Date> A WILDCARD	0.0430918194	WILDCARD $Date A WILDCARD
+WILDCARD <Event></Event> WILDCARD <Event></Event> WILDCARD	0.0428735072	WILDCARD $Event WILDCARD $Event WILDCARD
+WILDCARD <Organization></Organization> WILDCARD <Event></Event> WILDCARD	0.0425163329	WILDCARD $Organization WILDCARD $Event WILDCARD
+WILDCARD <Event></Event> in WILDCARD	0.0424659355	WILDCARD $Event in WILDCARD
+WILDCARD <Event></Event> of WILDCARD	0.0424555213	WILDCARD $Event of WILDCARD
+WILDCARD <Phenomenon></Phenomenon> WILDCARD <Date></Date> WILDCARD	0.0424151286	WILDCARD $Phenomenon WILDCARD $Date WILDCARD
+WILDCARD <Artifact></Artifact> WILDCARD <Event></Event> WILDCARD	0.0420551286	WILDCARD $Artifact WILDCARD $Event WILDCARD
+WILDCARD <Location></Location> WILDCARD <Date></Date> WILDCARD	0.0413186528	WILDCARD $Location WILDCARD $Date WILDCARD
+WILDCARD <Number></Number> WILDCARD <Organization></Organization> WILDCARD	0.0412924578	WILDCARD $Number WILDCARD $Organization WILDCARD
+<Phenomenon></Phenomenon> struck on WILDCARD <Date></Date>	0.0412737841	$Phenomenon struck on WILDCARD $Date
+WILDCARD <Person></Person> WILDCARD <Event></Event> WILDCARD	0.0412069105	WILDCARD $Person WILDCARD $Event WILDCARD
+WILDCARD <Event></Event> WILDCARD <Organization></Organization> WILDCARD	0.040921697	WILDCARD $Event WILDCARD $Organization WILDCARD
+WILDCARD <Event></Event> at WILDCARD	0.040871906	WILDCARD $Event at WILDCARD
+<Person></Person> on WILDCARD <Date></Date>	0.0404141437	$Person on WILDCARD $Date
+WILDCARD <Location></Location> WILDCARD <Date></Date> The WILDCARD <Organization></Organization>	0.039902782	WILDCARD $Location WILDCARD $Date The WILDCARD $Organization
+WILDCARD <Event></Event> WILDCARD <Date></Date> WILDCARD	0.0398176531	WILDCARD $Event WILDCARD $Date WILDCARD
+WILDCARD <Person></Person> in WILDCARD	0.0396527298	WILDCARD $Person in WILDCARD
+WILDCARD <Number></Number> the WILDCARD	0.0396301821	WILDCARD $Number the WILDCARD
+WILDCARD <Person></Person> living in WILDCARD	0.0396114982	WILDCARD $Person living in WILDCARD
+WILDCARD <Date></Date> The WILDCARD	0.039175681	WILDCARD $Date The WILDCARD
+WILDCARD <Number></Number> people. WILDCARD	0.0390806367	WILDCARD $Number people. WILDCARD
+WILDCARD <Person></Person> WILDCARD <Artifact></Artifact> WILDCARD	0.0388499112	WILDCARD $Person WILDCARD $Artifact WILDCARD
+WILDCARD <Number></Number> WILDCARD <Artifact></Artifact> WILDCARD	0.0385782073	WILDCARD $Number WILDCARD $Artifact WILDCARD
+WILDCARD <Person></Person> - WILDCARD <Organization></Organization> WILDCARD	0.0381037124	WILDCARD $Person - WILDCARD $Organization WILDCARD
+WILDCARD <Date></Date> at WILDCARD	0.0380602406	WILDCARD $Date at WILDCARD
+WILDCARD <Event></Event> WILDCARD <Phenomenon></Phenomenon> WILDCARD	0.0378455569	WILDCARD $Event WILDCARD $Phenomenon WILDCARD
+WILDCARD <Event></Event> WILDCARD <Artifact></Artifact> WILDCARD	0.0378421006	WILDCARD $Event WILDCARD $Artifact WILDCARD
+WILDCARD <Person></Person> in a WILDCARD	0.037665664	WILDCARD $Person in a WILDCARD
+WILDCARD <Event></Event> as WILDCARD	0.0376571021	WILDCARD $Event as WILDCARD
+<Event></Event> at WILDCARD <Number></Number>	0.0376398694	$Event at WILDCARD $Number
+WILDCARD <Person></Person> the WILDCARD	0.0373714465	WILDCARD $Person the WILDCARD
+<Phenomenon></Phenomenon> on WILDCARD <Date></Date>	0.0373327443	$Phenomenon on WILDCARD $Date
+WILDCARD <Person></Person> told WILDCARD	0.0367241357	WILDCARD $Person told WILDCARD
+<Number></Number> WILDCARD <Phenomenon></Phenomenon> ,	0.0365929188	$Number WILDCARD $Phenomenon ,
+<Date></Date> WILDCARD <Phenomenon></Phenomenon> ,	0.0365929188	$Date WILDCARD $Phenomenon ,
+WILDCARD <Date></Date> WILDCARD <Number></Number> WILDCARD	0.0361036215	WILDCARD $Date WILDCARD $Number WILDCARD
+WILDCARD <Date></Date> In WILDCARD	0.0360988483	WILDCARD $Date In WILDCARD
+WILDCARD <Location></Location> on WILDCARD <Date></Date> WILDCARD	0.0359732687	WILDCARD $Location on WILDCARD $Date WILDCARD
+WILDCARD <Number></Number> WILDCARD <Structure></Structure> WILDCARD	0.0357764641	WILDCARD $Number WILDCARD $Structure WILDCARD
+WILDCARD <Person></Person> , WILDCARD	0.0357407498	WILDCARD $Person , WILDCARD
+magnitude WILDCARD <Number></Number> WILDCARD	0.0357227504	magnitude WILDCARD $Number WILDCARD
+WILDCARD <Event></Event> to WILDCARD	0.0353702586	WILDCARD $Event to WILDCARD
+WILDCARD <Person></Person> to WILDCARD	0.0353702586	WILDCARD $Person to WILDCARD
+WILDCARD <Person></Person> said. WILDCARD	0.0353176314	WILDCARD $Person said. WILDCARD
+WILDCARD <Person></Person> - WILDCARD	0.0351087994	WILDCARD $Person - WILDCARD
+<Date></Date> WILDCARD <Location></Location> WILDCARD <Phenomenon></Phenomenon>	0.0346410572	$Date WILDCARD $Location WILDCARD $Phenomenon
+WILDCARD <Date></Date> WILDCARD <Location></Location> WILDCARD	0.0345309941	WILDCARD $Date WILDCARD $Location WILDCARD
+WILDCARD <Date></Date> to WILDCARD	0.0344148397	WILDCARD $Date to WILDCARD
+WILDCARD <Person></Person> said WILDCARD	0.0341983605	WILDCARD $Person said WILDCARD
+WILDCARD <Event></Event> or WILDCARD	0.034122986	WILDCARD $Event or WILDCARD
+WILDCARD <Event></Event> for WILDCARD	0.034122986	WILDCARD $Event for WILDCARD
+magnitude of WILDCARD <Number></Number> WILDCARD	0.034004085	magnitude of WILDCARD $Number WILDCARD
+<Number></Number> on WILDCARD <Date></Date>	0.033745793	$Number on WILDCARD $Date
+<Number></Number> WILDCARD <Person></Person>	0.0336421871	$Number WILDCARD $Person
+WILDCARD <Organization></Organization> WILDCARD <Date></Date> WILDCARD	0.0336296632	WILDCARD $Organization WILDCARD $Date WILDCARD
+WILDCARD <Date></Date> and WILDCARD	0.0334155689	WILDCARD $Date and WILDCARD
+WILDCARD <Event></Event> , WILDCARD	0.0333657698	WILDCARD $Event , WILDCARD
+WILDCARD <Date></Date> the WILDCARD	0.0328533752	WILDCARD $Date the WILDCARD
